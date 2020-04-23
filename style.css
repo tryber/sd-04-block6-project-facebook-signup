@@ -1,3 +1,10 @@
+html , body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .top-bar {
   background-color: rgb(59, 89, 152);
   border-bottom: 0.5px solid black;
@@ -19,21 +26,21 @@
 }
 
 header input {
+  background-color: rgb(232, 240, 254);
   border: 0.5px solid black;
   margin-right: 9px;
-  margin-top: 7px;
-  padding: 4px;
+  padding: 3px;
   width: 140px;
 }
 
 label {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
 .user-info {
   display: flex;
+  margin-top: 13px;
   width: 50%;
 }
 
@@ -45,25 +52,71 @@ label {
 }
 
 .button-login {
-  background-color: rgb(92, 110, 149);
-  border: 0.2px solid rgb(33, 49, 85);
+  background-color: rgb(66, 103, 178);
+  border: 0.2px solid rgb(41, 72, 125);
   color: white;
   cursor: pointer;
   font-size: 12px;
   font-weight: 700;
   margin-right: 5px;
-  margin-top: 7px;
   padding: 5px;
 }
 
 .button-login:hover {
   background-color: rgb(59, 89, 152);
-  border: 0.2px solid rgb(33, 49, 85);
+  border: 0.2px solid rgb(41, 72, 125);
   color: white;
   cursor: pointer;
   font-size: 12px;
   font-weight: 700;
   margin-right: 5px;
-  margin-top: 7px;
   padding: 5px;
+}
+
+.forget {
+  color: rgb(143, 165, 191);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+td {
+  line-height: 0.5rem;
+}
+
+.body-container {
+  display: flex;
+
+}
+
+.body-content-left {
+  color: rgb(14, 56, 95);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.7rem;
+  margin-top: 5%;
+  width: 47%;
+}
+
+.body-content-right {
+  border: 2px solid red;
+  justify-content: flex-end;
+  margin-left: 8%;
+  margin-top: 4%;
+  width: 47%;
+}
+
+.main-p {
+  margin-left: 50%;
+}
+
+.facebook-networking {
+  margin-left: 50%;
+  width: 60%;
+}
+
+.right-title {
+  color: rgb(50, 54, 69);
+  font-size: 40px;
 }
