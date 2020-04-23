@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+.top-bar {
+  background-color: blue;
+  height: 65px;
+  width: 100%;
+}
