@@ -12,10 +12,10 @@ body {
   color: #0e385f;
   font-size: 19px;
   font-weight: 900;
-
 }
 
 .top-bar {
+  background-color: #0e385f;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -23,14 +23,10 @@ body {
 
 .user-email-phone {
   align-items: center;
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
   font-size: 12px;
   justify-content: space-between;
-  margin: 0 10px; 
-  border: 1px solid black; 
-}
-
-.user-email-phone div {
-  border: 1px solid black;
+  width: 33%;
 }
