@@ -3,5 +3,5 @@ const emailInput = document.getElementById('user-email-phone');
 const passInput = document.getElementById('user-password');
 
 entryButton.addEventListener('click', function () {
-  alert(`Email: ${emailInput.value} Senha: ${passInput.value}`);
+  alert(emailInput.value);
 });
