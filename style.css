@@ -1,0 +1,12 @@
+body
+{
+  margin: 0;
+}
+
+.top-bar
+{
+  background-color: rgb(59,89,152);
+  display: flex;
+  min-height: 100px;
+  width: 100%;
+}
