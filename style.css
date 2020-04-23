@@ -1,0 +1,66 @@
+html , body {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #385898;
+  display: flex;
+  height: 82px;
+  justify-content: space-around;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.facebook-logo {
+  display: flex;
+}
+
+.login-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-form label {
+  color: white;
+  font-size: 12px;
+}
+
+.main-container {
+  background-color: #dadde1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+}
+
+.left-container , h3 {
+  color: #1c1e21;
+  justify-content: flex-start;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.nome-sobrenome {
+  display: flex;
+  justify-content: space-around;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: space-around;
+}
