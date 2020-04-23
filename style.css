@@ -133,18 +133,11 @@ input {
   display: flex;
 }
 
-input:nth-child(1) {
-  flex-grow: 1;
-}
-
-input:nth-child(2) {
-  flex-grow: 1;
-}
-
 .row input {
   background-color: white;
-	border: 1px solid rgb(204, 208, 213);
+  border: 1px solid rgb(204, 208, 213);
 	border-radius: 5px;
+	flex-grow: 1;
   font-size: 18px;
   margin: 4px;
   padding: 8px 10px;
