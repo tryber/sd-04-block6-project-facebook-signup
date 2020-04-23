@@ -1,2 +1,8 @@
 node_modules/
 README.md
+.eslintrc
+.eslintrc.js
+.stylelinctrc.json
+package.json
+package-lock.json
+
