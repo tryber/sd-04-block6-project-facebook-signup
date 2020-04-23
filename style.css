@@ -27,9 +27,9 @@ header {
   display: flex;
 }
 
-.form-group {
+/* .form-group {
   margin-bottom: 0rem;
-}
+} */
 
 .button-login {
   align-items: center;
