@@ -44,7 +44,6 @@ function cleanForm() {
   registerEmail.value = '';
   registerPassword.value = '';
   registerDate.value = '';
-  pikaday.clear();
   registerRadioFem.checked = false;
   registerRadioMas.checked = false;
   registerRadioPer.checked = false;
