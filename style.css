@@ -46,6 +46,11 @@
   width: 60%;
 }
 
+.new-user {
+  display: flex;
+  flex-direction: column;
+}
+
 .superior-direito {
   align-items: center;
   display: flex;
