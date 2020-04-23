@@ -1,15 +1,49 @@
-.form-label-field {
-  padding-top: 4px;
+body {
+  box-sizing: border-box;
+  color: #1c1e21;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
 }
 
-.login input {
-  border: 1px solid #1d2a5b;
+.top-bar {
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+  border: 1px solid #133783;
+  height: 82px;
+  z-index: 1;
+}
+
+.facebook-logo {
+  width: 170px;
+}
+
+.menubar-container {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
+}
+
+.login td {
   height: 23px;
-  padding: 3px 3px 3px 4px;
+  padding: 0 0 0 14px;
 }
 
-.login label {
+.button-login {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  box-sizing: border-box;
   color: white;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  height: 24px;
+  width: 49.41px;
 }
 
 .forgot-account {
@@ -17,45 +51,185 @@
   text-decoration: none;
 }
 
-.button-login {
-  background-color: #4267b2;
-  border: 1px solid #29487d;
+.login label {
   color: white;
-  display: block;
-  font-size: 12px;
-  font-weight: 700;
-  height: 33px;
-  padding: 0;
-  width: 49.34px;
+  padding-left: 1px;
 }
 
-.login td {
-  padding-left: 14px;
+.login input {
+  border: 1px solid #1d2a5b;
+  box-sizing: border-box;
+  height: 23px;
+  padding: 3px 3px 4px;
+  width: 150px;
 }
 
-.menubar-container {
-  align-items: center;
+.form-label-field {
+  padding: 4px 0 0 14px;
+}
+
+.form-label-field a {
+  padding-left: 1px;
+}
+
+.gradient {
+  background: linear-gradient(white, #d3d8e8);
+  height: 629.89px;
+}
+
+.center {
   display: flex;
-  justify-content: space-between;
   margin: 0 auto;
-  padding-top: 13px;
+  padding-top: 40px;
   width: 980px;
 }
 
-.facebook-logo {
-  width: 170px;
+.left-section {
+  width: 50%;
 }
 
-.top-bar {
-  background: linear-gradient(#4e69a2, #3b5998 50%);
-  border: 1px solid #133783;
-  z-index: 1;
-}
-
-body {
-  box-sizing: border-box;
-  color: #1c1e21;
-  line-height: 1.34;
+.networking-title {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
   margin: 0;
-  padding: 0;
+  padding: 0 30px 0 0;
+  word-wrap: break-word;
+}
+
+.right-section {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.form-container {
+  width: 400px;
+}
+
+.form-title {
+  color: #333;
+  font-size: 36px;
+  margin: 0;
+}
+
+.form-title p {
+  color: #1d2129;
+  font-size: 19px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+}
+
+.register input {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+}
+
+.name-last-name {
+  display: flex;
+}
+
+.name-last-name input {
+  width: 100%;
+}
+
+.last-name {
+  margin-left: 10px;
+}
+
+.birth-date {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.gender-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gender-radio {
+  margin: 3px 3px 0 5px;
+}
+
+.gender label {
+  color: #1d2129;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.terms {
+  color: #777;
+  font-size: 11px;
+  margin: 11px 0;
+}
+
+.terms a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  margin: 10px 0;
+  padding: 7px 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  width: 152px;
+}
+
+.create-page {
+  color: #666;
+  font-size: 13px;
+  margin: 10px 0;
+  padding: 15px 0 0;
+}
+
+.create-page a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.center-footer {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.language , .useful-links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 8px 0 0;
+}
+
+.language li {
+  padding-right: 10px;
+}
+
+.language a , .useful-links a {
+  color: #385898;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.useful-links li {
+  padding-right: 20px;
+}
+
+.copyright {
+  color: #737373;
+  margin-top: 20px;
 }
