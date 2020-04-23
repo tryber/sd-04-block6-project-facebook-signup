@@ -15,7 +15,7 @@ body {
   width: 100%;
 }
 
-.logo {
+.facebook-logo {
   width: 168px;
 }
 
@@ -29,7 +29,6 @@ body {
   padding: 10px;
   width: 120px;
 }
-
 
 .esqueceu {
   color: rgba(156, 180, 216, 1);
@@ -79,6 +78,10 @@ h2 {
   width: 300px;
 }
 
+.name {
+  display: flex;
+}
+
 .map {
   width: 500px;
 }
@@ -92,4 +95,8 @@ footer {
 
 .footer > div {
   width: 800px;
+}
+
+.radio {
+  display: flex;
 }
