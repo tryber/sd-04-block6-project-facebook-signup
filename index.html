@@ -12,16 +12,24 @@
   <header class="top-bar">
     <div class="facebook-logo">
       <a href="https://www.facebook.com/" title="Ir para a página inicial do Facebook" width="60px">
-      <img src="images/facebook-logo-1.png" alt="logo facebook">
+        <img src="images/facebook-logo-1.png" alt="logo facebook">
       </a>
     </div>
-    <div>
-      <form class= "form">
-        <input type="text">
-        <input type="password">
-        <input type="submit">
-      </form>
-    </div>
+
+    <form class="login-form">
+      <div class="formulario">
+        <label class="login-label" for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+        <input class="input-model" id="user-email-phone" type="text" name="user">
+      </div>
+      <div class="formulario">
+        <label class="login-label" for="user-password">Senha</label>
+        <input class="input-model" id="user-password" type="password" name="user">
+        <div class="remenber">Esqueceu a conta?</div>
+      </div>
+      <div>
+        <button class="enviar-button" id="button-login" style="margin-top: 18px;">Entrar</button>
+      </div>
+    </form>
   </header>
 </body>
 

@@ -1,12 +1,18 @@
+body {
+  background-color: #e9ebee;
+}
+
 .top-bar {
+  align-items: center;
+  background-color: #3b5998;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .facebook-logo img {
-  width: 60px;
+  width: 200px;
 }
 
-.form {
-  bottom: 1px;
+.login-form {
+  display: flex;
 }
