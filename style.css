@@ -1,22 +1,22 @@
 body {
-  border: 1px solid yellow;
-  color: rgb(28, 30, 33);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 
 .top-bar {
   align-items: center;
   background-color: rgba(59, 89, 152, 1);
+  color: white;
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 80px;
+  font-size: 10px;
+  height: 60px;
   justify-content: space-around;
+  padding: 10px 0 0;
   width: 100%;
 }
 
-img {
-  width: 536;
+.logo {
+  width: 168px;
 }
 
 .login {
@@ -25,5 +25,44 @@ img {
 
 .login > div {
   display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 120px;
+}
+
+
+.esqueceu {
+  color: rgba(156, 180, 216, 1);
+  cursor: pointer;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.esqueceu:hover {
+  text-decoration: underline;
+}
+
+.btn1 {
+  align-self: center;
+  background-color: rgba(91, 123, 192, 1);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.btn1:hover {
+  background-color: navy;
+}
+
+section {
+  background-image: linear-gradient(white, rgba(211, 216, 232, 1));
+  display: flex;
+}
+
+.form {
   flex-direction: column;
 }
