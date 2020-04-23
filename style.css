@@ -1,3 +1,7 @@
+/* * {
+  border: 1px solid red;
+} */
+
 body {
   box-sizing: border-box;
   color: rgb(28, 30, 33);
@@ -18,13 +22,11 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 1000px;
+  width: 980px;
 }
 
 .facebook-logo {
-  color: white;
-
-  /* font-family: Tahoma; */
+  height: 35px;
 }
 
 .login {
@@ -38,13 +40,30 @@ body {
 }
 
 .forgot-password {
+  color: white;
   margin-left: 135px;
+  text-decoration: none;
+}
+
+.login button {
+
+  /* background-color: blue; */
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
 }
 
 .main-container {
   background-image: linear-gradient(white, rgba(211, 216, 232, 1));
   display: flex;
   justify-content: space-around;
+}
+
+.main-sub-container {
+  display: flex;
+  flex-direction: row;
+  width: 980px;
 }
 
 footer {
