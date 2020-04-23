@@ -1,0 +1,13 @@
+.top-bar {
+  background-color: rgb(59, 89, 152);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 100px
+ }
