@@ -1,4 +1,5 @@
 body {
+  background-color: #d3d8e8;
   margin: 0;
   padding: 0;
 }
@@ -48,4 +49,19 @@ input {
 .btn-enviar:hover {
   background-color: #365899;
   border-color: #29487d;
+}
+
+.container-networking {
+  display: flex;
+  flex-direction: column;
+  left: 220px;
+  position: relative;
+  top: 25px;
+  width: 470px;
+}
+
+h2 {
+  color: #0e385f;
+  font-family: inherit;
+  font-size: 1.5em;
 }
