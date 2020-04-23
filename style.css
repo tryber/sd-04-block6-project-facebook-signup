@@ -1,18 +1,44 @@
 * {
   margin: 0;
+  border: 1px solid red;
 }
 
+.body {
+  color: rgb(28, 30, 33);
+  line-height: 1.34;
+}
 .top-bar {
-  background-color: rgb(66, 103, 178);
+  background-color: rgb(59, 89, 152);
   display: flex;
   justify-content: space-around;
+  height: 82.99px;
 }
 
 .facebook-logo {
   color: white;
   font-family: Tahoma;
 }
+.login {
+  display: flex;
+}
+.login:nth-child(1) {
+  display: flax;
+  flex-direction: column;
+}
+.login:nth-child(2) {
+  display: flax;
+  flex-direction: column;
+}
 
-form {
-  border: 1px solid yellow;}
-  
+footer {
+  color: rgb(115, 115, 115);
+  margin: 0 auto;
+  width: 980px;
+}
+
+footer ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
