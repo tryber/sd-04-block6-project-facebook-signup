@@ -9,18 +9,26 @@
 
   <div class="top-bar">
     <div class="global-menu">
-      <img class="logo" src="facebook-logo-1.png" alt="Facebook logo" />
+      <img
+        class="facebook-logo"
+        src="facebook-logo-1.png"
+        alt="Facebook logo"
+      />
 
       <table>
         <tbody>
           <tr>
-            <td><label for="user-email-phone">Email ou telefone</label></td>
+            <td>
+              <label id="user-email-phone-label" for="user-email-phone"
+                >Email ou telefone</label
+              >
+            </td>
             <td><label for="senha">Senha</label></td>
           </tr>
           <tr>
-            <td><input type="text" id="user-email-phone-label" /></td>
+            <td><input type="text" id="user-email-phone" /></td>
             <td><input type="password" name="senha" id="password" /></td>
-            <td><button>Entrar</button></td>
+            <td><button id="button-login">Entrar</button></td>
           </tr>
           <tr>
             <td></td>
