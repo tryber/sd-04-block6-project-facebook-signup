@@ -1,22 +1,27 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #3b5998;
   width: 100%;
 }
+
 label {
-  color: #fff;
+  color: white;
 }
+
 .container {
   display: flex;
   justify-content: space-around;
 }
+
 .container-2 {
   align-items: center;
   display: flex;
 }
+
 .container-email,
 .container-password,
 .conteiner-btn {
@@ -26,7 +31,7 @@ label {
 }
 
 input {
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid black;
   height: 20px;
   margin-top: 4px;
   padding-bottom: 4px;
@@ -38,7 +43,7 @@ input {
   border-radius: 2px;
   color: white;
   margin: 7px;
-  padding: 3px 6px 3px 6px;
+  padding: 3px 6px;
   position: absolute;
   top: 29px;
 }
