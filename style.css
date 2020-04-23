@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.color {
+  background-color: rgb(59, 89, 152);
+}
+
+.top-bar {
+  border: 3px solid yellow;
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+  min-width: 980px;
+  padding: 0 180px;
+}
+
+.image-container {
+  display: flex;
+}
+
+.login-container {
+  align-items: center;
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.facebook-logo {
+  border: 1px solid red;
+  display: flex;
+  margin: 27px 0 0;
+}
+
+a {
+  color: #9cb4d8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+input {
+  border: 1px solid #ccd0d5;
+  height: 14px;
+  margin: 0;
+  padding: 3px;
+  width: 142px;
+}
+
+.input-spacing {
+  margin-right: 15px;
+}
