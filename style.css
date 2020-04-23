@@ -10,6 +10,10 @@
   height: 90px
 }
 
+.facebook-networking {
+  width: 90%;
+}
+
 .facebook-text {
   font-size: 40px;
   color: rgb(59, 89, 152);
@@ -17,7 +21,8 @@
 }
 
 .form-group {
-  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .form-label{
@@ -34,8 +39,10 @@
 
 .superior-direito {
   align-items: center;
+  justify-content: center;
   display: flex;
-  flex-direction: row;
+  width: 50%;
+
 }
 
 .text-muted {
