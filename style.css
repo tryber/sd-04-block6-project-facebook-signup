@@ -80,8 +80,8 @@ body {
 
 .welcome-container {
   margin-right: 10%;
-  min-width: 10%;
   max-width: 30%;
+  min-width: 10%;
 }
 
 .signup-container {
@@ -101,8 +101,8 @@ body {
 
 .welcome-img {
   border: 0;
+  height: 200px;
   width: 100%;
-  height: 20 0px;
 }
 
 .signup-text-container {
