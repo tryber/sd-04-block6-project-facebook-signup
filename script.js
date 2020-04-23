@@ -12,7 +12,7 @@ const loginForm = document.getElementById('login-form');
 loginBtn.addEventListener('click', loginHandler);
 loginForm.addEventListener('submit', (e) => { e.preventDefault(); });
 
-new Pikaday({
+const pikaday = new Pikaday({
   field: document.getElementById('date'),
   format: 'DD/MM/YYYY',
   toString(date) {
@@ -56,27 +56,30 @@ function validateForm() {
 }
 
 function registerHandler() {
-  if (validateForm()) {
-    let genero = '';
-    if (registerRadioFem.checked) {
-      genero = 'Feminino';
-    }
-    if (registerRadioMas.checked) {
-      genero = 'Masculino';
-    }
-    if (registerRadioPer.checked) {
-      genero = 'Personalizado';
-    }
-    const response = `${registerName.value} - ${genero}`;
-    alert(response);
-  } else {
+  if (!validateForm()) {
     alert('Dados inválidos');
+    return 0;
   }
+
+  let genero = '';
+  if (registerRadioFem.checked) {
+    genero = 'Feminino';
+  }
+  if (registerRadioMas.checked) {
+    genero = 'Masculino';
+  }
+  if (registerRadioPer.checked) {
+    genero = 'Personalizado';
+  }
+  const response = `${registerName.value} - ${genero}`;
+  alert(response);
+
   registerName.value = '';
   registerSurname.value = '';
   registerEmail.value = '';
   registerPassword.value = '';
   registerDate.value = '';
+  pikaday.clear();
   registerRadioFem.checked = false;
   registerRadioMas.checked = false;
   registerRadioPer.checked = false;
