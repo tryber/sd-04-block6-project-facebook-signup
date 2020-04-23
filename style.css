@@ -39,10 +39,14 @@ body {
   font-size: 0.8rem;
  
 }
-
 .forgot {
   color: #9cb4d8;
   margin-right: 1px;
   margin-top: 5.5px;
+}
+.botao-enviar{
+  background-color: #4f7ac2;
+  border: 1px solid #4f62a9;
+  color: white;
 }
 
