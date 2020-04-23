@@ -1,10 +1,12 @@
+@import '~js-datepicker/dist/datepicker.min.css';
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
 .top-bar {
-  align-items: flex-start;
+  justify-content: center;
   background-color: #3b5998;
   box-shadow: 3px 8px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -22,11 +24,9 @@ body {
 }
 
 .login-form {
-  align-self: center;
   color: cornsilk;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin: auto 200px;
 }
 
@@ -34,6 +34,7 @@ body {
   align-self: flex-start;
   display: flex;
   flex-direction: column;
+  width: 150px;
 }
 
 .div-senha {
@@ -41,6 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto 10px;
+  width: 150px;
 }
 
 .button-login {
@@ -82,7 +84,7 @@ body {
 }
 
 h2 {
-  color: #375f85;
+  color: #0e385f;
   font-size: 20px;
   line-height: 29px;
   margin-top: 10px;
@@ -138,4 +140,8 @@ h2 {
 .label-form {
   color: #90949c;
   font-size: 16px;
+}
+
+.facebook-register {
+
 }

@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
+    <link rel="stylesheet" href="DatePickerX.min.css">
     <link rel="stylesheet" href="style.css">
-
+    
+    <script src="js/DatePickerX.min.js"></script>
+    
 </head>
 
 <body>
@@ -42,7 +45,7 @@
             <input placeholder="Celular ou email" type="text" class="mailbox" /><br>
             <input placeholder="Nova Senha" type="password" class="mailbox" /><br><br>
             <div class="label-form">Data de nascimento</div>
-            <input type="date" id="namebox"  /><br><br>
+            <input  id="data-inicio" name="data" required="required" maxlength="500" placeholder="" type="text">
             <div class="label-form">Gênero</div>
             <input type="radio" id="r-b" name="sex" value="Feminino" />Feminino
             <input type="radio" id="r-b" name="sex" value="Masculino" />Masculino
@@ -51,11 +54,12 @@
                 Cookies.
                 Você pode receber notificações por SMS e pode cancelar isso quando quiser.
                 Cadastre-se</p>
-            <button id="" class="button2">Cadastre-se </button>
+            <button id="facebook-register" class="button2">Cadastre-se </button>
             <br>
             <hr>
-            <p class="facebook-register">Criar uma Página para uma celebridade, banda ou empresa.</p>
+            <p>Criar uma Página para uma celebridade, banda ou empresa.</p>
         </aside>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
