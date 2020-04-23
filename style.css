@@ -1,144 +1,141 @@
-*{
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-}
-.top-bar{
-    margin: 0;
-    font-size: 12px;
-    padding-top: 13px;
-    min-width: 980px;
-    height: 72px;
-    background-color: #3b5998;
-    display: flex;
-    align-items: flex-start;
-    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
-.facebook-logo{
-    height: 200px;
-    margin-top: -10px;
-    padding: 200px;
-    align-self: center;
+.top-bar {
+  align-items: flex-start;
+  background-color: #3b5998;
+  box-shadow: 3px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  font-size: 12px;
+  height: 72px;
+  min-width: 980px;
+  padding-top: 13px;
 }
 
-.login-form{
-    display: flex;
-    flex-direction: flex-end;
-    justify-content: center;
-    align-self: center;
-    color: cornsilk;
-    margin: auto 200px;
+.facebook-logo {
+  align-self: center;
+  height: 200px;
+  margin-top: -10px;
+  padding: 200px;
+}
+
+.login-form {
+  align-self: center;
+  color: cornsilk;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto 200px;
 }
 
 .div-email {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
-.div-senha{
-    display: flex;
-    flex-direction: column;
-    margin: auto 10px auto 10px;
-    align-self: flex-end;
+.div-senha {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
 }
 
 .button-login {
-    align-self: flex-end;
-    background-color: #4267b2;
-    border: 1px solid #ccd0d5;
-    border-color: #29487d;
-    color: cornsilk;
-    border-radius: 2px;
-    cursor: pointer;
-    height: 23px;
-    font-weight: bold;  
+  align-self: flex-end;
+  background-color: #4267b2;
+  border: 1px solid #ccd0d5;
+  border-color: #29487d;
+  border-radius: 2px;
+  color: cornsilk;
+  cursor: pointer;
+  height: 23px;
 }
 
-.button-login:hover{
-    background-color: #2954ac;
+.button-login:hover {
+  background-color: #2954ac;
 }
 
-.fb-body{
-    position:absolute;
-	left:0px;
-	top:90px;
-	width:100%;
-    height:645px;
-    background: linear-gradient(white, #D3D8E8);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.text {
+  font-size: 36px;
 }
+
+.fb-body {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  height: 645px;
+  justify-content: center;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+
 .texto-imagem {
-    width: 565px;
-    margin-right: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 15px;
+  width: 565px;
 }
 
-.texto-imagem h2 {
-    color: #375f85;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 29px;
-    margin-top: 40px;
-    width: 450px;
-    word-spacing: -1px;
-    padding: 0px 20px;
+h2 {
+  color: #375f85;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 450px;
+  word-spacing: -1px;
 }
 
 .form {
-	font-family:verdana;
-	font-size:20px;
-	color: #333;
-    width:350px;  
-    align-self: center;
-    margin-top: -80px;
+  align-self: center;
+  color: #333;
+  font-size: 20px;
+  margin-top: -15px;
+  width: 400px;
 }
 
 .form input {
-    height: 30px;
-    border-radius: 3px;
-    border: 1px solid rgb(151, 151, 151);
-    font-family: Helvetica, Arial, sans-serif;
-    margin-bottom: 10px;
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 3px;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 30px;
+  margin-bottom: 10px;
 }
 
-
-#intro4{
-	font-family:verdana;
-	font-size:12px;
-	color:gray;
+.intro4 {
+  color: gray;
+  font-size: 10px;
 }
 
-#intro5{
-	font-family:verdana;
-	font-size:14px;
-	color:gray;
+.intro5 {
+  color: gray;
+  font-size: 12px;
 }
 
 ::placeholder {
-    padding: 3px;
+  padding: 3px;
 }
 
 .mailbox {
-    width: 100%;
+  width: 100%;
 }
 
-.namebox{
-    width: 150px
+.namebox {
+  width: 150px;
 }
 
-.nome-sobrenome{
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
+.nome-sobrenome {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
 }
 
 .label-form {
-    color: #90949c;
-    font-size: 16px;
-    font-weight: bold;
+  color: #90949c;
+  font-size: 16px;
 }
