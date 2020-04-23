@@ -8,3 +8,11 @@ body {
   min-height: 100px;
   width: 100%;
 }
+
+.facebook-logo {
+  background-image: url(./img/fb-logo-trans.png);
+  height: 69px;
+  justify-content: flex-start;
+  margin: 30px;
+  width: 306px;
+}
