@@ -28,6 +28,64 @@
         </form>
     </div>
 </header>
+
+<section class='conteudo'>
+    <article class='esquerda'>
+        <div>
+            <p class='texto-inicial'>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        </div>
+        <div>
+            <img src='networking.png' id='facebook-networking' class='rede' alt='imagem de pessoas na rede social'>
+        </div>
+    </article>
+
+    <article class='direita'>
+        <div class='abrindo-conta'>
+        <span class='texto1'>Abra uma conta</span>.
+        <span class='texto2'>É rápido e fácil.</span>
+        </div>
+    </article>
+
+    <form class='face-form' enctype='multipart/form-data'>
+        <div class='nome-sobrenome'>
+        <input class='input-nome' type='text' placeholder='Nome' required>
+        <input class='input-sobrenome' type='text' placeholder='Sobrenome' required>
+        </div>
+        <div class='telefone-senha'>
+        <input class='input-cel' type='text' placeholder='Celular ou email' required>
+        <input class='input-senha' type='password' placeholder='Nova senha' maxlength='8' required>
+        </div>
+    </form>
+
+    <div>
+    <p class='data-nascimento'>Data de nascimento</p>
+        <input type='text' placeholder='dd/mm/aaaa' id='escolhe-data' class='data-nascimento'>
+        <img src='interrogração.png' alt='ícone de interrogação do Facebook' width='20px'>
+    </div>
+</section>
+
+<section class='genero-container'>
+    <p class='tipo-genero'>Gênero</p>
+    <div class='inputs'>
+      <input class='input-genero' type='radio' name='genero' value='Feminino'>Feminino
+      <input class='input-genero' type='radio' name='genero' value='Masculino'>Masculino
+      <input class='input-genero' type='radio' name='genero' value='Personalizado'>Personalizado
+    </div>
+    <div class='img-genero'>
+        <img class='icone-interrogacao' src='interrogração.png' alt='ícone de interrogação' width='20px'>
+    </div>
+</section>
+
+<section class='termos'>
+    <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de Dados</a> e <a href="#">Política de Cookies.</a> Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+</section>
+
+<section>
+    <button type="submit" class='cadastro' id='facebook-register'>Cadastre-se</button>
+</section>
+
+</article>
+</section>
     <script src='script.js'></script>
 </body>
 </html>
