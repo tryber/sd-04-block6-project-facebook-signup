@@ -2,7 +2,7 @@ let userEmailInput;
 let userPasswordInput;
 
 function OnLoginButton() {
-  alert(`Email/Number: ${userEmailInput} Password: ${userPasswordInput}`);
+  alert(`Email/Number: ${userEmailInput.value} Password: ${userPasswordInput.value}`);
 }
 
 function SetVariables() {

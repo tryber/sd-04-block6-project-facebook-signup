@@ -15,16 +15,16 @@
     <div class="login-container">
       <form class="login-form">
         <div class="input">
-          <label id="user-email-phone-label">
+          <label id="user-email-phone-label" for="user-email-phone">
             Email ou telefone
-            <input type="text" id="user-email-phone" />
           </label>
+          <input type="text" id="user-email-phone" />
         </div>
         <div class="input">
-          <label>
+          <label for="user-password">
             Senha
-            <input type="password" id="user-password" />
           </label>
+          <input type="password" id="user-password" />
         </div>
         <button id="button-login">Entrar</button>
       </form>
@@ -39,10 +39,16 @@
       <h2>Abra uma conta</h2>
       <p>É rápido e fácil.</p>
       <form class="signup-form">
-        <input type="text" placeholder="Nome">
-        <input type="text" placeholder="Sobrenome">
-        <input type="text" placeholder="Celular ou email">
-        <input type="text" placeholder="Nova senha">
+        <div class="row">
+          <input type="text" placeholder="Nome">
+          <input type="text" placeholder="Sobrenome">
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Celular ou email">
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Nova senha">
+        </div>
         <p>Data de nascimento</p>
         <select class="day">
           <option value="0" selected>Dia</option>
@@ -213,19 +219,19 @@
           <option value="1905">1905</option>
         </select>
         <p>Gênero</p>
-        <label>
-          <input type="radio">
+        <input type="radio" id="feminino">
+        <label for="feminino">
           Feminino
         </label>
-        <label>
-          <input type="radio">
+        <input type="radio" id="masculino">
+        <label for="masculino">
           Masculino
         </label>
-        <label>
-          <input type="radio">
+        <input type="radio" for="personalizado">
+        <label id="personalizado">
           Personalizado
         </label>
-        <button>Cadastre-se</button>
+        <button id="facebook-register">Cadastre-se</button>
       </form>
     </div>
   </div>
