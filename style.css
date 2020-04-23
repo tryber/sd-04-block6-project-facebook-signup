@@ -59,3 +59,17 @@ header nav div {
 .top-bar a {
   color: #9cb4d8;
 }
+
+/* section */
+
+section {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  background: linear-gradient(white, #d3d8e8);
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}

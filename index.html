@@ -14,13 +14,13 @@
         </a>
       </div>
       <nav class="top-bar">
-        <div>
+        <div idin">
           <label id="user-email-phone-label" for="user-email-phone">
             Email ou telefone
           </label>
           <input type="text" id="user-email-phone" />
         </div>
-        <div>
+        <div id="pass">
           <label for="password">Senha</label>
           <input type="password" id="password" />
           <a href="#">
@@ -34,6 +34,54 @@
         </div>
       </nav>
     </header>
+    <section class="container">
+      <article id="first">
+        <div>
+          <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        </div>
+        <div>
+          <img src="./image/networking.png" alt="mapa do mundo">
+        </div>
+      </article>
+      <aside id="second">
+        <div>
+          <h1>Abra uma conta</h1>
+          <p>É rápido e fácil.</p>
+        </div> 
+        <form>
+          <div id="name">
+            <input type="text" placeholder="Nome">
+          </div>
+          <div id="lastName">
+            <input type="text" placeholder="Sobrenome">
+          </div>
+          <div id="celMail">
+            <input type="text" placeholder="Celular ou email" >
+          </div>
+          <div id="newPass">
+            <input type="password" placeholder="Nova senha">
+          </div>
+          <div id="dataNasc">
+            <p>Data de nascimento</p>
+            <input type="date" placeholder="dd/mm/aaaa">
+          </div>          
+          <div id="genero">
+            <p>Gênero</p>
+            <input type="radio" id="female" name="genero">
+            <label for="female">Feminino</label>
+            <input type="radio" id="male" name="genero">
+            <label for="male">Masculino</label>
+            <input type="radio" id="other" name="genero">
+            <label for="other">Personalizado</label>
+          </div>
+          <div id="btnCadastro">
+            <button id="facebook-register">
+              Cadastre-se
+            </button>
+          </div>
+        </form>
+      </aside>
+    </section>
 
     <script src="script.js"></script>
   </body>
