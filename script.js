@@ -12,30 +12,27 @@ const masc = document.querySelector('#masc');
 const pers = document.querySelector('#pers');
 
 function validaInput(input) {
-  if (input.value !== '') {
-    return input.value;
-  } else {
-    alert(`Não deixe o campo vazio!`);
+  if (input.value === '') {
+    alert('Não deixe o campo vazio!');
     input.focus();
-  }
+  } 
+  return input.value;
 }
 
 function validaGenero() {
-  if (fem.checked == true) {
+  if (fem.checked === true) {
     return fem.value;
-  } else if (masc.checked == true) {
+  } else if (masc.checked === true) {
     return masc.value;
-  } else {
+  } else if (pers.checked === true) {
     return pers.value;
   }
 }
 
 function validaEmail() {
-  if (email.value == '' || email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1) {
+  if (email.value === '' || email.value.indexOf('@') === -1 || email.value.indexOf('.') === -1) {
     alert('Digite um email valido! não esqueça do @ e .');
     email.focus();
-  } else {
-    apresentaDados(email.value);
   }
 }
 
