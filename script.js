@@ -12,23 +12,6 @@ const loginForm = document.getElementById('login-form');
 loginBtn.addEventListener('click', loginHandler);
 loginForm.addEventListener('submit', (e) => { e.preventDefault(); });
 
-const pikaday = new Pikaday({
-  field: document.getElementById('date'),
-  format: 'DD/MM/YYYY',
-  toString(date) {
-    const day = date.getDate();
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
-
-    let sDay = day.toString();
-    if (day < 10) sDay = `0${sDay}`;
-    let sMonth = month.toString();
-    if (month < 10) sMonth = `0${sMonth}`;
-
-    return `${sDay}/${sMonth}/${year}`;
-  },
-});
-
 const registerName = document.getElementById('name');
 const registerSurname = document.getElementById('surname');
 const registerEmail = document.getElementById('email');

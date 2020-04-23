@@ -169,9 +169,27 @@
                 <p class="copyright">Facebook © 2020</p>
             </div>
         </div>
-
     </div>
     <script src="script.js"></script>
+    <script>
+        const pikaday = new Pikaday({
+            field: document.getElementById('date'),
+            format: 'DD/MM/YYYY',
+            toString(date) {
+                const day = date.getDate();
+                const month = date.getMonth() + 1;
+                const year = date.getFullYear();
+
+                let sDay = day.toString();
+                if (day < 10) sDay = `0${sDay}`;
+                let sMonth = month.toString();
+                if (month < 10) sMonth = `0${sMonth}`;
+
+                return `${sDay}/${sMonth}/${year}`;
+            },
+        });
+
+    </script>
 </body>
 
 </html>
