@@ -1,1 +1,0 @@
-let inputData = document.querySelector('#data-inicio').DatePickerX.init('yyyy/mm/dd');
