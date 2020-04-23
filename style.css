@@ -22,9 +22,7 @@ label {
   display: flex;
 }
 
-.container-email , 
-.container-password , 
-.conteiner-btn {
+.container-email , .container-password , .conteiner-btn {
   display: flex;
   flex-direction: column;
   margin: 8px;
