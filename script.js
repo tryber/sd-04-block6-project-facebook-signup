@@ -55,6 +55,18 @@ function validateForm() {
   return true;
 }
 
+function cleanForm() {
+  registerName.value = '';
+  registerSurname.value = '';
+  registerEmail.value = '';
+  registerPassword.value = '';
+  registerDate.value = '';
+  pikaday.clear();
+  registerRadioFem.checked = false;
+  registerRadioMas.checked = false;
+  registerRadioPer.checked = false;
+}
+
 function registerHandler() {
   if (!validateForm()) {
     alert('Dados inválidos');
@@ -72,15 +84,7 @@ function registerHandler() {
   }
   const response = `${registerName.value} - ${genero}`;
   alert(response);
-  registerName.value = '';
-  registerSurname.value = '';
-  registerEmail.value = '';
-  registerPassword.value = '';
-  registerDate.value = '';
-  pikaday.clear();
-  registerRadioFem.checked = false;
-  registerRadioMas.checked = false;
-  registerRadioPer.checked = false;
+  cleanForm();
   return 0;
 }
 
