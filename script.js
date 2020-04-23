@@ -15,6 +15,6 @@ function SetEvents() {
 }
 
 window.onload = function () {
-  this.SetVariables();
-  this.SetEvents();
-}
+  SetVariables();
+  SetEvents();
+};
