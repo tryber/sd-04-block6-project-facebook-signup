@@ -11,11 +11,11 @@
         <img src="/facebook-logo-1.png" alt="Logo facebook" width="170px" height="55px" class="facebook-logo">
     <form method="GET" action="">
         <fieldset>
-          <label for="user-email-phone">Email ou telefone</label>
+          <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
           <input type="text" id="user-email-phone" name="Email-Phone">
           <label for="Senha">Senha</label>
           <input type="password" id="Senha" name="Senha">
-          <button>Entrar</button>
+          <button id="button-login">Entrar</button>
           <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar"
           >Esqueceu a conta?</a>
         </fieldset>
@@ -25,7 +25,7 @@
         <div>
             <p>O Facebook ajuda você a se conectar e compartilhar com as
                  pessoas que fazem parte da sua vida.</p>
-            <img src='/facebook-logo-2.png' alt='conectividade'>
+            <img src='/networking.png' alt='conectividade'>
         </div>
         <div>
             <div>
@@ -34,10 +34,18 @@
             </div>
             <form method="GET" action="">
                 <fieldset>
-                    <input placeholder="Nome" id="" name="" size="10" required>
-                    <input placeholder="Sobrenome" id="" name="" size="10" required>
-                    <input placeholder="Celular ou Email" id="" name="" size="20" required>
-                    <input placeholder="Nova senha" id="" name="" size="20" required>
+                    <input placeholder="Nome" id="" name="" required type="text">
+                    <input placeholder="Sobrenome" id="" name="" required type="text">
+                    <input placeholder="Celular ou Email" id="" name="" required type="text">
+                    <input placeholder="Nova senha" id="" name="" required type="password">
+                    <label>Data de nascimento<input type="date" placeholder="dd/mm/aaaa"></label>
+                    <div>
+                        <p>Gênero</p>
+                        <label><input type="radio" name='sexo'>Masculino</label>
+                        <label><input type="radio" name='sexo'>Feminino</label>
+                        <label><input type="radio" name='sexo'>Personalizado</label>
+                    </div>
+                    <button id="facebook-register" type="submit">Cadastre-se</button>
                 </fieldset>
             </form>
         </div>
