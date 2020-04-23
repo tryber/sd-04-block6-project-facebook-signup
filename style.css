@@ -1,13 +1,50 @@
-.top-bar {
-  background-color: rgb(59, 89, 152);
+.central {
   display: flex;
-  width: 100%;
   justify-content: space-between;
 }
 
 .facebook-logo {
   display: flex;
   align-items: center;
-  justify-content: start;
-  height: 100px
- }
+  display: flex;
+  height: 90px
+}
+
+.facebook-text {
+  font-size: 40px;
+  color: rgb(59, 89, 152);
+  font-weight: bold;
+}
+
+.form-group {
+  flex-direction: column;
+}
+
+.form-label{
+  color: white;
+}
+
+.meio-direito {
+  width: 40%;
+}
+
+.meio-esquerdo {
+  width: 60%;
+}
+
+.superior-direito {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-muted {
+  color: white;
+}
+
+.top-bar {
+  background-color: rgb(59, 89, 152);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
