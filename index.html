@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook SignUp</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.slim.min.js"></script>
+    <!-- <script type="text/javascript"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+    <!-- <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script> -->
+
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="facebook-header">
+            <div class="header-left">
+                <div>
+                    <img src="./img/facebook-logo.png" class="facebook-logo">
+                </div>
+            </div>
+            <div class="header-right">
+                <div>
+                    <label id="user-email-phone-label">Email ou telefone</label><br>
+                    <input type="text" id="user-email-phone" required="required"><br><br>
+                </div>
+                <div>
+                    <label id="user-password-label">Senha</label><br>
+                    <input type="password" id="user-password" required="required"><br><br>
+                </div>
+                <div>
+                    <button type="submit" id="button-login" name="Submit" onclick="loginButton()">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="facebook-body-container">
+        <div class="facebook-body">
+            <div class="facebook-network">
+                <div>
+                    <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem
+                        parte da sua vida</p>
+                </div>
+                <div>
+                    <img id="facebook-networking" src="./img/networking.png">
+                </div>
+            </div>
+            <div class="facebook-account">
+                <div class="coluna">
+                    <div class="join-us">
+                        <p class="open-it">Abra sua conta</p>
+                        <p class="easy-fast">É rápido e fácil</p>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="username">
+                        <input type="text" class="input-name" placeholder="Nome">
+                        <input type="text" class="input-name" placeholder="Sobrenome">
+                    </div>
+                    <div class="contact">
+                        <input type="text" id="input-fname" placeholder="Celular ou email">
+                    </div>
+                    <div class="contact">
+                        <input type="password" id="input-fname" placeholder="Nova senha">
+                    </div>
+                </div>
+                <div class="coluna">
+                    <label>Data de Nascimento</label><br>
+                    <input id="date" type="text" placeholder="DD/MM/YYYY" onfocus="(this.type='date')"
+                        required="required"><br><br>
+                </div>
+                <div class="coluna">
+                    <div class="gender">
+                        <p>Gênero</p>
+                        <label for="Feminino">
+                            <input name="Feminino" id="Feminino" value="f" type="radio">Feminino
+                        </label>
+                        <label for="Masculino">
+                            <input name="Masculino" id="Masculino" value="m" type="radio">Masculino
+                        </label>
+                        <label for="Personalizado">
+                            <input name="Personalizado" id="Personalizado" value="p" type="radio">Personalizado
+                        </label>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <button type="submit" name="Submit" id="facebook-register">Cadastre-se</button>
+                </div>
+                <!-- <div class="facebook-signup">
+                </div>
+                <div class="form-user">
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
