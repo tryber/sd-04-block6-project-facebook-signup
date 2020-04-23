@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    border: 1px solid red;
+
+}
+
+ul,
+nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3B5998;
+    color: aliceblue;
+}
+
+header img {
+    width: 200px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav div {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    align-self: center;
+}
+
+.esqueceu {
+    color: #9cb4d8;
+}
