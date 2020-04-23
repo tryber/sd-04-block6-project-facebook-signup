@@ -1,5 +1,5 @@
 .central {
-  background: linear-gradient(white, #D3D8E8); 
+  background-color: linear-gradient(white, rgb(221, 226, 243));
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +18,6 @@
   color: rgb(59, 89, 152);
   display: flex;
   font-size: 30px;
-  font-weight: 5em;
   justify-content: center;
   margin: 40px;
   width: 80%;
@@ -29,8 +28,14 @@
   display: flex;
 }
 
-.form-label{
+.form-label {
   color: white;
+}
+
+.genero-radio {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
 }
 
 .meio-direito {

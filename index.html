@@ -32,7 +32,7 @@
     </header>
     <section class='central'>
       <div class='meio-esquerdo'>
-        <p class='facebook-text'>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        <p class='facebook-text'><em>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</em></p>
         <img id='facebook-networking' class='facebook-networking' src='networking.png' alt='Imagem mostrando a conexão entre as pessoas'>
       </div>
       <div class='meio-direito'>
@@ -41,24 +41,29 @@
           <h4>É rápido e fácil.</h4>
         </div>
         <form action='' method='post' enctype="multipart/form-data" class='form-row'>
-          <div class='form-control nome'>
+          <div class='form-group nome'>
             <input type='text' class='form-control' placeholder='Nome' requeired>
             <input type='text' class='form-control' placeholder='Sobrenome' required>
           </div>
-          <div class='form-control email-phone'>
-            <input type='text' class='user-email-phone form-control' placeholder='Celular ouo email' required>
+          <div class='form-group email-phone'>
+            <input type='text' class='user-email-phone form-control' placeholder='Celular ou email' required>
           </div>
-          <div class='form-control password'>
-            <input type='password' class ='password form-control' placeholder='Nova Senha' required>
+          <div class='form-group password'>
+            <input type='password' class ='password form-control input-group' placeholder='Nova Senha' required>
           </div>
-          <div class="form-control data">
+          <div class="form-group data">
             <label>Data de Nascimento</label>
             <input type='date' placeholder="dd/mm/aaaa" class="form-control" required>
           </div>
           <div class='genero'>
-
+            <h4>Gênero</h4>
+            <div class='genero-radio'>
+              <label><input type='radio' name='genero' class='radio' value='feminino'>Feminino</label>
+              <label><input type='radio' name='genero' class='radio' value='masculino'>Masculino</label>
+              <label><input type='radio' name='genero' class='radio' value='personalizado'>Personalizado</label>
+            </div>
           </div>
-
+          <button type='submit' id='facebook-register' class='btn btn-success'>Cadastre-se</button>
         </form>
       </div>
 
