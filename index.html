@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook-signup</title>
+    <link rel="stylesheet" href="./dist/css/DatePickerX.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -37,13 +38,17 @@
                 <input type="text" placeholder="Sobrenome">
                 <input type="text" placeholder="Celular ou email">
                 <input type="password" placeholder="Nova senha">
-                <label for="data">Data de nascimento</label>
-                <select id="dia"></select>
-                <select id="mes"></select>
-                <select id="ano"></select>
+                <p>Data de nascimento</p>
+                <input id="data" type="text" placeholder="dd/mm/aaaa">
+                <p>Gênero</p>
+                <label for="fem"><input id="fem"  type="radio">Feminino</label>
+                <label for="masc"><input id="masc" type="radio">Masculino</label>
+                <label for="pers"><input id="pers" type="radio">Personalizado</label>
+                <button id="facebook-register">Cadastre-se</button>
             </form>
         </div>
     </section>
+    <script src="dist/js/DatePickerX.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
