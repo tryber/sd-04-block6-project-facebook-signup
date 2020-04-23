@@ -5,6 +5,7 @@ const loginBtn = document.getElementById('button-login');
 const loginForm = document.getElementById('login-form');
 loginBtn.addEventListener('click', loginHandler);
 loginForm.addEventListener('submit', (e) => { e.preventDefault() });
+
 function loginHandler() {
 
   alert(userInput.value);
@@ -13,7 +14,9 @@ function loginHandler() {
 }
 
 const datePicker = new Pikaday({
-  field: document.getElementById('date'), format: 'DD/MM/YYYY', toString(date, format) {
+  field: document.getElementById('date'),
+  format: 'DD/MM/YYYY',
+  toString(date, format) {
     const day = date.getDate();
     const month = date.getMonth() + 1;
     const year = date.getFullYear();
@@ -46,13 +49,12 @@ registerForm.addEventListener('submit', (e) => { e.preventDefault() });
 function registerHandler() {
   if (validateForm()) {
     let genero = '';
-    if(registerRadioFem.checked) genero = 'Feminino';
-    if(registerRadioMas.checked) genero = 'Masculino';
-    if(registerRadioPer.checked) genero = 'Personalizado';
+    if (registerRadioFem.checked) genero = 'Feminino';
+    if (registerRadioMas.checked) genero = 'Masculino';
+    if (registerRadioPer.checked) genero = 'Personalizado';
     const response = `${registerName.value} - ${genero}`
     alert(response);
-  }
-  else {
+  } else {
     alert('Dados inválidos');
   }
   registerName.value = '';
