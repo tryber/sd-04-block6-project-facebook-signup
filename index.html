@@ -40,11 +40,15 @@
             <div style="font-size: 19px;">É rápido e fácil.</div><br>
             <input placeholder="Nome" type="text" class="namebox" name="name1" />
             <input placeholder="Sobrenome" type="text" class="namebox" /> <br>
-            <input placeholder="Celular ou email" type="text" class="mailbox" />
-            <input placeholder="Nova Senha" type="password" class="mailbox" /><br><br>
+
+
+             <input type="text" id="email" placeholder="Celular ou email" required>
+             <input type="password" autocomplete="off" id="password" placeholder="Nova senha" required>
             <div class="label-form">Data de nascimento</div>
             <input  id="data-inicio" name="data" required="required" maxlength="500" placeholder="" type="text">
             <div class="label-form">Gênero</div>
+
+            
             <input type="radio" id="r-b" name="sex" value="Feminino" />Feminino
             <input type="radio" id="r-b" name="sex" value="Masculino" />Masculino
             <input type="radio" id="r-b" name="sex" value="Personalizado" />Personalizado<br><br>
