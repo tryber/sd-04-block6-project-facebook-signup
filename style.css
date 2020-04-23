@@ -35,3 +35,27 @@ header {
   align-items: center;
   display: flex;
 }
+
+.main {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  height: 636px;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.rigth-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.footer {
+  height: 136px;
+}
