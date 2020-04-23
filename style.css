@@ -1,13 +1,13 @@
 .central {
+  background: linear-gradient(white, #D3D8E8); 
   display: flex;
   justify-content: space-between;
 }
 
 .facebook-logo {
-  display: flex;
   align-items: center;
   display: flex;
-  height: 90px
+  height: 90px;
 }
 
 .facebook-networking {
@@ -15,14 +15,18 @@
 }
 
 .facebook-text {
-  font-size: 40px;
   color: rgb(59, 89, 152);
-  font-weight: bold;
+  display: flex;
+  font-size: 30px;
+  font-weight: 5em;
+  justify-content: center;
+  margin: 40px;
+  width: 80%;
 }
 
 .form-group {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .form-label{
@@ -39,14 +43,9 @@
 
 .superior-direito {
   align-items: center;
-  justify-content: center;
   display: flex;
+  justify-content: center;
   width: 50%;
-
-}
-
-.text-muted {
-  color: white;
 }
 
 .top-bar {
