@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 768px;
+  margin: 0;
+  width: 1366px;
+}
+
+.top-bar {
+  background-color: #3b5998;
+  display: flex;
+  flex-direction: row;
+  height: 83px;
+  justify-content: center;
+  width: 1366px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.logo {
+  background-image: url('facebook-logo.png');
+  background-size: cover;
+  height: 65px;
+  width: 170px;
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
