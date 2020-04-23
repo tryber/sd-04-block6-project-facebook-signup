@@ -1,10 +1,8 @@
-body 
-{
+body {
   margin: 0;
 }
 
-.top-bar 
-{
+.top-bar {
   background-color: rgb(59, 89, 152);
   display: flex;
   min-height: 100px;
