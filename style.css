@@ -14,3 +14,8 @@
   margin-top: 17px;
   width: 170px;
 }
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
