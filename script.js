@@ -83,6 +83,8 @@ function registerHandler() {
   registerRadioFem.checked = false;
   registerRadioMas.checked = false;
   registerRadioPer.checked = false;
+
+  return 0;
 }
 
 const registerBtn = document.getElementById('facebook-register');
