@@ -45,6 +45,7 @@ body {
 
 .login-container > form > label > input {
   margin-top: 5px;
-  border-color: #1d2a5b;
+  border: 1px solid rgb(204, 208, 213);
   width: 142px;
+  padding: 2px;
 }
