@@ -3,6 +3,7 @@ body {
   font-size: 100%;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .top-bar {
@@ -18,8 +19,9 @@ body {
 }
 
 .button-login {
-    background-color: rgb(109, 132, 180);
-    border: 1px solid black;
-    color: white;
-    padding: 3px;
+  background-color: rgb(109, 132, 180);
+  border: 1px solid black;
+  color: white;
+  padding: 3px;
+  font-weight: bold;
 }
