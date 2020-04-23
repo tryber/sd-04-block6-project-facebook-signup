@@ -14,3 +14,28 @@ html, body{
 .facebook-logo{
     font-family: faceb;
 }
+
+.input-header{
+    height: 22px;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 8px 7px;
+    font-size: 10pt;
+    border: 1px solid rgb(78, 78, 78);
+}
+
+.btn-login{
+    padding: 0px 7px 2px 7px;
+    font-size: 9pt;
+    font-weight: bold;
+    background-color: #4267b2;
+    border: solid 1px #154263;
+    padding-top: 1px;
+}
+
+.col-md-4 label, .col-md-5 label{
+    color: white;
+    margin-bottom: 2px;
+    font-size: 10pt;
+    padding: 1px;
+}
