@@ -3,7 +3,15 @@ body {
 }
 
 .top-bar {
-  background-color: blue;
-  height: 65px;
+  background-color: #3B5998;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 100px;
   width: 100%;
+}
+
+.facebook-logo {
+  height: 34px;
+  margin: 17px;
+  width: 170px;
 }
