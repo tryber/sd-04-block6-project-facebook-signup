@@ -1,8 +1,7 @@
 
 
-function Iniciar()
-{
+function Iniciar() {
 
 }
 
-window.onload = function ()  { Iniciar(); };
+window.onload = function () { Iniciar();};
