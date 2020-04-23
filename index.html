@@ -10,17 +10,21 @@
 </head>
 
 <body>
-  <header id="top-bar">
+  <header class="top-bar">
     <img class="facebook-logo" src="imgs/facebook-logo.png" />
-    <label id="user-email-phone-label">
-      Email ou telefone
-      <input type="text" id="user-email-phone" />
-    </label>
-    <label for="password">
-      Senha
-      <input type="password" id="password" />
-    </label>
-    <button id="button-login">Entrar</button>
+    <div id="login-container">
+      <form id="login-form">
+        <label id="user-email-phone-label">
+          Email ou telefone
+          <input type="text" id="user-email-phone" />
+        </label>
+        <label>
+          Senha
+          <input type="password" id="user-password" />
+        </label>
+        <button id="button-login">Entrar</button>
+      </form>
+    </div>
   </header>
 </body>
 
