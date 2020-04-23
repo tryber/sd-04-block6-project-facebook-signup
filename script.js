@@ -60,7 +60,6 @@ function registerHandler() {
     alert('Dados inválidos');
     return 0;
   }
-
   let genero = '';
   if (registerRadioFem.checked) {
     genero = 'Feminino';
@@ -73,7 +72,6 @@ function registerHandler() {
   }
   const response = `${registerName.value} - ${genero}`;
   alert(response);
-
   registerName.value = '';
   registerSurname.value = '';
   registerEmail.value = '';
@@ -83,7 +81,6 @@ function registerHandler() {
   registerRadioFem.checked = false;
   registerRadioMas.checked = false;
   registerRadioPer.checked = false;
-
   return 0;
 }
 
