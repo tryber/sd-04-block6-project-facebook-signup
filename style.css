@@ -1,0 +1,19 @@
+.top-bar {
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: rgb(59 , 89 , 152);
+  display: flex;
+  height: 82px;
+  justify-content: center;
+}
+
+.facebook-logo {
+  height: 34px;
+  width: 170px;
+}
+
+.header-int {
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 980px;
+}
