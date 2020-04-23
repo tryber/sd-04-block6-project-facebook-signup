@@ -1,4 +1,5 @@
 body {
+  background: linear-gradient(white, rgb(211, 216, 232));
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -18,7 +19,7 @@ body {
   justify-content: space-between;
   min-height: 42px;
   min-width: 980px;
-  padding: 0 18%;
+  padding: 0 20%;
   position: relative;
   z-index: 1;
 }
@@ -44,4 +45,6 @@ body {
 
 .login-container > form > label > input {
   margin-top: 5px;
+  border-color: #1d2a5b;
+  width: 142px;
 }
