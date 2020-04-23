@@ -1,0 +1,12 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook-logo img {
+  width: 60px;
+}
+
+.form {
+  bottom: 1px;
+}
