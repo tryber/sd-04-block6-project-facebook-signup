@@ -6,3 +6,5 @@ const login = document.getElementById('button-login');
 login.addEventListener('click', function showEmail() {
   alert(email.value);
 });
+
+document.getElementById('user-password').required = true;
