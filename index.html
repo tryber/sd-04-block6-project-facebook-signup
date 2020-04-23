@@ -3,18 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css"> 
+  <link rel="stylesheet" href="style.css" type="text/css">
   <title>Facebook</title>
 </head>
 <body>
   <header class="top-bar container">
     <img class="facebook-logo" src="facebook-logo-1.png" width="200">
     <form class="container-2">
-      <label id="user-email-phone-label">Email ou telefone</label>
-      <br>
-      <input id="user-email-phone" type="text">
-      <label>Senha</label>
-      <input id="password" type="password">
+      <div class="container-email">
+        <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+        <input id="user-email-phone" type="text" size="15">
+      </div>
+      <div class="container-password">
+        <label for="user-password">Senha</label>
+        <input id="user-password" type="password" size="15">
+      </div>
+      <div>
+        <button id="button-login" class="btn-enviar">Entrar</button>
+      </div>
     </form>
   </header>
 </body>
