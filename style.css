@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-size: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
   margin: 0;
   padding: 0;
 }
@@ -12,11 +13,11 @@
   border-bottom: 1px solid #133783;
   display: flex;
   height: 82px;
-  justify-content: flex-start;
+  justify-content: space-between;
   min-height: 42px;
+  padding: 0 20%;
   position: relative;
   width: 100%;
-  padding: 0 20%;
   z-index: 1;
 }
 
@@ -25,4 +26,20 @@
   background-position: 0 -245px;
   height: 34px;
   width: 170px;
+}
+
+.login-container > form {
+  display: flex;
+  flex-flow: row;
+}
+
+.login-container > form > label {
+  color: white;
+  display: flex;
+  flex-flow: column;
+  margin-left: 15px;
+}
+
+.login-container > form > label > input {
+  margin-top: 5px;
 }
