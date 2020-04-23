@@ -6,7 +6,12 @@ html , body {
   padding: 0;
 }
 
+body {
+  background: linear-gradient(white, rgb(211, 216, 232));
+}
+
 .top-bar {
+  background: linear-gradient(rgb(78, 105, 170), rgb(59, 89, 152));
   background-color: rgb(59, 89, 152);
   border-bottom: 0.5px solid black;
   display: flex;
