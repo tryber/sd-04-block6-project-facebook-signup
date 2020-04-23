@@ -15,7 +15,7 @@ function validaInput(input) {
   if (input.value === '') {
     alert('Não deixe o campo vazio!');
     input.focus();
-  } 
+  }
   return input.value;
 }
 
@@ -27,6 +27,7 @@ function validaGenero() {
   } else if (pers.checked === true) {
     return pers.value;
   }
+  return true;
 }
 
 function validaEmail() {
@@ -34,6 +35,7 @@ function validaEmail() {
     alert('Digite um email valido! não esqueça do @ e .');
     email.focus();
   }
+  return true;
 }
 
 window.onload = function () {
