@@ -46,12 +46,12 @@ body {
   align-self: center;
   background-color: rgba(91, 123, 192, 1);
   border: 0;
-  border-radius: 5px;
+  border-radius: 1px;
   color: white;
   cursor: pointer;
   font-size: 10px;
   font-weight: 700;
-  padding: 5px;
+  padding: 3px;
 }
 
 .btn1:hover {
@@ -61,8 +61,35 @@ body {
 section {
   background-image: linear-gradient(white, rgba(211, 216, 232, 1));
   display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 .form {
+  display: flex;
   flex-direction: column;
+  width: 300px;
+}
+
+.map {
+  width: 500px;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.footer > div {
+  width: 800px;
 }
