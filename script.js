@@ -1,19 +1,18 @@
 const userInput = document.getElementById('user-email-phone');
 const userPass = document.getElementById('user-password');
 
-const loginBtn = document.getElementById('button-login');
-const loginForm = document.getElementById('login-form');
-loginBtn.addEventListener('click', loginHandler);
-loginForm.addEventListener('submit', (e) => { e.preventDefault() });
-
 function loginHandler() {
-
   alert(userInput.value);
   userInput.value = '';
   userPass.value = '';
 }
 
-const datePicker = new Pikaday({
+const loginBtn = document.getElementById('button-login');
+const loginForm = document.getElementById('login-form');
+loginBtn.addEventListener('click', loginHandler);
+loginForm.addEventListener('submit', (e) => { e.preventDefault(); });
+
+new Pikaday({
   field: document.getElementById('date'),
   format: 'DD/MM/YYYY',
   toString(date, format) {
@@ -40,11 +39,18 @@ const registerRadioFem = document.getElementById('radioFem');
 const registerRadioMas = document.getElementById('radioMas');
 const registerRadioPer = document.getElementById('radioPer');
 
-const registerBtn = document.getElementById('facebook-register');
-const registerForm = document.getElementById('register-form');
+function validateForm() {
+  if (registerName.value.length < 3) return false;
+  if (registerSurname.value.length < 3) return false;
+  if (registerEmail.value.length < 3) return false;
+  if (registerPassword.value.length < 6) return false;
+  if (registerDate.value.length < 10) return false;
+  if (!(registerRadioPer.checked ||
+      registerRadioFem.checked ||
+      registerRadioMas.checked)) return false;
 
-registerBtn.addEventListener('click', registerHandler);
-registerForm.addEventListener('submit', (e) => { e.preventDefault() });
+  return true;
+}
 
 function registerHandler() {
   if (validateForm()) {
@@ -52,7 +58,7 @@ function registerHandler() {
     if (registerRadioFem.checked) genero = 'Feminino';
     if (registerRadioMas.checked) genero = 'Masculino';
     if (registerRadioPer.checked) genero = 'Personalizado';
-    const response = `${registerName.value} - ${genero}`
+    const response = `${registerName.value} - ${genero}`;
     alert(response);
   } else {
     alert('Dados inválidos');
@@ -67,13 +73,8 @@ function registerHandler() {
   registerRadioPer.checked = false;
 }
 
-function validateForm() {
-  if (registerName.value.length < 3) return false;
-  if (registerSurname.value.length < 3) return false;
-  if (registerEmail.value.length < 3) return false;
-  if (registerPassword.value.length < 6) return false;
-  if (registerDate.value.length < 10) return false;
-  if (!(registerRadioPer.checked || registerRadioFem.checked || registerRadioMas.checked)) return false;
+const registerBtn = document.getElementById('facebook-register');
+const registerForm = document.getElementById('register-form');
 
-  return true;
-}
+registerBtn.addEventListener('click', registerHandler);
+registerForm.addEventListener('submit', (e) => { e.preventDefault(); });
