@@ -27,6 +27,10 @@ body {
   padding: 100px;
 }
 
+/* .new-account {
+colocar formatação texto novos usuarios
+} */
+
 .left-container {
   display: flex;
   flex-direction: column;
@@ -34,6 +38,7 @@ body {
 
 .login {
   justify-content: space-between;
+  margin: 30px;
 }
 
 .right-container {
