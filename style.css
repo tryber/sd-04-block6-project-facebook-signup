@@ -1,9 +1,9 @@
 body {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .top-bar {
@@ -22,6 +22,38 @@ body {
   background-color: rgb(109, 132, 180);
   border: 1px solid black;
   color: white;
+  font-weight: 700;
   padding: 3px;
-  font-weight: bold;
+}
+
+.main {
+  background-color: rgb(216, 223, 234);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.first-column {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.networking-p {
+  align-self: center;
+  color: rgb(31, 7, 139);
+  width: 450px;
+}
+
+.facebook-networking {
+    align-self: center;
+    width: 450px;
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
 }
