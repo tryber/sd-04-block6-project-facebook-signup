@@ -13,20 +13,28 @@
   <header class="top-bar">
     <div class="facebook-logo">
       <a href="#">
-        <img src="img/facebook-logo.png" alt="logo" width="170" height="55">
+        <img src="img/facebook-logo.png" alt="logo" width="220" height="68">
       </a>
     </div>
 
-    <form action="" method="GET">
+    <form class="login-form" action="" method="GET">
 
-      <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-      <input type="text" name="email" id="user-email-phone">
+      <div class="email">
+        <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+        <input type="text" name="email" id="user-email-phone"><br>
+      </div>
+      
+      <div class="password">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha">
+        <a href="">Esqueceu a conta?</a>
+      </div>
 
-      <label for="senha">Senha</label>
-      <input type="password" name="senha">
-
-      <button id=button-login>Entrar</button>
-      <a href="">Esqueceu a conta?</a>
+      <div class="button">
+        <button id=button-login>Entrar</button>
+      </div>
+      
+      
 
     </form>
   </header>
@@ -35,7 +43,7 @@
 
     <div>
       <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-      <img src="img/connections.png" alt="conexões" id="facebook-networking">
+      <img src="img/networking.png" alt="conexões" id="facebook-networking">
     </div>
 
     <div>
