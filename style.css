@@ -8,7 +8,7 @@ body {
   padding: 0;
   unicode-bidi: embed;
 }
-
+/* 
 .top-bar {
   background-color: rgb(59, 89, 152);
   background-image: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
@@ -66,7 +66,6 @@ input {
   text-decoration: none;
   text-shadow: none;
   vertical-align: top;
-  white-space: nowrap;
 }
 
 .content {
@@ -90,7 +89,8 @@ input {
 .right-content {
   display: flex;
   flex-flow: column;
-  width: 50%;
+	max-width: 400px;
+	color: #1c1e21;
 }
 
 .row {
@@ -100,16 +100,13 @@ input {
 
 .register-button {
   background: linear-gradient(rgb(121, 188, 100), rgb(87, 136, 67));
-  border: 1px solid;
-  border-color: rgb(59, 110, 34) rgb(59, 110, 34) rgb(44, 81, 21);
+  border: 1px solid rgb(59, 110, 34);
   border-radius: 5px;
   box-shadow: inset 0 1px 1px rgb(164, 227, 136);
   color: white;
   cursor: pointer;
-  display: inline-block;
   font-size: 19px;
   font-weight: 900;
-  letter-spacing: normal;
   margin: 10px;
   min-width: 194px;
   padding: 7px 20px;
@@ -122,4 +119,4 @@ input {
 .register-button:hover {
   background: linear-gradient(rgb(121, 188, 100), rgb(87, 136, 67));
   text-decoration: none;
-}
+} */
