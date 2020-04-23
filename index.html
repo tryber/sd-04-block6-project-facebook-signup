@@ -61,17 +61,32 @@
               <!-- Birthday date -->
               <p>Data de nascimento</p>
               <div class="row">
-                <input type="date" />
+                <input type="text" class="datepicker" placeholder="dd/mm/aaaa" />
               </div>
 
               <!-- Radio buttons -->
               <p>Gênero</p>
               <div class="row">
-                <input id="feminino" type="radio" name="genero" value="Feminino"/>
+                <input
+                  id="feminino"
+                  type="radio"
+                  name="genero"
+                  value="Feminino"
+                />
                 <label for="feminino">Feminino</label>
-                <input id="masculino" type="radio" name="genero" value="Masculino"/>
+                <input
+                  id="masculino"
+                  type="radio"
+                  name="genero"
+                  value="Masculino"
+                />
                 <label for="masculino">Masculino</label>
-                <input id="personalizado" type="radio" name="genero" value="Personalizado"/>
+                <input
+                  id="personalizado"
+                  type="radio"
+                  name="genero"
+                  value="Personalizado"
+                />
                 <label for="personalizado">Personalizado</label>
               </div>
               <div class="row">
@@ -84,5 +99,7 @@
         </div>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
