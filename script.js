@@ -1,13 +1,11 @@
 let userEmailInput;
-let userPasswordInput;
 
 function OnLoginButton() {
-  alert(`Email/Number: ${userEmailInput.value} Password: ${userPasswordInput.value}`);
+  alert(userEmailInput.value);
 }
 
 function SetVariables() {
   userEmailInput = document.getElementById('user-email-phone');
-  userPasswordInput = document.getElementById('user-password');
 }
 
 function SetEvents() {

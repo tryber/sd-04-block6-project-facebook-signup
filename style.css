@@ -29,3 +29,13 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
