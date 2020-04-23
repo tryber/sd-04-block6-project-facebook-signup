@@ -16,3 +16,10 @@ body {
 .facebook-logo {
   width: 200px;
 }
+
+.button-login {
+    background-color: rgb(109, 132, 180);
+    border: 1px solid black;
+    color: white;
+    padding: 3px;
+}

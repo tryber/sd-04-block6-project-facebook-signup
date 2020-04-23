@@ -1,7 +1,7 @@
-let btnLogin = document.querySelector('#button-login');
-let user = document.querySelector('#user-email-phone');
-let password = document.querySelector('#senha');
+const btnLogin = document.querySelector('#button-login');
+const user = document.querySelector('#user-email-phone');
+const password = document.querySelector('#senha');
 
 btnLogin.addEventListener('click', function () {
-  alert(`User: ${ user.value } password: ${ password.value }`)
+  alert(`User: ${user.value} password: ${password.value}`);
 });
