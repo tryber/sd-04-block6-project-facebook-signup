@@ -34,18 +34,52 @@ body {
 .login-container > form {
   display: flex;
   flex-flow: row;
+  align-content: flex-start;
 }
 
-.login-container > form > label {
+.login-form > label {
   color: white;
   display: flex;
   flex-flow: column;
   margin-left: 15px;
 }
 
-.login-container > form > label > input {
+.login-form > label > input {
   margin-top: 5px;
   border: 1px solid rgb(204, 208, 213);
   width: 142px;
   padding: 2px;
+}
+
+.login-form > button {
+  align-self: flex-end;
+  background-color: #4267b2;
+  border: 1px solid rgb(204, 208, 213);
+  border-color: #29487d;
+  border-radius: 2px;
+  box-sizing: content-box;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  margin-left: 15px;
+  min-width: 35px;
+  padding: 2px 6px;
+}
+
+.login-form > button:hover {
+  background-color: #365899;
+  border-color: #29487d;
+}
+
+.login-form > button:focus {
+  outline: none;
+}
+
+.login-form > button:active {
+  background-color: #29487d;
+  border-color: #29487d;
+  outline: none;
 }
