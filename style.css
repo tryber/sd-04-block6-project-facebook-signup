@@ -111,8 +111,70 @@ a {
 
 }
 /* DAQUI PRA CIMA OK CLIMATE */
-.container {
-  background-color: red;
-  height: 1020px;
-  width: 100%;
+
+.gradient {
+  background: linear-gradient(white, #D3D8E8);
+}
+
+.fb-content {
+  display: flex;
+  justify-content: space-between;
+  height: 640px;
+}
+
+.fb-left {
+  width: 537px;
+}
+
+.fb-left p {
+  color: #0E385F;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.fb-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 400px;
+}
+
+.chamada {
+  padding-bottom: 20px;
+  padding-top: 20px;    
+}
+
+.chamada h2 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.chamada h4 {
+  color: #333;
+  font-size: 19px;
+}
+
+.order-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-fb {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  width: 398px;  
+}
+
+.input-fb-sm {
+  width: 194px;
+  height: 39px;
 }
