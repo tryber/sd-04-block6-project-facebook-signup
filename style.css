@@ -3,7 +3,7 @@ body {
 }
 
 .top-bar {
-  background-color: #3B5998;
+  background-color: rgb(59, 89, 152);
   display: flex;
   justify-content: flex-start;
   min-height: 100px;
