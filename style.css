@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'faceb';
+    src: url('FACEBOLF.OTF');
+}
+
+html, body{
+    height: 100%;
+} 
+
+.top-bar{
+    background-color: #3b5998;
+}
+
+.facebook-logo{
+    font-family: faceb;
+}
