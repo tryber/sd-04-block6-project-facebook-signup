@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(white, #d3d8e8);
+  font-family: Helvetica, sans-serif;
+}
+
+.facebook-logo {
+  height: 60px;
+  width: 170px;
+}
+
+.img-text {
+  color: #0e385f;
+  font-size: 19px;
+  font-weight: 900;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.user-email-phone {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  justify-content: space-between;
+  margin: 0 10px; 
+  border: 1px solid black; 
+}
+
+.user-email-phone div {
+  border: 1px solid black;
+}
