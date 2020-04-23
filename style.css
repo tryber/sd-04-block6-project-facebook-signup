@@ -12,7 +12,11 @@ html , body {
 }
 
 .top-bar {
-  background-color: #3b5998;
+  background-color: rgb(59,89,152);
+}
+
+.facebook-logo {
+  width: 200px;
 }
 
 .input-header {
