@@ -25,7 +25,7 @@
         <div>
             <p>O Facebook ajuda você a se conectar e compartilhar com as
                  pessoas que fazem parte da sua vida.</p>
-            <img src='/networking.png' alt='conectividade'>
+            <img src='/networking.png' id="facebook-networking" alt='conectividade'>
         </div>
         <div>
             <div>
@@ -34,16 +34,16 @@
             </div>
             <form method="GET" action="">
                 <fieldset>
-                    <input placeholder="Nome" id="" name="" required type="text">
-                    <input placeholder="Sobrenome" id="" name="" required type="text">
-                    <input placeholder="Celular ou Email" id="" name="" required type="text">
-                    <input placeholder="Nova senha" id="" name="" required type="password">
-                    <label>Data de nascimento<input type="date" placeholder="dd/mm/aaaa"></label>
+                    <input placeholder="Nome" id="" name="Name" required type="text">
+                    <input placeholder="Sobrenome" id="" name="Last-Name" required type="text">
+                    <input placeholder="Celular ou Email" id="" name="Cel-Email" required type="text">
+                    <input placeholder="Nova senha" id="" name="New-password" required type="password">
+                    <label>Data de nascimento<input required type="date" placeholder="dd/mm/aaaa"></label>
                     <div>
                         <p>Gênero</p>
-                        <label><input type="radio" name='sexo'>Masculino</label>
-                        <label><input type="radio" name='sexo'>Feminino</label>
-                        <label><input type="radio" name='sexo'>Personalizado</label>
+                        <label><input type="radio" name='sexo' value="M">Masculino</label>
+                        <label><input type="radio" name='sexo' value="F">Feminino</label>
+                        <label><input type="radio" name='sexo' value="P">Personalizado</label>
                     </div>
                     <button id="facebook-register" type="submit">Cadastre-se</button>
                 </fieldset>
