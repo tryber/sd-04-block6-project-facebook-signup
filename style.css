@@ -52,3 +52,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.container-data-nascimento {
+  display: flex;
+  flex-direction: column;
+}
