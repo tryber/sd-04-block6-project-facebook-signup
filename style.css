@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3B5998;
+  width: 100%;
+}
+
+label {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
