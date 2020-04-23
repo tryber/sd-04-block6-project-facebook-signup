@@ -1,0 +1,58 @@
+.top-bar{
+    display: flex;
+    background-color: #3B5997;
+    margin-top: -8px;
+    margin-left: -8px;
+    height: 81px;
+    width: 1265px;
+    height: 82px;
+
+}
+.top-bar .login-box{
+    display: flex;
+    width: 980px;
+    height: 78px;
+    margin: 0px 142.5px;
+    padding: 13px 0px 0px;
+    justify-content: space-between;
+}
+.login-box .facebook-logo{
+    display: flex;
+    align-content: center;
+    width: 172px;
+    height: 39px;
+    padding: 13px 0px 0px;
+}
+
+.login-box form{
+    display: flex;
+    align-items: center;
+}
+
+.page{
+    display: flex;
+    padding: 13px 0px 0px;
+    width: 980px;
+    height: 641.84px;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin: 0px 142.5px;
+
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    border: 2px solid black;
+    
+}
+
+.right-side{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    border: 2px solid black;
+
+
+}
