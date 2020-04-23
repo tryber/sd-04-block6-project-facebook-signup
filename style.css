@@ -50,13 +50,13 @@ td div a:hover {
   text-decoration: underline;
 }
 
-input[ type = "text" ] , input[ type = "password" ] {
+.data-entry {
   margin-top: 4px;
   padding: 3px;
   width: 142px;
 }
 
-input[ type = "submit" ] {
+.data-login {
   background: #4267b2;
   border: 1px solid #29487d;
   color: white;
