@@ -1,4 +1,5 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -8,7 +9,6 @@ body {
 }
 
 .top-bar {
-  border: 3px solid yellow;
   display: flex;
   height: 82px;
   justify-content: space-between;
@@ -22,25 +22,29 @@ body {
 
 .login-container {
   align-items: center;
-  border: 1px solid red;
   display: flex;
   justify-content: flex-end;
 }
 
+td > label {
+  color: white;
+  font-size: 12px;
+}
+
 .facebook-logo {
-  border: 1px solid red;
   display: flex;
   margin: 27px 0 0;
 }
 
 a {
   color: #9cb4d8;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
   text-decoration: none;
 }
 
 input {
   border: 1px solid #ccd0d5;
+  font-size: 12px;
   height: 14px;
   margin: 0;
   padding: 3px;
@@ -49,4 +53,48 @@ input {
 
 .input-spacing {
   margin-right: 15px;
+}
+
+.container {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 180px;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  width: 58%;
+}
+
+.boas-vindas {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+}
+
+.text1-right {
+  color: #333;
+  font-size: 35px;
+  font-weight: 600;
+  height: 48px;
+  padding-top: 20px;
+  width: 400px;
+}
+
+.text2-right {
+  color: #333;
+  font-size: 18px;
+  padding: 0;
 }
