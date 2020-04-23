@@ -1,5 +1,6 @@
 body {
-  background-color: #d3d8e8;
+
+  /* background-color: linear-gradient(white, #D3D8E8); */
   margin: 0;
   padding: 0;
 }
@@ -51,13 +52,24 @@ input {
   border-color: #29487d;
 }
 
-.container-networking {
+.container-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-left {
+  align-self: flex-start;
   display: flex;
   flex-direction: column;
-  left: 220px;
-  position: relative;
+  left: 240px;
   top: 25px;
   width: 470px;
+}
+
+.container-rigth {
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
