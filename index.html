@@ -3,21 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Facebook Inscrição </title>
+    <title>Project Facebook Singnup </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- cabeçalho -->
     <header>
-
-    </header> 
-
-    <section>
-        
-        <div>
+        <div class="top-bar">
+            <div class="facebook-logo">
+                <a href=index.html><img src="facebook-logo.png" alt="logotipo do facebook" width=200px></a>
+            </div>
+            <div class="login">
+                <form name="form-login" id="form-login" class="form-login">
+                    <div class="user-email-phone">
+                        <label for="fEmailPhone" id="user-email-phone-label">Email ou telefone</label><br>
+                        <input type="text" name="fEmailPhone" id="user-email-phone" required><br><br>
+                    </div>
+                    <div class="user-passoword">
+                        <label for="fPassoword">Senha</label><br>
+                        <input type="text" name="fPassoword" id="user-passoword" required>
+                        <p><a href="">Esqueceu a conta?</a></p>
+                    </div>
+                </form>
+                <div class="button">
+                    <button id="button-login" class="button-login" type="submit">Entrar</button>
+                </div>
+            </div>
         </div>
-        <div>
+    </header>
 
+<!-- section  -->
+    <section class="section-signup">
+        <div class="text-image">
+            <p>O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que fazem parte <br> da sua vida</p>
+            <img src="networking.png" alt="mapa-mundi com figuras que representam pessoas e essas pessoas estão conectadas" id="facebook-networking">
         </div>
+        <div class="text-form">
+            <div class="text-signup">
+                <h1>Abra uma conta</h1>
+                <p>É rápido e fácil.</p>
+            </div>
+            <div class="signup">
+                <form name="form-signup">
+                    <div>
+                        <input type="text" id="fName" placeholder="Nome" required>
+                    </div>
+                    
+                    <div>
+                        <input type="text" id="fLastName" placeholder="Sobrenome" required>
+                    </div>
+                    
+                    <div>
+                        <input type="text" id="fEmailPhoneSignup" placeholder="Celular ou email" required>
+                    </div>
+                    
+                    <div>
+                        <input type="text" name="fPassowordSignup" placeholder="Nova senha" required>
+                    </div>
+                    
+                    <div>
+                        <input type="text" name="fBornDate" placeholder="dd/mm/aaaa" required>
+                    </div>
+
+                    <div>
+                        <p>Gênero</p>
+                        <input type="radio" name="fGenre" id="feminine" value="feminine" required>
+                        <label for="feminine">Feminino</label>
+
+                        <input type="radio" name="fGenre" id="male" value="male" required>
+                        <label for="male">Masculino</label>
+
+                        <input type="radio" name="fGenre" id="custom" value="custom" required>
+                        <label for="custom">Personalizado</label>
+                    </div>
+                </form>
+                <div class="button">
+                    <button id="facebook-resgister" type="register">Cadastre-se</button>
+                </div>
+            </div>
+        <div></div>
     </section>
     <footer>
         <p>&copy; Ana Higo - Trybe Student</p>
