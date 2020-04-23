@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="facebook-icon.png" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div>
+        <img class="facebook-logo" src="facebook-logo.png" />
+      </div>
+      <div class="login">
+        <div>
+          <label for="user-email-phone" id="user-email-phone-label"
+            >Email ou telefone</label
+          >
+          <input id="user-email-phone" type="text" />
+        </div>
+        <div>
+          <label for="password">Senha</label>
+          <input type="password" id="user-password" />
+          <a class="esqueceu" href="#">Esqueceu a conta?</a>
+        </div>
+        <button type='submit' id="button-login" class="btn1">Entrar</button>
+      </div>
+    </header>
+
+    <section>
+      <div class="map">
+        <div>
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </div>
+        <div>
+          <img id="facebook-networking" src="networking.png" />
+        </div>
+      </div>
+      <div class="form">
+        <h1>Abra uma conta</h1>
+        <h2>É rápido e fácil.</h2>
+        <div class='name'>
+          <input placeholder="Nome" type="text" name="name"/>
+          <input placeholder="Sobrenome" type="text" name="name2"/>
+        </div>
+        <div>
+          <input placeholder="Celular ou email" type="text" id="mailbox" />
+          <input placeholder="Nova senha" type="password" />
+        </div>
+        <div>
+          <label for='date'>Data de nascimento</label>
+          <input type="date" id="date" placeholder="dd/mm/aaaa" />
+         </div>
+        <p>Gênero</p>
+        <div class='radio'>
+          <input type="radio" name="sex" value="Feminino" />Feminino
+          <input
+          type="radio"
+          name="sex"
+          value="Masculino"
+        />Masculino<br /><br />
+          <input
+          type="radio"
+          name="sex"
+          value="Personalizado"
+        />Personalizado<br /><br />
+          </div>
+        <p id="aceite">
+          Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+        </p>
+        <button type="submit" id="facebook-register" class="button2" value="Cadastre-se" />Cadastre-se</button>
+        <p>Criar uma Página para uma celebridade, banda ou empresa.</p>
+      </div>
+    </section>
+
+    <footer class='footer'>
+      <div>
+        <p>Facebook © 2020</p>
+      </div>
+    </footer>
+
+    <script src='script.js'></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgba(59, 89, 152, 1);
+  color: white;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  height: 60px;
+  justify-content: space-around;
+  padding: 10px 0 0;
+  width: 100%;
+}
+
+.facebook-logo {
+  width: 168px;
+}
+
+.login {
+  display: flex;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 120px;
+}
+
+.esqueceu {
+  color: rgba(156, 180, 216, 1);
+  cursor: pointer;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.esqueceu:hover {
+  text-decoration: underline;
+}
+
+.btn1 {
+  align-self: center;
+  background-color: rgba(91, 123, 192, 1);
+  border: 0;
+  border-radius: 1px;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px;
+}
+
+.btn1:hover {
+  background-color: navy;
+}
+
+section {
+  background-image: linear-gradient(white, rgba(211, 216, 232, 1));
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.name {
+  display: flex;
+}
+
+.map {
+  width: 500px;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.footer > div {
+  width: 800px;
+}
+
+.radio {
+  display: flex;
+}
