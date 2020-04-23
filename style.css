@@ -1,0 +1,21 @@
+html,
+h1,
+h2,
+h3,
+body,
+div,
+header,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #385898;
+  color: #fff;
+}
+
+.facebook-logo {
+  width: 170px;
+}
