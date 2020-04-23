@@ -46,9 +46,8 @@ body {
 }
 
 .login button {
-
-  /* background-color: blue; */
-  border-radius: 0;
+  background-color: rgb(59, 89, 152);
+  border: 1px solid white;
   color: white;
   font-weight: 700;
   padding: 3px;
