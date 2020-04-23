@@ -27,6 +27,11 @@ header {
   display: flex;
 }
 
-/* .form-group {
-  padding-bottom: 0px;
-} */
+.form-group {
+  margin-bottom: 0rem;
+}
+
+.button-login {
+  align-items: center;
+  display: flex;
+}
