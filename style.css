@@ -22,8 +22,8 @@ label {
   display: flex;
 }
 
-.container-email,
-.container-password,
+.container-email , 
+.container-password , 
 .conteiner-btn {
   display: flex;
   flex-direction: column;

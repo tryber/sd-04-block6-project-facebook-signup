@@ -8,4 +8,4 @@ function BtnEntrar() {
 
 BTNENVIAR.addEventListener('click', function () {
   BtnEntrar();
-  });
+});
