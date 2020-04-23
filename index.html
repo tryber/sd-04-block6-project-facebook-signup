@@ -4,12 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-        crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <title>Document</title>
 </head>
@@ -17,39 +12,77 @@
 <body>
     <header class="top-bar ">
         <div>
-            <img src="facebook-logo.png" alt="">
-        </div>
-        <div id="sigin-container" class="sigin-container">
-            <div id="login-container">
-                <div class="top-text">Email ou telefone</div>
-                <div><input type="text" class="input-login"></div>
+            <div>
+                <img src="facebook-logo.png" alt="">
             </div>
-            <div id="password-container" ">
-                <div class="top-text" >Senha</div>
-                <div><input type="password" class="input-login"></div>
-                <div><a href="index.html">Esqueceu a conta?</a></div>
-            
+            <table id="sigin-container" class="sigin-container">
+                <tr id="login-container">
+                    <td><label for="" class="user-email-phone-label" id="user-email-phone-label">Email ou
+                            telefone</label>
+                    </td>
+                    <td><label class="user-password-label">Senha</label></td>
+                </tr>
+                <tr id="password-container">
+                    <td><input type="text" class="user-email-phone" id="user-email-phone"></td>
+                    <td>
+                        <input type="password" class="user-password"><br>
+                        <a href="index.html" class="forget-pass">Esqueceu a conta?</a>
+                    </td>
+                    <td><button type="submit" id="button-login" class="button-login">Entrar</button></td>
+                </tr>
+            </table>
         </div>
-        <div><input type="submit" value="Entrar"></div>
     </header>
     <section>
-        <div></div>
-        <div></div>
+        <div>
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img src="facebook-networking.png" alt="" id="facebook-networking">
+        </div>
+        <div>
+            <form>
+                <table>
+                    <h1>
+                        Abra uma conta
+                    </h1>
+                    <h5>É rápido e fácil.</h5>
+                    <tr>
+                        <td><input type="text" placeholder="Nome"></td>
+                        <td><input type="text" placeholder="Sobrenome"></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                </table>
+            </form>
+        </div>
     </section>
     <footer>
         <div>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Português (Brasil)
+                </li>
+                <li>English (US)
+                </li>
+                <li>Español
+                </li>
+                <li>Français (France)
+                </li>
+                <li>Italiano
+                </li>
+                <li>العربية
+                </li>
+                <li>Deutsch
+                </li>
+                <li>हिन्दी
+                </li>
+                <li>中文(简体)
+                </li>
+                <li>日本語</li>
+                <li><i>+</i></li>
             </ul>
         </div>
         <div>
@@ -57,7 +90,7 @@
                 <li><a href="">Cadastre-se</a></li>
                 <li><a href="">Entrar</a></li>
                 <li><a href="">Messenger</a></li>
-                <li><a href=""> Facebook Lite</a></li>
+                <li><a href="">Facebook Lite</a></li>
                 <li><a href="">Whatch</a></li>
                 <li><a href="">Pessoas</a></li>
                 <li><a href="">Páginas</a></li>
@@ -87,7 +120,7 @@
                 <li><a href="">Ajuda</a></li>
             </ul>
         </div>
-        <div>Facebook © 2020</div>
+        <div id="copyright" class="copyright">Facebook © 2020</div>
     </footer>
 </body>
 
