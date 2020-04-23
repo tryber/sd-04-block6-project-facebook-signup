@@ -1,5 +1,4 @@
 body {
-  background: white;
   color: rgb(28, 30, 33);
   direction: ltr;
   font-family: inherit;
@@ -8,7 +7,7 @@ body {
   padding: 0;
   unicode-bidi: embed;
 }
-/* 
+
 .top-bar {
   background-color: rgb(59, 89, 152);
   background-image: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
@@ -49,14 +48,14 @@ nav {
 }
 
 input {
-  border-color: #1d2a5b;
+  border-color: rgb(29, 42, 91);
   margin: 0;
   width: 142px;
 }
 
 .login-button {
-  border: 1px solid #29487d;
-  background-color: #4267b2;
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
   border-radius: 2px;
   color: white;
   font-weight: 900;
@@ -69,19 +68,26 @@ input {
 }
 
 .content {
+  background: linear-gradient(white, rgb(211, 216, 232));
+  height: 550px;
+}
+
+.content-container {
+  align-items: flex-start;
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   position: relative;
   width: 980px;
 }
 
 .left-content {
-  color: #0e385f;
+  color: rgb(14, 56, 95);
   font-family: inherit;
   font-size: 20px;
   font-weight: 900;
   line-height: 29px;
-  margin-top: 40px;
+  margin-top: 20px;
   width: 450px;
   word-spacing: -1px;
 }
@@ -89,8 +95,25 @@ input {
 .right-content {
   display: flex;
   flex-flow: column;
-	max-width: 400px;
-	color: #1c1e21;
+  justify-content: space-around;
+  max-width: 400px;
+}
+
+.right-header {
+  color: rgb(28, 30, 33);
+  font-weight: 600;
+  margin: 0 0 5px;
+  padding: 20px 0;
+}
+
+.right-header title {
+  font-size: 36px;
+  margin: 0 0 5px;
+}
+
+.right-header p {
+  font-size: 19px;
+  margin: 0 0 5px;
 }
 
 .row {
@@ -119,4 +142,4 @@ input {
 .register-button:hover {
   background: linear-gradient(rgb(121, 188, 100), rgb(87, 136, 67));
   text-decoration: none;
-} */
+}
