@@ -1,0 +1,18 @@
+body {
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(59, 89, 152);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.facebook-logo {
+  width: 200px;
+}
