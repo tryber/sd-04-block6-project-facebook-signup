@@ -3,53 +3,49 @@ body {
   padding: 0;
 }
 
-#body-bottom {
+.body-bottom {
   display: flex;
   justify-content: center;
 }
 
-#body-left {
+.body-left {
   background-color: darksalmon;
   height: 326px;
   width: 580px;
 }
 
-#body-right {
+.body-right {
   background-color: aqua;
   height: 629.828px;
   max-width: 400px;
   width: 400px;
 }
 
-#frase {
+.frase {
   color: #0e385f;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-
   font-size: 20px;
   width: 450px;
 }
 
-#global-menu {
+.global-menu {
   display: flex;
   height: 78px;
   justify-content: space-between;
   width: 980px;
 }
 
-#logo {
+.logo {
   width: 200px;
 }
 
 .top-bar {
   background-color: #3b5998;
   display: flex;
-
   height: 82px;
   justify-content: center;
-  left: 0%;
-  margin: 0;
   margin-left: -50vw;
+  margin: 0;
   padding: 0;
   position: relative;
   width: 100vw;
