@@ -95,9 +95,9 @@ body {
 }
 
 .list-one {
+  display: inline-block;
   font-size: 15px;
   list-style: none;
-  width: 90%;
 }
 
 .portuguese {
