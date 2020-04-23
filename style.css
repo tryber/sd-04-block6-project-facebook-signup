@@ -65,6 +65,10 @@ body {
   width: 980px;
 }
 
+.user-name {
+  display: flex;
+}
+
 footer {
   color: rgb(115, 115, 115);
   margin: 0 auto;
