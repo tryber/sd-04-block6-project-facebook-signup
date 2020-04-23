@@ -7,6 +7,7 @@
   <title>Facebook - entre ou cadastre-se</title>
 
   <link rel="icon" href="./imgs/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -34,7 +35,7 @@
               <small>&nbsp;</small>
             </div>
             <div class="col-5">
-              <input type="text" class="form-control form-control-sm input-custom" id="user-password">
+              <input type="password" class="form-control form-control-sm input-custom" id="user-password">
               <small>
                 <a class="login-link" href="#">Esqueceu a conta?</a>
               </small>
@@ -66,29 +67,29 @@
           </div>
         </div>
         <div class="signup-form-container">
-          <form action="" method="POST">
+          <form action="" method="POST" id="register-form" novalidate>
             <div class="form-row form-row-custom">
               <div class="col-6">
                 <input type="text" class="form-control" id="name" placeholder="Nome" required>
               </div>
               <div class="col-6">
-                <input type="text" class="form-control" id="name" placeholder="Sobrenome" required>
+                <input type="text" class="form-control" id="surname" placeholder="Sobrenome" required>
               </div>
             </div>
             <div class="form-row form-row-custom">
               <div class="col">
-                <input type="text" class="form-control" id="name" placeholder="Celular ou email" required>
+                <input type="text" class="form-control" id="email" placeholder="Celular ou email" required>
               </div>
             </div>
             <div class="form-row form-row-custom">
               <div class="col">
-                <input type="password" class="form-control" id="name" placeholder="Nova senha" required>
+                <input type="password" class="form-control" autocomplete="off" id="password" placeholder="Nova senha" required>
               </div>
             </div>
             <div class="form-row">
               <div class="col">
                 <div class="form-title-custom">Data de nascimento</div>
-                <input type="password" class="form-control" id="name" placeholder="Nova senha" required>
+                <input style="width: 55%;" placeholder="dd/mm/aaaa" autocomplete="off" type="text" class="form-control" id="date" placeholder="Nova senha" required>
               </div>
             </div>
             <div class="form-row">
@@ -172,6 +173,8 @@
     </div>
 
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

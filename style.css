@@ -24,7 +24,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 65%;
-  padding-top: 10px;
 }
 
 .logo-container {
@@ -190,7 +189,7 @@ body {
 }
 
 .footer-container {
-  padding-top: 8px;
+  padding-top: 5px;
 }
 
 .footer-container a{
