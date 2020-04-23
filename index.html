@@ -27,24 +27,35 @@
         <div class="first-column">
             <p class="networking-p">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
                 sua vida.</p>
-            <img id="facebook-networking" class="facebook-networking" src="./networking.png" alt="imagem networking facebook">
+            <img id="facebook-networking" class="facebook-networking" src="./networking.png"
+                alt="imagem networking facebook">
         </div>
         <div class="second-column">
             <p>Abra uma conta</p>
             <p>É rápido e fácil.</p>
             <form action="#">
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Sobrenome">
+                <section>
+                    <input id="nome" type="text" placeholder="Nome">
+                    <input id="sobrenome" type="text" placeholder="Sobrenome">
+                </section>
                 <br>
-                <input type="text" placeholder="Celular ou email">
+                <section>
+                    <input id="email" type="text" placeholder="Celular ou email">
+                </section>
                 <br>
-                <input type="password" placeholder="Nova senha">
-                <p>Data de nascimento</p>
-                <input id="data" type="text" placeholder="dd/mm/aaaa">
-                <p>Gênero</p>
-                <label for="fem"><input id="fem"  type="radio" value="Feminino">Feminino</label>
-                <label for="masc"><input id="masc" type="radio" value="Masculino">Masculino</label>
-                <label for="pers"><input id="pers" type="radio" value="Personalizado">Personalizado</label>
+                <section>
+                    <input id="senha" type="password" placeholder="Nova senha">
+                </section>
+                <section>
+                    <p>Data de nascimento</p>
+                    <input id="data" type="text" placeholder="dd/mm/aaaa">
+                </section>
+                <section>
+                    <p>Gênero</p>
+                    <label for="fem"><input id="fem" name="genero" type="radio" value="Feminino">Feminino</label>
+                    <label for="masc"><input id="masc" name="genero" type="radio" value="Masculino">Masculino</label>
+                    <label for="pers"><input id="pers" name="genero" type="radio" value="Personalizado">Personalizado</label>
+                </section>
                 <br>
                 <button id="facebook-register">Cadastre-se</button>
             </form>
