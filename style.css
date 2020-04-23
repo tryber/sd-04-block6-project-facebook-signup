@@ -58,6 +58,7 @@ input {
   border: 1px solid #29487d;
   background-color: #4267b2;
   border-radius: 2px;
+  color: white;
   font-weight: 900;
   line-height: 18px;
   padding: 2px 6px;
@@ -66,7 +67,6 @@ input {
   text-shadow: none;
   vertical-align: top;
   white-space: nowrap;
-  color: white;
 }
 
 .content {
@@ -78,6 +78,7 @@ input {
 
 .left-content {
   color: #0e385f;
+  font-family: inherit;
   font-size: 20px;
   font-weight: 900;
   line-height: 29px;
