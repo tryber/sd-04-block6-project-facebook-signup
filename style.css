@@ -1,4 +1,4 @@
-.top-bar , .bar-int {
+body , .top-bar , .bar-int {
   margin: 0;
   padding: 0;
 }
@@ -14,6 +14,20 @@
 
 .bar-int {
   align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  width: 980px;
+}
+
+.content {
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.content-int {
   border: 1px solid black;
   box-sizing: border-box;
   display: flex;
