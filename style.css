@@ -8,12 +8,10 @@ body {
 }
 
 .top-bar {
-  background-color: #3b5998;
-  display: flex;
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+  border: 1px solid #133783;
   height: 82px;
-  justify-content: center;
-  padding-top: 13px;
-  width: 100%;
+  display: flex;
 }
 
 .facebook-logo {
@@ -22,6 +20,7 @@ body {
 }
 
 .imgLogo {
+  display: flex;
   color: white;
   display: flex;
   font-size: 12px;
@@ -33,10 +32,16 @@ table {
   border-collapse: separate;
   border-color: grey;
   border-spacing: 10px 3px;
-  display: table;
-  margin: 0;
 }
 
 .menuLogin {
+  align-items: center;
   display: flex;
+  height: 65px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
 }
+
+

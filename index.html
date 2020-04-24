@@ -16,29 +16,59 @@
   </head>
   <body>
     <header class="top-bar">
-        <div class="">
-           <img class="facebook-logo" src="facebook-logo.png" alt="Logo Facebook">
-        </div>
-           <div class="menuLogin">
-              <table>
-                 <tr>
-                    <td><label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label></td>
-                    <td><label for="pass">Senha</label></td>
-                 </tr>
-                 <tr>
-                    <td><input class="" type="email" name="email" id="user-email-phone"> </td>
-                    <td><input class="" type="password" name="pass" id="user-password"> </td>
-                    <td><button id="button-login" class="uiButtonConfirm" >Entrar</button></td>
-                 </tr>
-                 <tr>
-                    <td></td>
-                    <td><a href="#" style="color: #9cb4d8;">Esqueceu a conta?</a></td>
-                 </tr>
-              </table>
-           </div>
-     </header>
+      <div class="menuLogin">
+        <img
+          class="facebook-logo"
+          src="facebook-logo.png"
+          alt="Logo Facebook"
+        />
+        <form
+          action="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110"
+          class="formLogin">
+          <table>
+            <tr>
+              <td>
+                <label id="user-email-phone-label" for="user-email-phone"
+                  >Email ou telefone</label
+                >
+              </td>
+              <td><label for="pass">Senha</label></td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  class=""
+                  type="email"
+                  name="email"
+                  id="user-email-phone"
+                />
+              </td>
+              <td>
+                <input
+                  class=""
+                  type="password"
+                  name="pass"
+                  id="user-password"
+                />
+              </td>
+              <td>
+                <button id="button-login" class="">
+                  Entrar
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><a href="#" style="color: #9cb4d8;">Esqueceu a conta?</a></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </header>
 
-    <main></main>
+    <main>
+
+    </main>
     <footer></footer>
 
     <script
