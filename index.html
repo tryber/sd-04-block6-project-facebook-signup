@@ -14,15 +14,15 @@
         </a>
       </div>
       <nav class="top-bar">
-        <div idin">
+        <div >
           <label id="user-email-phone-label" for="user-email-phone">
             Email ou telefone
           </label>
-          <input type="text" id="user-email-phone" />
+          <input class="login inputtextlogin" type="text" id="user-email-phone" />
         </div>
         <div id="pass">
           <label for="password">Senha</label>
-          <input type="password" id="password" />
+          <input class="login inputtextlogin" type="password" id="password" />
           <a href="#">
             Esqueceu a senha?
           </a>
@@ -34,38 +34,41 @@
         </div>
       </nav>
     </header>
-    <section class="container">
-      <article id="first">
-        <div>
-          <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-        </div>
-        <div>
-          <img src="./image/networking.png" alt="mapa do mundo">
-        </div>
-      </article>
-      <aside id="second">
-        <div>
-          <h1>Abra uma conta</h1>
-          <p>É rápido e fácil.</p>
-        </div> 
-        <form>
-          <div id="name">
-            <input type="text" placeholder="Nome">
+    <section class="container-section">
+        <article>
+          <div class="phase">
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
           </div>
-          <div id="lastName">
-            <input type="text" placeholder="Sobrenome">
+          <div class="imgNetworking">
+            <img src="./image/networking.png" alt="mapa do mundo">
           </div>
-          <div id="celMail">
-            <input type="text" placeholder="Celular ou email" >
+        </article>
+        <aside>
+          <div>
+            <h1 class="title">Abra uma conta</h1>
+            <p class="subtitle">É rápido e fácil.</p>
           </div>
-          <div id="newPass">
-            <input type="password" placeholder="Nova senha">
+          
+          <form>
+            <div class="form-group">
+              <input class="border inputtextform" type="text" placeholder="Nome">
+              <input class="border inputtextform" type="text" placeholder="Sobrenome">
+            </div>
+            
+            <div class="form-group" id="celMail">
+            <input class="border inputtextform" type="text" placeholder="Celular ou email" >
           </div>
-          <div id="dataNasc">
+
+          <div class="form-group" id="newPass">
+            <input class="border inputtextform" type="password" placeholder="Nova senha">
+          </div>
+
+          <div class="form-group"  id="dataNasc">
             <p>Data de nascimento</p>
-            <input type="date" placeholder="dd/mm/aaaa">
-          </div>          
-          <div id="genero">
+            <input class="inputtextform" type="date" placeholder="dd/mm/aaaa">
+          </div>  
+
+          <div class="form-group" id="genero">
             <p>Gênero</p>
             <input type="radio" id="female" name="genero">
             <label for="female">Feminino</label>
@@ -74,11 +77,13 @@
             <input type="radio" id="other" name="genero">
             <label for="other">Personalizado</label>
           </div>
-          <div id="btnCadastro">
+
+          <div class="form-group" id="btnCadastro">
             <button id="facebook-register">
               Cadastre-se
             </button>
           </div>
+
         </form>
       </aside>
     </section>

@@ -37,7 +37,7 @@ header {
 }
 
 header img {
-  width: 200px;
+  width: 170px;
   margin-top: 17px;
 }
 
@@ -51,25 +51,154 @@ header nav div {
   flex-direction: column;
   margin: 8px;
 }
+.top-bar a {
+  color: #9cb4d8;
+}
+.inputtextlogin {
+  padding: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-color: #1d2a5b;
+}
+
+.login {
+  width: 142px;
+}
+
+/* Buttons */
+
+button {
+  cursor: pointer;
+}
 
 .button {
   align-self: center;
 }
 
-.top-bar a {
-  color: #9cb4d8;
+button#button-login {
+  color: #fff;
+  background-color: #4267b2;
+  border-color: #29487d;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+button#button-login:hover {
+  background-color: #3b5998;
 }
 
 /* section */
 
-section {
-  display: flex;
-}
-
-.container {
+.container-section {
   display: flex;
   background: linear-gradient(white, #d3d8e8);
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  padding: 100px 50px;
+  justify-content: center;
+  height: 600px;
+}
+
+/* section - article */
+
+.container-section article {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  width: 570px;
+}
+
+div.phase p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  width: 500px;
+}
+
+.imgNetworking img {
+  width: 535px;
+  height: 193px;
+}
+
+/* section - aside */
+
+.container-section aside {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.title {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #1d2129;
+  font-size: 19px;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-group:nth-child(1) {
+  width: 377px;
+  justify-content: space-between;
+}
+
+.form-group:nth-child(1) input:nth-child(1) {
+  margin-right: 10px;
+  width: 173px;
+}
+
+.form-group:nth-child(1) input:nth-child(2) {
+  width: 173px;
+}
+
+.form-group:nth-child(2) input {
+  width: 377px;
+}
+.form-group:nth-child(3) input {
+  width: 377px;
+}
+
+.form-group:nth-child(4) {
+  flex-direction: column;
+}
+
+.border {
+  border-radius: 5px;
+}
+
+form p {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div#genero label {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.inputtextform {
+  border: 1px solid #ccd0d5;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
+  width: 377px;
 }
