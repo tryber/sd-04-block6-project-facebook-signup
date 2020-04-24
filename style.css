@@ -71,6 +71,10 @@ body , .top-bar , .bar-int {
   flex-direction: column;
 }
 
+.txt-date {
+  border: 1px solid black;
+}
+
 .name > input {
   border: 1px solid rgb(189, 199, 216);
   border-radius: 5px;
@@ -85,6 +89,8 @@ body , .top-bar , .bar-int {
   margin-top: 12px;
 }
 
-.txt-date {
-  border: 1px solid black;
+.txt-date > input {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  height: 39px;
 }

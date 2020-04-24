@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook - entre ou cadastre-se</title>
+  <link rel="stylesheet" type="text/css" href="libs/pikaday.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -39,13 +40,15 @@
             <input type="text" placeholder="Celular ou email">
             <input type="password" placeholder="Nova senha">
           </div>
+          <p>Data de nascimento</p>
           <div class="txt-date">
-            <p>Data de nascimento</p>
+            <input type="text" id="datepicker" placeholder="dd/mm/aaaa">
           </div>
         </div>
       </div>
     </div>
   </div>
+  <script src="libs/pikaday.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
