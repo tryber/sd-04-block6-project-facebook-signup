@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color:#2954ac;
+  color: #2954ac;
   text-decoration: none;
 }
 
@@ -127,39 +127,36 @@ h2 {
 }
 
 .nome-sobrenome {
-  display: flex;
   align-content: center;
-  width: 450px
+  display: flex;
+  width: 450px;
 }
 
-.sobrenome{
-  width:50%;
+.sobrenome {
   align-content: center;
   margin-left: 25px;
+  width: 50%;
 }
+
 .label-form {
   color: #90949c;
   font-size: 16px;
 }
 
 .facebook-register {
-  background: linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
-  border-color: #3b6e22 #3b6e22 #2c5115;
   border: 1px solid rgba(0, 0, 0, 0.383);
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    letter-spacing: 1px;
-    position: relative;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-    min-width: 194px;
-    padding: 7px 20px;
-    text-align: center;
-    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
-    font-weight: bold !important;
-    letter-spacing: normal;
-
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  min-width: 194px;
+  padding: 7px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
