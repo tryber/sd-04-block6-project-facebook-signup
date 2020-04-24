@@ -1,6 +1,6 @@
 const btnLogin = document.querySelector('#button-login');
 const user = document.querySelector('#user-email-phone');
-const password = document.querySelector('#user-password');
+// const password = document.querySelector('#user-password');
 const btnSignin = document.querySelector('#facebook-register');
 const email = document.querySelector('#email');
 const nome = document.querySelector('#nome');
