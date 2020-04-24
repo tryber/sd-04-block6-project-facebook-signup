@@ -1,6 +1,5 @@
 body {
   color: #1c1e21;
-  direction: ltr;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.34;
@@ -66,13 +65,14 @@ input {
 }
 
 .mainContainer {
+  display: flex;
   margin: 0 auto;
-  position: relative;
+  padding: 20px 0;
   width: 980px;
 }
 
 .mainContainerText {
-  float: left;
+  width: 50%;
 }
 
 .mainText {
@@ -91,8 +91,9 @@ input {
 }
 
 .mainRegister {
-  float: right;
-  max-width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .registerConta {

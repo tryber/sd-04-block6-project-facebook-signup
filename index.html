@@ -89,15 +89,12 @@
           <input type="text" name="email-celular" placeholder="Celular ou email" size="39">
         </div>
         <div>
-          <input type="text" name="email-celular" placeholder="Celular ou email" size="39">
-        </div>
-        <div>
           <input type="password" name="new-password" size="39" placeholder="Nova senha">
         </div>
         <div>
           <div class="data-de-nascimento">Data de nascimento</div>
           <form action="">
-            <input type="date" name="data-de-nascimento" placeholder="dd/mm/aaaa">
+            <input type="date" id="datepicker" name="data-de-nascimento" placeholder="dd/mm/aaaa">
           </form>
         </div>
         <div>
@@ -115,10 +112,56 @@
         </div>
       </div>
       </div>
-
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="center-footer">
+        <ul class="language">
+          <li><a href="#" class="portuguese-brazil">Português (Brasil)</a></li>
+          <li><a href="#" class="english-us">English (US)</a></li>
+          <li><a href="#"  class="spanish">Español</a></li>
+          <li><a href="#" class="french">Français (France)</a></li>
+          <li><a href="#" class="italian">Italiano</a></li>
+          <li><a href="#" class="no-idea">العربية</a></li>
+          <li><a href="#" class="german">Deutsch</a></li>
+          <li><a href="#" class="no-idea">हिन्दी</a></li>
+        </ul>
+
+        <hr>
+
+        <ul class="useful-links">
+          <li><a href="#">Cadastre-se</a></li>
+          <li><a href="#">Entrar</a></li>
+          <li><a href="#">Messenger</a></li>
+          <li><a href="#">Facebook Lite</a></li>
+          <li><a href="#">Watch</a></li>
+          <li><a href="#">Pessoas</a></li>
+          <li><a href="#">Páginas</a></li>
+          <li><a href="#">Categorias de Página</a></li>
+          <li><a href="#">Locais</a></li>
+          <li><a href="#">Jogos</a></li>
+          <li><a href="#">Locais</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Grupos</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Local</a></li>
+          <li><a href="#">Campanhas de arrecadação de fundos</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Criar anúncio</a></li>
+          <li><a href="#">Criar Página</a></li>
+          <li><a href="#">Desenvolvedores</a></li>
+          <li><a href="#">Carreiras</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Opções de anúncio</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+
+        <span class="page-footer">Facebook &copy 2020</span>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -170,21 +213,21 @@
 <!--ok   14 - Um campo de entrada de texto para o celular ou email. Posicione esse campo abaixo do sobrenome do usuário.
   Pontos importantes: * Defina o placeholder com o valor "Celular ou email". -->
 
-<!--   15 - Um campo de entrada de texto para a nova senha do usuário. Posicione esse campo abaixo do celular/email.
+<!--ok   15 - Um campo de entrada de texto para a nova senha do usuário. Posicione esse campo abaixo do celular/email.
   Pontos importantes: * Lembre-se de respeitar a formatação de senha '*****'. * Defina o placeholder com o valor "Nova senha". -->
 
-<!--   16 - Um texto 'Data de nascimento' abaixo do campo de entrada de texto de nova senha. -->
+<!--ok   16 - Um texto 'Data de nascimento' abaixo do campo de entrada de texto de nova senha. -->
 
-<!--   17 - Um campo para selecionar a data de nascimento.
+<!--ok   17 - Um campo para selecionar a data de nascimento.
   Pontos importantes: * Diferentemente do Facebook, esse campo deve ser composto de um único input, e você deverá utilizar
   alguma biblioteca para transformá-lo em um datepicker. * Defina o placeholder com o valor "dd/mm/aaaa". -->
 
-<!--   18 - Um texto 'Gênero' abaixo dos campos de data. -->
+<!--ok   18 - Um texto 'Gênero' abaixo dos campos de data. -->
 
-<!--   19 - Três radio buttons com os nomes 'Feminino', 'Masculino' e 'Personalizado'.
+<!--ok   19 - Três radio buttons com os nomes 'Feminino', 'Masculino' e 'Personalizado'.
   Pontos importantes: * Posicione abaixo do texto 'Gênero'. -->
 
-<!--   20 - Um botão com o texto 'Cadastre-se' e id "facebook-register".
+<!--ok   20 - Um botão com o texto 'Cadastre-se' e id "facebook-register".
   Pontos importantes: * Esse botão deve pegar os dados dos itens 12 até 19 e validá-los.
   * Caso tudo esteja certo, exiba um alert com todos os dados no seguinte formato: Por exemplo:
   Se a pessoa que usa digitar o nome "João" e selecionar "Personalizado", o conteúdo da mensagem no alert deve ser 'João - Personalizado'.
