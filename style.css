@@ -1,4 +1,7 @@
 .top-bar {
   background-color: #3b5998;
   display: flex;
+  height: auto;
+  justify-content: space-around;
+  width: 100%;
 }
