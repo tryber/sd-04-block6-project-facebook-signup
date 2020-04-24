@@ -50,11 +50,13 @@ body {
   align-items: center;
   display: flex;
   flex-direction: row;
+  margin: 5px;
 }
 
 .login label {
   font-size: 12px;
   font-weight: 400;
+  margin: 5px;
   padding-left: 1px;
 }
 
@@ -63,6 +65,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   height: 14px;
+  margin: 0 5px;
   padding: 3px 3px 4px;
   width: 142px;
 }
@@ -85,6 +88,7 @@ body {
   cursor: pointer;
   font-size: 12px;
   font-weight: 400;
+  margin: 5px;
   padding-left: 1px;
   text-align: center;
   text-decoration: none;
@@ -179,8 +183,9 @@ body {
 }
 
 .registro input {
-  border-color: #bdc7d8;
+  border: #bdc7d8 solid 1px;
   border-radius: 5px;
+  color: #999;
   font-size: 18px;
   height: 21px;
   margin-bottom: 10px;
