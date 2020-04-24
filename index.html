@@ -20,36 +20,36 @@
           </tr>
           <tr>
             <td><input type="text" name="Email-tel" id="user-email-phone"></td>
-            <td><input type="password" name="password" id="password"></td>
-            <td><input type="button" id="button-enter" value="Entrar"></td>
+            <td><input type="password" name="password" class="password"></td>
+            <td><input type="button" class="button-enter" value="Entrar"></td>
           </tr>
           <tr>
             <td></td>
-            <td><div id="forget-password"><a href="http://" >Esqueceu a conta?</a></div></td>
+            <td><div class="forget-password"><a href="http://" >Esqueceu a conta?</a></div></td>
           </tr>
         </table>
       </div>
     </header>
     <main>
-      <div id="left-content">
+      <div class="left-content">
         <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
         <img src="/rede-facebook.png" alt="" srcset="">
       </div>
-      <div id="rigth-form">
+      <div class="rigth-form">
         <h1>Abra uma conta</h1>
         <p>É rápido e fácil.</p>
         <form action="" method="post" id="form">
           <div id="full-name-user">
             <input type="text" name="nome" class="fullname" id="first-name-user" placeholder="Nome" >
-            <input type="text" name="nome" class="fullname" id="last-name-user" placeholder="Sobrenome" >
+            <input type="text" name="nome" class="fullname" class="last-name-user" placeholder="Sobrenome" >
           </div>
           <div id="infoUser">
           <input type="text" name="celular-email" class="info-user" id="user-mail-cel" placeholder="Celular ou Email">
           <input type="text" name="senha" class="info-user" id="new-password" placeholder="Nova senha">
-          <div id="born-date">
+          <div class="born-date">
             Data de nascimento
           </div>
-          <select name="birthday-day" class="day-month-year" id="day" title="dia">
+          <select name="birthday-day" class="day-month-year" class="day" title="dia">
             <option value="0">Dia</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -83,7 +83,7 @@
             <option value="30">30</option>
             <option value="31">31</option>
           </select>
-          <select name="birthday-month" class="day-month-year" id="month" title="mês">
+          <select name="birthday-month" class="day-month-year" class="month" title="mês">
             <option value="0">Mês</option>
             <option value="1">Jan</option>
             <option value="2">Fev</option>
@@ -99,7 +99,7 @@
             <option value="12">Dez</option>
            
           </select>
-          <select name="birthday-year" class="day-month-year" id="year" title="ano">
+          <select name="birthday-year" class="day-month-year" class="year" title="ano">
             <option value="0">Ano</option>
             <option value="2020">2020</option>
             <option value="2019">2019</option>
@@ -220,26 +220,26 @@
           </select>
           <a href=""><i><img src="/interrogation.png" class="interrogation" id="interrogation-born-date" alt="" srcset=""></i></a>
           </div>
-          <div id="gender-container">
-            <div id="gender">Gênero</div>
+          <div class="gender-container">
+            <div class="gender">Gênero</div>
             <input type="radio" id="female" name="female" value="">
             <label for="female">Feminino</label>
             <input type="radio" id="male" name="male" value="">
             <label for="male">Masculino</label>
             <input type="radio" id="custom" name="custom" value="">
             <label for="custom">Personalizado</label><br>
-            <a href=""><i><img src="/interrogation.png" class="interrogation" id="interrogation-gender" alt="" srcset=""></i></a>         
+            <a href=""><i><img src="/interrogation.png" class="interrogation" class="interrogation-gender" alt="" srcset=""></i></a>         
            </div>
-           <div id="terms-paragr">
-           <p id="register-terms">Ao clicar em Cadastre-se, você concorda com nossos <a href="#" id="terms">Termos</a>,<br>
+           <div class="terms-paragr">
+           <p class="register-terms">Ao clicar em Cadastre-se, você concorda com nossos <a href="#" id="terms">Termos</a>,<br>
               <a href="#" id="data policy.">Política de Dados</a> e
               <a href="#" id="cookies policy">Política de Cookies</a>. 
                 Você pode receber<br> notificações por SMS e pode cancelar isso quando quiser.</p>
            </div>
            <div id="register-user">
-             <button type="submit" id="register" name="botao" >Cadastrar-se</button>
+             <button type="submit" class="register" name="botao" >Cadastrar-se</button>
            </div>
-           <div id="create-page">
+           <div class="create-page">
            <a href="#">Criar uma Página</a> para uma celebridade, banda ou emṕresa.
           </div>
         </form>

@@ -52,7 +52,7 @@ table {
   padding-left: 1px;
 }
 
-#button-enter {
+.button-enter {
   background-color: rgb(66 , 103 , 178);
   border: 1px solid rgb(41 , 72 , 125);
   border-radius: 2px;
@@ -61,12 +61,12 @@ table {
   padding: 4px;
 }
 
-.text-form {
-  font-size: 12px;
+.button-enter:hover {
+  background-color: rgb(58 , 89 , 152);
 }
 
-#button-enter:hover {
-  background-color: rgb(58 , 89 , 152);
+.text-form {
+  font-size: 12px;
 }
 
 #text-email {
@@ -74,22 +74,22 @@ table {
   padding: 4px;
 }
 
-#password {
+.password {
   border: 1px solid;
   padding: 4px;
 }
 
-#forget-password a {
+.forget-password a {
   color: rgb(140 , 176 , 213);
   font-size: 12px;
   text-decoration: none;
 
 }
-#forget-password a:hover {
+.forget-password a:hover {
   text-decoration: underline;
 }
 
-#left-content {
+.left-content {
   color: rgb(12 , 58 , 100);
   font-size: 14px;
   line-height: 1.4;
@@ -97,13 +97,13 @@ table {
   width: 470px;
 }
 
-#rigth-form {
+.rigth-form {
   height: auto;
   padding-left: 120px;
   width: 450px;
 }
 
-#rigth-form p {
+.rigth-form p {
   color: rgb(105 , 105 , 105);
   font-size: 18px;
 }
@@ -116,34 +116,34 @@ table {
 }
 
 .info-user {
-  border-radius: 4px;
   border: 1px solid #bdc7d8;
+  border-radius: 4px;
   font-size: 18px;
   margin-top: 10px;
   padding: 8px 10px;
   width: 425px;
 }
 
-#last-name-user {
+.last-name-user {
   margin-left: 10px;
 }
-#born-date {
+.born-date {
   color: rgb(146 , 148 , 156);
   font-weight: 900;
   padding-top: 20px;
 }
 
-#day{
+.day{
   margin-right: -3px;
   padding: 5px;
 }
 
-#month {
+.month {
   margin-right: -3px;
   padding: 5px;
 }
 
-#year {
+.year {
   padding: 5px;
 }
 
@@ -153,39 +153,39 @@ table {
   margin-top: 5px;
 }
 
-#gender {
+.interrogation {
+    width:15px;
+  }
+  
+.interrogation-born-date {
+  margin: 1px 1px 0;
+}
+
+.gender-container {
+    color: rgb(146 , 148 , 156);
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.gender {
   padding-bottom: 10px;
 }
 
-#gender-container {
-  color: rgb(146 , 148 , 156);
-  font-weight: 900;
-  padding: 10px 0;
-}
-
-#gender-container label {
+.gender-container label {
   color: rgb(51 , 51 , 51);
   font-weight: 200;
   padding-top: 10px;
 }
 
-.interrogation {
-  width:15px;
-}
-
-#interrogation-born-date {
-  margin: 1px 1px 0;
-}
-
-#interrogation-gender {
+.interrogation-gender {
   margin: 5px 10px 0;
 }
 
-#terms-paragr p {
+.terms-paragr p {
   font-size: 10px;
 }
 
-#register {
+.register {
   background: linear-gradient(#67ae55, #578843);
   border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
@@ -199,32 +199,32 @@ table {
   text-shadow: 1px solid rgb(10 , 10 , 10); 
 }
 
-#register:hover {
+.register:hover {
   background: linear-gradient(#76c562, #578843);
   border-color: #3b6e22 #3b6e22 #2c5115;
 }
 
-#register-terms {
+.register-terms {
   line-height: 1.4;
 }
 
-#register-terms a {
+.register-terms a {
   text-decoration: none;
 }
 
-#register-terms a:hover {
+.register-terms a:hover {
   text-decoration: underline;
 }
 
-#create-page a {
+.create-page a {
   text-decoration: none;
 }
 
-#create-page a:hover {
+.create-page a:hover {
   text-decoration: underline;
 }
 
-#create-page {
+.create-page {
   color: rgb(90 , 90 , 90);
   font-size: 13px;
   font-weight: bold;
