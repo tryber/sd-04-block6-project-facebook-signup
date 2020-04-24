@@ -28,7 +28,7 @@
           <tr>
             <td><input type="text" id="user-email-phone" /></td>
             <td><input type="password" name="senha" id="user-password" /></td>
-            <td><button>Entrar</button></td>
+            <td><button id="button-login">Entrar</button></td>
           </tr>
           <tr>
             <td></td>
@@ -50,13 +50,18 @@
         fazem parte da sua vida.
       </div>
       <div>
-        <img src="facebook-networking.png" alt="" srcset="" />
+        <img
+          id="facebook-networking"
+          src="facebook-networking.png"
+          alt=""
+          srcset=""
+        />
       </div>
     </div>
     <div class="body-right">
       <div class="open-account">
         <span class="open">Abra uma conta</span>
-        <div>É Rápido e Fácil</div>
+        <div>É rápido e fácil.</div>
       </div>
       <div class="formulario">
         <input class="inputs" type="text" placeholder="Nome" /><input
@@ -69,7 +74,25 @@
         <input class="input-2" type="text" placeholder="Celular ou email" />
       </div>
       <div>
-        <input class="input-2" type="text" placeholder="Nova senha" />
+        <input class="input-2" type="password" placeholder="Nova senha" />
+      </div>
+      <div class="box-birthday">
+        <span>Data de nascimento</span>
+        <select name="day" aria-placeholder="dia" id="">
+          <option value="dia">Dia</option>
+        </select>
+        <select name="mes" id="">
+          <option value="mes">Mês</option>
+        </select>
+        <select name="ano" id="">
+          <option value="ano">Ano</option>
+        </select>
+        <div>
+          <div id="genero">Gênero</div>
+          <div>
+            <span></span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
