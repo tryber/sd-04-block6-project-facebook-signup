@@ -1,3 +1,9 @@
+* {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +15,10 @@ body {
 }
 
 .body-left {
-  background-color: darksalmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  float: left;
   height: 326px;
   width: 580px;
 }
@@ -29,14 +38,45 @@ body {
 }
 
 .global-menu {
+  color: white;
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
   height: 78px;
   justify-content: space-between;
   width: 980px;
 }
 
-.logo {
+.facebook-logo {
   width: 200px;
+}
+
+.formulario {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs {
+  border-radius: 4px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.input-2 {
+  border-radius: 4px;
+  height: 30px;
+  margin-bottom: 10px;
+  max-width: 400px;
+  padding-left: 10px;
+  padding-right: 8px;
+  width: 379px;
+}
+
+.open-account {
+  height: 118px;
+  width: 400px;
 }
 
 .top-bar {
