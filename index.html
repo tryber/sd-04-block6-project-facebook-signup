@@ -18,20 +18,20 @@
         <a href = "#" class = "facebook-logo p-2"><img alt= "facebook-logo" src="/media/facebook-logo.png"></a>
       </div>
       <div class = 'col-sm-6 ml-5'>
-        <form class = "form-padding-fb form-row ml-5">
+        <form id = 'fb-login-form' class = "form-padding-fb form-row ml-5">
             <div class="form-no-margin form-group col-sm-4">
-              <label class = "small-label form-label-small" for = "email">Email ou telefone</label>
+              <label class = "small-label form-label-small" id = 'user-email-phone-label' for = "email">Email ou telefone</label>
               <input id = 'user-email-phone' class="text-input square-input form-control" name = "email" type ="text"> 
             </div>
             <div class="form-no-margin form-group col-sm-4">
-              <label class = "small-label form-label-small" for = 'senha'>Senha</label>
-              <input id = 'user-email-phone-label' class="text-input square-input form-control" name = 'senha' type ="password">
+              <label  class = "small-label form-label-small" for = 'senha'>Senha</label>
+              <input id = 'user-password' class="text-input square-input form-control" name = 'senha' type ="password">
               <a href="#">Esqueceu a conta?</a>
             </div>
             <div class="col-sm-2">
               <button id = "button-login" class="button-login btn btn-primary btn-sm mt-4" name = 'submit' type ="submit">Entrar</button>
             </div>
-        </form>
+          </form>
       </div>
       </div>
     </navbar>
@@ -44,7 +44,7 @@
               </p>
             </div>
             <div>
-              <img class = "infografic" src="/media/facebook-infografic.png">
+              <img id = 'facebook-networkingclass' class = "infografic" src="/media/networking.png">
             </div>
 
           </div>
@@ -57,7 +57,7 @@
                 <form>
                   <div class="form-row">
                     <div class="form-group col-md-6">
-                      <input type="email" class="form-control" placeholder="Nome">
+                      <input type="text" class="form-control" placeholder="Nome">
                     </div>
                     <div class="form-group col-md-6">
                       <input type="text" class="form-control" placeholder="Sobrenome">
@@ -67,7 +67,7 @@
                     <input type="text" class="form-control" placeholder="Celular ou email">
                   </div>
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Nova senha">
+                    <input type="password" class="form-control" placeholder="Nova senha">
                   </div>
                   <div>
                     <p class = 'fb-form-label'>Data de nascimento</p>
@@ -141,7 +141,7 @@
                   <div class="form-row">
                     <div class="custom-control custom-radio custom-control-inline">
                       <input type="radio" id="genero1" name="genero" class="custom-control-input">
-                      <label class="custom-control-label fb-radio" for="genero1">Femininoo</label>
+                      <label class="custom-control-label fb-radio" for="genero1">Feminino</label>
                     </div>
                     <div class="custom-control custom-radio custom-control-inline">
                       <input type="radio" id="genero2" name="genero" class="custom-control-input">
@@ -161,7 +161,7 @@
                     <p class="fb-disclaimer">Ao clicar em Cadastre-se, você concorda com nossos <a href="#" id="terms-link" target="_blank" rel="nofollow">Termos</a>, <a href="#" id="privacy-link" target="_blank" rel="nofollow">Política de Dados</a> e <a href="#" id="cookie-use-link" target="_blank" rel="nofollow">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
                   </div>
                   <div>
-                    <button type="submit" class="btn btn-primary fb-button">Cadastre-se</button>
+                    <button type="submit"  id = 'facebook-register' class="btn btn-primary fb-button">Cadastre-se</button>
                   </div>
                   <div class="fb-celebs"><a href="#" >Criar uma Página</a> para uma celebridade, banda ou empresa.</div>
                 </form>
@@ -227,5 +227,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
