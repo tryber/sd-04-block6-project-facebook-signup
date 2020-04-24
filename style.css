@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8" ;
 
 /* geral */
 body {
@@ -9,7 +9,6 @@ body {
 }
 
 /* cabeçalho */
-
 .header {
   align-items: flex-end;
   background-color: #3b5998;
@@ -45,7 +44,7 @@ body {
   border-color: #29487d;
   border-radius: 2px;
   color: white;
-  font-weight: bolder;
+  font-weight: 900;
   padding: 3px 8px;
 }
 
@@ -59,7 +58,7 @@ body {
 .left-content {
   color: #3b5998;
   font-size: 15pt;
-  font-weight: bolder;
+  font-weight: 900;
   line-height: 30px;
   margin-top: 15px;
   width: 500px;
@@ -69,18 +68,18 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  width: 500px;
   margin-left: 100px;
+  width: 500px;
 }
 
-.text-signup h1 { 
+.title-signup {
   font-size: 27pt;
-  font-weight: bolder;
-  margin-bottom: 0px;
+  font-weight: 900;
+  margin-bottom: 1px;
   padding-left: 10px;
 }
 
-.text-signup p { 
+.paragraph-signup {
   font-size: 14pt;
   margin-top: 10px;
   padding-left: 10px;
@@ -126,30 +125,30 @@ body {
   padding-left: 10px;
 }
 
-.finput-genre p  {
+.finput-genre p {
   color: #90949c;
   font-size: 16px;
   font-weight: 900;
-  height: 0px;
+  height: 1px;
   padding-left: 10px;
 }
 
 .finput-genre label {
   font-size: 15pt;
-  margin-right: 20px;
   margin-left: 0;
+  margin-right: 20px;
 }
 
-.button-register  { 
-  background: linear-gradient(rgb(121, 188, 100), rgb(87, 136, 67));
+.button-register {
+  background: linear-gradient(rgb(121, 188, 100), rgb(77, 85, 74));
   border: 1px solid rgb(59, 110, 34);
   border-radius: 5px;
   box-shadow: inset 0 1px 1px rgb(164, 227, 136);
   color: white;
   cursor: pointer;
   font-size: 19px;
-  font-weight: bolder;
-  margin: 50px 0px;
+  font-weight: 900;
+  margin: 50px 1px;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -166,6 +165,6 @@ footer {
   color: #3b5998;
   font-size: 17pt;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
 }
