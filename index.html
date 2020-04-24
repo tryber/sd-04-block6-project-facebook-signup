@@ -23,40 +23,34 @@
                 <div class="forgot" >Esqueceu a conta?</div>
                </div>
               <div>
-                  <button id="button-login" class="botao-enviar" style="margin-top: 18px">Entrar</button>
+                 <button id="button-login" class="botao-enviar" style="margin-top: 18px;">Entrar</button>
               </div>
            </form>
        </div><!--fim form-container-->
    </header>
    <section class="conteudo">
            <div class="esquerda">
-               <p class="texto-inicial">
-                O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
-                sua vida.
-               </p>
-         
+                <p class="texto-inicial">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte dasua vida.</p>
                 <img src="imagens/networking.png" id="facebook-networking" class="rede"
                     alt="imagem de pessoas em conexão">
             </div><!--div esquerda-->
-   
             <div class="direita">
-                <span class="texto1" style="font-size: 36px;">Abra uma conta</span>
-                <span class="texto2" style="font-size: 19px;">É rápido e fácil.</span>
+                <span class="texto1">Abra uma conta</span>
+                <span class="texto2">É rápido e fácil.</span>
                 <form id="form-registra"class="form-registra" method="get" action="">
                     <div class="nome-sobrenome">
-                        <input type="text" name="nome" placeholder="Nome" class="input-nome" required>
-                        <input type="text" name="sobrenome" placeholder="Sobrenome" class="input-sobrenome" required>
+                        <input type="text" name="nome" placeholder="Nome" class="input-nome" required="required">
+                        <input type="text" name="sobrenome" placeholder="Sobrenome" class="input-sobrenome" required="required">
                     </div>
                     <div class="telefone-senha">
-                        <input type="text" name="email" id="celularEmail" placeholder="Celular ou email" class="input-cel">
+                        <input type="text" name="email" id="celularEmail" placeholder="Celular ou email" class="input-cel"  >
                          <input type="password" name="password" placeholder="Nova senha" class="input-senha">
                     </div>
-           
                     <div>
                         <p class='data-nascimento'>Data de nascimento</p>
                         <div class="campo-data">
                             <input type='text' placeholder='dd/mm/aaaa' id='escolhe-data' class='data-nascimento'>
-                            <img src='imagens/interrogração.png' alt='ícone de interrogação do Facebook' width='20px'>
+                            <img src='imagens/interrogração.png' alt='ícone de interrogação do Facebook' width='21px'>
                         </div>
                     </div>
                     <section class="genero-container">
@@ -67,7 +61,7 @@
                             <input class="input-genero" type="radio" name="genero" value="Personalizado">Personalizado
                         </div>
                         <div class='img-genero'>
-                            <img class='icone-interrogacao' src='imagens/interrogração.png' alt='ícone de interrogação' width='20px'>
+                            <img class='icone-interrogacao' src='imagens/interrogração.png' alt='ícone de interrogação' width='20px' style="padding-top: 5px;">
                         </div>
                     </section>
                     <section class="termos">
@@ -81,8 +75,6 @@
                 </form>
             </div><!--direita-->
     </section><!--conteudo-->
-
    <script src="script.js"></script>
-    
 </body>
 </html>
