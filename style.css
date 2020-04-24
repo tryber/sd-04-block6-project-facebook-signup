@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(white, #d3d8e8);
+  background-color: white;
   font-family: Helvetica, sans-serif;
 }
 
@@ -79,28 +79,53 @@ body {
 }
 
 .corpo {
+  background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-direction: row-reverse;
+  height: 580px;
   justify-content: space-around;
   margin-top: 15px;
+  padding-bottom: 50px;
 }
 
 .nomeSobrenome {
   display: flex;
 }
 
-.footer {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
+footer {
+  background-color: white;
 }
 
-.list-one {
-  display: inline-block;
-  font-size: 15px;
-  list-style: none;
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.boxOne {
+  font-size: 12px;
+  padding: 0 10px;
 }
 
 .portuguese {
   color: gray;
+}
+
+.footerTwo {
+  display: flex;
+  justify-content: center;
+}
+
+.footerThree {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 540px;
+  width: 980px;
+}
+
+.box {
+  font-size: 12px;
+  padding: 0 10px;
 }
