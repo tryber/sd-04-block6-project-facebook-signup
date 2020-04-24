@@ -59,6 +59,10 @@ header section {
   width: 980px;
 }
 
+.nome-sobrenome {
+  margin-bottom: 10px;
+}
+
 .rapido-facil {
   color: #1d2129;
   font-size: 19px;
