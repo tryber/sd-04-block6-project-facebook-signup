@@ -31,5 +31,25 @@ body , .top-bar , .bar-int {
   border: 1px solid black;
   box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 980px;
+}
+
+.content-left {
+  border: 1px solid black;
+}
+
+.txt-net {
+  border: 1px solid black;
+  width: 450px;
+}
+
+.content-right {
+  border: 1px solid black;
+  width: 400px;
+}
+
+.txt-reg {
+  border: 1px solid black;
 }
