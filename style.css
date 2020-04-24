@@ -1,32 +1,32 @@
 body {
-	margin:0em;
+	margin: 0em;
 }
 
 .top-bar {
-  background-color:#3b5998;
-  display:flex;
-  height:auto;
-  justify-content:space-around;
-  	position:absolute;
-		top:0;
-	width:100%;
+  background-color: #3b5998;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  	position: absolute;
+		top: 0;
+	width: 100%;
 }
 
 .facebook-logo {
-	align-self:flex-end;
-	display:flex;
-	height:'55px';
-	margin:'8px';
-	width:'170px';
+	align-self: flex-end;
+	display: flex;
+	height: 55px;
+	margin: 8px;
+	width: 170px;
 }
 
 .container {
-	align-items:center;
-	align-self:auto;
-	display:flex;
-	flex-wrap:wrap;
-	margin:'8px';
-	width:'27%';
+	align-items: center;
+	align-self: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 8px;
+	width: 27%;
 }
 
 .container .teste {
