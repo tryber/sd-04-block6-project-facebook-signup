@@ -7,7 +7,6 @@
 .central {
   background: linear-gradient(white, rgb(221, 226, 243));
   display: flex;
-  justify-content: space-between;
 }
 
 .col-auto {
