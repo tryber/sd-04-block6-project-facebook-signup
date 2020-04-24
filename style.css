@@ -168,12 +168,35 @@ body {
   width: 400px;
 }
 
-.registro {
+.containerRegistro {
   display: flex;
   flex-direction: column;
+}
+
+.registro {
+  display: flex;
+  flex-flow: column;
+}
+
+.registro input {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 21px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  width: 377px;
 }
 
 .fullName {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 10px;
+}
+
+.fullName input {
+  height: 21px;
+  margin: 0;
+  width: 172px;
 }
