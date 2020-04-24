@@ -53,3 +53,20 @@ body , .top-bar , .bar-int {
 .txt-reg {
   border: 1px solid black;
 }
+
+.register {
+  border: 1px solid black;
+}
+
+.name {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name > input {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  height: 39px;
+  width: 190px;
+}
