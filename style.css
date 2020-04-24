@@ -173,3 +173,18 @@ td div a:hover {
   text-align: center;
   width: 172px;
 }
+
+.user-gender {
+  display: flex;
+}
+
+.user-gender input {
+  font-size: 12px;
+}
+
+.user-gender label {
+  color: #1d2129;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
