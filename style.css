@@ -40,12 +40,12 @@ a {
 }
 
 .second-container {
+  background-image: linear-gradient(white, #d3d8e8);
   display: flex;
   height: auto;
   justify-content: center;
   padding-top: 30px;
   width: 100%;
-  background-image: linear-gradient(white, #D3D8E8);
 }
 
 .face-net {
@@ -59,7 +59,6 @@ a {
   line-height: 29px;
   margin-bottom: 0px;
   word-spacing: -1px;
-
 }
 
 .facebook-networking {
@@ -74,16 +73,16 @@ a {
 }
 
 .title-1 h1 {
-  font-weight: 600;
+  font-family: sans-serif;
   font-size: 40px;
+  font-weight: 600;
   margin-bottom: 5px;
   margin-top: 5px;
-  font-family: sans-serif;
 }
 
 .title-1 p {
-  font-weight: 100;
-  font-size: 20px;
   font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
   margin-top: 6px;
 }
