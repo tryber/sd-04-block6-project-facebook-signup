@@ -13,6 +13,7 @@ html , body {
 
 .top-bar {
   background-color: rgb(59, 89, 152);
+  display: flex;
 }
 
 .facebook-logo {
