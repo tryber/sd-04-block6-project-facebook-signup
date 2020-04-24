@@ -100,3 +100,7 @@ body , .top-bar , .bar-int {
   border-radius: 5px;
   height: 39px;
 }
+
+.content button {
+  margin-top: 12px;
+}
