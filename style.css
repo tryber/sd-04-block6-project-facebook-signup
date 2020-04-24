@@ -20,14 +20,6 @@ a {
   z-index: 1;
 }
 
-.div-facebook-logo {
-  display: flex;
-}
-
-.facebook-logo {
-  width: 200px;
-}
-
 .menubar-container {
   align-items: center;
   display: flex;
@@ -38,7 +30,7 @@ a {
   width: 980px;
 }
 
-.fb-logo2 {
+.facebook-logo {
   background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png');
   background-position: 0 -245px;
   background-repeat: no-repeat;
