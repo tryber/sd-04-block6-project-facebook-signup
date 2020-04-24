@@ -21,6 +21,8 @@ body , .top-bar , .bar-int {
 }
 
 .content {
+  background-image: linear-gradient(#4E69A2, #3B5998 50%);
+  background-image: linear-gradient(white, #D3D8E8);
   border: 1px solid black;
   box-sizing: border-box;
   display: flex;
@@ -64,9 +66,26 @@ body , .top-bar , .bar-int {
   justify-content: space-between;
 }
 
+.phone-pass {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
 .name > input {
   border: 1px solid rgb(189, 199, 216);
   border-radius: 5px;
   height: 39px;
   width: 190px;
+}
+
+.phone-pass > input {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  height: 39px;
+  margin-top: 12px;
+}
+
+.txt-date {
+  border: 1px solid black;
 }
