@@ -24,17 +24,20 @@
                     <img src="./img/facebook-logo.png" class="facebook-logo">
                 </div>
             </div>
-            <div class="header-right">
-                <div>
-                    <label id="user-email-phone-label">Email ou telefone</label><br>
-                    <input type="text" id="user-email-phone" required="required"><br><br>
-                </div>
-                <div>
-                    <label id="user-password-label">Senha</label><br>
-                    <input type="password" id="user-password" required="required"><br><br>
-                </div>
-                <div>
-                    <button type="submit" id="button-login" name="Submit" onclick="loginButton()">Entrar</button>
+            <div class="header-right-content">
+                <div class="header-right">
+                    <div class="fb-login">
+                        <label id="user-email-phone-label" class="label-login">Email ou telefone</label>
+                        <input type="text" id="user-email-phone" class="fb-input-login">
+                    </div>
+                    <div class="fb-login">
+                        <label id="user-password-label" class="label-login">Senha</label>
+                        <input type="password" id="user-password" class="fb-input-login">
+                    </div>
+                    <div>
+                        <button type="submit" id="button-login" name="Submit" class="button-login"
+                            onclick="loginButton()">Entrar</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,5 +102,4 @@
         </div>
     </div>
 </body>
-
 </html>
