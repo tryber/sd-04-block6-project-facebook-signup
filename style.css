@@ -89,3 +89,31 @@ input {
   width: 450px;
   word-spacing: -1px;
 }
+
+.mainRegister {
+  float: right;
+  max-width: 400px;
+}
+
+.registerConta {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.registerText {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.textRapidoFacil {
+  color: #1d2129;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.inputRegister {
+  margin: 0 auto 0 auto;
+  padding-bottom: 30px;
+}
