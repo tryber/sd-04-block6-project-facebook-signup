@@ -95,3 +95,13 @@ td div a:hover {
   display: flex;
   flex-direction: column;
 }
+
+.pres-text {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin: 40px 0 0;
+  width: 450px;
+  word-spacing: -1px;
+}
