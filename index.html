@@ -16,15 +16,15 @@
   <div class="formSign-container">
     <form class="login form-row">
       <div class="form-group col-auto">
-        <label id="user-email-phone-label" for="inputEmail">Email ou telefone</label>
-        <input id="user-email-phone" type="email" class="form-control form-control-sm" id="inputEmail">
+        <label id="user-email-phone-label">Email ou telefone</label>
+        <input id="user-email-phone" type="email" class="form-control form-control-sm">
       </div>
       <div class="form-group col-auto">
-        <label for="inputPassword4">Senha</label>
+        <label>Senha</label>
         <input type="password" class="form-control form-control-sm" id="user-password">
-        <small id="emailHelp" class="form-text text-muted">Esqueceu a conta?</small>
+        <small id="user-passwordHelp" class="form-text text-muted">Esqueceu a conta?</small>
       </div>
-      <div class="button-login" class="form-group col-auto">
+      <div class="button-login form-group col-auto">
       <button id="button-login" type="submit" class="btn btn-primary">Entrar</button>
       </div>
      </form>
@@ -38,7 +38,6 @@
   <div class="right-section">
     <h1>Abra uma conta</h1>
     <h4>É rápido e fácil.</h4>
-
   <form>
     <div class="form-row">
       <div class="form-group col-md-6">
@@ -52,7 +51,7 @@
       <input type="text" class="form-control" placeholder="Celular ou email">
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" id="newpassword" placeholder="Nova senha">
+      <input type="password" class="form-control" placeholder="Nova senha">
     </div>
         <p>Data de nascimento</p>
         <input type="date" placeholder="dd/mm/aaaa">
@@ -65,27 +64,30 @@
     </div>
     <div class="form-check form-check-inline">
       <label class="form-check-label">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Feminino">Feminino
+        <input class="form-check-input" type="radio" value="Feminino">Feminino
       </label>
     </div>
     <div class="form-check form-check-inline">
       <label class="form-check-label">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Masculino">Masculino
+        <input class="form-check-input" type="radio" value="Masculino">Masculino
       </label>
     </div>
     <div class="form-check form-check-inline disabled">
       <label class="form-check-label">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Personalizado"> Personalizado
+        <input class="form-check-input" type="radio" value="Personalizado"> Personalizado
       </label>
       </div>
-      <div class="button-register" class="form-group col-auto">
+      <div class="button-register">
         <button id="facebook-register" type="submit" class="btn btn-primary">Cadastre-se</button>
         </div>
   </form>
-
   </div>
 </section>
+<footer>
+  <img class="image-footer" id="facebook-footer" src="img/footer.png" alt="footer">
+</footer>
 <body>
   <script src="script.js"></script>
 </body>
 </html>
+<!-- background-image: linear-gradient(#4e69a2, #3b5998 50%); -->

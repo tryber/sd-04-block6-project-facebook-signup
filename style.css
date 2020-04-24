@@ -10,7 +10,7 @@ header {
   align-items: center;
   background-color: #3b5998;
   display: flex;
-  height: 112px;
+  height: 112px;  /* MUST BE 82 */
   justify-content: space-around;
 }
 
@@ -26,6 +26,13 @@ header {
   align-items: center;
   display: flex;
 }
+
+/* .formSign-container .form-group {
+margin-bottom: 0px; */
+
+/* .text-muted {
+  color: #9cb4d8 !important;
+} */
 
 .button-login {
   align-items: center;
@@ -64,8 +71,13 @@ header {
   width: 47%;
 }
 
-.footer {
-  height: 136px;
+/* .footer {
+  height-min: 136px;
+} */
+
+.image-footer {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .button-register button {
