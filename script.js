@@ -34,8 +34,7 @@ register.addEventListener('click', () => {
   const genre = document.querySelector('[name=genre]:checked');
   if (validate()) {
     alert(`${username.value} - ${genre.value}`);
-  }
-  else {
+  } else {
     alert('Dados Inválidos');
   }
 });
