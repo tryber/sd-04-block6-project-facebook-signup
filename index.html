@@ -9,44 +9,46 @@
   <body>
     <main class="corpo">
       <header class="top-bar">
-        <a href="https://www.facebook.com/">
-          <h1>
-            <div class="facebook-logo"></div>
-          </h1>
-        </a>
-        <form class="formulario" action="#">
-          <table cellspacing="0">
-            <tbody>
-              <tr>
-                <td>
-                  <label class="form-label" id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
-                </td>
-                <td>
-                  <label class="form-label" for="user-password">Senha</label>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="data-entry" type="text" id="user-email-phone">
-                </td>
-                <td>
-                  <input class="data-entry" type="password" id="user-password">
-                </td>
-                <td>
-                  <button class="data-login" type="submit" id="button-login">Entrar</button>
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>
-                  <div>
-                    <a href="#">Esqueceu a conta?</a>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
+        <div class="menu-bar">
+          <a href="https://www.facebook.com/">
+            <h1>
+              <div class="facebook-logo"></div>
+            </h1>
+          </a>
+          <form class="formulario" action="#">
+            <table cellspacing="0">
+              <tbody>
+                <tr>
+                  <td>
+                    <label class="form-label" id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+                  </td>
+                  <td>
+                    <label class="form-label" for="user-password">Senha</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input class="data-entry" type="text" id="user-email-phone">
+                  </td>
+                  <td>
+                    <input class="data-entry" type="password" id="user-password">
+                  </td>
+                  <td>
+                    <button class="data-login" type="submit" id="button-login">Entrar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <div>
+                      <a href="#">Esqueceu a conta?</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
       </header>
       <section class="intro-section">
         <div class="res-section">
@@ -99,7 +101,7 @@
                     </div>
                   </div>
                 </div>
-                <div>
+                <div class="form-sub-button">
                   <button id="facebook-register" type="submit">Cadastre-se</button>
                 </div>
               </form>
