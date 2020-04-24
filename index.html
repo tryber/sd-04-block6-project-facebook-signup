@@ -7,24 +7,91 @@
   <title>Facebook</title>
 </head>
 <body>
+    <h1 class="font-zero">Facebook</h1>
   <header class="top-bar container">
-    <img class="facebook-logo" src="logo-face.png" width="200">
+    <img class="facebook-logo" src="logo-face.png" alt="Logo do facebook">
     <form class="container-2">
       <div class="container-email">
-        <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
-        <input id="user-email-phone" type="text">
+        <label id="user-email-phone-label" for="user-email-phone" class="label-user-password">Email ou telefone</label>
+        <input id="user-email-phone" type="text" class="input-user-password">
       </div>
       <div class="container-password">
-        <label for="user-password">Senha</label>
-        <input id="user-password" type="password">
+        <label for="user-password" class="label-user-password">Senha</label>
+        <input id="user-password" type="password" class="input-user-password">
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar" class="link-header">Esqueceu a conta?</a>
       </div>
 
       <div class="container-btn">
         <button id="button-login" class="btn-enviar ">Entrar</button>
       </div>
-
     </form>
   </header>
+
+<section class="container-3">
+    <h1 class="font-zero">Conexões de Pessoas</h1>
+    <div>
+        <div>
+            <label class="peoples-conection"> O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+                fazem parte da sua vida.</label>
+        </div>
+
+        <div class="conteinerImagem">
+            <img id="facebook-networking" src="./networking.png" alt="Logo do facebook" width="537" height="195">
+        </div>
+    </div>
+    <div>
+        <div>
+            <h1 class="large-title"> Abra uma Conta</h1>
+            <label for="" class="below-title">É rápido e fácil.</label>
+            <form action="">
+                <input type="text" class="input-data" placeholder="Nome">
+                <input type="text" class="input-data" placeholder="Sobrenome">
+                <input type="text" class="input-data" placeholder="Celular ou email">
+                <input type="password" class="input-data" placeholder="Nova senha">
+                <p for="" class="title-data">Data de nascimento</p>
+                <input type="date" placeholder="dd/mm/aaaa">
+                <div>
+
+                    <span><input type="radio" name="sex" value="1" id="Feminino"><label for="Feminino">Feminino</label></span>
+                    <span><input type="radio" name="sex" value="2" id="Masculino"><label for="Masculino">Masculino</label></span>
+                    <span><input type="radio" name="sex" value="3" id="Personalizado"><label for="Personalizado">Personalizado</label></span>
+                    <span><input type="radio" name="sex" value="-1" id="u_0_8"><label for="u_0_8">Personalizado</label></span>
+
+
+                    <p class="title-data">Gênero</p>
+                    <div class="radio">
+                        <input type="radio" id="Feminino" value="1" name="Feminino"><label for="Feminino">Feminino</label>
+                        <input type="radio" id="Masculino" value="2" name="Masculino"><label for="Masculino">Masculino</label>
+                        <input type="radio" id="Personalizado" value="3" name="Personalizado"><label for="Personalizado">Personalizado</label>
+                    </div>
+                </div>    
+                Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. 
+                Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+
+                <button type="submit" class="btn-cadastrar" id="facebook-register">Cadastra-se</button>
+            </form>
+            <a href="https://www.facebook.com/pages/create/?ref_type=registration_form"> Criar uma Página</a> para uma celebridade, banda ou empresa.
+        </div>
+    </div>
+</section>
+<footer>
+Português (Brasil)
+English (US)
+Español
+Français (France)
+Italiano
+العربية
+Deutsch
+हिन्दी
+中文(简体)
+日本語
+<hr>
+Cadastre-seEntrarMessengerFacebook Lite Watch PessoasPáginasCategorias de PáginaLocaisJogosLocaisMarketplaceGruposInstagramLocalCampanhas 
+de arrecadação de fundosServiçosSobreCriar anúncioCriar PáginaDesenvolvedoresCarreirasPrivacidadeCookiesOpções de anúncio
+TermosAjudaConfiguraçõesRegistro de Atividades
+Facebook © 2020
+</footer>
+
   <script src="./script.js"></script>
   </body>
 </html>

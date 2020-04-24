@@ -1,25 +1,52 @@
 body {
+  background: linear-gradient(white, #D3D8E8);
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #3b5998;
+.font-zero {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.link-header {
+  color: #9cb4d8;
+  font-size: 0.8em;
+}
+
+.top-bar {
+  background-color: #3b5998; 
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  height: 82px;
+  min-height: 42px;
+  min-width: 980px;
+  position: relative;
   width: 100%;
+  z-index: 1;
 }
 
-label {
-  color: white;
-}
-
+/*---------------CONTEINER 1------------------*/
 .container {
   display: flex;
   justify-content: space-around;
 }
 
-.container-2 {
-  align-items: center;
-  display: flex;
+.facebook-logo {
+    align-self: center;
+    height: 30%;
 }
 
 .container-email , .container-password , .conteiner-btn {
@@ -27,26 +54,133 @@ label {
   flex-direction: column;
   margin: 8px;
 }
+  
 
-input {
-  border: 1px solid black;
+/*---------------CONTEINER 2-------------------*/
+.container-2 {
+  align-items: center;
+  display: flex;
+}
+
+
+.label-user-password {
+  color: white;
+}
+
+.input-user-password {
+  border: 1px solid #1d2a5b;;
   height: 20px;
   margin-top: 4px;
   padding-bottom: 4px;
+  width: 142px;
 }
+
 
 .btn-enviar {
   background-color: #4267b2;
-  border: 1px solid #29487d;
   border-radius: 2px;
+  border: 1px solid #29487d;
   color: white;
   margin: 7px;
   padding: 3px 6px;
   position: absolute;
-  top: 29px;
+  top: 33px;
 }
 
 .btn-enviar:hover {
   background-color: #365899;
   border-color: #29487d;
 }
+
+/*---------------CONTEINER 3-------------------*/
+
+.container-3 {
+    align-items: center;
+    display: flex;
+  }
+
+.peoples-conection {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.facebook-networking {
+  border: 0;
+  color: #1c1e21;
+  direction: ltr;
+  font-family: inherit;
+  font-size: 12px;
+  height: 195px;
+  line-height: 1.34;
+  width: 537px;
+}
+
+.large-title {
+  font-size: 2em;
+}
+
+.below-title {
+ font-size: 1.2em;
+}
+
+.input-data {
+  background: white;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  border-color: #bdc7d8;
+  padding: 8px 10px;
+  font-size: 1.1em;
+}
+
+.input-data:placeholder {
+    background-color: transparent;
+}
+
+.title-data {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.radio {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.btn-cadastrar {
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+  letter-spacing: normal;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0, 0 ,0, .5);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+}
+.btn-cadastrar:hover {
+  background: linear-gradient(#79bc64, #578843);
+}
+
+footer {
+    background-color: white;
+} 
