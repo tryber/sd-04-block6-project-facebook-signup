@@ -10,83 +10,96 @@
 
 <!-- cabeçalho -->
     <header>
-        <div class="top-bar">
-            <div class="facebook-logo">
-                <a href=index.html><img src="facebook-logo.png" alt="logotipo do facebook" width=200px></a>
-            </div>
-            <div class="login">
-                <form name="form-login" id="form-login" class="form-login">
-                    <div class="user-email-phone">
-                        <label for="fEmailPhone" id="user-email-phone-label">Email ou telefone</label><br>
-                        <input type="text" name="fEmailPhone" id="user-email-phone" required><br><br>
-                    </div>
-                    <div class="user-passoword">
-                        <label for="fPassoword">Senha</label><br>
-                        <input type="text" name="fPassoword" id="user-passoword" required>
-                        <p><a href="">Esqueceu a conta?</a></p>
-                    </div>
-                </form>
-                <div class="button">
-                    <button id="button-login" class="button-login" type="submit">Entrar</button>
+        <div class="header">
+            <div class="top-bar">
+                <div class="logo">
+                    <a href=index.html><img src="facebook-logo.png" alt="logotipo do facebook" width=200px class="facebook-logo"></a>
+                </div>
+
+                <div class="login">
+                    <form name="form-login" id="form-login" class="form-login">
+                        <div class="finput-login">
+                            <label for="fEmailPhone" id="user-email-phone-label">Email ou telefone</label><br>
+                            <input type="text" name="fEmailPhone" id="user-email-phone" required><br><br>
+                        </div>
+
+                        <div class="finput-login">
+                            <label for="fPassoword">Senha</label><br>
+                            <input type="text" name="fPassoword" id="user-passoword" required><br><br>
+                        </div>
+
+                        <div class="button">
+                            <button id="button-login" class="button-login" type="submit">Entrar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div></div>
-        </div>
+        </div>    
     </header>
 
 <!-- section  -->
-    <section class="section-signup">
-        <div class="text-image">
-            <p>O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que fazem parte <br> da sua vida</p>
-            <img src="networking.png" alt="mapa-mundi com figuras que representam pessoas e essas pessoas estão conectadas" id="facebook-networking">
-        </div>
-        <div class="text-form">
-            <div></div>
-            <div class="text-signup">
-                <h1>Abra uma conta</h1>
-                <p>É rápido e fácil.</p>
+    <section class="content">
+        <div class="content-container"></div>
+            <div class="left-content">
+                <p>O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que fazem parte <br> da sua vida.</p>
+                <img src="networking.png" alt="mapa-mundi com figuras que representam pessoas e essas pessoas estão conectadas" id="facebook-networking">
             </div>
-            <div class="signup">
-                <form name="form-signup">
-                    <div>
-                        <input type="text" id="fName" placeholder="Nome" required>
-                    </div>
-                    
-                    <div>
-                        <input type="text" id="fLastName" placeholder="Sobrenome" required>
-                    </div>
-                    
-                    <div>
-                        <input type="text" id="fEmailPhoneSignup" placeholder="Celular ou email" required>
-                    </div>
-                    
-                    <div>
-                        <input type="text" name="fPassowordSignup" placeholder="Nova senha" required>
-                    </div>
-                    
-                    <div>
-                        <input type="text" name="fBornDate" placeholder="dd/mm/aaaa" required>
-                    </div>
+            <div class="right-content">
+                <div class="text-signup">
+                    <h1>Abra uma conta</h1>
+                    <p>É rápido e fácil.</p>
+                </div>
+                <div class="signup">
+                    <form name="form-signup">
+                        <div class="finput-name">
+                            <div class="finput-signup">
+                                <input type="text" id="fName" placeholder="Nome" required>
+                            </div>
 
-                    <div>
-                        <p>Gênero</p>
-                        <input type="radio" name="fGenre" id="feminine" value="feminine" required>
-                        <label for="feminine">Feminino</label>
+                            <div class="finput-signup">
+                                <input type="text" id="fLastName"           placeholder="Sobrenome" required>
+                            </div>
+                        </div>        
 
-                        <input type="radio" name="fGenre" id="male" value="male" required>
-                        <label for="male">Masculino</label>
+                        <div class="finput-signup">
+                            <input type="text" id="fEmailPhoneSignup" placeholder="Celular ou email" required>
+                        </div>
 
-                        <input type="radio" name="fGenre" id="custom" value="custom" required>
-                        <label for="custom">Personalizado</label>
-                    </div>
-                </form>
-                <div class="button">
-                    <button id="facebook-resgister" type="register">Cadastre-se</button>
+                        <div class="finput-signup">
+                            <input type="text" name="fPassowordSignup" placeholder="Nova senha" required>
+                        </div>
+
+                        <div class="finput-born">
+                            <div class="text-born">
+                                <p>Data de nascimento</p><br><br>
+                            </div> 
+                            <div class="date-born"></div>
+                                <input type="text" name="fBornDate" placeholder="dd/mm/aaaa" class="datapicker" required>
+                            </div>
+                        </div>
+
+                        <div class="finput-genre">
+                            <p>Gênero</p><br>
+                            <input type="radio" name="fGenre" id="feminine" value="feminine" required>
+                            <label for="feminine">Feminino</label>
+
+                            <input type="radio" name="fGenre" id="male" value="male" required>
+                            <label for="male">Masculino</label>
+
+                            <input type="radio" name="fGenre" id="custom" value="custom" required>
+                            <label for="custom">Personalizado</label>
+                        </div>
+
+                        <div class="finput-signup">
+                            <button id="facebook-resgister" type="register" class="button-register">Cadastre-se</button> 
+                        </div>                          
+                    </form>
                 </div>
             </div>
         </div>
-        <div></div>
     </section>
+
+<!-- footer -->
     <footer>
         <p>&copy; Ana Higo - Trybe Student</p>
     </footer>
