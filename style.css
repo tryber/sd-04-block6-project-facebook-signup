@@ -1,0 +1,162 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #2954ac;
+  text-decoration: none;
+}
+
+.top-bar {
+  background-color: #3b5998;
+  box-shadow: 3px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  font-size: 12px;
+  height: 72px;
+  justify-content: center;
+  min-width: 980px;
+  padding-top: 13px;
+}
+
+.facebook-logo {
+  align-self: center;
+  height: 200px;
+  margin-top: -10px;
+  padding: 200px;
+}
+
+.login-form {
+  color: cornsilk;
+  display: flex;
+  flex-direction: row;
+  margin: auto 200px;
+}
+
+.div-email {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.div-senha {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
+  width: 150px;
+}
+
+.button-login {
+  align-self: flex-end;
+  background-color: #4267b2;
+  border: 1px solid #ccd0d5;
+  border-color: #29487d;
+  border-radius: 2px;
+  color: cornsilk;
+  cursor: pointer;
+  height: 23px;
+}
+
+.button-login:hover {
+  background-color: #2954ac;
+}
+
+.text {
+  font-size: 36px;
+}
+
+.fb-body {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  height: 645px;
+  justify-content: center;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+
+.texto-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 15px;
+  width: 565px;
+}
+
+h2 {
+  color: #0e385f;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.form {
+  align-self: center;
+  color: #333;
+  font-size: 20px;
+  margin-top: -120px;
+  width: 400px;
+}
+
+.form input {
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 3px;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.intro4 {
+  color: gray;
+  font-size: 10px;
+}
+
+.intro5 {
+  color: gray;
+  font-size: 13px;
+}
+
+::placeholder {
+  padding: 3px;
+}
+
+.nome-sobrenome {
+  align-content: center;
+  display: flex;
+  width: 450px;
+}
+
+.sobrenome {
+  align-content: center;
+  margin-left: 25px;
+  width: 50%;
+}
+
+.label-form {
+  color: #90949c;
+  font-size: 16px;
+}
+
+.facebook-register {
+  background-color: #69a74e;
+  border: 1px solid rgba(0, 0, 0, 0.383);
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  min-width: 194px;
+  padding: 7px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}

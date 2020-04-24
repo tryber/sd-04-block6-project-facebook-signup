@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="DatePickerX.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/DatePickerX.min.js"></script>
+</head>
+
+<body>
+    <header class="top-bar">
+        <img class="facebook-logo" src="imgs/face_logo.png">
+
+        <container class="login-form">
+            <div class="div-email">
+                <label for="email" id="user-email-phone-label" class="user-email-phone-label">Email ou telefone</label>
+                <input type="email" name="email" id="user-email-phone" class="user-email-phone">
+            </div>
+            <div class="div-senha">
+                <label for="email" id="user-email-phone-label" class="user-email-phone-label">Password</label>
+                <input type="password" name="pass" id="user-password" class="user-password">
+            </div>
+
+            <button id="button-login" class="button-login">Entrar</button>
+        </container>
+    </header>
+
+    <div class="fb-body">
+        <aside class="texto-imagem">
+            <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+            <br>
+            <img id ="facebook-networking" src="imgs/networking.png">
+        </aside>
+
+        <aside class="form">
+            <div><span class = "text">Abra uma conta</span></div>
+            <div style="font-size: 19px;">É rápido e fácil.</div><br>
+            <div class="nome-sobrenome">
+            <input placeholder="Nome" type="text" class="namebox" name="name1" />
+            <input placeholder="Sobrenome" type="text" class="sobrenome" /> <br>
+            </div>
+            <input type="text" style = "width: 100%;" id="email" placeholder="Celular ou email" required><br>
+            <input type="password" style = "width: 100%;" autocomplete="off" id="password" placeholder="Nova senha" required>
+            <div class="label-form">Data de nascimento</div>
+            <input style="width: 55%;" placeholder="dd/mm/aaaa" autocomplete="off" type="text" class="form-control" id="date" placeholder="Nova senha" required>
+            <div class="label-form">Gênero</div>
+
+            <input type="radio" id="r-b" name="sex" value="Feminino" />Feminino
+            <input type="radio" id="r-b" name="sex" value="Masculino" />Masculino
+            <input type="radio" id="r-b" name="sex" value="Personalizado" />Personalizado<br><br>
+            <p class="intro4">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de
+                Cookies.
+                Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+                Cadastre-se</p>
+            <button id="facebook-register" class="facebook-register">Cadastre-se </button>
+            <br>
+            <hr>
+            <p class="intro5"> <a href="#"><strong>Criar uma Página </strong></a>para uma celebridade, banda ou empresa.</p>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
