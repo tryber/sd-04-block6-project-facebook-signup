@@ -5,10 +5,27 @@
   justify-content: space-around;
   width: 100%;
 }
-.facebook-logo { 
+
+.facebook-logo {
   align-self: flex-end;
   display: flex;
   height: 55px;
   margin: 8px;
   width: 170px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+}
+
+.login{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.container input{
+  width: 88%;
 }
