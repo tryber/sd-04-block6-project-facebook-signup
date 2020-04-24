@@ -80,6 +80,7 @@ body {
 
 .corpo {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   margin-top: 15px;
 }
