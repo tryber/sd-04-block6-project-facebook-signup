@@ -14,11 +14,15 @@
         </a>
       </div>
       <nav class="top-bar">
-        <div >
+        <div>
           <label id="user-email-phone-label" for="user-email-phone">
             Email ou telefone
           </label>
-          <input class="login inputtextlogin" type="text" id="user-email-phone" />
+          <input
+            class="login inputtextlogin"
+            type="text"
+            id="user-email-phone"
+          />
         </div>
         <div id="pass">
           <label for="password">Senha</label>
@@ -35,58 +39,147 @@
       </nav>
     </header>
     <section class="container-section">
-        <article>
-          <div class="phase">
-            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <article>
+        <div class="phase">
+          <p>
+            O Facebook ajuda você a se conectar e compartilhar com as pessoas
+            que fazem parte da sua vida.
+          </p>
+        </div>
+        <div class="imgNetworking">
+          <img src="./image/networking.png" alt="mapa do mundo" />
+        </div>
+      </article>
+      <aside>
+        <div>
+          <h1 class="title">Abra uma conta</h1>
+          <p class="subtitle">É rápido e fácil.</p>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <input
+              class="border inputtextform"
+              type="text"
+              placeholder="Nome"
+            />
+            <input
+              class="border inputtextform"
+              type="text"
+              placeholder="Sobrenome"
+            />
           </div>
-          <div class="imgNetworking">
-            <img src="./image/networking.png" alt="mapa do mundo">
-          </div>
-        </article>
-        <aside>
-          <div>
-            <h1 class="title">Abra uma conta</h1>
-            <p class="subtitle">É rápido e fácil.</p>
-          </div>
-          
-          <form>
-            <div class="form-group">
-              <input class="border inputtextform" type="text" placeholder="Nome">
-              <input class="border inputtextform" type="text" placeholder="Sobrenome">
-            </div>
-            
-            <div class="form-group" id="celMail">
-            <input class="border inputtextform" type="text" placeholder="Celular ou email" >
+
+          <div class="form-group" id="celMail">
+            <input
+              class="border inputtextform"
+              type="text"
+              placeholder="Celular ou email"
+            />
           </div>
 
           <div class="form-group" id="newPass">
-            <input class="border inputtextform" type="password" placeholder="Nova senha">
+            <input
+              class="border inputtextform"
+              type="password"
+              placeholder="Nova senha"
+            />
           </div>
 
-          <div class="form-group"  id="dataNasc">
-            <p>Data de nascimento</p>
-            <input class="inputtextform" type="date" placeholder="dd/mm/aaaa">
-          </div>  
+          <p class="inpSubtitle">
+            Data de nascimento
+          </p>
+          <div class="form-group" id="dataNasc">
+            <input
+              class="inputDate inputtextform"
+              type="date"
+              placeholder="dd/mm/aaaa"
+            />
+          </div>
 
-          <div class="form-group" id="genero">
-            <p>Gênero</p>
-            <input type="radio" id="female" name="genero">
+          <p class="inpSubtitle">
+            Gênero
+          </p>
+
+          <div class="form-group genero">
+            <input type="radio" id="female" name="genero" />
             <label for="female">Feminino</label>
-            <input type="radio" id="male" name="genero">
+            <input type="radio" id="male" name="genero" />
             <label for="male">Masculino</label>
-            <input type="radio" id="other" name="genero">
+            <input type="radio" id="other" name="genero" />
             <label for="other">Personalizado</label>
           </div>
 
+          <p class="terms">
+            Ao clicar em Cadastre-se, você concorda com nossos
+            <a href="#">Termos, Política de Dados e Política de Cookies.</a>
+            Você pode receber notificações por SMS e pode cancelar isso quando
+            quiser.
+          </p>
+
           <div class="form-group" id="btnCadastro">
-            <button id="facebook-register">
+            <button id="facebook-register" class="btnregister">
               Cadastre-se
             </button>
           </div>
-
         </form>
+
+        <div class="criarPag">
+          <span>
+            <a href="#">Criar uma Página</a> para uma celebridade, banda ou
+            empresa.
+          </span>
+        </div>
       </aside>
     </section>
+
+    <footer class="footer">
+      <div class="center-footer">
+        <ul class="language">
+          <li><a href="#" class="portuguese-brazil">Português (Brasil)</a></li>
+          <li><a href="#" class="english-us">English (US)</a></li>
+          <li><a href="#" class="spanish">Español</a></li>
+          <li><a href="#" class="french">Français (France)</a></li>
+          <li><a href="#" class="italian">Italiano</a></li>
+          <li><a href="#" class="no-idea">العربية</a></li>
+          <li><a href="#" class="german">Deutsch</a></li>
+          <li><a href="#" class="no-idea">हिन्दी</a></li>
+        </ul>
+
+        <hr />
+
+        <ul class="footer-links">
+          <li><a href="#">Cadastre-se</a></li>
+          <li><a href="#">Entrar</a></li>
+          <li><a href="#">Messenger</a></li>
+          <li><a href="#">Facebook Lite</a></li>
+          <li><a href="#">Watch</a></li>
+          <li><a href="#">Pessoas</a></li>
+          <li><a href="#">Páginas</a></li>
+          <li><a href="#">Categorias de Página</a></li>
+          <li><a href="#">Locais</a></li>
+          <li><a href="#">Jogos</a></li>
+          <li><a href="#">Locais</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Grupos</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Local</a></li>
+          <li><a href="#">Campanhas de arrecadação de fundos</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Criar anúncio</a></li>
+          <li><a href="#">Criar Página</a></li>
+          <li><a href="#">Desenvolvedores</a></li>
+          <li><a href="#">Carreiras</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Opções de anúncio</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+        <p class="copyright">Facebook &copy 2020</p>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>

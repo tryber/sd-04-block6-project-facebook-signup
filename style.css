@@ -7,10 +7,6 @@ body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-* {
-  border: 1px solid red;
-}
-
 a {
   text-decoration: none;
   cursor: pointer;
@@ -24,9 +20,9 @@ a:hover {
 /* HEADER */
 
 header {
-  height: 83px;
+  height: 81px;
   width: 100%;
-  position: absolute;
+  position: static;
   top: 0;
   left: 0;
   display: flex;
@@ -43,6 +39,7 @@ header img {
 
 header nav {
   display: flex;
+  align-items: flex-start;
 }
 
 header nav div {
@@ -65,7 +62,7 @@ header nav div {
   width: 142px;
 }
 
-/* Buttons */
+/* Button Login */
 
 button {
   cursor: pointer;
@@ -95,9 +92,9 @@ button#button-login:hover {
   display: flex;
   background: linear-gradient(white, #d3d8e8);
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  height: 600px;
+  height: 628px;
 }
 
 /* section - article */
@@ -105,8 +102,9 @@ button#button-login:hover {
 .container-section article {
   display: flex;
   flex-direction: column;
-  height: 370px;
-  width: 570px;
+  height: 286px;
+  width: 550px;
+  margin-top: 40px;
 }
 
 div.phase p {
@@ -114,8 +112,7 @@ div.phase p {
   font-size: 20px;
   font-weight: bold;
   line-height: 29px;
-  margin-right: 15px;
-  margin-bottom: 0px;
+  margin: 0 15px 0 0;
   width: 500px;
 }
 
@@ -130,12 +127,14 @@ div.phase p {
   display: flex;
   flex-direction: column;
   width: 400px;
+  height: 500px;
+  padding-top: 20px;
 }
 
 .title {
   color: #333;
   font-size: 36px;
-  margin-bottom: 5px;
+  margin: 0 0 10px 0;
 }
 
 .subtitle {
@@ -155,13 +154,22 @@ div.phase p {
   justify-content: space-between;
 }
 
-.form-group:nth-child(1) input:nth-child(1) {
-  margin-right: 10px;
+.inputtextform {
+  border: 1px solid #ccd0d5;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
   width: 173px;
 }
 
-.form-group:nth-child(1) input:nth-child(2) {
-  width: 173px;
+.inputDate {
+  font-size: 15px;
+}
+
+.form-group:nth-child(1) input:nth-child(1) {
+  margin-right: 10px;
 }
 
 .form-group:nth-child(2) input {
@@ -179,13 +187,19 @@ div.phase p {
   border-radius: 5px;
 }
 
-form p {
+.inpSubtitle {
   color: #90949c;
   font-size: 16px;
   font-weight: bold;
+  margin: 10px 0 5px;
 }
 
-div#genero label {
+div.form-group.genero {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.genero label {
   color: #1d2129;
   font-size: 18px;
   font-weight: normal;
@@ -193,12 +207,85 @@ div#genero label {
   padding: 0 10px 0 3px;
 }
 
-.inputtextform {
-  border: 1px solid #ccd0d5;
-  font-size: 18px;
-  padding: 8px 10px;
-  border-color: #bdc7d8;
+input[name="genero"] {
+  margin: 3px 5px 0 10px;
+}
+
+.terms {
+  color: #777;
+  font-size: 11px;
+  margin: 11px 0;
+  width: 316px;
+}
+
+.terms a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.criarPag {
+  color: #666666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.criarPag a {
+  color: #385898;
+  text-decoration: none;
+}
+
+/* Button Register */
+
+.btnregister {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
-  margin: 0;
-  width: 377px;
+  color: white;
+  font-size: 19px;
+  margin: 10px 0;
+  padding: 7px 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  width: 194px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.center-footer {
+  margin: 0 auto;
+  width: 980px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 0 0;
+}
+
+.language li {
+  padding-right: 10px;
+}
+
+footer ul a {
+  color: #385898;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-links li {
+  padding-right: 20px;
+}
+
+.copyright {
+  color: #737373;
+  font-size: 11px;
+  margin-top: 20px;
 }
