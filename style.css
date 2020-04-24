@@ -10,8 +10,8 @@ header {
   align-items: center;
   background-color: #3b5998;
   display: flex;
-  height: 112px;
-  justify-content: space-between;
+  height: 82px;
+  justify-content: space-around;
 }
 
 .facebook-logo {
@@ -26,10 +26,6 @@ header {
   align-items: center;
   display: flex;
 }
-
-/* .form-group {
-  margin-bottom: 0rem;
-} */
 
 .button-login {
   align-items: center;
@@ -46,16 +42,33 @@ header {
   flex-direction: column;
   height: 636px;
   justify-content: flex-start;
-  width: 60%;
+  width: 53%;
+}
+
+.text-h4 {
+  color: #0e385f;
+  margin-left: 8rem;
+  margin-top: 40px;
+  width: 70%;
+  word-spacing: -1px;
+}
+
+.left-section img {
+  margin-left: 12rem;
 }
 
 .rigth-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 40%;
+  width: 47%;
 }
 
 .footer {
   height: 136px;
+}
+
+.button-register button {
+  background-color: green;
+  margin-top: 15px;
 }
