@@ -5,3 +5,10 @@
   justify-content: space-around;
   width: 100%;
 }
+.facebook-logo { 
+  align-self: flex-end;
+  display: flex;
+  height: 55px;
+  margin: 8px;
+  width: 170px;
+}
