@@ -35,8 +35,8 @@ a {
 }
 
 .mar {
-  width: 400px;
   height: 629px;
+  width: 400px;
 }
 
 .second-container {
@@ -57,7 +57,7 @@ a {
   color: #0e385f;
   font: italic normal 20px sans-serif;
   line-height: 29px;
-  bottom: 0px;
+  margin-bottom: 1px;
   word-spacing: -1px;
 }
 
@@ -72,7 +72,7 @@ a {
   flex-direction: column;
 }
 
-.title-1 h1 {
+.h1 {
   font-family: sans-serif;
   font-size: 40px;
   font-weight: 600;
