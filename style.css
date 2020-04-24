@@ -3,9 +3,8 @@
     padding: 0;
     font-size: 100%;
     box-sizing: border-box;
-    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
-    border: 1px solid red;
-
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* border: 1px solid red; */
 }
 
 a {
@@ -13,6 +12,7 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
+
 
 /* HEADER */
 
@@ -29,18 +29,35 @@ header {
     color: aliceblue;
 }
 
-.div-facebook-logo{
+.div-facebook-logo {
     display: flex;
 }
 
 .facebook-logo {
     width: 200px;
+}
 
+.fb-logo2 {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px
+}
+
+.fb-logo2.ajuste {
+    width: 170px;
+    height: 34px;
+    margin-top: 14px;
+    margin-left: 40px;
+    background-position: 0 -245px
 }
 
 header nav {
     display: flex;
-   
+    margin-left: 220px;
+    margin-top: 10px;
 }
 
 header nav div {
@@ -48,6 +65,14 @@ header nav div {
     display: flex;
     margin: 8px;
     flex-direction: column;
+}
+
+.inputtext {
+    border: 1px solid #ccd0d5;
+    border-radius: 0;
+    margin: 0;
+    padding: 3px;
+    margin-top: 5px;
 }
 
 .button {
@@ -58,6 +83,7 @@ header nav div {
     color: #9cb4d8;
 }
 
+
 /* SECTION */
 
 .container-article {
@@ -65,11 +91,43 @@ header nav div {
     background: linear-gradient(white, #D3D8E8);
     flex-direction: row;
     align-items: center;
-    padding: 100px 50px;
+    justify-content: space-around;
+    height: 550px;
 }
 
-.container-article article{
+.container-article article {
     display: flex;
     flex-direction: column;
+    margin-left: 120px;
+}
 
+.container-article article div p {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.container-article article div img {
+    margin-top: 10px;
+}
+
+.container-article aside {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+}
+
+.container-article aside div {
+    padding: 5px;
+}
+
+.container-article aside div h1 {
+    font-size: 36px;
+}
+
+.container-article aside form {
+    margin-top: 50px;
 }
