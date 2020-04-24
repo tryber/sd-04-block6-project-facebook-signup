@@ -167,7 +167,10 @@ body {
   height: 25px;
   width: 400px;
 }
-
+.registro {
+  display: flex;
+  flex-direction: column;
+}
 .fullName {
   display: flex;
   flex-direction: row;
