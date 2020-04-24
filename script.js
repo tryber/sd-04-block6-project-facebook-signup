@@ -40,7 +40,7 @@ function validaEmail() {
 
 window.onload = function () {
   btnLogin.addEventListener('click', function () {
-    alert(`User: ${user.value} password: ${password.value}`);
+    alert(`${user.value}`);
   });
 
   btnSignin.addEventListener('click', function () {
