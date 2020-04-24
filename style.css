@@ -1,35 +1,24 @@
-body , .top-bar , .bar-int {
+body , .top-bar , .bar-int, h1, .login-box1, .login-box2 {
   margin: 0;
   padding: 0;
 }
 
 .top-bar {
   background-color: rgb(59, 89, 152);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   height: 82px;
   justify-content: center;
 }
 
+.facebook-logo {
+  margin-top: 13px;
+}
+
 .bar-int {
   align-items: center;
-  border: 1px solid black;
-  box-sizing: border-box;
-  display: flex;
-  width: 980px;
-}
-
-.content {
-  background-image: linear-gradient(white, #d3d8e8);
-  border: 1px solid black;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-}
-
-.content-int {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -37,49 +26,103 @@ body , .top-bar , .bar-int {
   width: 980px;
 }
 
-.content-left {
-  border: 1px solid black;
+h1 {
+  font-size: smaller;
+  color: white;
+  margin-bottom: 5px;
 }
 
-.txt-net {
+.div-login {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 398px;
+}
+
+.div-login input {
+  width: 150px;
+}
+
+.div-login button {
+  margin-left: 12px;
+  margin-right: 0;
+}
+
+.login-box1 {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-box2 {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  width: 225px;
+}
+
+.content {
+  background-image: linear-gradient(white, #d3d8e8);
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.content-int {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 980px;
+}
+
+/* .content-left {
   border: 1px solid black;
+} */
+
+.txt-net {
+  /* border: 1px solid black; */
   width: 450px;
 }
 
 .content-right {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 400px;
 }
 
-.txt-reg {
+/* .txt-reg {
   border: 1px solid black;
-}
+} */
 
-.register {
+/* .register {
   border: 1px solid black;
-}
+} */
 
 .name {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
 }
 
 .phone-pass {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
 }
 
 .txt-date {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
 }
 
-.txt-genre {
+/* .txt-genre {
   border: 1px solid black;
-}
+} */
 
 .name > input {
   border: 1px solid rgb(189, 199, 216);
