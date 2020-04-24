@@ -1,3 +1,14 @@
+.abra-conta {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+body {
+  line-height: 1.34;
+}
+
 .button-login {
   align-self: center;
   background-color: #4267b2;
@@ -12,6 +23,10 @@
   text-shadow: none;
 }
 
+.cadastro {
+  width: 400px;
+}
+
 .facebook-logo {
   max-height: 100%;
   width: 180px;
@@ -19,6 +34,7 @@
 
 header section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 0;
   padding-top: 13px;
@@ -28,6 +44,7 @@ header section {
 .main-body {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
+  flex-direction: row;
   height: 100%;
   justify-content: center;
   min-height: 100px;
@@ -35,8 +52,15 @@ header section {
 }
 
 .main-content {
+  display: flex;
+  flex-direction: row;
   min-height: 100px;
   width: 980px;
+}
+
+.rapido-facil {
+  color: #1d2129;
+  font-size: 19px;
 }
 
 .text {
@@ -57,6 +81,7 @@ header section {
   background-color: #3b5998;
   border-bottom: 1px solid #133783;
   display: flex;
+  flex-direction: row;
   height: 82px;
   justify-content: center;
   min-height: 42px;
@@ -65,9 +90,9 @@ header section {
 .user-email-phone {
   color: white;
   display: flex;
+  flex-direction: row;
   font-size: 12px;
   justify-content: space-between;
-  line-height: 1.34;
   max-height: 100%;
   width: 392px;
 }
