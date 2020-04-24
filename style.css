@@ -10,12 +10,23 @@ header {
   align-items: center;
   background-color: #3b5998;
   display: flex;
-  height: 112px;  /* MUST BE 82 */
+  height: 82px;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
   justify-content: space-around;
+  width: 59%;
 }
 
 .facebook-logo {
-  height: 82px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.logo-side {
+  width: 0.5%;
 }
 
 .login {
@@ -25,18 +36,22 @@ header {
 .formSign-container {
   align-items: center;
   display: flex;
+  width: 41%;
 }
-
-/* .formSign-container .form-group {
-margin-bottom: 0px; */
-
-/* .text-muted {
-  color: #9cb4d8 !important;
-} */
 
 .button-login {
   align-items: center;
   display: flex;
+}
+
+.button-login button {
+  background-color: #4267b2;
+  border-color: #29487d;
+  border-radius: 2px;
+  color: white;
+  font-size: 0.7rem;
+  margin-bottom: 8px;
+  padding: 0.1px 5px;
 }
 
 .main {
@@ -49,14 +64,15 @@ margin-bottom: 0px; */
   flex-direction: column;
   height: 636px;
   justify-content: flex-start;
-  width: 53%;
+  width: 59%;
 }
 
 .text-h4 {
   color: #0e385f;
-  margin-left: 8rem;
+  font-size: 20px;
+  margin-left: 11rem;
   margin-top: 40px;
-  width: 70%;
+  width: 50%;
   word-spacing: -1px;
 }
 
@@ -68,7 +84,7 @@ margin-bottom: 0px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 47%;
+  width: 41%;
 }
 
 /* .footer {
