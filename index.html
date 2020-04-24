@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook login page</title>
+</head>
+
+<body>
+  <header class='top-bar'>
+    <div class="logo">
+      <img class="facebook-logo" src='facebook-logo .png' alt='facebook logo'>
+    </div>
+    <div class='user-email-phone'>
+      <div class='email'>
+        <label id='user-email-phone-label' for='user-email-phone'>Email ou telefone</label>
+          <input id='user-email-phone' type='text'>
+      </div>
+      <div class='senha'>
+        <label for='user-password'>Senha<br>
+          <input id='user-password' type='password'>
+        </label>
+        <!-- <p><a href=""> Esqueceu a conta?</a></p> -->
+      </div>
+      <div class='entrar'>
+        <button id='button-login' type="submit">Entrar</button>
+      </div>
+    </div>
+  </header>
+  <div class='corpo'>
+    <div class="left-side">
+      <div class='img-text'>
+        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      </div>
+      <div class='img'>
+        <img id="facebook-networking" src="networking.png" alt="world map">
+      </div>
+    </div>
+    <div class='right-side'>
+      <div class='span1'><p>Abra Uma conta</p></div>
+      <div class='span2'><span>É rápido e fácil.</span></div>
+      <div class='nomeSobrenome'>
+        <div class='nomeInput'><input type='text' placeholder='Nome'> </div>
+        <div class='nomeInput'><input type='text' placeholder='Sobrenome'></div>
+      </div>
+      <div><input id='celularEmail' type='text' placeholder='Celular ou email'></div>
+      <div><input type='password' placeholder='Nova senha'></div>
+      <div><span>Data de nascimento</span></div>
+      <div><input type="date" placeholder='dd/mm/aaaa'></div>
+      <div><span>Gênero</span></div>
+      <div>
+        <label for='Feminino'>Feminino<input checked type='radio' id='Feminino' name='genero'></label>
+            <label for='Masculino'>Masculino<input type='radio' id='Masculino' name='genero'></label>
+                <label for='Personalizado'>Personalizado<input type='radio' id='Personalizado' name='genero'></label>
+      </div>
+      <div><button id='facebook-register'>Cadastre-se</button>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <ul class='list-one'>
+      <li class="portuguese">Português (Brasil)</li>
+      <li>English (US)</li>
+      <li>Español</li>
+      <li>Français (France)</li>
+      <li>Italiano</li>
+      <li>العربية</li>
+      <li>Deutsch</li>
+      <li>हिन्दी</li>
+      <li>中文(简体)</li>
+      <li>日本語</li>
+      <li><button>+teste</button></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
