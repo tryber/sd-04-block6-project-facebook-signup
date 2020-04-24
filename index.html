@@ -11,14 +11,24 @@
 
 <body>
     <header class="top-bar">
-        <div class="login-box"> 
+        <div class="login-box">
             <img class="facebook-logo" src="/imagens/facebook-logo.png" width="180px" alt="facebok logo">
             <form action="" method="GET">
-                <label id="user-email-phone-label">Email ou telefone</label>
-                <input type="text" id="user-email-phone" name="user-email-phone" />
-                <label for="senha">Senha</label><br>
-                <input type="password" id="uder-password" name="senha" />
-                <button class="button-login">Entrar</button>
+                <div class="login-container">
+                    <div class="col-login">
+                        <label id="user-email-phone-label">Email ou telefone</label>
+                        <input type="text" id="user-email-phone" name="user-email-phone" />
+                    </div>
+                    <div class="col-login">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="uder-password" name="senha" />
+                        <a href="#">Esqueceu a conta?</a>
+                    </div>
+                    
+                    <button class="button-login">Entrar</button>
+                </div>
+                
+
             </form>
         </div>
     </header>
