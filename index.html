@@ -22,7 +22,6 @@
                 <input class="input-thabata" id="user-senha" type="password" name="user">
                 <div class="forgot" >Esqueceu a conta?</div>
                </div>
-              
               <div>
                   <button id="button-login" class="botao-enviar" style="margin-top: 18px">Entrar</button>
               </div>
@@ -30,62 +29,58 @@
        </div><!--fim form-container-->
    </header>
    <section class="conteudo">
-       <article class="esquerda">
-           <div>
+           <div class="esquerda">
                <p class="texto-inicial">
                 O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
                 sua vida.
                </p>
-           </div>
-           <div>
-            <img src="imagens/networking.png" id="facebook-networking" class="rede"
-            alt="imagem de pessoas em conexão">
-           </div>
-       </article><!--artico rede social-->
-   </section><!--section conteudo-->
-   <article class="direita">
-       <div class="abrindo-conta">
-        <span class="texto1">Abra uma conta</span>
-        <span class="texto2">É rápido e fácil.</span>
-        <form id="form-registra" method="get" action="">
-            <div class="nome-sobrenome">
-                <input type="text" name="nome" placeholder="Nome" class="input-nome" required>
-                <input type="text" name="sobrenome" placeholder="Sobrenome" class="input-sobrenome" required>
-            </div>
-            <div class="telefone-senha">
-                <input type="text" name="email" id="celularEmail" placeholder="Celular ou email" class="input-cel">
-                <input type="password" name="password" placeholder="Nova senha" class="input-senha">
-            </div>
-        </form>
-        <div>
-            <p class='data-nascimento'>Data de nascimento</p>
-            <input type='text' placeholder='dd/mm/aaaa' id='escolhe-data' class='data-nascimento'>
-            <img src='imagens/interrogração.png' alt='ícone de interrogação do Facebook' width='20px'>
-        </div>
-        <section class="genero-container">
-            <p class="tipo-genero">Gênero</p>
-            <div class="inputs">
-                <input class="input-genero" type="radio" name="genero" value="Feminino">Feminino
-                <input class="input-genero" type="radio" name="genero" value="Masculino">Masculino
-                <input class="input-genero" type="radio" name="genero" value="Personalizado">Personalizado
-            </div>
-            <div class='img-genero'>
-                <img class='icone-interrogacao' src='imagens/interrogração.png' alt='ícone de interrogação' width='20px'>
-            </div>
-        </section>
-        <section class="termos">
-            <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de
-                Dados</a> e <a href="#">Política de Cookies.</a>Você pode receber notificações por SMS e pode cancelar
-              isso quando quiser.</p>
-          </section>
-          <section>
-            <button type="submit" class="cadastro" id="facebook-register">Cadastre-se</button>
-          </section>
-        </article>
-      </section>
-
-       </div><!--abrindo conta-->
-   </article><!--direita-->
+         
+                <img src="imagens/networking.png" id="facebook-networking" class="rede"
+                    alt="imagem de pessoas em conexão">
+            </div><!--div esquerda-->
+   
+            <div class="direita">
+                <span class="texto1" style="font-size: 36px;">Abra uma conta</span>
+                <span class="texto2" style="font-size: 19px;">É rápido e fácil.</span>
+                <form id="form-registra"class="form-registra" method="get" action="">
+                    <div class="nome-sobrenome">
+                        <input type="text" name="nome" placeholder="Nome" class="input-nome" required>
+                        <input type="text" name="sobrenome" placeholder="Sobrenome" class="input-sobrenome" required>
+                    </div>
+                    <div class="telefone-senha">
+                        <input type="text" name="email" id="celularEmail" placeholder="Celular ou email" class="input-cel">
+                         <input type="password" name="password" placeholder="Nova senha" class="input-senha">
+                    </div>
+           
+                    <div>
+                        <p class='data-nascimento'>Data de nascimento</p>
+                        <div class="campo-data">
+                            <input type='text' placeholder='dd/mm/aaaa' id='escolhe-data' class='data-nascimento'>
+                            <img src='imagens/interrogração.png' alt='ícone de interrogação do Facebook' width='20px'>
+                        </div>
+                    </div>
+                    <section class="genero-container">
+                        <p class="tipo-genero">Gênero</p>
+                        <div class="inputs">
+                            <input class="input-genero" type="radio" name="genero" value="Feminino">Feminino
+                            <input class="input-genero" type="radio" name="genero" value="Masculino">Masculino
+                            <input class="input-genero" type="radio" name="genero" value="Personalizado">Personalizado
+                        </div>
+                        <div class='img-genero'>
+                            <img class='icone-interrogacao' src='imagens/interrogração.png' alt='ícone de interrogação' width='20px'>
+                        </div>
+                    </section>
+                    <section class="termos">
+                        <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de
+                        Dados</a> e <a href="#">Política de Cookies.</a>Você pode receber notificações por SMS e pode cancelar
+                        isso quando quiser.</p>
+                    </section>
+                    <section>
+                        <button type="submit" class="cadastro" id="facebook-register">Cadastre-se</button>
+                    </section>
+                </form>
+            </div><!--direita-->
+    </section><!--conteudo-->
 
    <script src="script.js"></script>
     
