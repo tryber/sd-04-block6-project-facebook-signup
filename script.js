@@ -3,7 +3,3 @@ loginEmail.addEventListener('click', function () {
   const enviarEmail = document.getElementById('user-email-phone').value;
   alert(enviarEmail);
 });
-
-$( function() {
-  $( "#datepicker" ).datepicker();
-} );
