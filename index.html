@@ -23,8 +23,7 @@
       <div class="form-group col-sm mb-0">
         <label class="mb-0"><small>Senha</small></label>
         <input type="password" class="form-control form-control-sm rounded-0 border-dark h-25" id="user-password">
-        <!-- <small id="user-passwordHelp" class="form-text text-muted" style="color: #9cb4d8 ! important ;">Esqueceu a conta?</small> -->
-        <small id="user-passwordHelp" class="form-text text-muted">Esqueceu a conta?</small>
+        <small id="user-passwordHelp" class="form-text" style="color: #9cb4d8;">Esqueceu a conta?</small>
       </div>
       <div class="button-login form-group col-sm mb-0">
       <button id="button-login" type="submit" class="btn btn-primary btn-sm" >Entrar</button>
@@ -38,51 +37,49 @@
     <img id="facebook-networking" src="img/networking.png" width="550px" alt="world map">
   </div>
   <div class="right-section">
-    <h1>Abra uma conta</h1>
-    <h4>É rápido e fácil.</h4>
+    <h1 class="h1-right-section" >Abra uma conta</h1>
+    <h4 class="h4-right-section">É rápido e fácil.</h4>
   <form>
     <div class="form-row">
-      <div class="form-group col-md-6">
+      <div class="form-group col-5">
         <input type="text" class="form-control" placeholder="Nome">
       </div>
-      <div class="form-group col-md-6">
+      <div class="form-group col-5">
         <input type="text" class="form-control" placeholder="Sobrenome">
       </div>
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="Celular ou email">
+      <input type="text" class="form-control col-10" placeholder="Celular ou email">
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" placeholder="Nova senha">
+      <input type="password" class="form-control col-10" placeholder="Nova senha">
     </div>
-        <p>Data de nascimento</p>
-        <input type="date" placeholder="dd/mm/aaaa">
-    <!-- <div class="form-group">
-      <label style="color: #90949c;" id="Data de nascimento" for="birthdate">Data de nascimento</label>
-      <input  type="date" class="form-control" placeholder="dd/mm/aaa">
-    </div> -->
-    <div class="form-group">
-    <label style="color: #90949c;" id="Gênero" for="birthdate">Gênero</label>
+      <p class="fontstyle-label-rigth-section"  >Data de nascimento</p>
+      <input type="date" placeholder="dd/mm/aaaa">
+    <div class="form-group mt-1 fontstyle-label-rigth-section Gênero">
+    <label id="Gênero" for="birthdate">Gênero</label>
     </div>
     <div class="form-check form-check-inline">
       <label class="form-check-label">
-        <input class="form-check-input" type="radio" value="Feminino">Feminino
+      <input class="form-check-input" type="radio" value="Feminino">Feminino
       </label>
     </div>
     <div class="form-check form-check-inline">
       <label class="form-check-label">
-        <input class="form-check-input" type="radio" value="Masculino">Masculino
+      <input class="form-check-input" type="radio" value="Masculino">Masculino
       </label>
     </div>
     <div class="form-check form-check-inline disabled">
       <label class="form-check-label">
-        <input class="form-check-input" type="radio" value="Personalizado"> Personalizado
+      <input class="form-check-input" type="radio" value="Personalizado"> Personalizado
       </label>
-      </div>
-      <div class="button-register">
-        <button id="facebook-register" type="submit" class="btn btn-primary">Cadastre-se</button>
-        </div>
+    </div>
+    <p class="disclamer">Ao clicar em Cadastre-se, você concorda com nossos <a href=# >Termos, Política de Dados</a> e <a href=#>Política de Cookies.</a> Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+    <div class="button-register Cadastre-se">
+      <button id="facebook-register" type="submit" class="btn btn-primary">Cadastre-se</button>
+    </div>
   </form>
+  <p class="createpageforspecials"><a href=#>Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
   </div>
 </section>
 <footer>
@@ -92,4 +89,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-<!-- background-image: linear-gradient(#4e69a2, #3b5998 50%); -->
