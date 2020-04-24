@@ -86,6 +86,11 @@ td div a:hover {
   justify-content: center;
 }
 
+.res-section {
+  display: flex;
+  justify-content: space-around;
+}
+
 .presentation {
   display: flex;
   flex-direction: column;
