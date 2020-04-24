@@ -4,11 +4,8 @@ body {
   padding: 0;
 }
 
-.color {
-  background-color: rgb(59, 89, 152);
-}
-
 .top-bar {
+  background: linear-gradient(rgb(78, 105, 170), rgb(59, 89, 152));
   display: flex;
   height: 82px;
   justify-content: space-between;
@@ -58,8 +55,10 @@ input {
 .container {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
+  height: 630px;
   justify-content: space-between;
   padding: 0 180px;
+  width: 980px;
 }
 
 .left-div {
@@ -86,7 +85,8 @@ input {
 
 .text1-right {
   color: #333;
-  font-size: 35px;
+  display: flex;
+  font-size: 36px;
   font-weight: 600;
   height: 48px;
   padding-top: 20px;
@@ -96,5 +96,26 @@ input {
 .text2-right {
   color: #333;
   font-size: 18px;
-  padding: 0;
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  border: 1px solid #ccd0d5;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  color: #1c1e21;
+  font-size: 18px;
+  height: 21px;
+  margin-bottom: 10px;
+  padding: 8px 13px;
+  width: 377px;
+}
+
+.genero {
+  display: flex;
 }
