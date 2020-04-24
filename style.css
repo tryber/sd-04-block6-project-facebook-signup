@@ -55,11 +55,12 @@ a {
 .face-net p {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
-  line-height: 29pxs;
+  font-weight: bolder;
+  line-height: 29px;
   word-spacing: 1px;
 }
-#facebook-networking {
-  width: 537px;
+
+.facebook-networking {
   height: 195px;
+  width: 537px;
 }
