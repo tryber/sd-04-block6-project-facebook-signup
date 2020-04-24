@@ -136,7 +136,7 @@ td div a:hover {
   font-weight: 400;
 }
 
-.user-login-data input {
+.user-login-data input , .date-select input {
   color: #1c1e21;
   border: 1px solid #ccd0d5;
   border-color: #bdc7d8;
@@ -167,4 +167,9 @@ td div a:hover {
   line-height: 1.34;
   margin-bottom: 5px;
   margin-top: 10px;
+}
+
+.date-select input {
+  text-align: center;
+  width: 172px;
 }
