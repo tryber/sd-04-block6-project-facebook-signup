@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset 'utf-8';
 
 html , body {
   margin: 0;
@@ -59,7 +59,7 @@ td div a:hover {
 .data-entry {
   border: 1px solid #ccd0d5;
   border-color: #1d2a5b;
-  margin-top: 0px;
+  margin-top: 0;
   padding: 3px;
   width: 142px;
 }
@@ -81,6 +81,6 @@ td div a:hover {
 }
 
 .intro-section {
-  background: linear-gradient(white, #D3D8E8);
+  background: linear-gradient(white, #d3d8e8);
   display: flex;
 }
