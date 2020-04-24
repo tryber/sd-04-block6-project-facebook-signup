@@ -1,7 +1,9 @@
 .button-login {
-  display: flex;
   align-items: center;
+  display: flex;
+  justify-content: center;
 }
+
 .central {
   background: linear-gradient(white, rgb(221, 226, 243));
   display: flex;
@@ -18,7 +20,7 @@
 .facebook-logo {
   align-items: center;
   display: flex;
-  height: 112px;
+  height: 60px;
 }
 
 .facebook-networking {
@@ -75,14 +77,15 @@
   width: 50%;
 }
 
+.superior-esquerdo {
+  align-items: center;
+  display: flex;
+}
+
 .top-bar {
   background-image: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
   display: flex;
+  height: 90px;
   justify-content: space-between;
   width: 100%;
-}
-
-.user {
-  align-items: center;
-  display: flex;
 }
