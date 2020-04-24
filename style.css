@@ -83,4 +83,10 @@ td div a:hover {
 .intro-section {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
+  justify-content: center;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
 }
