@@ -3,67 +3,69 @@
   border-bottom: 1px solid #1d2a5b;
 }
 
-.form-label-small{
-  color: #fff;
+.form-label-small {
+  color: white;
   font-size: 12px;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
-.text-input{
-  -webkit-appearance: none;
-  border: 1px solid #ccd0d5;
+.text-input {
   border-radius: 0;
-  padding: 3px;
+  border: 1px solid #ccd0d5;
   height: 23px;
+  padding: 3px;
 }
-.square-input{
+
+.square-input {
+  background-color: white;
   border-color: #1d2a5b;
-  background-color: #fff;
   color: #1c1e21;
   font-size: 12px;
 }
 
-.button-login{
+.button-login {
   background-color: #4267b2;
-  border: 1px solid #29487d;
   border-radius: 2px;
+  border: 1px solid #29487d;
   cursor: pointer;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   padding: 2px 6px;
 }
 
-.top-bar a{
-  font-size: 12px;
+.top-bar a {
   color: #9cb4d8;
+  font-size: 12px;
 }
 
-.form-no-margin{
+.form-no-margin {
   margin-bottom: 0;
 }
 
-.facebook-logo{
+.facebook-logo {
   width: 170px;
 }
 
-img{
+img {
   height: 34px;
   margin-top: 17px;
 }
 
-.form-padding-fb{
-  padding-right: 0px;
+.form-padding-fb {
   padding-left: 30px;
+  padding-right: 0;
 }
 
-.gradiente{
-  background: linear-gradient(white, #D3D8E8);
+.gradiente {
+  background: linear-gradient(white, #d3d8e8);
 }
-.infografic{
-  width: 537px;
+
+.infografic {
   height: 195px;
+  width: 537px;
 }
-.fb-message{
+
+.fb-message {
   color: #0e385f;
   font-size: 20px;
   font-weight: bold;
@@ -73,59 +75,60 @@ img{
   word-spacing: -1px;
 }
 
-.fb-h2{
-  font-size: 36px;
+.fb-h2 {
   color: #333;
+  font-size: 36px;
   font-weight: 600;
 }
 
-.fb-h3{
-  color: #1d2129;
+.fb-h3 {
   font-size: 19px;
-}
-
-.fb-h{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.fb-form-label{
-  color: #90949c;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  margin-top: 10px;
-}
-
-.fb-radio{
   color: #1d2129;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 18px;
-  padding: 0 10px 0 3px;
+}
+
+.fb-h {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.fb-form-label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #90949c;
+}
+
+.fb-radio {
   vertical-align: middle;
+  padding: 0 10px 0 3px;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1d2129;
 }
-.fa{
-  color: #5f676f;
+
+.fa {
   font-size: 1.3em;
+  color: #5f676f;
 }
 
-.fa-icon{
-  margin-left: 10px;
+.fa-icon {
   padding-top: 5px;
+  margin-left: 10px;
 }
 
-.fb-disclaimer{
+.fb-disclaimer {
   color: #777;
   font-size: 11px;
   width: 316px;
 }
 
-.fb-button{
-  background: linear-gradient(#67ae55, #578843);
+.fb-button {
   background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
+  background: linear-gradient(#67ae55, #578843);
   border-color: #3b6e22 #3b6e22 #2c5115;
+  box-shadow: inset 0 1px 1px #a4e388;
   font-size: 19px;
   line-height: 126%;
   min-width: 194px;
@@ -133,52 +136,52 @@ img{
   text-align: center;
 }
 
-.fb-button:hover{
+.fb-button:hover {
   background: linear-gradient(#79bc64, #578843);
+  border-color: #3b6e22 #3b6e22 #2c5115;
   text-decoration: none;
-  border-color:#3b6e22 #3b6e22 #2c5115;
 }
 
-.fb-celebs{
+.fb-celebs {
   border-top: 1px solid #dddfe2;
   color: #666;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
+  margin-bottom: 40px;
   margin-top: 10px;
   padding-top: 15px;
-  margin-bottom: 40px;
 }
 
-body{
-  font-size:12px;
+body {
+  font-size: 12px;
 }
 
-.fb-row-languages{
+.fb-row-languages {
   margin-top: 20px;
 }
 
-.fb-languages1{
+.fb-languages1 {
   color: #737373;
 }
 
-.fb-languages{
-  margin-left:10px;
+.fb-languages {
+  margin-left: 10px;
 }
 
-.divisor{
-  border-bottom: 1px solid #dddfe2;
-  font-size: 1px;
-  height: 8px;
+.divisor {
   margin-bottom: 8px;
+  height: 8px;
+  font-size: 1px;
+  border-bottom: 1px solid #dddfe2;
 }
 
-.fb-nav-footer{
-  margin-right:25px;
+.fb-nav-footer {
   line-height: 0.4;
+  margin-right: 25px;
 }
 
-.fb-fb{
+.fb-fb {
   color: #737373;
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
