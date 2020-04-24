@@ -36,6 +36,10 @@
   <div class="container">
     <div class="lado-esquerdo">
       <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+    
+    <div>
+      <img class="image-networking" id ="facebook-networking" src="images/mapa.png" alt="facebook-logo">
+    </div>
     </div>
     <div class="lado-direito">
       <p>Abra uma conta</p>
@@ -51,42 +55,58 @@
             <input class="form-elemento-senha" type="password" placeholder="Nova senha">
           </div>
           <div class="container-data-nascimento">
-            <label class="data-nascimento"  for="data">Data de nascimento</label>
+            <label class="data-nascimento" for="data">Data de nascimento</label>
             <input class="input-nascimento" id="datepicker" type="text" name="data" placeholder="dd/mm/aaaa">
           </div>
           <div class="container-genero">
+            <label class="genero" for="genero">Gênero</label>
 
+            <div>
+              <input type="radio" id="feminino" name="genero" value="Feminino">
+              <label class="radio-feminino" for="feminino">Feminino</label>
+
+              <input type="radio" id="masculino" name="genero" value="Masculino">
+              <label class="radio-masculino" for="masculino">Masculino</label>
+
+              <input type="radio" id="personalizado" name="genero" value="Personalizado">
+              <label class="radio-personalizado" for="personalizado">Personalizado</label>
+            </div>
           </div>
-
+          <div>
+            <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+          </div>
+          <div>
+            <button class="button-cadastrar" id="facebook-register" style="margin-top: 18px;">Cadastre-se</button>
+          </div>
 
         </div>
       </form>
     </div>
   </div>
-<script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
-<script src="script.js"></script>
-<script>
-  const picker = new Pikaday({
-  field: document.getElementById('datepicker'),
-  format: 'D/M/YYYY',
-  toString(date, format) {
-    // you should do formatting based on the passed format,
-    // but we will just return 'D/M/YYYY' for simplicity
-    const day = date.getDate();
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
-    return `${day}/${month}/${year}`;
-  },
-  parse(dateString, format) {
-    // dateString is the result of `toString` method
-    const parts = dateString.split('/');
-    const day = parseInt(parts[0], 10);
-    const month = parseInt(parts[1], 10) - 1;
-    const year = parseInt(parts[2], 10);
-    return new Date(year, month, day);
-  }
-});
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="script.js"></script>
+  <script>
+    const picker = new Pikaday({
+      field: document.getElementById('datepicker'),
+      format: 'D/M/YYYY',
+      toString(date, format) {
+        // you should do formatting based on the passed format,
+        // but we will just return 'D/M/YYYY' for simplicity
+        const day = date.getDate();
+        const month = date.getMonth() + 1;
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+      },
+      parse(dateString, format) {
+        // dateString is the result of `toString` method
+        const parts = dateString.split('/');
+        const day = parseInt(parts[0], 10);
+        const month = parseInt(parts[1], 10) - 1;
+        const year = parseInt(parts[2], 10);
+        return new Date(year, month, day);
+      }
+    });
+  </script>
 </body>
 
 </html>
