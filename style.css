@@ -1,0 +1,150 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.top-bar {
+
+  /* Precisamos acertar a formartção pois não está enquadrado */
+  background-color: #3b5998;
+  box-shadow: 3px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  font-size: 12px;
+  height: 72px;
+  justify-content: center;
+  min-width: 980px;
+  padding-top: 13px;
+}
+
+.facebook-logo {
+  align-self: center;
+  height: 75px;
+  margin-top: -10px;
+  padding: 200px;
+}
+
+.login-form {
+  align-self: center;
+  color: cornsilk;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto 200px;
+}
+
+.div-email {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 142px;
+}
+
+.div-senha {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
+  width: 140px;
+}
+
+.div-esqueceu-conta {
+  color: #9cb4d8;
+  display: flex;
+}
+
+.button-login {
+  align-self: flex-end;
+  background-color: #4267b2;
+  border: 1px solid #ccd0d5;
+  border-color: #29487d;
+  border-radius: 2px;
+  color: cornsilk;
+  cursor: pointer;
+  height: 23px;
+}
+
+.button-login:hover {
+  background-color: #2954ac;
+}
+
+.text {
+  font-size: 36px;
+}
+
+.fb-body {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  height: 645px;
+  justify-content: center;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+
+.texto-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 15px;
+  width: 565px;
+}
+
+h2 {
+  color: #0e385f;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.form {
+  align-self: center;
+  color: #333;
+  font-size: 20px;
+  margin-top: -15px;
+  width: 400px;
+}
+
+.form input {
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 3px;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.intro4 {
+  color: gray;
+  font-size: 10px;
+}
+
+.intro5 {
+  color: gray;
+  font-size: 12px;
+}
+
+::placeholder {
+  padding: 3px;
+}
+
+.mailbox {
+  width: 100%;
+}
+
+.namebox {
+  width: 150px;
+}
+
+.nome-sobrenome {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.label-form {
+  color: #90949c;
+  font-size: 16px;
+}
