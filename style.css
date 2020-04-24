@@ -54,8 +54,8 @@ table {
 }
 
 input {
-  border-color: #1d2a5b;
   border: 1px solid #ccd0d5;
+  border-color: #1d2a5b;
   padding: 3px;
   width: 142px;
 }
