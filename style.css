@@ -10,8 +10,8 @@ body {
 .top-bar {
   background: linear-gradient(#4e69a2, #3b5998 50%);
   border: 1px solid #133783;
-  height: 82px;
   display: flex;
+  height: 82px;
 }
 
 .facebook-logo {
@@ -20,7 +20,6 @@ body {
 }
 
 .imgLogo {
-  display: flex;
   color: white;
   display: flex;
   font-size: 12px;
