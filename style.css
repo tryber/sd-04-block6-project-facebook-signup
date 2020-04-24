@@ -1,3 +1,7 @@
+.button-login {
+  display: flex;
+  align-items: center;
+}
 .central {
   background: linear-gradient(white, rgb(221, 226, 243));
   display: flex;
@@ -14,7 +18,7 @@
 .facebook-logo {
   align-items: center;
   display: flex;
-  height: 90px;
+  height: 112px;
 }
 
 .facebook-networking {

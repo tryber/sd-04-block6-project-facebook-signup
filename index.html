@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.1'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
     <title>Facebook - entre ou cadastre-se</title>
     <link rel="stylesheet" href="libs/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" type='text/css' href="style.css"/>
@@ -23,6 +23,7 @@
           <div class='form-group col-auto'>
             <label for='password' id='password-label' class='form-label'>Senha</label>
             <input type='password' id='user-password' class='form-control form-control-sm' required>
+            <small class="form-text text-muted">Esqueceu a conta?</small>
           </div>
           <div class='form-group col-auto'>
             <button type='submit' id='button-login' class='btn btn-primary button-login' value='Entrar'>Entrar</button>
@@ -32,7 +33,7 @@
     </header>
     <section class='central'>
       <div class='meio-esquerdo'>
-        <p class='facebook-text'><em>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</em></p>
+        <p class='facebook-text'><b>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</b></p>
         <img id='facebook-networking' class='facebook-networking' src='networking.png' alt='Imagem mostrando a conexão entre as pessoas'>
       </div>
       <div class='meio-direito'>
@@ -41,11 +42,11 @@
           <h4>É rápido e fácil.</h4>
         </div>
         <form action='' method='post' enctype="multipart/form-data" class='form-row new-user'>
-          <div class='form-group nome'>
-            <div>
+          <div class='form row nome'>
+            <div class='form-group col-md-6'>
               <input type='text' class='form-control' placeholder='Nome' requeired>
             </div>
-            <div>
+            <div class='form-group col-md-6'>
               <input type='text' class='form-control' placeholder='Sobrenome' required>
             </div>
           </div>
@@ -53,24 +54,30 @@
             <input type='text' class='user-email-phone form-control' placeholder='Celular ou email' required>
           </div>
           <div class='form-group password'>
-            <input type='password' class ='password form-control input-group' placeholder='Nova Senha' required>
+            <input type='password' class ='password form-control' placeholder='Nova Senha' required>
           </div>
           <div class="form-group data-text">
-            <label>Data de nascimento</label>
+            <label style='color: #8c8f97'><b>Data de nascimento</b></label>
           </div>
           <div class='form-group date'>
             <input type='date' placeholder="dd/mm/aaaa" class="form-control" required>
           </div>
-          <div class='genero'>
-            <h4>Gênero</h4>
-            <div class='genero-radio'>
-              <label><input type='radio' name='genero' class='radio' value='Feminino'>Feminino</label>
-              <label><input type='radio' name='genero' class='radio' value='Masculino'>Masculino</label>
-              <label><input type='radio' name='genero' class='radio' value='Personalizado'>Personalizado</label>
+          <div class='genero form-group'>
+            <h4 style='color: #8c8f97'><b>Gênero</b></h4>
+          </div>
+            <div class='genero-radio form-check form-check-inline'>
+              <label class='form-check-label'><input type='radio' name='genero' class='radio form-check-input' value='Feminino'>Feminino</label>
+              <label class='form-check-label'><input type='radio' name='genero' class='radio form-check-input' value='Masculino'>Masculino</label>
+              <label class='form-check-label'><input type='radio' name='genero' class='radio form-check-input' value='Personalizado'>Personalizado</label>
             </div>
+          <div>
+            <br>
           </div>
           <div>
             <small class="form-text text-muted">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</small>
+          </div>
+          <div>
+            <br>
           </div>
           <div class='form-group'>
             <button type='submit' id='facebook-register' class='btn btn-success btn-cadastro'>Cadastre-se</button>
