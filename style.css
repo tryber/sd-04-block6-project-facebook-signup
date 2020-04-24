@@ -29,3 +29,18 @@
 .container input {
   width: 88%;
 }
+
+a {
+  color: white;
+  opacity: 60%;
+}
+
+.second-container {
+  display: flex;
+}
+
+.container-p2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
