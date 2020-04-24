@@ -11,21 +11,22 @@
 <body>
     <header class="top-bar">
         <div class="top-bar container">
-            <div class="logo">
-                <h1><a href="#">
-                        <div class="imglogo"></div>
-                    </a></h1>
+            <div class="facebook-logo">
+                <a href="#">
+                    <div class="imglogo">
+                    </div>
+                </a>
             </div>
             <div class="login">
                 <form name="nameform">
                     <table>
                         <tr>
                             <td><label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label></td>
-                            <td><label for="">Senha</label></td>
+                            <td><label id="user-password-label" for="user-password">Senha</label></td>
                         </tr>
                         <tr>
                             <td><input id="user-email-phone" type="text"></td>
-                            <td><input type="password"></td>
+                            <td><input id="user-password" type="password"></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -35,10 +36,48 @@
                         </tr>
                     </table>
                 </form>
-                <td><button name="button-login" form="nameform" id="button-login" type="button">Entrar</button></td>
+                <td><button class="button-login" name="button-login" form="nameform" id="button-login"
+                        type="button">Entrar</button></td>
             </div>
         </div>
     </header>
+    <div class="main-container">
+        <div class="content">
+            <div class="esquerda">
+                <div class="interno">
+                    <div>
+                        <div class="paragrafo">
+                            O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua
+                            vida.
+                        </div>
+                        <div class="img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="direita">
+                <div class="interno2">
+                    <div class="bloco1">
+                        <div class="paragrafo2">
+                            Abra uma conta
+                        </div>
+                        <div class="sub">
+                            É rápido e fácil.
+                        </div>
+                    </div>
+                    <div class="containterRegistro">
+                        <form>
+                            <div class="fullName">
+                                <input type="text" placeholder="Nome">
+                                <input type="text" placeholder="Sobrenome">
+                            </div>
+                            <input type="text" placeholder="Celumar ou email">
+                            <input type="password" placeholder="Nova senha">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
