@@ -36,10 +36,30 @@ a {
 
 .second-container {
   display: flex;
+  height: auto;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .container-p2 {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.face-net {
+  display: flex;
+  flex-direction: column;
+}
+
+.face-net p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29pxs;
+  word-spacing: 1px;
+}
+#facebook-networking {
+  width: 537px;
+  height: 195px;
 }
