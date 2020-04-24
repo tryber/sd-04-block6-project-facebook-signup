@@ -27,6 +27,10 @@ window.onload = function () {
 
   btnRegister.addEventListener('click', function () {
     alert(name.value);
+    alert(lastName.value);
+    alert(phoneEmail.value);
+    alert(newPassword.value);
+    alert(birthday.value);
     alert(gender[0].value);
   });
 };
