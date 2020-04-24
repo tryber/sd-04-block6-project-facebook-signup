@@ -4,13 +4,14 @@ body {
 }
 
 .top-bar {
-/* Precisamos acertar a formartção pois não está esquadrado */
-  justify-content: center;
+
+  /* Precisamos acertar a formartção pois não está enquadrado */
   background-color: #3b5998;
   box-shadow: 3px 8px rgba(0, 0, 0, 0.25);
   display: flex;
   font-size: 12px;
   height: 72px;
+  justify-content: center;
   min-width: 980px;
   padding-top: 13px;
 }
