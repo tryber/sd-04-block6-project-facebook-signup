@@ -1,0 +1,197 @@
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(212, 212, 212));
+    box-sizing: border-box;
+    font-family: Lucida Grande, Tahoma, Verdana, Arial, Sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+  }
+  #rigth-form h1{
+    color: rgb(51 ,51 ,51);
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  header {
+    background-color: rgb(58, 89, 152);
+    border-bottom: 1px solid rgb(19, 57, 131);
+    display: flex;
+    height: 82px;
+    justify-content: space-between;
+    min-width: 100%;
+  }
+  .top-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+  }
+  header a img {
+    height: 75px;
+    padding-top: 5px;
+    width: 200px;
+  }
+  table {
+    color: #fff;
+    display: flex;
+    font-weight: normal;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+  }
+  #button-enter {
+    background-color: rgb(66, 103, 178);
+    border: 1px solid rgb(41, 72, 125);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding: 4px;
+  }
+  .text-form{
+    font-size: 12px;
+  }
+  #password-header{
+    margin-left: px;;
+  }
+  #button-enter:hover {
+    background-color: rgb(58, 89, 152);
+  }
+  #text-email {
+    border: 1px solid;
+    padding: 4px;
+  }
+  #password {
+    border: 1px solid;
+    padding: 4px;
+  }
+  #forget-password a {
+    color: rgb(140, 176, 213);
+    font-size: 12px;
+    text-decoration: none;
+  }
+  #forget-password a:hover {
+    text-decoration: underline;
+  }
+  #left-content {
+    color: rgb(12, 58, 100);
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 20px 0;
+    width: 470px;
+  }
+  #rigth-form {
+    height: auto;
+    padding-left: 120px;
+    width: 450px;
+  }
+  #rigth-form p{
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+  }
+  .fullname {
+    border-radius: 4px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+    padding: 8px 7px;
+  }
+  .info-user {
+    border-radius: 4px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 8px 10px;
+    width: 425px;
+  }
+  #last-name-user{
+    margin-left: 10px;
+  }
+  #born-date{
+    padding-top: 20px;
+    color: rgb(146,148,156);
+    font-weight: 900;
+  }
+  #day{
+    padding: 5px;
+    margin-right: -3px;
+  }
+  #month{
+    padding: 5px;
+    margin-right: -3px;
+  }
+  #year{
+    padding: 5px;
+  }
+  .day-month-year{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+  }
+  #gender{
+    padding-bottom: 10px;
+  }
+  #gender-container{
+    color: rgb(146,148,156);
+    font-weight: 900;
+    padding: 10px 0;
+  }
+  #gender-container label{
+    color: rgb(51, 51, 51);
+    font-weight: 200;
+    padding-top: 10px;
+  }
+  .interrogation{
+    width:15px;
+  }
+  #interrogation-born-date{
+    margin: 1px 1px 0;
+  }
+  #interrogation-gender{
+    margin: 5px 10px 0;
+  }
+  #terms-paragr p{
+    font-size: 10px;
+  }
+  #register{
+    background: linear-gradient(#67ae55, #578843);
+    border: 1px solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 1px #a4e388;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 8px 45px;
+    text-shadow: px solid rgb(10 , 10 ,10);
+  }
+  #register:hover{
+    background: linear-gradient(#76c562, #578843);
+    border-color: #3b6e22 #3b6e22 #2c5115;
+  }
+  #register-terms{
+    line-height: 1.4;
+  }
+  #register-terms a{
+    text-decoration: none;
+  }
+  #register-terms a:hover{
+    text-decoration: underline;
+  }
+  #create-page a{
+    text-decoration: none;
+  }
+  #create-page a:hover{
+    text-decoration: underline;
+  }
+  #create-page{
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+    font-size: 13px;
+    margin: 35px 0;
+  }
