@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="libs/pikaday.css">
+</head>
+<body>
+    <div class="main">
+        <navbar class="navbar navbar-expand-lg d-flex top-bar p-0 ml-0">
+            <div class="container">
+                <a href="" class="navbar-brand"><img class="facebook-logo" src="images/logo.png" alt=""></a>
+                <div class="col-6 col-md-7 col-lg-5 ml-auto mt-2">
+                    <form action="" class="form-row ml-auto">
+                        <div class="form-group col-md-4 ml-2 mb-1">
+                            <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+                            <input type="text" class="form-control input-header" id="user-email-phone">
+                        </div>
+                        <div class="form-group col-md-4 ml-1 mb-1">
+                            <label for="user-password" id="user-password-label">Senha</label>
+                            <input type="password" class="form-control input-header" id="user-password">
+                            <small><a href="#">Esqueceu a conta?</a></small>
+                        </div>
+                        <div class="form-group col-md-2 mb-1">
+                            <button type="submit" class="btn btn-primary btn-login mt-4" id="button-login">Entrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </navbar>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <h4 class="subtitle-left">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h4>
+                    <img class="img-fluid" src="images/facebook-networking.png" id="facebook-networking" alt="Connections">
+                </div>
+                <div class="col-sm-6">
+                    <div class="ml-5">
+                        <h1 class="subtitle-right mb-0">Abra uma conta</h1>
+                        <h4 class="subtitle-right-compl">É rápido e fácil.</h4>
+                        <form action="" class="mt-4" id="form-register">
+                            <div class="form-row">
+                                <div class="form-group col-11 col-md-11 col-lg-5 p-0">
+                                    <input type="text" class="form-control" id="name" name="user-name" placeholder="Nome">
+                                </div>
+                                <div class="form-group col-11 col-md-11 col-lg-5 l-2">
+                                    <input type="text" class="form-control" id="last-name" placeholder="Sobrenome">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-11 col-sm-11 col-lg-10 p-0">
+                                    <input type="text" class="form-control" id="phone" placeholder="Celular ou email">
+                                </div>
+                                <div class="form-group col-11 col-sm-11 col-lg-10 p-0">
+                                    <input type="password" class="form-control" id="new-password" placeholder="Nova senha">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-10 mb-0 p-0">
+                                    <label for="">Data de nascimento</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                    <div class="form-group col-10 p-0">
+                                        <input type="text" id="datepicker" class="form-control form-control-date" placeholder="dd/mm/aaaa">
+                                    </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-10 mb-0 p-0">
+                                    <label for="">Gênero</label>
+                                </div>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genre" id="fem" value="Feminino">
+                                <label class="form-check-label" for="fem">Feminino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genre" id="masc" value="Masculino">
+                                <label class="form-check-label" for="masc">Masculino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genre" id="pers" value="Personalizado">
+                                <label class="form-check-label" for="pers">Personalizado</label>
+                            </div>
+                            <div class="form-row col-sm-8 mt-4 p-0">
+                                <p class="terms">Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                            </div>
+                            <div class="form-row mb-5">
+                                <button class="btn btn-success btn-color" id="facebook-register">Cadastre-se</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="libs/pikaday.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var picker = new Pikaday({field: document.getElementById('datepicker')});
+    </script>
+</body>
+</html>
