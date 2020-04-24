@@ -1,4 +1,4 @@
-const botao = document.getElementById('facebook-register');
+const botao = document.getElementById('button-login');
 botao.addEventListener('click', function () {
-  alert(document.getElementById('celularEmail').value);
+  alert(document.getElementById('user-email-phone').value);
 });
