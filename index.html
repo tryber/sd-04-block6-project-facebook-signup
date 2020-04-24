@@ -21,10 +21,10 @@
             <tbody>
               <tr>
                 <td>
-                  <label for="user-email-phone">Email ou telefone</label>
+                  <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
                 </td>
                 <td>
-                  <label for="user-password">Senha</label>
+                  <label for="user-password" id="user-password">Senha</label>
                 </td>
               </tr>
               <tr>
@@ -80,20 +80,20 @@
             <p class="birth-date">Data de nascimento</p>
             <input type="text" id="datepicker" placeholder="dd/mm/aaaa">
 
-            <p class="birth-date">Gênero</p>
+            <p class="gender">Gênero</p>
             <span gender-wrapper>
               <span class="gender">
-                <input type="radio" id="feminine" class="gender-radio" name="sex">
+                <input type="radio" id="feminine" class="gender-radio" value="Feminino" name="sex">
                 <label for="feminine">Feminino</label>
               </span>
 
               <span class="gender">
-                <input type="radio" id="masculine" class="gender-radio" name="sex">
+                <input type="radio" id="masculine" class="gender-radio" value="Masculino" name="sex">
                 <label for="masculine">Masculino</label>
               </span>
 
               <span class="gender">
-                <input type="radio" id="personalized" class="gender-radio" name="sex">
+                <input type="radio" id="personalized" class="gender-radio" value="Personalizado" name="sex">
                 <label for="personalized">Personalizado</label>
               </span>
             </span>
