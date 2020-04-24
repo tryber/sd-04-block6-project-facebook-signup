@@ -34,17 +34,18 @@ a {
   color: white;
 }
 
+.mar {
+  width: 400px;
+  width: 629;
+}
+
 .second-container {
   display: flex;
   height: auto;
-  justify-content: space-around;
+  justify-content: center;
+  padding-top: 30px;
   width: 100%;
-}
-
-.container-p2 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  background-image: linear-gradient(white, #D3D8E8);
 }
 
 .face-net {
@@ -54,13 +55,35 @@ a {
 
 .face-net p {
   color: #0e385f;
-  font-size: 20px;
-  font-weight: bolder;
+  font: italic normal 22px sans-serif;
   line-height: 29px;
-  word-spacing: 1px;
+  margin-bottom: 0px;
+  word-spacing: -1px;
+
 }
 
 .facebook-networking {
   height: 195px;
   width: 537px;
+}
+
+.container-p2 { 
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-1 h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+
+.title-1 p {
+  font-weight: 100;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 6px;
 }
