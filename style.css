@@ -1,16 +1,15 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
+html , body {
   box-sizing: border-box;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  text-decoration: none;
   cursor: pointer;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 a:hover {
@@ -18,52 +17,52 @@ a:hover {
 }
 
 /* HEADER */
-
 header {
-  height: 81px;
-  width: 100%;
-  position: static;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-around;
   align-items: center;
   background-color: #3b5998;
   color: aliceblue;
+  display: flex;
+  height: 81px;
+  justify-content: space-around;
+  left: 0;
+  position: static;
+  top: 0;
+  width: 100%;
 }
 
 header img {
-  width: 170px;
   margin-top: 17px;
+  width: 170px;
 }
 
 header nav {
-  display: flex;
   align-items: flex-start;
+  display: flex;
 }
 
 header nav div {
-  font-size: 12px;
   display: flex;
   flex-direction: column;
+  font-size: 12px;
   margin: 8px;
 }
+
 .top-bar a {
   color: #9cb4d8;
 }
+
 .inputtextlogin {
-  padding: 4px;
-  margin-top: 4px;
+  border: 1px solid #1d2a5b;
   margin-bottom: 4px;
-  border-color: #1d2a5b;
+  margin-top: 4px;
+  padding: 4px;
 }
 
 .login {
   width: 142px;
 }
 
-/* Button Login */
-
+/* BUTTON LOGIN */
 button {
   cursor: pointer;
 }
@@ -72,95 +71,93 @@ button {
   align-self: center;
 }
 
-button#button-login {
-  color: #fff;
+.button-login {
   background-color: #4267b2;
-  border-color: #29487d;
+  border: 1px solid #29487d;
+  color: white;
   font-family: inherit;
-  font-weight: bold;
-  line-height: 18px;
   font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
 }
 
-button#button-login:hover {
+.button-login:hover {
   background-color: #3b5998;
 }
 
-/* section */
-
+/* SECTION */
 .container-section {
-  display: flex;
-  background: linear-gradient(white, #d3d8e8);
-  flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
   height: 628px;
+  justify-content: center;
 }
 
-/* section - article */
-
+/* SECTION - ARTICLE */
 .container-section article {
   display: flex;
   flex-direction: column;
   height: 286px;
-  width: 550px;
   margin-top: 40px;
+  width: 550px;
 }
 
-div.phase p {
+.phase p {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 29px;
   margin: 0 15px 0 0;
   width: 500px;
 }
 
 .imgNetworking img {
-  width: 535px;
   height: 193px;
+  width: 535px;
 }
 
-/* section - aside */
-
+/* SECTION - ASIDE */
 .container-section aside {
   display: flex;
   flex-direction: column;
-  width: 400px;
   height: 500px;
   padding-top: 20px;
+  width: 400px;
 }
 
 .title {
   color: #333;
   font-size: 36px;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
 }
 
 .subtitle {
   color: #1d2129;
   font-size: 19px;
+  font-weight: 100;
   margin-top: 0;
-  font-weight: normal;
 }
 
 .form-group {
   display: flex;
   flex-direction: row;
+  margin: 5px 0 0;
 }
 
-.form-group:nth-child(1) {
-  width: 377px;
+.form-group:nth-child( 1 ) {
   justify-content: space-between;
+  width: 377px;
 }
 
 .inputtextform {
-  border: 1px solid #ccd0d5;
-  font-size: 18px;
-  padding: 8px 10px;
   border-color: #bdc7d8;
   border-radius: 5px;
+  border: 1px solid #ccd0d5;
+  font-size: 18px;
   margin: 0;
+  padding: 8px 10px;
   width: 173px;
 }
 
@@ -168,19 +165,21 @@ div.phase p {
   font-size: 15px;
 }
 
-.form-group:nth-child(1) input:nth-child(1) {
-  margin-right: 10px;
-}
-
-.form-group:nth-child(2) input {
-  width: 377px;
-}
-.form-group:nth-child(3) input {
+.form-group:nth-child( 2 ) input {
   width: 377px;
 }
 
-.form-group:nth-child(4) {
+.form-group:nth-child( 3 ) input {
+  margin-bottom: 10px;
+  width: 377px;
+}
+
+.form-group:nth-child( 4 ) {
   flex-direction: column;
+}
+
+.form-group:nth-child( 1 ) input:nth-child( 1 ) {
+  margin-right: 10px;
 }
 
 .border {
@@ -190,31 +189,27 @@ div.phase p {
 .inpSubtitle {
   color: #90949c;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   margin: 10px 0 5px;
 }
 
-div.form-group.genero {
-  margin-top: 10px;
+.genero {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-div.genero label {
+.genero label {
   color: #1d2129;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 100;
   line-height: 18px;
   padding: 0 10px 0 3px;
-}
-
-input[name="genero"] {
-  margin: 3px 5px 0 10px;
 }
 
 .terms {
   color: #777;
   font-size: 11px;
-  margin: 11px 0;
+  margin: 20px 0 10px;
   width: 316px;
 }
 
@@ -224,10 +219,10 @@ input[name="genero"] {
 }
 
 .criarPag {
-  color: #666666;
+  color: #666;
   font-size: 13px;
-  font-weight: bold;
-  margin-top: 20px;
+  font-weight: 700;
+  margin-top: 15px;
   padding-top: 15px;
 }
 
@@ -236,13 +231,12 @@ input[name="genero"] {
   text-decoration: none;
 }
 
-/* Button Register */
-
+/* BUTTON REGISTER */
 .btnregister {
   background: linear-gradient(#67ae55, #578843);
-  border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
+  border: 1px solid;
   color: white;
   font-size: 19px;
   margin: 10px 0;
@@ -251,8 +245,7 @@ input[name="genero"] {
   width: 194px;
 }
 
-/* Footer */
-
+/* FOOTER */
 .footer {
   display: flex;
   justify-content: center;
@@ -263,10 +256,10 @@ input[name="genero"] {
   width: 980px;
 }
 
-footer ul {
-  list-style: none;
+.footer ul {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
   padding: 8px 0 0;
 }
 
@@ -274,7 +267,7 @@ footer ul {
   padding-right: 10px;
 }
 
-footer ul a {
+.footer a {
   color: #385898;
   font-size: 12px;
   text-decoration: none;
