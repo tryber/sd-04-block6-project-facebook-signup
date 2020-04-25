@@ -249,6 +249,10 @@ td div .forgot-acount:hover {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+.form-sub-button button:hover {
+  background: linear-gradient(#73bc5f, #578843);
+}
+
 .birth-container {
   align-items: baseline;
   display: flex;
