@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!--  -->
+    <link rel="icon" type="imagem/png" href="/face.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Facebook - entre ou cadastre-se</title>
+    <script>
+    $( function() {
+      $( "#born-date" ).datepicker();
+    } );
+  </script>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="facebook-logo">
+          <a href="index.html"><img src="/facebook-logo-1.png" alt="Facebook" srcset=""/></a>
+        </div>
+        <table>
+          <tr>
+            <td><label for="Email-tel" class="text-form" id="user-email-phone-label">Email ou telefone</label></th>
+            <td><label for="password" class="text-form" id="password-header">Senha</label></th>
+          </tr>
+          <tr>
+            <td><input type="text" name="Email-tel" id="user-email-phone" class="password"></td>
+            <td><input type="password" name="password" id="user-password" class="password"></td>
+            <td><button id="button-login" class="button-enter">Entrar</button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><div class="forget-password"><a href="http://" >Esqueceu a conta?</a></div></td>
+          </tr>
+        </table>
+      </div>
+    </header>
+    <main>
+      <div class="left-content">
+        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+        <img src="/networking.png" id="facebook-networking" alt="Rede Facebook">
+      </div>
+      <div class="rigth-form">
+        <h1>Abra uma conta</h1>
+        <p>É rápido e fácil.</p>
+        <form action="" method="post" id="form">
+          <div id="full-name-user">
+            <input type="text" name="nome" class="fullname" id="first-name-user" placeholder="Nome" >
+            <input type="text" name="nome" class="fullname" class="last-name-user" placeholder="Sobrenome" >
+          </div>
+          <div id="infoUser">
+          <input type="text" name="celular-email" class="info-user" id="user-mail-cel" placeholder="Celular ou email">
+          <input type="password" name="senha" class="info-user" id="new-password" placeholder="Nova senha">
+          <div class="born-date">
+            Data de nascimento
+          </div>
+          <input type="text" name="data" class="borndate" id="born-date" placeholder="dd/mm/aaaa" >
+          <a href=""><i><img src="/interrogation.png" class="interrogation" id="interrogation-born-date" alt="interrogação" srcset=""></i></a>
+          </div>
+          <div class="gender-container">
+        <div class="gender">Gênero</div>
+            <input type="radio" id="female" name="gender" value="Feminino">
+            <label for="female">Feminino</label>
+            <input type="radio" id="male" name="gender" value="Masculino">
+            <label for="male">Masculino</label>
+            <input type="radio" id="custom" name="gender" value="Personalizado">
+            <label for="custom">Personalizado</label><br>
+            <a href="#"><i><img src="/interrogation.png" class="interrogation" class="interrogation-gender" alt="Interrogação"></i></a>
+        </div>
+           <div class="terms-paragr">
+           <p class="register-terms">Ao clicar em Cadastre-se, você concorda com nossos <a href="#" id="terms">Termos</a>,<br>
+              <a href="#" id="data policy.">Política de Dados</a> e
+              <a href="#" id="cookies policy">Política de Cookies</a>.
+                Você pode receber<br> notificações por SMS e pode cancelar isso quando quiser.</p>
+           </div>
+           <div id="register-user">
+             <button type="submit" id="facebook-register" class="register" name="botao" >Cadastre-se</button>
+           </div>
+           <div class="create-page">
+           <a href="#">Criar uma Página</a> para uma celebridade, banda ou emṕresa.
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
