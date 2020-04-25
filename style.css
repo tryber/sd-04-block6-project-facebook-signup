@@ -29,21 +29,24 @@ html , body {
   zoom: 1;
 }
 
-ul li > a {
-  color: #385898;
-  text-decoration: none;
-}
-
-ul li > a:hover {
-  text-decoration: underline;
-}
-
 .menu-bar a {
   margin-left: 5px;
 }
 
-.facebook-logo {
+.locateSelector li > a , .op-list li > a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.locateSelector li > a:hover , .op-list li a:hover {
+  text-decoration: underline;
+}
+
+.facebook-logo , .anounce-icon {
   background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png');
+}
+
+.facebook-logo {
   background-position: 0 -245px;
   height: 34px;
   width: 170px;
@@ -373,7 +376,6 @@ li .more-lang .list-lang-icon {
 }
 
 .anounce-icon {
-  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png');
   background-position: -136px -280px;
   height: 16px;
   width: 16px;
