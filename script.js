@@ -3,12 +3,10 @@ const email = document.getElementById('user-email-phone');
 const dataNasc = document.getElementById('data-nasc');
 
 function exibeLogin() {
-    alert(email.value);
+  alert(email.value);
 }
 
 window.onload = function () {
-    btLogar.onclick = exibeLogin;
-    const datePicker = new Pickday({
-        field: dataNasc,
-    });
+  btLogar.onclick = exibeLogin;
+  let picker = new Pikaday({ field: document.getElementById('data-nasc') });
 }
