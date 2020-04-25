@@ -152,9 +152,8 @@ button {
 }
 
 .inputtextform {
-  border-color: #bdc7d8;
+  border: 1px solid #bdc7d8;
   border-radius: 5px;
-  border: 1px solid #ccd0d5;
   font-size: 18px;
   margin: 0;
   padding: 8px 10px;
@@ -234,9 +233,9 @@ button {
 /* BUTTON REGISTER */
 .btnregister {
   background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
-  border: 1px solid;
   color: white;
   font-size: 19px;
   margin: 10px 0;
