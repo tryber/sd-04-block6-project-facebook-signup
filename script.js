@@ -8,5 +8,7 @@ function exibeLogin() {
 
 window.onload = function () {
     btLogar.onclick = exibeLogin;
-    dataNasc.DatePickerX.init();
+    const datePicker = new Pickday({
+        field: dataNasc,
+    });
 }
