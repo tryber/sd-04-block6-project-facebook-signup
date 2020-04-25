@@ -29,6 +29,10 @@ html , body {
   zoom: 1;
 }
 
+.menu-bar a {
+  margin-left: 5px;
+}
+
 .facebook-logo {
   background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png');
   background-position: 0 -245px;
