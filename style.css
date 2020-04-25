@@ -42,7 +42,6 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
-
 }
 
 .form-usuarios {
@@ -92,4 +91,89 @@ body {
   padding: 7px 20px;
   text-rendering: optimizeLegibility;
   text-shadow: rgb(0, 0, 0, 0.5) 0 1px 2px;
+}
+
+.lado-direito {
+  max-width: 500px;
+}
+
+.lado-direito .p1 {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.34;
+  margin-bottom: 0;
+}
+
+.lado-direito .p2 {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.34;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.form-usuario input {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 165px;
+}
+
+.form-elemento-senha {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 377px;
+}
+
+.form-elemento-email {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 377px;
+}
+
+.data-nascimento {
+  color: #90949c;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.input-nascimento {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 165px;
+}
+
+.genero {
+  color: #90949c;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
