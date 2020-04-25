@@ -255,3 +255,22 @@ td div a:hover {
 .res-dicas-text a:hover {
   text-decoration: underline;
 }
+
+.res-page-celeb {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.res-page-celeb a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.res-page-celeb a:hover {
+  text-decoration: underline;
+}
