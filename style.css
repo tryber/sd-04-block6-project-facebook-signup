@@ -55,32 +55,12 @@ td div {
   padding-top: 4px;
 }
 
-.res-dicas-text {
-  color: #777;
-  font-size: 11px;
-  margin: 1em 0;
-  width: 316px;
-}
-
-.res-dicas-text a:hover {
-  text-decoration: underline;
-}
-
-.res-page-celeb {
-  border-top: 1px solid #dddfe2;
-  color: #666;
-  font-size: 13px;
-  font-weight: 700;
-  margin-top: 10px;
-  padding-top: 15px;
-}
-
-.res-page-celeb a {
-  color: #385898;
+td div a {
+  color: #9cb4d8;
   text-decoration: none;
 }
 
-.res-page-celeb a:hover {
+td div a:hover {
   text-decoration: underline;
 }
 
@@ -89,12 +69,16 @@ td div {
   text-decoration: none;
 }
 
-td div a {
-  color: #9cb4d8;
+.res-dicas-text a:hover {
+  text-decoration: underline;
+}
+
+.res-page-celeb a {
+  color: #385898;
   text-decoration: none;
 }
 
-td div a:hover {
+.res-page-celeb a:hover {
   text-decoration: underline;
 }
 
@@ -273,6 +257,21 @@ td div a:hover {
 
 .info-message-icon-two {
   margin: 8px 5px 15px 6px;
+}
+
+.res-dicas-text {
+  color: #777;
+  font-size: 11px;
+  margin: 1em 0;
+  width: 316px;
+}
+.res-page-celeb {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 15px;
 }
 
 .rodape {
