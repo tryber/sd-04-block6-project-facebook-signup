@@ -78,8 +78,8 @@ table {
   color: rgb(140, 176, 213);
   font-size: 12px;
   text-decoration: none;
-
 }
+
 .forget-password a :hover {
   text-decoration: underline;
 }
@@ -122,6 +122,7 @@ table {
 .last-name-user {
   margin-left: 10px;
 }
+
 .born-date {
   color: rgb(146, 148, 156);
   font-weight: 900;
@@ -151,7 +152,7 @@ table {
 .interrogation {
   width: 15px;
 }
- 
+
 .interrogation-born-date {
   margin: 1px 1px 0;
 }
@@ -200,19 +201,19 @@ table {
 }
 
 .create-page a {
-    text-decoration: none;
+  text-decoration: none;
 }
-  
+
+.register-terms a {
+  text-decoration: none;
+}
+
 .create-page a:hover {
   text-decoration: underline;
 }
 
 .register-terms {
   line-height: 1.4;
-}
-
-.register-terms a {
-  text-decoration: none;
 }
 
 .register-terms a:hover {
