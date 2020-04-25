@@ -12,7 +12,7 @@ body {
 }
 
 .top-bar {
-  background-color: #3b5998;
+  background: linear-gradient(#4e69a2, #3b5998 50%);;
   color: white;
   display: flex;
   flex-direction: row;
@@ -204,4 +204,27 @@ body {
   height: 21px;
   margin: 0;
   width: 172px;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px;
+  color: white;
+  font: 400 13.3333px Arial;
+  height: 23px;
+  margin: 10px auto;
+  padding: 7px 20px;
+  text-align: center;
+  width: 152px;
+}
+
+input.datep {
+  width: 172px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  width: 400px;
 }
