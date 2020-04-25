@@ -129,24 +129,11 @@ table {
   padding-top: 20px;
 }
 
-.day {
-  margin-right: -3px;
-  padding: 5px;
-}
-
-.month {
-  margin-right: -3px;
-  padding: 5px;
-}
-
-.year {
-  padding: 5px;
-}
-
-.day-month-year {
-  background-color: white;
-  color: rgb(34, 34, 34);
-  margin-top: 5px;
+.borndate{
+  border: 1px solid #bdc7d8;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 8px 7px;
 }
 
 .interrogation {
