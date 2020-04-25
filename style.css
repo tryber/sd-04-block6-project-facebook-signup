@@ -69,13 +69,13 @@ td div .forgot-acount:hover {
   text-decoration: none;
 }
 
-.res-dicas-text a:hover {
-  text-decoration: underline;
-}
-
 .res-page-celeb a {
   color: #385898;
   text-decoration: none;
+}
+
+.res-dicas-text a:hover {
+  text-decoration: underline;
 }
 
 .res-page-celeb a:hover {
@@ -265,6 +265,7 @@ td div .forgot-acount:hover {
   margin: 1em 0;
   width: 316px;
 }
+
 .res-page-celeb {
   border-top: 1px solid #dddfe2;
   color: #666;
