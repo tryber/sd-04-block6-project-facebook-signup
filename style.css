@@ -33,6 +33,24 @@ html , body {
   margin-left: 5px;
 }
 
+.res-dicas-text a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.res-page-celeb a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.res-dicas-text a:hover {
+  text-decoration: underline;
+}
+
+.res-page-celeb a:hover {
+  text-decoration: underline;
+}
+
 .locateSelector li > a , .op-list li > a {
   color: #385898;
   text-decoration: none;
@@ -77,24 +95,6 @@ td div .forgot-acount {
 }
 
 td div .forgot-acount:hover {
-  text-decoration: underline;
-}
-
-.res-dicas-text a {
-  color: #385898;
-  text-decoration: none;
-}
-
-.res-page-celeb a {
-  color: #385898;
-  text-decoration: none;
-}
-
-.res-dicas-text a:hover {
-  text-decoration: underline;
-}
-
-.res-page-celeb a:hover {
   text-decoration: underline;
 }
 
