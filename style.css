@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(white,rgb(212, 212, 212 ));
+  background-image: linear-gradient(white, rgb(212, 212, 212));
   box-sizing: border-box;
   font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
   margin: 0;
@@ -123,7 +123,7 @@ table {
   margin-left: 10px;
 }
 .born-date {
-  color:rgb(146, 148, 156);
+  color: rgb(146, 148, 156);
   font-weight: 900;
   padding-top: 20px;
 }
@@ -151,7 +151,7 @@ table {
 .interrogation {
   width: 15px;
 }
-  
+ 
 .interrogation-born-date {
   margin: 1px 1px 0;
 }
@@ -191,12 +191,20 @@ table {
   font-weight: 600;
   margin-top: 15px;
   padding: 8px 45px;
-  text-shadow: 1px solid rgb(10, 10, 10); 
+  text-shadow: 1px solid rgb(10, 10, 10);
 }
 
 .register:hover {
   background: linear-gradient(#76c562, #578843);
   border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+.create-page a {
+    text-decoration: none;
+}
+  
+.create-page a:hover {
+  text-decoration: underline;
 }
 
 .register-terms {
@@ -208,14 +216,6 @@ table {
 }
 
 .register-terms a:hover {
-  text-decoration: underline;
-}
-
-.create-page a {
-  text-decoration: none;
-}
-
-.create-page a:hover {
   text-decoration: underline;
 }
 
