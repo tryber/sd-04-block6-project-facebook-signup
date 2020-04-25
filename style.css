@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(white,rgb(212 , 212 , 212 ));
+  background-image: linear-gradient(white,rgb(212 , 212 , 212 ) );
   box-sizing: border-box;
   font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
   margin: 0;
@@ -123,7 +123,7 @@ table {
   margin-left: 10px;
 }
 .born-date {
-  color: rgb(146, 148, 156);
+  color:rgb(146, 148, 156);
   font-weight: 900;
   padding-top: 20px;
 }
@@ -157,9 +157,9 @@ table {
 }
 
 .gender-container {
-    color: rgb(146, 148, 156);
-    font-weight: 900;
-    padding: 10px 0;
+  color: rgb(146, 148, 156);
+  font-weight: 900;
+  padding: 10px 0;
 }
 
 .gender {
