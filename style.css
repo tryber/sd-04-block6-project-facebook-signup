@@ -277,6 +277,7 @@ td div .forgot-acount:hover {
 
 .rodape {
   display: flex;
+  font-size: 12px;
   justify-content: center;
   margin-top: 8px;
 }
@@ -291,7 +292,6 @@ td div .forgot-acount:hover {
   color: #737373;
   display: flex;
   flex-wrap: wrap;
-  font-size: 12px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -303,10 +303,6 @@ td div .forgot-acount:hover {
   padding-right: 10px;
 }
 
-.locateSelector li a {
-  color: #385898;
-  text-decoration: none;
-}
 
 .locateSelector li a:hover {
   text-decoration: underline;
@@ -344,4 +340,37 @@ li .more-lang .list-lang-icon {
   border-bottom: 1px solid #dddfe2;
   height: 8px;
   margin-bottom: 8px;
+}
+
+.op-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.6;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.op-container ul li {
+  padding-right: 20px;
+}
+
+.link-anounce {
+  display: flex;
+}
+
+.anounce-icon {
+  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png');
+  background-position: -136px -280px;
+  height: 16px;
+  width: 16px;
+}
+
+ul li > a {
+  color: #385898;
+  text-decoration: none;
+}
+
+ul li > a:hover {
+  text-decoration: underline;
 }
