@@ -8,4 +8,5 @@ function exibeLogin() {
 
 window.onload = function () {
     btLogar.onclick = exibeLogin;
+    dataNasc.DatePickerX.init();
 }
