@@ -12,39 +12,39 @@
   <body>
     <header class='top-bar'>
       <div class='superior-esquerdo'>
-        <img class='facebook-logo' src='facebook-logo-1.png' alt='Facebook Logotipo'>
+        <img class='facebook-logo' src='facebook-logo.png' alt='Facebook Logotipo'>
       </div>
       <div class='superior-direito'>
         <form action='' method='post' enctype="multipart/form-data" class='form-row user'>
-          <div class='form-group col-auto'>
-            <label for='user-email-phone' id='user-email-phone-label' class='form-label'>Email ou telefone</label>
-            <input type='text' id='user-email-phone' class='form-control form-control-sm' required>
+          <div class='form-group col-auto mb-0'>
+            <label for='user-email-phone' id='user-email-phone-label' class='form-label mb-0 top-label text-white'>Email ou telefone</label>
+            <input type='text' id='user-email-phone' class='form-control form-control-sm h-25 top-input' required>
           </div>
-          <div class='form-group col-auto'>
-            <label for='password' id='password-label' class='form-label'>Senha</label>
-            <input type='password' id='user-password' class='form-control form-control-sm' required>
-            <small class="form-text text-muted">Esqueceu a conta?</small>
+          <div class='form-group col-auto mb-0'>
+            <label for='password' id='password-label' class='form-label mb-0 top-label text-white'>Senha</label>
+            <input type='password' id='user-password' class='form-control form-control-sm h-25 top-input' required>
+            <small class="form-text" style='color: #9cb4d8;'>Esqueceu a conta?</small>
           </div>
-          <div class='form-group col-auto'>
-            <button type='submit' id='button-login' class='btn btn-primary button-login' value='Entrar'>Entrar</button>
+          <div class='form-group top-button col-auto mb-0'>
+            <button type='submit' id='button-login' class='btn btn-primary button-login btn-sm' value='Entrar'>Entrar</button>
           </div>
         </form>
       </div>
     </header>
     <section class='central'>
       <div class='meio-esquerdo'>
-        <p class='facebook-text'><b>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</b></p>
+        <p class='facebook-text text-h4'><b>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</b></p>
         <img id='facebook-networking' class='facebook-networking' src='networking.png' alt='Imagem mostrando a conexão entre as pessoas'>
       </div>
       <div class='meio-direito'>
         <div class='texto-direito'>
-          <h1>Abra uma conta</h1>
-          <h4>É rápido e fácil.</h4>
+          <h1 class='text-h1'>Abra uma conta</h1>
+          <h4 class='text-h4'>É rápido e fácil.</h4>
         </div>
         <form action='' method='post' enctype="multipart/form-data" class='form-row new-user'>
           <div class='form row nome'>
             <div class='form-group col-md-6'>
-              <input type='text' class='form-control' placeholder='Nome' requeired>
+              <input type='text' class='form-control' placeholder='Nome' required>
             </div>
             <div class='form-group col-md-6'>
               <input type='text' class='form-control' placeholder='Sobrenome' required>
@@ -54,7 +54,7 @@
             <input type='text' class='user-email-phone form-control' placeholder='Celular ou email' required>
           </div>
           <div class='form-group password'>
-            <input type='text' class ='password form-control' placeholder='Nova Senha' required>
+            <input type='password' class ='password form-control' placeholder='Nova senha' required>
           </div>
           <div class="form-group data-text">
             <label style='color: #8c8f97;'><b>Data de nascimento</b></label>
