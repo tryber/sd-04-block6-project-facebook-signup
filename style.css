@@ -339,3 +339,9 @@ li .more-lang .list-lang-icon {
   height: 12px;
   width: 12px;
 }
+
+.division-bar {
+  border-bottom: 1px solid #dddfe2;
+  height: 8px;
+  margin-bottom: 8px;
+}
