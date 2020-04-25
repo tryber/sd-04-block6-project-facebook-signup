@@ -1,0 +1,366 @@
+body {
+  font-family: inherit;
+  margin: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  display: flex;
+  font-size: 12px;
+  height: 82px;
+  justify-content: center;
+  line-height: 1.34;
+  min-width: 980px;
+}
+
+.facebook img {
+  margin-top: 17px;
+  width: 170px;
+}
+
+.facebook {
+  width: 570px;
+}
+
+.login-form {
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  justify-content: space-between;
+  line-height: 1.34;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 4px 14px;
+}
+
+.formulario input {
+  background-color: white;
+  border: 1px solid #1d2a5b;
+  color: #1c1e21;
+  display: flex;
+  height: 14px;
+  margin-top: 5px;
+  padding: 3px 3px 4px;
+  width: 142px;
+}
+
+.login-label {
+  color: white;
+  margin-top: 10px;
+}
+
+.remenber {
+  color: #9cb4d8;
+  cursor: pointer;
+  font-weight: 400;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.container {
+  background-image: linear-gradient(white, #d3d8e8);
+  display: flex;
+  justify-content: center;
+}
+
+.form-usuarios {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-usuario {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-email-senha {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-data-nascimento {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-cadastrar {
+  background-clip: border-box;
+  background-color: rgb(105, 167, 78);
+  background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+  border-color: rgb(59, 110, 34);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.99px;
+  box-shadow: rgb(164, 227, 136) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  direction: ltr;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23.94px;
+  margin: 10px 0;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgb(0, 0, 0, 0.5) 0 1px 2px;
+}
+
+.lado-esquerdo {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.34;
+  width: 565px;
+}
+
+.lado-esquerdo p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.lado-direito {
+  max-width: 500px;
+}
+
+.lado-direito .p1 {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.34;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.lado-direito .p2 {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.34;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.form-usuario input {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 165px;
+}
+
+.form-elemento-senha {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 377px;
+}
+
+.form-elemento-email {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 377px;
+}
+
+.data-nascimento {
+  color: #90949c;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.input-nascimento {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 8px 18px;
+  width: 165px;
+}
+
+.genero {
+  color: #90949c;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.radios label {
+  color: #1d2129;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 5px 0 0;
+  vertical-align: middle;
+}
+
+.radios input {
+  background-color: white;
+  border: initial;
+  box-sizing: border-box;
+  color: #1c1e21;
+  font-size: 12px;
+  margin: 3px 3px 0 5px;
+  padding: initial;
+}
+
+.termos {
+  color: #1c1e21;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.34;
+  width: 350px;
+}
+
+.termos p {
+  color: #777;
+  font-size: 11px;
+  line-height: 1.34;
+  margin: 1em 0;
+  width: 316px;
+}
+
+.termos a {
+  color: #385898;
+  cursor: pointer;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.celebridade {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.34;
+  padding-top: 15px;
+}
+
+.celebridade a {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.rodape {
+  color: #1c1e21;
+  direction: ltr;
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  justify-content: center;
+  line-height: 1.34;
+  margin: 0;
+}
+
+.rodape ul {
+  align-items: center;
+  color: #737373;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 22px;
+}
+
+.rodape ul li a {
+  border-width: 0 0 0 1px;
+  color: #385898;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.linha-rodape {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.rodape-lista2 {
+  height: 57px;
+  line-height: 1.6;
+  margin: 0;
+  margin-left: -20px;
+  width: 1000px;
+}
+
+.rodape-lista2 ul {
+  padding: 0;
+}
+
+.rodape-lista2 li {
+  border-width: 0 0 0 1px;
+  display: inline-block;
+  line-height: 1.6;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.direitos {
+  color: #737373;
+  font-size: 11px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.botao-entrar {
+  margin-top: 11.5px;
+  padding-left: 10px;
+}
+
+.enviar-button {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  border-radius: 2px;
+  color: white;
+  font-weight: 900;
+  line-height: 18px;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  vertical-align: top;
+}
+
+.espacamento {
+  padding-bottom: 30px;
+}
