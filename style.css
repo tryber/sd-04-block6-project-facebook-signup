@@ -38,7 +38,7 @@ html , body {
   text-decoration: none;
 }
 
-.res-page-celeb a {
+.res-page-celeb a , .locateSelector li > a , .op-list li > a {
   color: #385898;
   text-decoration: none;
 }
@@ -47,16 +47,7 @@ html , body {
   text-decoration: underline;
 }
 
-.res-page-celeb a:hover {
-  text-decoration: underline;
-}
-
-.locateSelector li > a , .op-list li > a {
-  color: #385898;
-  text-decoration: none;
-}
-
-.locateSelector li > a:hover , .op-list li a:hover {
+.res-page-celeb a:hover , .locateSelector li > a:hover , .op-list li a:hover {
   text-decoration: underline;
 }
 
