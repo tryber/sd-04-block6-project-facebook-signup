@@ -31,6 +31,13 @@
   justify-content: space-around;
 }
 
+.input-big {
+  border: 1px solid #bdc7d8;
+  height: 39px;
+  padding: 8px 10px;
+  width: 399px;
+}
+
 .meio-direito {
   width: 50%;
 }
@@ -45,14 +52,16 @@
   width: 90%;
 }
 
-.new-user input {
-  border: 1px solid #bdc7d8;
-  padding: 8px 10px 8px 10px;
-}
-
 .nome {
   display: flex;
   justify-content: space-between;
+}
+
+.nome input {
+  border: 1px solid #bdc7d8;
+  height: 39px;
+  padding: 8px 10px;
+  width: 194px;
 }
 
 .superior-direito {
