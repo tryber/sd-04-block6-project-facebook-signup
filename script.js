@@ -13,7 +13,7 @@ const pers = document.querySelector('#pers');
 
 function validaInput(input) {
   if (input.value === '') {
-    alert('Não deixe o campo vazio!');
+    alert(`Preencha com ${input.placeholder}`);
     input.focus();
   }
   return input.value;
@@ -39,18 +39,15 @@ function validaEmail() {
 }
 
 window.onload = function () {
-  document.getElementById('data').DatePickerX.init();
-
   btnLogin.addEventListener('click', function () {
     alert(`${user.value}`);
   });
 
   btnSignin.addEventListener('click', function () {
-    validaInput(nome);
-    validaInput(sobrenome);
-    validaInput(senha);
-    validaInput(data);
-    validaEmail();
-    validaGenero();
+    if (!validaInput(nome) || !validaInput(sobrenome) || !validaInput(senha) || !validaInput(data) || validaEmail() || !validaGenero()) {
+      alert('Dados invalidos!')
+    } else {
+      alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
+    }
   });
 };
