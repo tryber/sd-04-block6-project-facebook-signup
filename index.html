@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook - entre ou cadastre-se</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="icon" href="img/facebook-icon.png">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
   <header class="top-bar">
@@ -19,8 +20,8 @@
           <label class="user-password-label" for="user-password">Senha</label>
         </div>
         <div>
-          <input id="user-email-phone" type="text">
-          <input id="user-password" type="password">
+          <input class="user-email-phone" id="user-email-phone" type="text">
+          <input class="user-password" id="user-password" type="password">
           <button id="button-login">Entrar</button>
         </div>
         <div>
@@ -32,30 +33,26 @@
   <section class="main-container">
     <div class="main-sub-container">
       <div>
-        <div>
+        <div class="facebook-quote">
           O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
         </div>
         <img id="facebook-networking" src="img/networking.png">
       </div>
-      <div>
+      <div class="right-sub-container">
         <div>
           <h2>Abra uma conta</h2>
           <h3>É rápido e fácil.</h3>
         </div>
-        <div class="form">
+        <form class="pure-form">
           <div class="user-name">
-            <div class="name">
-              <input placeholder="Nome" type="text" name="name">
-            </div>
-            <div>
-              <input placeholder="Sobrenome" type="text" name="name2">
-            </div>
+            <input class="name" placeholder="Nome" type="text" name="name">
+            <input class="last-name" placeholder="Sobrenome" type="text" name="name2">
           </div>
           <div>
-            <input placeholder="Celular ou email" type="text" id="mailbox">
+            <input class="phone-email" placeholder="Celular ou email" type="text" id="mailbox">
           </div>
           <div>
-            <input placeholder="Nova senha" type="password">
+            <input class="new-password" placeholder="Nova senha" type="password">
           </div>
           <div>
             <label for="date">Data de nascimento</label>
@@ -78,9 +75,9 @@
             </p>
           </div>
           <div>
-            <button type="submit" id="facebook-register" class="button2" value="Cadastre-se"></button>
+            <button type="submit" id="facebook-register" class="pure-button sign-in-button" value="Cadastre-se">Cadastre-se</button>
           </div>
-        </div>
+        </form>
         <div>
           Criar uma Página para uma celebridade, banda ou empresa.
         </div>
@@ -94,7 +91,7 @@
           <a href="https://www.facebook.com/">English (US)</a>
         </li>
       </ul>
-      <div>linha</div>
+      <hr>
       <div>
         <ul></ul>
       </div>
