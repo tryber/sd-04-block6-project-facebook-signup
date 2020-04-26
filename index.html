@@ -53,45 +53,51 @@
                 </div>
             </div>
             <div class="facebook-account">
-                <div class="coluna">
+                <div class="coluna1">
                     <div class="join-us">
                         <p class="open-it">Abra uma conta</p>
                         <p class="easy-fast">É rápido e fácil.</p>
                     </div>
                 </div>
-                <div class="coluna">
+                <div class="coluna2">
                     <div class="username">
                         <input type="text" class="input-name" placeholder="Nome">
                         <input type="text" class="input-name" placeholder="Sobrenome">
                     </div>
                     <div class="contact">
-                        <input type="text" placeholder="Celular ou email">
+                        <input type="text" class="input-contact" placeholder="Celular ou email">
                     </div>
                     <div class="contact">
-                        <input type="password" placeholder="Nova senha">
+                        <input type="password" class="input-password" placeholder="Nova senha">
                     </div>
                 </div>
-                <div class="coluna">
-                    <label>Data de nascimento</label><br>
+                <div class="coluna3">
+                    <label class="birthday">Data de nascimento</label><br>
                     <input id="date" type="text" placeholder="dd/mm/aaaa" onfocus="(this.type='date')"
                         required="required"><br><br>
                 </div>
-                <div class="coluna">
+                <div class="coluna4">
                     <div class="gender">
                         <p>Gênero</p>
-                        <label for="Feminino">
-                            <input name="Gênero" id="Feminino" value="Feminino" type="radio">Feminino
-                        </label>
-                        <label for="Masculino">
-                            <input name="Gênero" id="Masculino" value="Masculino" type="radio">Masculino
-                        </label>
-                        <label for="Personalizado">
-                            <input name="Gênero" id="Personalizado" value="Personalizado" type="radio">Personalizado
-                        </label>
+                        <div class="gender2">
+                            <label for="Feminino">
+                                <input name="Gênero" id="Feminino" value="Feminino" type="radio">Feminino
+                            </label>
+                            <label for="Masculino">
+                                <input name="Gênero" id="Masculino" value="Masculino" type="radio">Masculino
+                            </label>
+                            <label for="Personalizado">
+                                <input name="Gênero" id="Personalizado" value="Personalizado" type="radio">Personalizado
+                            </label>
+                        </div>
                     </div>
                 </div>
-                <div class="coluna">
-                    <button type="submit" name="Submit" id="facebook-register">Cadastre-se</button>
+                <div class="coluna5">
+                    <p class="submit">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e
+                        Política de
+                        Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                    <button type="submit" name="Submit" id="facebook-register"
+                        class="facebook-register">Cadastre-se</button>
                 </div>
             </div>
         </div>
