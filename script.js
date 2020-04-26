@@ -38,16 +38,21 @@ function validaEmail() {
   return true;
 }
 
+function validaTudo() {
+  if (!validaInput(nome) || !validaInput(sobrenome) || !validaInput(senha) ||
+    !validaInput(data) || validaEmail() || !validaGenero()) {
+    alert('Dados invalidos!')
+  } else {
+    alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
+  }
+}
+
 window.onload = function () {
   btnLogin.addEventListener('click', function () {
     alert(`${user.value}`);
   });
 
   btnSignin.addEventListener('click', function () {
-    if (!validaInput(nome) || !validaInput(sobrenome) || !validaInput(senha) || !validaInput(data) || validaEmail() || !validaGenero()) {
-      alert('Dados invalidos!')
-    } else {
-      alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
-    }
+    validaTudo();
   });
 };
