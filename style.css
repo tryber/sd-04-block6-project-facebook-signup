@@ -30,12 +30,12 @@ body {
   width: 400px;
 }
 
-#button-login{
-    background-color: #4b69ac;
-    border-radius: 3px;
-    border-color: #1e6eb9;
-    color: white;
-    font-weight: 600;
+.button-login {
+  background-color: #4b69ac;
+  border-color: #1e6eb9;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
 }
 
 .frase {
