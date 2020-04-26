@@ -5,14 +5,13 @@ function cadastro() {
     const senha=document.getElementById('senha').value;
     const data=document.getElementById('data').value;
 if (nome.length && sobrenome.length && celMail.length && senha.length && data.length) {
-    window.alert(`${nome}${sobrenome}-${celMail}-${data}`);
-    } 
+    window.alert(`${nome}${sobrenome}-${celMail}-${data}`);}
 else {
     window.alert('Dados inválidos.');
     }
 }
 
-function LOADED () {
+function LOADED() {
     const submitForms = document.getElementById('facebook-register');
     submitForms.addEventListener('click', cadastro);
 }

@@ -1,135 +1,158 @@
 body {
-    font-family:Helvetica, Arial, sans-serif;
-    font-size:12px;
-    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
 }
+
 .botao-enviar {
-    background-color:#4F7AC2;
-    border:1px solid #4F62A9;
-    color:white;
+    background-color: #4f7ac2;
+    border: 1px solid #4f62a9;
+    color: white;
 }
+
 .cadastro {
-    background-color:green;
-    border:1px solid;
-    color:white;
-    font-size:19px;
-    font-weight:700;
-    margin:10px 0;
-    padding:7px 20px;
-    text-align:center;
+    background-color: green;
+    border: 1px solid;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 7px 20px;
+    text-align: center;
 }
+
 .campo-data {
-    display:flex;
-    justify-content:flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
+
 .conteudo {
-    align-items:baseline;
-    background:linear-gradient(white, #D3D8E8);
-    display:flex;
-    flex-direction:row;
-    height:550px;
-    justify-content:space-around;
+    align-items: baseline;
+    background: linear-gradient(white, #d3d8e8);
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    justify-content: space-around;
 }
+
 .direita {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    margin-left:180px;
-    margin-right:200px;
-    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 180px;
+    margin-right: 200px;
+    padding-top: 20px;
 }
+
 .email-senha {
-    display:flex;
-    flex-direction:column;
-    width:150px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
 }
+
 .esquerda {
-    color:rgb(14, 56, 95);
-    display:flex;
-    flex-direction:column;
-    font-size:20px;
-    font-weight:700;
-    justify-content:center;
-    margin-left:200px;
-    padding-bottom:30px;
-    width:450px;
+    color: rgb(14, 56, 95);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    margin-left: 200px;
+    padding-bottom: 30px;
+    width: 450px;
 }
+
 .facebook-logo {
-    margin-right:17px;
-    margin-top:15.5px;
-    position:relative;
-    right:10px;
-    width:200px;
+    margin-right: 17px;
+    margin-top: 15.5px;
+    position: relative;
+    right: 10px;
+    width: 200px;
 }
+
 .facebook-logo img {
-    width:200px;
+    width: 200px;
 }
+
 .forgot {
-    color:#9CB4D8;
-    margin-right:1px;
-    margin-top:5.5px;
+    color: #9cb4d8;
+    margin-right: 1px;
+    margin-top: 5.5px;
 }
+
 .form-registra .termos {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .formulario1 {
-    display:flex;
-    flex-direction:row;
-    height:50px;
-    justify-content:space-around;
-    position:relative;
-    width:400px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-around;
+    position: relative;
+    width: 400px;
 }
+
 .genero-container {
-    align-items:flex-start;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 input {
-    color:rgb(153, 153, 153);
-    font-size:18px;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
 }
+
 .input-genero {
-    font-size:18px;
+    font-size: 18px;
 }
+
 .label-tereza {
-    font-size:0.8rem;
+    font-size: 0.8rem;
 }
+
 .nome-sobrenome {
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-start;
-    padding-top:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 15px;
 }
+
 .nome-sobrenome input {
-    margin-right:15px;
+    margin-right: 15px;
 }
+
 .rede {
-    width:537px;
+    width: 537px;
 }
+
 .telefone-senha {
-    display:flex;
-    flex-direction:column;
-    height:70px;
-    justify-content:space-between;
-    padding-top:10px;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-between;
+    padding-top: 10px;
 }
+
 .texto1 {
-    font-size:36px;
-    padding-top:10px;
+    font-size: 36px;
+    padding-top: 10px;
 }
+
 .texto2 {
-    font-size:19px;
+    font-size: 19px;
 }
+
 .top-bar {
-    align-items:center;
-    background-color:#2a4f9e;
-    border-bottom:1px solid #010E2C;
-    color:white;
-    display:flex;
-    height:84px;
-    justify-content:space-around;
+    align-items: center;
+    background-color: #2a4f9e;
+    border-bottom: 1px solid #010e2c;
+    color: white;
+    display: flex;
+    height: 84px;
+    justify-content: space-around;
 }
