@@ -8,8 +8,8 @@ function cadastro() {
     window.alert(`${nome}${sobrenome}-${celMail}-${data}`);
   } else {
     window.alert('Dados inválidos.');
-}
   }
+}
 
 function LOADED() {
   const submitForms = document.getElementById('facebook-register');
