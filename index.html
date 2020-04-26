@@ -66,24 +66,24 @@
               <div>É rápido e fácil.</div>
             </div>
             <div class="form-container">
-              <form class="user-data-info" action="#">
+              <form class="user-data-info" name="resg-form" action="#">
                 <div class="user-login-data">
                   <div class="user-name">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="Sobrenome">
+                    <input type="text" class="res-data" placeholder="Nome">
+                    <input type="text" class="res-data" placeholder="Sobrenome">
                   </div>
                   <div class="user-email">
-                    <input type="text" placeholder="Celular ou email">
+                    <input type="text" class="res-data" placeholder="Celular ou email">
                   </div>
                   <div class="user-pass">
-                    <input type="password" placeholder="Nova senha">
+                    <input type="password" class="res-data" placeholder="Nova senha">
                   </div>
                 </div>
                 <div class="user-birth">
                   <div class="info-title">Data de nascimento</div>
                   <div class="birth-container">
                     <div class="date-select">
-                      <input id="data-nasc" type="text" placeholder="dd/mm/aaaa">
+                      <input id="data-nasc" class="res-data" type="text" placeholder="dd/mm/aaaa">
                     </div>
                     <div class="info-message">
                       <a href="#">
@@ -96,16 +96,16 @@
                   <div class="info-title">Gênero</div>
                   <div class="user-gender">
                     <div class="gender-fem">
-                      <input type="radio" checked value="Feminino">
-                      <label for="">Feminino</label>
+                      <input type="radio" name="genero" id="femGen" checked value="Feminino">
+                      <label for="femGen">Feminino</label>
                     </div>
                     <div class="gender-masc">
-                      <input type="radio" value="Masculino">
-                      <label for="">Masculino</label>
+                      <input type="radio" name="genero" id="mascGen" value="Masculino">
+                      <label for="mascGen">Masculino</label>
                     </div>
                     <div class="gender-pers">
-                      <input type="radio" value="Personalizado">
-                      <label for="">Personalizado</label>
+                      <input type="radio" name="genero" id="persGen" value="Personalizado">
+                      <label for="persGen">Personalizado</label>
                     </div>
                   </div>
                   <div class="info-message">
@@ -198,7 +198,16 @@
     <script src="script.js"></script>
     <script>
       const dataNasc = document.getElementById('data-nasc');
-      const picker = new Pikaday({ field: dataNasc });
+      const picker = new Pikaday({
+        field: dataNasc,
+        format: 'DD/MM/YYY',
+        toString(date, format) {
+          const day = date.getDate();
+          const month = date.getMonth() + 1;
+          const year = date.getFullYear();
+          return `${day}/${month}/${year}`;
+        }
+      });
     </script>
   </body>
 </html>
