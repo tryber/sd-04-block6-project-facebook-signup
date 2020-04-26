@@ -30,9 +30,18 @@ body {
   width: 400px;
 }
 
+#button-login{
+    background-color: #4b69ac;
+    border-radius: 3px;
+    border-color: #1e6eb9;
+    color: white;
+    font-weight: 600;
+}
+
 .frase {
   color: #0e385f;
   font-size: 20px;
+  font-weight: 600;
   width: 450px;
 }
 
