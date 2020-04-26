@@ -23,7 +23,7 @@ body {
 
 .campo-data {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .conteudo {
@@ -118,8 +118,12 @@ input {
 .nome-sobrenome {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding-top: 15px;
+}
+
+.nome-sobrenome input {
+  margin-right: 15px;
 }
 
 .rede {
