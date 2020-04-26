@@ -39,6 +39,8 @@ function validaEmail() {
 }
 
 window.onload = function () {
+  document.getElementById('data').DatePickerX.init();
+
   btnLogin.addEventListener('click', function () {
     alert(`${user.value}`);
   });
