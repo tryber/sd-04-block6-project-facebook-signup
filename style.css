@@ -1,0 +1,101 @@
+.top-bar {
+  background-color: #3b5998;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.facebook-logo {
+  align-self: flex-end;
+  display: flex;
+  height: 55px;
+  margin: 8px;
+  width: 170px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+}
+
+.login {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.container input {
+  width: 88%;
+}
+
+a {
+  color: white;
+}
+
+.mar {
+  height: 629px;
+  width: 400px;
+}
+
+.second-container {
+  background-image: linear-gradient(white, #d3d8e8);
+  display: flex;
+  height: auto;
+  justify-content: center;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.face-net {
+  display: flex;
+  flex-direction: column;
+}
+
+.face-net p {
+  color: #0e385f;
+  font: italic normal 20 sans-serif;
+  line-height: 29px;
+  margin-bottom: 1px;
+  word-spacing: -1px;
+}
+
+.facebook-networking {
+  height: 195px;
+  width: 537px;
+}
+
+.container-p2 {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.title-1 p {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 6px;
+}
+
+.name-last {
+  display: flex;
+}
+
+.formato {
+  border: none;
+  height: 34;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  width: 170;
+}
