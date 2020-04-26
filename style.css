@@ -5,36 +5,35 @@ body {
   font-size: 12px;
   margin: 0;
   padding: 0;
+  line-height: 1.34;
 }
 
 .top-bar:nth-child( 1 ) {
-  align-items: center;
+  align-items: flex-end;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  color: white;
   display: flex;
   height: 82px;
   justify-content: space-around;
+  margin:    ;
   width: auto;
 }
 
 header table tr td {
-  padding-left: 22px;
+  padding-left: 14px;
 }
 
 .user-email-phone , .user-password {
+  background-color: rgb(232, 240, 254);
   border: 1px solid #ccd0d5;
   margin: 0;
-  padding: 0 0 4px 4px;
+  padding: 2px;
   width: 142px;
-}
 
-.user-email-phone {
-  position: absolute;
-  top: 30px;
 }
 
 .user-email-phone-label , .user-password-label {
   color: white;
-  margin: 4px 0;
 }
 
 .button-login {
@@ -44,7 +43,6 @@ header table tr td {
   color: white;
   cursor: pointer;
   font-weight: 800;
-  margin-bottom: 19px;
   padding: 1px;
 }
 
