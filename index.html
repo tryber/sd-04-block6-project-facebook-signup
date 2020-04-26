@@ -9,48 +9,113 @@
 </head>
 <body>
     <header class="top-bar">
-        <div class="facebook-logo">
-            <img src="facebook-logo.png" width="200px" height="82px">
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <img src="facebook-logo.png" alt="Facebook-Logo" class="facebook-logo">
+            </div>
+            <div class="flex-item-right">
+                <div class="linha-1">
+                    <div class="email-telefone">
+						<label id="user-email-phone-label" class="user-email-phone-label">Email ou telefone</label>
+					</div>
+					<div class="senha">
+						<label id="user-password-label" class="user-password-label">Senha</label>
+					</div>
+				</div>
+				<div class="linha-2">
+					<div class="input-email-telefone">
+						<input type="text" id="user-email-phone" class="user-email-phone" required="required">
+					</div>
+					<div class="input-senha">
+						<input type="password" id="user-password" class="user-password" required="required">
+					</div>
+					<div class="botao-entrar">
+						<div class="background-botao">
+							<button id="button-login" class="button-login">Entrar</button>
+						</div>
+					</div>
+				</div>
+				<div class="linha-3">
+					<div class="vazia"></div>
+					<div class="esqueceu-a-conta">
+						<a href="https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar">Esqueceu a conta?</a>
+					</div>
+				</div>
+            </div>
         </div>
-        <section class="login-form">
-            <form method="" action="">
-                <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-                <input type="text" id="user-email-phone" required="required">
-                <label for="user-password" id="user-password-label">Senha</label>
-                <input type="password" id="user-password" required="required">
-                <button id="button-login" class="button-login">Entrar</button>
-            </form>
-        </section>
-    </header>
-    <div class="main-container">
-        <section class="left-container">
-            <h3>O Facebook ajuda você a se conectar e<br> compartilhar com as pessoas que fazem parte<br> da sua vida.</h3>
-            <img id="facebook-networking" class="facebook-networking" src="networking.png">
-        </section>
-        <section class="right-container">
-            <h1>Abra uma conta</h1>
-            <h4>É rápido e fácil.</h4>
-            <form action="" method="">
-                <div class="nome-sobrenome">
-                    <input type="text" class="nome" placeholder="Nome" required="required">
-                    <input type="text" class="sobrenome" placeholder="Sobrenome" required="required">
-                </div>
-                <input type="text" class="celular-email" placeholder="Celular ou email" required="required">
-                <input type="text" class="nova-senha" placeholder="Nova senha" required="required">
-                <p>Data de nascimento</p>
-                <input type="text" class="data-nascimento" placeholder="dd/mm/aaaa" required="required">
-                <p>Gênero</p>
-                <div class="radio-buttons">
-                    <input type="radio" id="feminino" name="genero" value="Feminino">
-                    <label for="feminino">Feminino</label>
-                    <input type="radio" id="masculino" name="genero" value="Masculino">
-                    <label for="masculino">Masculino</label>
-                    <input type="radio" id="personalizado" name="genero" value="Personalizado">
-                    <label for="personalizado">Personalizado</label>
-                </div>
-                <button id="facebook-register">Cadastre-se</button>
-            </form>
-        </section>
-    </div>
+	</header>
+	<div class="global-container">
+		<div class="gradient">
+			<div class="gradient-content">
+				<div class="clearfix">
+					<div class="lfloat_ohe">
+						<div class="conteudo-esquerda">
+							<div class="texto">O Facebook ajuda você a se conectar e<br> compartilhar com as pessoas que fazem parte<br> da sua vida.</div>
+							<div class="imagem-networking">
+								<img src="networking.png" id="facebook-networking" class="facebook-networking">
+							</div>
+						</div>
+					</div>
+					<div class="rfloat-ohf">
+						<div class="conteudo-direita">
+							<div class="texto-direita">
+								<div class="abra-uma-conta">Abra uma conta</div>
+								<div class="rapido-facil">É rápido e fácil.</div>
+							</div>
+						</div>
+						<div class="registration-form">
+							<div class="_58mf">
+								<div class="registration_redesign">
+									<div class="FORM">
+										<div class="nome-sobrenome">
+											<div class="nome">
+												<input type="text" class="input-nome" placeholder="Nome" required="required">
+											</div>
+											<div class="sobrenome">
+												<input type="text" class="input-sobrenome" placeholder="Sobrenome" required="required">
+											</div>
+										</div>
+										<div class="celular-email">
+											<input type="text" class="input-celular-email" placeholder="Celular ou email" required="required">
+										</div>
+										<div class="nova-senha">
+											<input type="text" class="input-nova-senha" placeholder="Nova senha" required="required">
+										</div>
+										<div class="data-de-nascimento">
+											<div class="label-data-nascimento">Data de nascimento</div>
+											<input type="text" class="input-data-nascimento" placeholder="dd/mm/aaaa" required="required">
+										</div>
+										<div class="genero">
+											<div class="texto-genero">Gênero</div>
+											<div class="radio-buttons">
+												<div class="female">
+													<input type="radio" id="feminino" class="feminino" name="genero" value="Feminino">
+                                    				<label for="feminino" class="label-feminino">Feminino</label>
+												</div>
+												<div class="male">
+													<input type="radio" id="masculino" class="masculino" name="genero" value="Masculino">
+                                    				<label for="masculino" class="label-masculino">Masculino</label>
+												</div>
+												<div class="custom">
+													<input type="radio" id="personalizado" class="personalizado" name="genero" value="Personalizado">
+                                    				<label for="personalizado" class="label-personalizado">Personalizado</label>
+												</div>
+											</div>
+										</div>
+										<div class="informacoes">
+											<p class="small-text">Ao clicar em Cadastre-se, você concorda com nossos Termos,<br> Política de Dados e Política de Cookies. Você pode receber<br> notificações por SMS e pode cancelar isso quando quiser.</p>
+										</div>
+										<div class="submit-button">
+											<button type="submit" id="facebook-register" class="facebook-register">Cadastre-se</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
