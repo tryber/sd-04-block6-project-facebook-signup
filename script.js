@@ -1,5 +1,6 @@
 const btLogar = document.getElementById('button-login');
 const email = document.getElementById('user-email-phone');
+const loginForm = document.forms['login-form'];
 const formResg = document.forms['resg-form'];
 const btRegister = document.getElementById('facebook-register');
 const regisInputs = document.querySelectorAll('input.res-data');
@@ -7,7 +8,9 @@ const radios = document.querySelectorAll('input[type=radio]');
 let mensagem = [];
 
 function exibeLogin() {
-  alert(email.value);
+  if (email.value !== '') {
+    alert(email.value);
+  }
 }
 
 function addRadio() {
@@ -45,6 +48,9 @@ window.onload = function () {
   btLogar.onclick = exibeLogin;
   btRegister.onclick = validaResitro;
   formResg.addEventListener('submit', (e) => {
+    e.preventDefault();
+  });
+  loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
   });
 };
