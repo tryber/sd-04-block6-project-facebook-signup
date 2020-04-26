@@ -13,7 +13,7 @@ const pers = document.querySelector('#pers');
 
 function validaInput(input) {
   if (input.value === '') {
-    alert(`Preencha com ${input.placeholder}`);
+    alert('Dados Invalidos');
     input.focus();
   }
   return input.value;
@@ -32,19 +32,10 @@ function validaGenero() {
 
 function validaEmail() {
   if (email.value === '' || email.value.indexOf('@') === -1 || email.value.indexOf('.') === -1) {
-    alert('Digite um email valido! não esqueça do @ e .');
+    alert('Dados Invalidos');
     email.focus();
   }
   return true;
-}
-
-function validaTudo() {
-  if (!validaInput(nome) || !validaInput(sobrenome) || !validaInput(senha) ||
-    !validaInput(data) || validaEmail() || !validaGenero()) {
-    alert('Dados invalidos!')
-  } else {
-    alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
-  }
 }
 
 window.onload = function () {
@@ -53,6 +44,12 @@ window.onload = function () {
   });
 
   btnSignin.addEventListener('click', function () {
-    validaTudo();
+    validaInput(nome);
+    validaInput(sobrenome);
+    validaInput(senha);
+    validaInput(data);
+    validaEmail();
+    validaGenero();
+    alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
   });
 };
