@@ -4,22 +4,27 @@ const formResg = document.forms['resg-form'];
 const btRegister = document.getElementById('facebook-register');
 const regisInputs = document.querySelectorAll('input.res-data');
 const radios = document.querySelectorAll('input[type=radio]');
+let mensagem = [];
 
 function exibeLogin() {
   alert(email.value);
 }
 
+function addRadio() {
+  for (let j = 0; j < radios.length; j += 1) {
+    if (radios[j].checked) {
+      mensagem.push(radios[j].value);
+    }
+  }
+}
+
 function mensagemRetorno(resposta) {
-  let mensagem = [];
+  mensagem = [];
   if (resposta) {
-    for (i of regisInputs) {
-      mensagem.push(i.value);
+    for (let i = 0; i < regisInputs.length; i += 1) {
+      mensagem.push(regisInputs[i].value);
     }
-    for (j of radios) {
-      if (j.checked) {
-        mensagem.push(j.value);
-      }
-    }
+    addRadio();
     alert(mensagem.join(' - '));
   } else {
     alert('Dados inválidos');
@@ -28,7 +33,7 @@ function mensagemRetorno(resposta) {
 
 function validaResitro() {
   let valid = true;
-  for (i = 0; i < regisInputs.length; i += 1) {
+  for (let i = 0; i < regisInputs.length; i += 1) {
     if (regisInputs[i].value === '') {
       valid = false;
     }
