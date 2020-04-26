@@ -5,9 +5,9 @@ body {
 .top-bar {
   background-color: rgb(59, 89, 152);
   display: flex;
+  justify-content: space-between;
   min-height: 100px;
   width: 100%;
-  justify-content: space-between;
 }
 
 .enter {
@@ -28,10 +28,10 @@ body {
 }
 
 .username-senha {
-    align-self: center;
-    justify-content: flex-end;
-    margin: 30px;
-  }
+  align-self: center;
+  justify-content: flex-end;
+  margin: 30px;
+}
 
 header div label {
   color: white;
