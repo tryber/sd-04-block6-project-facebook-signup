@@ -8,6 +8,14 @@ body {
   line-height: 1.34;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+.sub-title {
+  font-size: 19px;
+}
+
 .top-bar:nth-child( 1 ) {
   align-items: flex-end;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
@@ -57,13 +65,32 @@ header table tr td {
 section {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+section div:nth-child( 1 ) > div:nth-child( 1 ) {
+  float: left;
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+  float: left;
+}
+
+section div:nth-child( 1 ) > div:nth-child( 2 ) {
+  float: right;
+  max-width: 400;
 }
 
 footer {
-  display: flex;
+  display: relative;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
+  width: 980px;
 }
 
 footer ul {
