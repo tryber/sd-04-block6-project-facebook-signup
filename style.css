@@ -1,0 +1,283 @@
+html , body {
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+/* HEADER */
+header {
+  align-items: center;
+  background-color: #3b5998;
+  color: aliceblue;
+  display: flex;
+  height: 81px;
+  justify-content: space-around;
+  left: 0;
+  position: static;
+  top: 0;
+  width: 100%;
+}
+
+header img {
+  margin-top: 17px;
+  width: 170px;
+}
+
+header nav {
+  align-items: flex-start;
+  display: flex;
+}
+
+header nav div {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin: 8px;
+}
+
+.top-bar a {
+  color: #9cb4d8;
+}
+
+.inputtextlogin {
+  border: 1px solid #1d2a5b;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  padding: 4px;
+}
+
+.login {
+  width: 142px;
+}
+
+/* BUTTON LOGIN */
+button {
+  cursor: pointer;
+}
+
+.button {
+  align-self: center;
+}
+
+.button-login {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  color: white;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.button-login:hover {
+  background-color: #3b5998;
+}
+
+/* SECTION */
+.container-section {
+  align-items: flex-start;
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  height: 628px;
+  justify-content: center;
+}
+
+/* SECTION - ARTICLE */
+.container-section article {
+  display: flex;
+  flex-direction: column;
+  height: 286px;
+  margin-top: 40px;
+  width: 550px;
+}
+
+.phase p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin: 0 15px 0 0;
+  width: 500px;
+}
+
+.imgNetworking img {
+  height: 193px;
+  width: 535px;
+}
+
+/* SECTION - ASIDE */
+.container-section aside {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding-top: 20px;
+  width: 400px;
+}
+
+.title {
+  color: #333;
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+
+.subtitle {
+  color: #1d2129;
+  font-size: 19px;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0 0;
+}
+
+.form-group:nth-child( 1 ) {
+  justify-content: space-between;
+  width: 377px;
+}
+
+.inputtextform {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  padding: 8px 10px;
+  width: 173px;
+}
+
+.inputDate {
+  font-size: 15px;
+}
+
+.form-group:nth-child( 2 ) input {
+  width: 377px;
+}
+
+.form-group:nth-child( 3 ) input {
+  margin-bottom: 10px;
+  width: 377px;
+}
+
+.form-group:nth-child( 4 ) {
+  flex-direction: column;
+}
+
+.form-group:nth-child( 1 ) input:nth-child( 1 ) {
+  margin-right: 10px;
+}
+
+.border {
+  border-radius: 5px;
+}
+
+.inpSubtitle {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.genero {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.genero label {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.terms {
+  color: #777;
+  font-size: 11px;
+  margin: 20px 0 10px;
+  width: 316px;
+}
+
+.terms a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.criarPag {
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.criarPag a {
+  color: #385898;
+  text-decoration: none;
+}
+
+/* BUTTON REGISTER */
+.btnregister {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  margin: 10px 0;
+  padding: 7px 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  width: 194px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.center-footer {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 8px 0 0;
+}
+
+.language li {
+  padding-right: 10px;
+}
+
+.footer a {
+  color: #385898;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-links li {
+  padding-right: 20px;
+}
+
+.copyright {
+  color: #737373;
+  font-size: 11px;
+  margin-top: 20px;
+}
