@@ -4,7 +4,7 @@ const emailInput = document.getElementById('user-email-phone');
 function AlertEmailPhone() {
   if (emailInput.value !== '') {
     alert(`${emailInput.value}`);
-} else {
+  } else {
     alert('Email ou Telefone inválidos');
   }
 }
