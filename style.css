@@ -46,3 +46,16 @@ header div label {
   color: white;
   margin: 60px 30px 0;
 }
+
+.mapa-frase {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5%;
+  max-width: 40%;
+  padding: 1.5%;
+}
+
+strong {
+  color: rgb(4, 4, 95);
+  font-size: 1.8em;
+}
