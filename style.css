@@ -22,6 +22,10 @@ body {
   min-width: 306px;
 }
 
+header div label {
+  color: white;
+}
+
 .username-login {
   align-self: center;
   margin: 30px;
@@ -29,10 +33,11 @@ body {
 
 .username-senha {
   align-self: center;
-  justify-content: flex-end;
   margin: 30px;
 }
 
-header div label {
-  color: white;
+.button-login {
+  align-self: center;
+  margin: 60px 30px 0 30px;
 }
+
