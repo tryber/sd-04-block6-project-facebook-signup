@@ -4,15 +4,13 @@ const butLogin = document.getElementById('button-login');
 const form = document.querySelector('form');
 const radio = document.querySelectorAll('input[type="radio"]');
 
-console.log(radio.length)
-
 butLogin.addEventListener('click', function () {
   alert(inpEmailTel.value);
 });
 
 form.addEventListener('submit', function (e) {
   e.preventDefault();
-  
+
   const name = form[0].value;
   const lastName = form[1].value;
   const celEmail = form[2].value;
