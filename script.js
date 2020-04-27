@@ -1,6 +1,5 @@
 const btnLogin = document.querySelector('#button-login');
 const user = document.querySelector('#user-email-phone');
-// const password = document.querySelector('#user-password');
 const btnSignin = document.querySelector('#facebook-register');
 const email = document.querySelector('#email');
 const nome = document.querySelector('#nome');
@@ -10,6 +9,7 @@ const data = document.querySelector('#data');
 const fem = document.querySelector('#fem');
 const masc = document.querySelector('#masc');
 const pers = document.querySelector('#pers');
+const datapicker = document.getElementById('data').DatePickerX.init();
 
 function validaInput(input) {
   if (input.value === '') {
@@ -31,9 +31,10 @@ function validaGenero() {
 }
 
 window.onload = function () {
-  document.getElementById('data').DatePickerX.init();
+  datapicker;
+
   btnLogin.addEventListener('click', function () {
-    alert(`${user.value}`);
+    alert(user.value);
   });
 
   btnSignin.addEventListener('click', function () {
