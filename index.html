@@ -39,24 +39,25 @@
         <div class="register">
           <form action="script.js">
             <div class="name">
-              <input type="text" required placeholder="Nome">
-              <input type="text" required placeholder="Sobrenome">
+              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Nome">
+              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Sobrenome">
             </div>
             <div class="phone-pass">
-              <input type="text" required placeholder="Celular ou email">
-              <input type="password" required placeholder="Nova senha">
+              <input type="text" required placeholder="Celular ou email"
+                pattern="^[\(]\d{2}[\)]\d{5}[\-]\d{4}|[a-z]{5,25}@[a-z]{5,25}(\.[a-z]{3}|\.[a-z]{3}\.[a-z]{2})$">
+              <input type="password" required pattern="^[a-zA-Z\d]{6,12}$" placeholder="Nova senha">
             </div>
             <div class="txt-date">
               <p>Data de nascimento</p>
-              <input type="date" required placeholder="dd/mm/aaaa">
+              <input type="date" required min="1900-01-01" max="2020-01-01" placeholder="dd/mm/aaaa">
             </div>
             <div class="txt-genre">
               <p>Gênero</p>
-              <input type="radio" id="feminino" name="gender" value="Feminino">
+              <input type="radio" required id="feminino" name="gender" value="Feminino">
               <label for="feminino">Feminino</label>
-              <input type="radio" id="masculino" name="gender" value="Masculino">
+              <input type="radio" required id="masculino" name="gender" value="Masculino">
               <label for="masculino">Masculino</label>
-              <input type="radio" id="personalizado" name="gender" value="Personalizado">
+              <input type="radio" required id="personalizado" name="gender" value="Personalizado">
               <label for="personalizado">Personalizado</label>
             </div>
             <button id="facebook-register">Cadastre-se</button>
