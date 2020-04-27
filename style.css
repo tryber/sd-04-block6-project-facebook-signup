@@ -1,8 +1,23 @@
+form {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  min-height: 629px;
+  width: 400px;
+}
+
 .birthday {
-  align-items: flex-end;
+  align-items: center;
   color: #90949c;
+  flex-direction: column;
   font-size: 16px;
   font-weight: 700;
+  height: 56px;
+}
+
+.birthday input {
+  height: 30px;
+  width: 174px;
 }
 
 .button-login {
@@ -17,56 +32,15 @@
   width: 49px;
 }
 
-.coluna1 {
-  font-size: 12px;
-  line-height: 1.34;
-  max-height: 118px;
-  padding: 20px 0;
-}
-
-.coluna1 p {
-  margin-bottom: 5px;
-}
-
-.coluna2 {
-  height: 150px;
-}
-
-.coluna3 {
-  align-items: center;
-  flex-direction: column;
-  height: 56px;
-}
-
-.coluna3 input {
-  height: 30px;
-  width: 174px;
-}
-
-.coluna4 {
-  height: 77px;
-  width: 387px;
-}
-
-.coluna5 p {
-  margin: 5px 0;
-}
-
-.coluna5 button {
-  margin: 10px 0;
+.contact input {
+  height: 40px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .easy-fast {
   color: #1d2129;
   font-size: 19px;
-}
-
-.facebook-account {
-  align-items: stretch;
-  display: flex;
-  flex-direction: column;
-  min-height: 629px;
-  width: 400px;
 }
 
 .facebook-body {
@@ -145,10 +119,15 @@
   width: 400px;
 }
 
-.fb-input-login {
+.fb-login input {
   display: flex;
   height: 24px;
-  width: 164px;
+  margin-left: 14px;
+  width: 150px;
+}
+
+.fb-login label {
+  margin: 0 0 4px 14px;
 }
 
 .fb-login {
@@ -158,7 +137,12 @@
   width: 164px;
 }
 
-.gender2 {
+.gender {
+  height: 77px;
+  width: 387px;
+}
+
+.gender div {
   display: flex;
   justify-content: space-between;
 
@@ -203,20 +187,19 @@
   padding-top: 15px;
 }
 
-.username input {
-  height: 40px;
-  margin-bottom: 10px;
-  width: 48%;
-}
-
-.contact input {
-  height: 40px;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
 .input-password {
   size: 399px;
+}
+
+.join-us {
+  font-size: 12px;
+  line-height: 1.34;
+  max-height: 118px;
+  padding: 20px 0;
+}
+
+.join-us p {
+  margin-bottom: 5px;
 }
 
 .label-login {
@@ -236,6 +219,14 @@
   width: 316px;
 }
 
+.submit button {
+  margin: 10px 0;
+}
+
+.submit p {
+  margin: 5px 0;
+}
+
 .top-bar {
   background-color: #3b5998;
   color: white;
@@ -247,7 +238,19 @@
   width: 1351px;
 }
 
+.userdata {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+}
+
 .username {
   display: flex;
   justify-content: space-between;
+}
+
+.username input {
+  height: 40px;
+  margin-bottom: 10px;
+  width: 48%;
 }

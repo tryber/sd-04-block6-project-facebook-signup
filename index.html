@@ -9,15 +9,11 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
         type="text/css" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.slim.min.js"></script>
-    <!-- <script type="text/javascript"
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
-    <!-- <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script> -->
 
 </head>
 
 <body>
-    <div class="top-bar">
+    <header class="top-bar">
         <div class="facebook-header">
             <div class="header-left">
                 <div>
@@ -40,9 +36,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <div class="facebook-body-container">
-        <div class="facebook-body">
+        <section class="facebook-body">
             <div class="facebook-network">
                 <div>
                     <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem
@@ -52,55 +48,49 @@
                     <img id="facebook-networking" src="./img/networking.png" alt="Conexão de pessoas ao redor do mundo">
                 </div>
             </div>
-            <div class="facebook-account">
-                <div class="coluna1">
-                    <div class="join-us">
-                        <p class="open-it">Abra uma conta</p>
-                        <p class="easy-fast">É rápido e fácil.</p>
-                    </div>
-                </div>
-                <div class="coluna2">
+            <form action="#">
+                <fieldset class="join-us">
+                    <p class="open-it">Abra uma conta</p>
+                    <p class="easy-fast">É rápido e fácil.</p>
+                </fieldset>
+                <fieldset class="userdata">
                     <div class="username">
-                        <input type="text" class="input-name" placeholder="Nome">
-                        <input type="text" class="input-name" placeholder="Sobrenome">
+                        <input type="text" id="nome" class="input-name" placeholder="Nome">
+                        <input type="text" id="sobrenome" class="input-name" placeholder="Sobrenome">
                     </div>
                     <div class="contact">
-                        <input type="text" class="input-contact" placeholder="Celular ou email">
+                        <input type="text" id="email" class="input-contact" placeholder="Celular ou email">
+                        <input type="password" id="senha" class="input-password" placeholder="Nova senha">
                     </div>
-                    <div class="contact">
-                        <input type="password" class="input-password" placeholder="Nova senha">
-                    </div>
-                </div>
-                <div class="coluna3">
-                    <label class="birthday">Data de nascimento</label><br>
-                    <input id="date" type="text" placeholder="dd/mm/aaaa" onfocus="(this.type='date')"
+                </fieldset>
+                <fieldset class="birthday">
+                    <label>Data de nascimento</label><br>
+                    <input id="data" type="text" placeholder="dd/mm/aaaa" onfocus="(this.type='date')"
                         required="required"><br><br>
-                </div>
-                <div class="coluna4">
-                    <div class="gender">
-                        <p>Gênero</p>
-                        <div class="gender2">
-                            <label for="Feminino">
-                                <input name="Gênero" id="Feminino" value="Feminino" type="radio">Feminino
-                            </label>
-                            <label for="Masculino">
-                                <input name="Gênero" id="Masculino" value="Masculino" type="radio">Masculino
-                            </label>
-                            <label for="Personalizado">
-                                <input name="Gênero" id="Personalizado" value="Personalizado" type="radio">Personalizado
-                            </label>
-                        </div>
+                </fieldset>
+                <fieldset class="gender">
+                    <p>Gênero</p>
+                    <div>
+                        <label for="fem">
+                            <input name="Gênero" id="fem" value="Feminino" type="radio">Feminino
+                        </label>
+                        <label for="masc">
+                            <input name="Gênero" id="masc" value="Masculino" type="radio">Masculino
+                        </label>
+                        <label for="pers">
+                            <input name="Gênero" id="pers" value="Personalizado" type="radio">Personalizado
+                        </label>
                     </div>
-                </div>
-                <div class="coluna5">
-                    <p class="submit">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e
+                </fieldset>
+                <fieldset class="submit">
+                    <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e
                         Política de
                         Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
                     <button type="submit" name="Submit" id="facebook-register"
                         class="facebook-register">Cadastre-se</button>
-                </div>
-            </div>
-        </div>
+                </fieldset>
+            </form>
+        </section>
     </div>
     <script src="script.js"></script>
 </body>

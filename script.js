@@ -1,8 +1,46 @@
-const email = document.getElementById('user-email-phone');
-const buttonLogin = document.getElementById('button-login');
+const btnLogin = document.querySelector('#button-login');
+const user = document.querySelector('#user-email-phone');
+const btnSignin = document.querySelector('#facebook-register');
+const email = document.querySelector('#email');
+const nome = document.querySelector('#nome');
+const sobrenome = document.querySelector('#sobrenome');
+const senha = document.querySelector('#senha');
+const data = document.querySelector('#data');
+const fem = document.querySelector('#fem');
+const masc = document.querySelector('#masc');
+const pers = document.querySelector('#pers');
 
-function loginButton() {
-  alert(email.value);
+function validaInput(input) {
+  if (input.value === '') {
+    alert('Dados Invalidos');
+    input.focus();
+  }
+  return input.value;
 }
 
-buttonLogin.addEventListener('click', loginButton);
+function validaGenero() {
+  if (fem.checked === true) {
+    return fem.value;
+  } else if (masc.checked === true) {
+    return masc.value;
+  } else if (pers.checked === true) {
+    return pers.value;
+  }
+  return true;
+}
+
+window.onload = function () {
+  btnLogin.addEventListener('click', function () {
+    alert(`${user.value}`);
+  });
+
+  btnSignin.addEventListener('click', function () {
+    validaInput(nome);
+    validaInput(sobrenome);
+    validaInput(senha);
+    validaInput(data);
+    validaInput(email);
+    validaGenero();
+    alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
+  });
+};
