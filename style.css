@@ -30,7 +30,7 @@ body {
   width: 400px;
 }
 
-.button-login {
+#button-login {
   background-color: #4b69ac;
   border-color: #1e6eb9;
   border-radius: 3px;
