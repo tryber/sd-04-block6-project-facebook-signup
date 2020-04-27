@@ -11,23 +11,22 @@
 
 <body>
     <header class="top-bar">
-        <div class="login-box">
+        <div class="container">
             <img class="facebook-logo" src="/imagens/facebook-logo.png" width="180px" alt="facebok logo">
             <form action="" method="GET">
                 <div class="login-container">
                     <div class="col-login">
                         <label id="user-email-phone-label">Email ou telefone</label>
-                        <input type="text" id="user-email-phone" name="user-email-phone" />
+                        <input type="text" id="user-email-phone" name="user-email-phone" class="username-box" />
                     </div>
                     <div class="col-login">
-                        <label for="senha">Senha</label>
-                        <input type="password" id="uder-password" name="senha" />
+                        <label id="user-password-label">Senha</label>
+                        <input type="password" id="user-password" name="senha" class="password-box" />
                         <a href="#">Esqueceu a conta?</a>
                     </div>
-                    
-                    <button class="button-login">Entrar</button>
+                    <button class="button-login"><strong>Entrar</strong></button>
                 </div>
-                
+
 
             </form>
         </div>
@@ -36,38 +35,69 @@
     <section class="page">
 
         <div class="left-side">
-            <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
             <img id="facebook-networking" src="/imagens/networking.png" alt="facebook networking image">
         </div>
 
         <div class="right-side">
-            <h1>Abra uma conta.</h1>
-            <p>É rápido e fácil.</p>
 
-            <form action="" method="GET" class="register">
-                <label for=""></label>
-                <input type="text" id="new-name" name="new-name" placeholder="Nome" />
-                <label for=""></label>
-                <input type="text" id="new-lastName" name="new-name" placeholder="Sobrenome" /><br>
-                <label for=""></label>
-                <input type="text" name="new-email-phone" placeholder="Celular ou email" /><br>
-                <label for=""></label>
-                <input type="password" name="new-password" placeholder="Nova senha" /><br>
-                <h3>Data de nascimento</h3>
-                <label for=""></label>
-                <input type="date" name="birth-date" placeholder="dd/mm/aaa" />
-                <h3>Gênero</h3>
-                <input type="radio" name="sex" id="sex" value="Feminino" />
-                <label for="sex">Feminino</label>
-                <input type="radio" name="sex" id="sex" value="Masculino" />
-                <label for="sex">Masculino</label>
-                <input type="radio" name="sex" id="sex" value="Personalizado" />
-                <label for="sex">Personalizado</label><br>
-            </form>
+            <div class="col">
+                <form action="" method="GET" class="register">
 
+                    <div class="text-new-register">
+                        <div class="row">
+                            <h1>Abra uma conta.</h1>
+                        </div>
+                        <span> É rápido e fácil.</span>
+                    </div>
+                    <div class="full-name">
+
+                        <div class="name">
+                            <label for="new-name"></label>
+                            <input type="text" id="new-name" name="new-name" placeholder="Nome" />
+                        </div>
+                        <div class=last-name>
+                            <label for="new-lastName"></label>
+                            <input type="text" id="new-lastName" name="new-name" placeholder="Sobrenome" />
+                        </div>
+                    </div>
+                    <div class="email-phone">
+                        <label for=""></label>
+                        <input class="phone" type="text" name="new-email-phone" placeholder="Celular ou email" /><br>
+                    </div>
+                    <div class="password">
+                        <label for=""></label>
+                        <input type="password" name="new-password" placeholder="Nova senha" /><br>
+                    </div>
+
+                    <div class="birth-date">
+                        <h3>Data de nascimento</h3>
+                        <label for=""></label>
+                        <input type="date" name="birth-date" placeholder="dd/mm/aaa" />
+                    </div>
+                    <div class="gender">
+                        <h3>Gênero</h3>
+                        <div class="gender-type">
+                            <input type="radio" name="sex" id="sex" value="Feminino" />
+                            <label for="sex">Feminino</label>
+                            <input type="radio" name="sex" id="sex" value="Masculino" />
+                            <label for="sex">Masculino</label>
+                            <input type="radio" name="sex" id="sex" value="Personalizado" />
+                            <label for="sex">Personalizado</label>
+                        </div>
+                    </div>
+                    <div class="politician">
+                        <p>Ao clicar em Cadastre-se, você concorda com nossos <a>Termos</a>, <a>Política de Dados</a> e
+                            <a>Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso
+                            quando quiser.</p>
+                    </div>
+                </form>
+
+            </div>
             <div class="btn-register">
                 <button id="facebook-register">Cadastre-se</button>
             </div>
+
         </div>
     </section>
 </body>
