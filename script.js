@@ -7,7 +7,5 @@ window.onload = function () {
   botaoEntrar.addEventListener('click', alertLogin);
 
   const dataDeNascimento = document.querySelector('.input-data-nascimento');
-  $(function () {
-    $(dataDeNascimento).datepicker();
-  });
+  dataDeNascimento.DatePickerX.init();
 };
