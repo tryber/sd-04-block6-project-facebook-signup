@@ -1,82 +1,230 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/* * {
+  border: tomato solid 1px;
+} */
 
-tr {
+body {
   align-items: center;
-}
-
-td > a {
-  color:#9cb4d8;
-  text-decoration: none;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.loginlabel {
-  font-size: 12px;
-  color: white;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  padding-bottom: 4px;
-  vertical-align: middle;
-}
-
-.loginbtn {
-  height: 25px;
-  background-color: #4267b2;
-  border: 1px solid #29487d;
-  width: 52px;
-  font-weight: 500;
-  line-height: 18px;
-  white-space: nowrap;
-  border-radius: 2px;
-}
-
-.container {
+  background-color: white;
   display: flex;
+  flex-direction: column;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  min-height: 83px;
-  width: 100%;
-  background: #29487d;
-  background-image: linear-gradient(#4e69a2, #3b5998 50%);
-  justify-content: center;
 }
 
-.content {
-  background: linear-gradient(white, #d3d8e8);
-  min-height: 640px;
+.top-bar {
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 82px;
+  justify-content: center;
+  width: 1366px;
+}
+
+.top-bar .container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
 }
 
 .logo {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  width: 170px;
+}
+
+.imglogo {
+  background-image: url('imgs/facebook-logo.png');
+  background-size: cover;
   height: 33px;
   width: 170px;
-  margin-top: 17px;
 }
 
 .login {
-  width: 142px;
-  height: 15px;
-  padding: 3px 3px 4px;
-  border: 1px solid #1d2a5b;
-  margin: 0;
-  border-radius: 0;
-}
-
-.menubar {
+  align-items: center;
   display: flex;
-  margin: 0 auto;
-  padding: 10px 0 3px;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.login label {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5px;
+  padding-left: 1px;
+}
+
+.login input {
+  border: rgb(29, 42, 91) solid 1px;
+  font-size: 12px;
+  font-weight: 400;
+  height: 14px;
+  margin: 0 5px;
+  padding: 3px 3px 4px;
+  width: 142px;
+}
+
+.button-login {
+  background-color: rgb(66, 103, 178);
+  border: rgb(41, 72, 125) solid 1px;
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  height: 25px;
+  padding: 2px 6px;
+  text-align: center;
+  width: fit-content;
+}
+
+.login a {
+  color: rgb(156, 180, 216);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5px;
+  padding-left: 1px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-container {
+  align-items: center;
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: column;
+  height: 630px;
+  width: 1366px;
+}
+
+.content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  height: 630px;
   width: 980px;
-  max-height: 83px;
+}
+
+.esquerda {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 326px;
+  width: 580px;
+}
+
+.interno {
+  height: 286px;
+  margin-right: 15px;
+  width: 565px;
+}
+
+.paragrafo {
+  color: rgb(14, 56, 95);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin: 40px 0 0;
+  width: 450px;
+  word-spacing: -1;
+}
+
+.img {
+  background-image: url('imgs/mdFUMX-w0Fu.png.png');
+  background-size: cover;
+  height: 195px;
+  width: 537px;
+}
+
+.direita {
+  height: 630px;
+  width: 400px;
+}
+
+.interno2 {
+  height: 630px;
+  width: 400px;
+}
+
+.bloco1 {
+  height: 78px;
+  padding: 20px 0;
+  width: 400px;
+}
+
+.paragrafo2 {
+  font-size: 36px;
+  font-weight: 600;
+  height: 48px;
+  margin-bottom: 5px;
+  width: 400px;
+}
+
+.sub {
+  font-size: 19px;
+  height: 25px;
+  width: 400px;
+}
+
+.containerRegistro {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro {
+  display: flex;
+  flex-flow: column;
+}
+
+.registro input {
+  border: #bdc7d8 solid 1px;
+  border-radius: 5px;
+  color: #999;
+  font-size: 18px;
+  height: 21px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  width: 377px;
+}
+
+.fullName {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  margin: 0 0 10px;
 }
 
-.pdleft {
-  padding-left: 14px;
+.fullName input {
+  height: 21px;
+  margin: 0;
+  width: 172px;
 }
 
-.pdtd {
-  padding-left: 100px;
+.registro .datep {
+  width: 172px;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px;
+  color: white;
+  font-weight: 400;
+  height: 23px;
+  line-height: 13.333px;
+  margin: 10px auto;
+  padding: 7px 20px;
+  text-align: center;
+  width: 152px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
 }

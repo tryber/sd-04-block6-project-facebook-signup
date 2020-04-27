@@ -3,32 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
+
   <body>
-    <header class="container">
-      <div class="menubar">
-        <img src="imgs/facebook-logo.png" alt="Facebook" class="logo" />
-        <form action="post">
-          <table>
-            <tr>
-              <td><label for="email" class="loginlabel pdleft">Email ou telefone</label></td>
-              <td><label for="pass" class="loginlabel pdleft">Senha</label></td>
-            </tr>
-            <tr>
-              <td class="pdleft"><input type="text" name="email" id="" class="login" /></td>
-              <td class="pdleft"><input type="password" name="pass" id="" class="login" /></td>
-              <td class="pdleft"><button class="loginbtn loginlabel"">Entrar</button></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td class="pdleft"><a href="#">Esqueceu a conta?</a></td>
-            </tr>
-          </table>
-        </form>
+    <header class="top-bar">
+      <div class="top-bar container">
+        <div class="facebook-logo">
+          <a href="#">
+            <div class="imglogo"></div>
+          </a>
+        </div>
+        <div class="login">
+          <form name="nameform">
+            <table>
+              <tr>
+                <td>
+                  <label id="user-email-phone-label" for="user-email-phone"
+                    >Email ou telefone</label
+                  >
+                </td>
+                <td><label id="user-password-label" for="user-password">Senha</label></td>
+              </tr>
+              <tr>
+                <td><input id="user-email-phone" type="text" /></td>
+                <td><input id="user-password" type="password" /></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="#">Esqueceu a conta?</a>
+                </td>
+              </tr>
+            </table>
+          </form>
+          <td>
+            <button
+              class="button-login"
+              name="button-login"
+              form="nameform"
+              id="button-login"
+              type="button"
+            >
+              Entrar
+            </button>
+          </td>
+        </div>
       </div>
     </header>
-    <section class="content"></section>
+    <div class="main-container">
+      <div class="content">
+        <div class="esquerda">
+          <div class="interno">
+            <div>
+              <div class="paragrafo">
+                O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
+                sua vida.
+              </div>
+              <img class="img" id="facebook-networking" src="imgs/mdFUMX-w0Fu.png" />
+            </div>
+          </div>
+        </div>
+        <div class="direita">
+          <div class="interno2">
+            <div class="bloco1">
+              <div class="paragrafo2">
+                Abra uma conta
+              </div>
+              <div class="sub">
+                É rápido e fácil.
+              </div>
+            </div>
+            <div class="containterRegistro">
+              <form class="registro">
+                <div class="fullName">
+                  <input id="nome" type="text" placeholder="Nome" />
+                  <input id="sobrenome" type="text" placeholder="Sobrenome" />
+                </div>
+                <input id="celular-ou-email" type="text" placeholder="Celular ou email" />
+                <input id="senha" type="password" placeholder="Nova senha" />
+                <div class="sub">Data de nascimento</div>
+                <input
+                  class="datep"
+                  type="date"
+                  name="datanasc"
+                  id="datanasc"
+                  placeholder="dd/mm/aaaa"
+                />
+                <div class="sub">Gênero</div>
+                <div class="radios">
+                  <input type="radio" name="gender" id="Feminino" value="Feminino" />
+                  <label for="Feminino">Feminino</label>
+                  <input type="radio" name="gender" id="Masculino" value="Masculino" />
+                  <label for="Masculino">Masculino</label>
+                  <input type="radio" name="gender" id="Personalizado" value="Personalizado" />
+                  <label for="Personalizado">Personalizado</label>
+                </div>
+                <button
+                  class="facebook-register"
+                  name="button-register"
+                  form="nameform"
+                  id="facebook-register"
+                  type="button"
+                >
+                  Cadastre-se
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
