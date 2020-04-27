@@ -51,7 +51,6 @@
                         <span> É rápido e fácil.</span>
                     </div>
                     <div class="full-name">
-
                         <div class="name">
                             <label for="new-name"></label>
                             <input type="text" id="new-name" name="new-name" placeholder="Nome" />
@@ -69,34 +68,47 @@
                         <label for=""></label>
                         <input type="password" name="new-password" placeholder="Nova senha" /><br>
                     </div>
+                    <div class="row-birth">
+                        <div class="birth-container">
+                            <div class="birth-date">
+                                <h3>Data de nascimento</h3>
+                            </div>
+                            <div class="datapicker">
+                                <label for=""></label>
+                                <input type="date" name="birth-date" placeholder="dd/mm/aaa" />
+                            </div>
+                        </div>
 
-                    <div class="birth-date">
-                        <h3>Data de nascimento</h3>
-                        <label for=""></label>
-                        <input type="date" name="birth-date" placeholder="dd/mm/aaa" />
-                    </div>
-                    <div class="gender">
-                        <h3>Gênero</h3>
-                        <div class="gender-type">
-                            <input type="radio" name="sex" id="sex" value="Feminino" />
-                            <label for="sex">Feminino</label>
-                            <input type="radio" name="sex" id="sex" value="Masculino" />
-                            <label for="sex">Masculino</label>
-                            <input type="radio" name="sex" id="sex" value="Personalizado" />
-                            <label for="sex">Personalizado</label>
+                        <div class="gender-container">
+                            <div class="gender-text">
+                                <h3>Gênero</h3>
+                            </div>
+                                <div class="gender-type">
+                                    <input type="radio" name="sex" id="sex" value="Feminino" />
+                                    <label for="sex">Feminino</label>
+                                    <input type="radio" name="sex" id="sex" value="Masculino" />
+                                    <label for="sex">Masculino</label>
+                                    <input type="radio" name="sex" id="sex" value="Personalizado" />
+                                    <label for="sex">Personalizado</label>
+                                </div>
                         </div>
                     </div>
-                    <div class="politician">
-                        <p>Ao clicar em Cadastre-se, você concorda com nossos <a>Termos</a>, <a>Política de Dados</a> e
-                            <a>Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso
-                            quando quiser.</p>
-                    </div>
-                </form>
+            </div>
 
+            <div class="politician">
+                <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de Dados</a> e
+                    <a href="#">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso
+                    quando quiser.</p>
             </div>
+            </form>
             <div class="btn-register">
-                <button id="facebook-register">Cadastre-se</button>
+                <div class="btn-text">
+                    <button id="facebook-register">Cadastre-se</button>
+                </div>
             </div>
+
+        </div>
+       
 
         </div>
     </section>
