@@ -91,10 +91,6 @@ body {
 }
 
 .login-form > button:focus {
-  outline: none;
-}
-
-.login-form > button:active {
   background-color: #29487d;
   border-color: #29487d;
   outline: none;
