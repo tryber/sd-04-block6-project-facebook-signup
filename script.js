@@ -27,29 +27,32 @@ function validaGenero() {
   } else if (pers.checked === true) {
     return pers.value;
   }
-  return true;
-}
-
-function validaEmail() {
-  if (email.value === '' || email.value.indexOf('@') === -1 || email.value.indexOf('.') === -1) {
-    alert('Dados Invalidos');
-    email.focus();
-  }
-  return true;
+  return false;
 }
 
 window.onload = function () {
+  document.getElementById('data').DatePickerX.init();
   btnLogin.addEventListener('click', function () {
     alert(`${user.value}`);
   });
 
   btnSignin.addEventListener('click', function () {
-    validaInput(nome);
-    validaInput(sobrenome);
-    validaInput(senha);
-    validaInput(data);
-    validaEmail();
-    validaGenero();
+    if (!validaInput(nome)) {
+      return false;
+    } else if (!validaInput(nome)) {
+      return false;
+    } else if (!validaInput(sobrenome)) {
+      return false;
+    } else if (!validaInput(email)) {
+      return false;
+    } else if (!validaInput(senha)) {
+      return false;
+    } else if (!validaInput(data)) {
+      return false;
+    } else if (!validaGenero()) {
+      alert('Dados Invalidos');
+      return false;
+    }
     alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
   });
 };
