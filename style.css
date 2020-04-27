@@ -5,8 +5,6 @@ body , .top-bar , .bar-int , .login-box1 , .login-box2 {
 
 .top-bar {
   background-color: rgb(59, 89, 152);
-
-  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   height: 82px;
@@ -19,8 +17,6 @@ body , .top-bar , .bar-int , .login-box1 , .login-box2 {
 
 .bar-int {
   align-items: center;
-
-  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -35,8 +31,6 @@ h1 {
 }
 
 .div-login {
-
-  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -53,8 +47,6 @@ h1 {
 }
 
 .login-box1 {
-
-  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -62,24 +54,18 @@ h1 {
 }
 
 .login-box2 {
-
-  /* border: 1px solid black; */
   box-sizing: border-box;
   width: 225px;
 }
 
 .content {
   background-image: linear-gradient(white, #d3d8e8);
-
-  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
 
 .content-int {
-
-  /* border: 1px solid black; */
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -87,54 +73,28 @@ h1 {
   width: 980px;
 }
 
-/* .content-left {
-  border: 1px solid black;
-} */
-
 .txt-net {
-
-  /* border: 1px solid black; */
   width: 450px;
 }
 
 .content-right {
-
-  /* border: 1px solid black; */
   width: 400px;
 }
 
-/* .txt-reg {
-  border: 1px solid black;
-} */
-
-/* .register {
-  border: 1px solid black;
-} */
-
 .name {
-
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
 }
 
 .phone-pass {
-
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
 }
 
 .txt-date {
-
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
 }
-
-/* .txt-genre {
-  border: 1px solid black;
-} */
 
 .name > input {
   border: 1px solid rgb(189, 199, 216);
