@@ -5,4 +5,9 @@ window.onload = function () {
     alert(emailOuTelefone.value);
   }
   botaoEntrar.addEventListener('click', alertLogin);
+
+  const dataDeNascimento = document.querySelector('.input-data-nascimento');
+  $(function () {
+    $(dataDeNascimento).datepicker();
+  });
 };
