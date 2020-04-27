@@ -9,7 +9,6 @@ const data = document.querySelector('#data');
 const fem = document.querySelector('#fem');
 const masc = document.querySelector('#masc');
 const pers = document.querySelector('#pers');
-const datapicker = document.getElementById('data').DatePickerX.init();
 
 function validaInput(input) {
   if (input.value === '') {
@@ -30,13 +29,13 @@ function validaGenero() {
   return false;
 }
 
-window.onload = function () {
-  datapicker;
-
+function login() {
   btnLogin.addEventListener('click', function () {
     alert(user.value);
   });
+}
 
+function cadastrar() {
   btnSignin.addEventListener('click', function () {
     if (!validaInput(nome)) {
       alert('Dados Invalidos');
@@ -56,4 +55,10 @@ window.onload = function () {
       alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
     }
   });
+}
+
+window.onload = function () {
+  document.getElementById('data').DatePickerX.init();
+  login();
+  cadastrar()
 };
