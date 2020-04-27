@@ -36,19 +36,19 @@
           <p>Abra uma conta</p>
           <p>É rápido e fácil.</p>
         </div>
-        <form action="script.js">
-          <div class="register">
+        <div class="register">
+          <form action="script.js">
             <div class="name">
-              <input type="text" placeholder="Nome">
-              <input type="text" placeholder="Sobrenome">
+              <input type="text" required placeholder="Nome">
+              <input type="text" required placeholder="Sobrenome">
             </div>
             <div class="phone-pass">
-              <input type="text" placeholder="Celular ou email">
-              <input type="password" placeholder="Nova senha">
+              <input type="text" required placeholder="Celular ou email">
+              <input type="password" required placeholder="Nova senha">
             </div>
             <div class="txt-date">
               <p>Data de nascimento</p>
-              <input type="date" placeholder="dd/mm/aaaa">
+              <input type="date" required placeholder="dd/mm/aaaa">
             </div>
             <div class="txt-genre">
               <p>Gênero</p>
@@ -59,9 +59,9 @@
               <input type="radio" id="personalizado" name="gender" value="Personalizado">
               <label for="personalizado">Personalizado</label>
             </div>
-            <input type="submit" id="facebook-register" value="Cadastre-se">
-          </div>
-        </form>
+            <button id="facebook-register">Cadastre-se</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
