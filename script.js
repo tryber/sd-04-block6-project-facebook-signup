@@ -13,8 +13,8 @@ const pers = document.querySelector('#pers');
 
 function validaInput(input) {
   if (input.value === '') {
-    alert('Dados Invalidos');
     input.focus();
+    return false;
   }
   return input.value;
 }
@@ -38,21 +38,21 @@ window.onload = function () {
 
   btnSignin.addEventListener('click', function () {
     if (!validaInput(nome)) {
-      return false;
+      alert('Dados Invalidos');
     } else if (!validaInput(nome)) {
-      return false;
+      alert('Dados Invalidos');
     } else if (!validaInput(sobrenome)) {
-      return false;
+      alert('Dados Invalidos');
     } else if (!validaInput(email)) {
-      return false;
+      alert('Dados Invalidos');
     } else if (!validaInput(senha)) {
-      return false;
+      alert('Dados Invalidos');
     } else if (!validaInput(data)) {
-      return false;
+      alert('Dados Invalidos');
     } else if (!validaGenero()) {
       alert('Dados Invalidos');
-      return false;
+    } else {
+      alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
     }
-    alert(` ${nome.value} - ${sobrenome.value} - ${data.value} - ${email.value} - ${validaGenero()}`);
   });
 };
