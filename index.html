@@ -13,14 +13,19 @@
         </div>
         <section>
         <form class="login">
-            <div>
-            <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-            <input type="text" id="user-email-phone" required="required">
-            <label for="user-password" id="user-password-label">Senha</label>
-            <input type="password" id="user-password" required="required">
-            <button id="button-login" class="button-login">Entrar</button>
-            </div>
-        </form>
+                <div class="form-login">
+                    <label class="login-label" for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+                    <input class="input-label" type="text" id="user-email-phone" required="required">
+                </div>
+                <div class="form-login">
+                    <label class="login-label" for="user-password" id="user-password-label">Senha</label>
+                    <input class="input-label" type="password" id="user-password" required="required">
+                    <div class="to-recover">Esqueceu a conta?</div>
+                </div>
+                <div class="form-login">
+                    <button id="button-login" class="button-login">Entrar</button>
+                </div>
+            </form>
         </section>
     </header>
     <div class="main-container">
@@ -32,14 +37,13 @@
         <img id="facebook-networking" class="facebook-networking" src="networking.png" alt="facebook networking">
     </section>
     <section class="right-container">
-        <div>
-            <h2 class="new-account">Abra uma conta</h2>
-            <br>
-            <h4 class="new-account">É rápido e fácil.</h4>
-        </div>
-            <form id="register">
-
-                <div class="input-box">
+        <form id="register">
+            
+            <div class="input-box">
+                    <div>
+                        <h2 class="new-account">Abra uma conta</h2>
+                        <h4 class="new-account">É rápido e fácil.</h4>
+                    </div>
                     <input type="text" id="name" placeholder="Nome" id="name" required>
                     <input type="text" id="secondname" placeholder="Sobrenome" required>
                 </div>
@@ -72,7 +76,7 @@
                           Personalizado
                     </label>
                 </div>
-                <button type="submit" id="facebook-register">Cadastre-se</button>
+                <button class="register" type="submit" id="facebook-register">Cadastre-se</button>
             </form>
     </section>
     </div>
