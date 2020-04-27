@@ -39,17 +39,21 @@
         <div class="register">
           <form action="#" method="post">
             <div class="name">
-              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Nome">
-              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Sobrenome">
+              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Nome"
+                title="O nome deve conter de 5 a 25 letras">
+              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Sobrenome"
+                title="O sobrenome deve conter de 5 a 25 letras">
             </div>
             <div class="phone-pass">
               <input type="text" required placeholder="Celular ou email"
-                pattern="^[\(]\d{2}[\)]\d{5}[\-]\d{4}|[a-z]{5,25}@[a-z]{5,25}(\.[a-z]{3}|\.[a-z]{3}\.[a-z]{2})$">
-              <input type="password" required pattern="^[a-zA-Z\d]{6,12}$" placeholder="Nova senha">
+                pattern="^[\(]\d{2}[\)]\d{5}[\-]\d{4}|[a-z]{5,25}@[a-z]{5,25}(\.[a-z]{3}|\.[a-z]{3}\.[a-z]{2})$"
+                title="O celular ou email deve estar no formato (nn)nnnnn-nnnn ou email@exemplo.com">
+              <input type="password" required pattern="^[a-zA-Z\d]{6,12}$" placeholder="Nova senha"
+                title="A senha deve conter de 6 a 12 carácteres contendo letras ou números ou ambos">
             </div>
             <div class="txt-date">
               <p>Data de nascimento</p>
-              <input type="date" required min="1900-01-01" max="2020-01-01" placeholder="dd/mm/aaaa">
+              <input type="date" required min="1900-01-01" max="2020-04-27" placeholder="dd/mm/aaaa">
             </div>
             <div class="txt-genre">
               <p>Gênero</p>
