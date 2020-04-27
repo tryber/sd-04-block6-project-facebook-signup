@@ -16,25 +16,41 @@ body {
   box-sizing: border-box;
   display: flex;
   height: 82px;
-  justify-content: space-between;
+  justify-content: center;
   min-height: 42px;
-  min-width: 980px;
-  padding: 0 20%;
   position: relative;
+  width: 100%;
   z-index: 1;
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+  justify-content: space-between;
+  width: 980px;
 }
 
 .facebook-logo {
   background-image: url('./imgs/assets.png');
   background-position: 0 -245px;
   height: 34px;
+  margin-top: 17px;
   width: 170px;
 }
 
-.login-container > form {
+.login-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.login-form {
+  align-content: flex-start;
   display: flex;
   flex-flow: row;
-  align-content: flex-start;
 }
 
 .login-form > label {
@@ -45,10 +61,10 @@ body {
 }
 
 .login-form > label > input {
-  margin-top: 5px;
   border: 1px solid rgb(204, 208, 213);
-  width: 142px;
+  margin-top: 5px;
   padding: 2px;
+  width: 142px;
 }
 
 .login-form > button {
@@ -82,4 +98,14 @@ body {
   background-color: #29487d;
   border-color: #29487d;
   outline: none;
+}
+
+.password-recovery {
+  align-items: center;
+  color: #9cb4d8;
+  display: flex;
+  font-weight: 400;
+  height: 25px;
+  justify-content: flex-end;
+  padding: 0 15px;
 }
