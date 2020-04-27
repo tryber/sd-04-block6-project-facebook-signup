@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - entre ou cadastre-se</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header" class="top-bar">
+    <div class="bar-int">
+      <img class="facebook-logo" src="facebook-logo-nborder.png" alt="Logo facebook" width="170">
+      <div class="div-login">
+        <div class="login-box1">
+          <h1 id="user-email-phone-label">Email ou telefone</h1>
+          <input type="text" id="user-email-phone">
+        </div>
+        <div class="login-box2">
+          <h1>Senha</h1>
+          <input type="password" id="user-password">
+          <button id="button-login">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content-int">
+      <div class="content-left">
+        <div class="txt-net">
+          <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        </div>
+        <img id="facebook-networking" src="networking.png" alt="Rede facebook">
+      </div>
+      <div class="content-right">
+        <div class="txt-reg">
+          <p>Abra uma conta</p>
+          <p>É rápido e fácil.</p>
+        </div>
+        <div class="register">
+          <form action="#" method="post">
+            <div class="name">
+              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Nome"
+                title="O nome deve conter de 5 a 25 letras">
+              <input type="text" required pattern="^[a-zA-Z]{5,25}$" placeholder="Sobrenome"
+                title="O sobrenome deve conter de 5 a 25 letras">
+            </div>
+            <div class="phone-pass">
+              <input type="text" required placeholder="Celular ou email"
+                pattern="^[\(]\d{2}[\)]\d{5}[\-]\d{4}|[a-z]{5,25}@[a-z]{5,25}(\.[a-z]{3}|\.[a-z]{3}\.[a-z]{2})$"
+                title="O celular ou email deve estar no formato (nn)nnnnn-nnnn ou email@exemplo.com">
+              <input type="password" required pattern="^[a-zA-Z\d]{6,12}$" placeholder="Nova senha"
+                title="A senha deve conter de 6 a 12 carácteres contendo letras ou números ou ambos">
+            </div>
+            <div class="txt-date">
+              <p>Data de nascimento</p>
+              <input type="date" required min="1900-01-01" max="2020-04-27" placeholder="dd/mm/aaaa">
+            </div>
+            <div class="txt-genre">
+              <p>Gênero</p>
+              <input type="radio" required id="feminino" name="gender" value="Feminino">
+              <label for="feminino">Feminino</label>
+              <input type="radio" required id="masculino" name="gender" value="Masculino">
+              <label for="masculino">Masculino</label>
+              <input type="radio" required id="personalizado" name="gender" value="Personalizado">
+              <label for="personalizado">Personalizado</label>
+            </div>
+            <button type="submit" id="facebook-register">Cadastre-se</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
