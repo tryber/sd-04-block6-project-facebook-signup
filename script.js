@@ -60,5 +60,5 @@ function cadastrar() {
 window.onload = function () {
   document.getElementById('data').DatePickerX.init();
   login();
-  cadastrar()
+  cadastrar();
 };
