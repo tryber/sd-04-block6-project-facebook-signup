@@ -1,63 +1,63 @@
 body {
-  background: linear-gradient(white, #D3D8E8);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: linear-gradient(white, #d3d8e8);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .top-bar {
-  display: flex;
-  margin-top: -8px;
-  margin-left: -8px;
-  width: 1265px;
-  height: 82px;
+  background: linear-gradient(to top, #49659e, #3b5997, #49659e);
   color: #ffffff;
+  display: flex;
   font-size: 12px;
-  background: linear-gradient( to top,#4D68D0, #3B5997, #4D68A0);
+  height: 82px;
+  margin-left: -8px;
+  margin-top: -8px;
+  width: 1265px;
 }
 
 .container {
   display: flex;
-  width: 980px;
   height: 78px;
-  margin: 0px 142.5px;
-  padding: 13px 0px 0px;
   justify-content: space-between;
+  margin: 0 142.5px;
+  padding: 13px 0 0px;
+  width: 980px;
 }
 .facebook-logo {
-  display: flex;
   align-content: center;
-  width: 172px;
+  display: flex;
   height: 39px;
-  padding: 13px 0px 0px;
+  padding: 13px 0 0px;
+  width: 172px;
 }
 
 .container form {
-  display: flex;
   align-items: center;
-  margin-top: -16px;
+  display: flex;
   margin-right: 33px;
+  margin-top: -16px;
 }
 
 .login-container {
-  display: flex;
-  width: 350px;
-  padding: 3px 3px 4px;
   align-content: center;
+  display: flex;
   margin-bottom: 7px;
+  padding: 3px 3px 4px;
+  width: 350px;
 }
 .col-login .username-box {
-  width: 136px;
-  height: 20px;
   border: 1px solid black;
+  height: 20px;
+  width: 136px;
 }
 .col-login .password-box {
-  width: 136px;
-  height: 20px;
   border: 1px solid black;
+  height: 20px;
+  width: 136px;
 }
 .col-login {
   display: flex;
   flex-direction: column;
-  margin: 5px 5px;
+  margin: 5px;
 }
 
 .col-login label {
@@ -66,31 +66,31 @@ body {
 }
 
 .col-login a {
-  display: flex;
-  margin-top: 2px;
-  margin-bottom: -6px;
-  text-decoration: none;
   color: #9cb4d8;
+  display: flex;
+  margin-bottom: -6px;
+  margin-top: 2px;
+  text-decoration: none;
 }
 
 .button-login {
-  display: flex;
   align-self: center;
   background-color: #4c70b5;
-  color: white;
-  margin: 6px;
   border-color: #274071;
+  color: white;
+  display: flex;
   height: 23px;
   margin-top: 15px;
+  margin: 6px;
 }
 
 .page {
   display: flex;
-  padding: 17px 0 0;
-  width: 1045px;
   height: 641.84px;
   justify-content: space-between;
   margin: 0 42px 0 128px;
+  padding: 17px 0 0;
+  width: 1045px;
 }
 
 .left-side {
@@ -99,38 +99,37 @@ body {
   width: 54%;
 }
 .left-side p {
-  display: flex;
-  width: 490px;
   color: #0e385f;
+  display: flex;
   font-size: 20px;
   font-weight: bold;
   line-height: 29px;
-  word-spacing: -1px;
   text-align: start;
+  width: 490px;
+  word-spacing: -1px;
 }
 
 .right-side {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
   color: #333333;
+  display: flex;
+  flex-direction: column;
   margin-left: 22px;
+  width: 50%;
 }
 
 .col {
-margin-left: 15px;
-margin-top: -14px;
-
+  margin-left: 15px;
+  margin-top: -14px;
 }
 
 .text-new-register {
   display: flex;
   flex-direction: column;
   margin-left: 9px;
-  padding: 20px 0
+  padding: 20px 0;
 }
 
-.name,
+.name ,
 .last-name {
   width: 47%;
 }
@@ -140,9 +139,9 @@ margin-top: -14px;
   height: 55px;
 }
 .row h1 {
-  font-size: 36px;
-  display: flex;
   align-items: center;
+  display: flex;
+  font-size: 36px;
 }
 .text-new-register span {
   font-size: 19px;
@@ -150,7 +149,6 @@ margin-top: -14px;
 .register {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid black; */
   width: 415px;
 }
 
@@ -160,18 +158,18 @@ margin-top: -14px;
 }
 
 .register input {
-  width: 100%;
   border-color: #b9babfc7;
-  color: #999999;
   border-radius: 4px;
-  font-size: 16px;
   border-width: 1px;
+  color: #999999;
+  font-size: 16px;
   height: 37px;
+  width: 100%;
 }
 
 .datapicker input {
-  width: 180px;
   margin-left: 8px;
+  width: 180px;
 }
 
 .birth-date input {
@@ -196,8 +194,8 @@ margin-top: -14px;
 }
 
 .gender-type label {
-  display: flex;
   align-items: center;
+  display: flex;
   width: 33.33%;
 }
 
@@ -205,45 +203,42 @@ margin-top: -14px;
   width: 15px;
 }
 
-.full-name,
-.email-phone,
-.password,
-.birth-date,
+.full-name ,
+.email-phone ,
+.password ,
+.birth-date ,
 .gender-container {
   padding: 5px 9px 6px 0;
-}
-
-.row-birth h3 {
-  font-size: 16px;
 }
 
 .birth-date {
   height: 38px;
 }
 
-.birth-date,
-.gender-container h3 {
-  color: #90949C;
+
+h3 {
+  color: #90949c;
   margin-left: 5px;
+  font-size: 16px;
+
 }
 
 .birth-container {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   margin-left: -5px;
 }
 
 .politician {
-  display: flex;
-  width: 325px;
-  font-size: 11px;
   color: #7F7782;
+  display: flex;
+  font-size: 11px;
   margin-left: 20px;
-
+  width: 325px;
 }
 .politician a {
-  text-decoration: none;
   color: #385897;
+  text-decoration: none;
 }
 .btn-register {
   height: 59px;
@@ -251,15 +246,15 @@ margin-top: -14px;
 }
 
 .btn-text button {
-  font-size: 19px;
-  color: white;
-  width: 194px;
-  height: 39px;
-  margin: 10px 0;
-  border-radius: 5px;
-  background: linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
+  background: linear-gradient(#67ae55, #578843);
   border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  font-size: 19px;
+  height: 39px;
   margin-left: 20px;
+  margin: 10px 0;
+  width: 194px;
 }
