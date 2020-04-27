@@ -47,7 +47,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
 
 ### 5 - Um título com o texto 'Email ou telefone' acima do campo de entrada de texto para email ou telefone com o id `"user-email-phone-label"`.
 
-### 6 - Um campo de entrada de texto para digitar a senha do usuário, posicionado no canto superior direito. O campo também deve estar posicionado à direita do campo de entrada de texto para email ou telefone.
+- [ ] ### 6 - Um campo de entrada de texto para digitar a senha do usuário, posicionado no canto superior direito. O campo também deve estar posicionado à direita do campo de entrada de texto para email ou telefone.
 
   Pontos importantes:
     * Ao digitar a senha, o padrão deve ser '*****'.
