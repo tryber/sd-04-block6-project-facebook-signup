@@ -30,12 +30,34 @@ body {
   width: 400px;
 }
 
+.box-termos {
+  align-items: flex-start;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  justify-content: center;
+}
+
 .button-login {
   background-color: #4b69ac;
   border-color: #1e6eb9;
   border-radius: 3px;
   color: white;
   font-weight: 600;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
 }
 
 .frase {
