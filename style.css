@@ -54,10 +54,6 @@ body {
   padding: 100px;
 }
 
-.new-account {
-  color: #1d2129;
-}
-
 .left-container {
   display: flex;
   flex-direction: column;
