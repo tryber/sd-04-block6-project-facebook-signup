@@ -8,22 +8,25 @@ function BtnEntrar() {
 }
 
 function GetGenre(genre) {
+  let result = '';
   if (genre === '1') {
-    return 'Feminino';
+    result = 'Feminino';
   } else if (genre === '2') {
-    return 'Masculino';
+    result = 'Masculino';
   } else if (genre === '3') {
-    return 'Personalizado';
+    result = 'Personalizado';
   }
-  return '';
+  return result;
 }
 
 function IsNotClear(text) {
-  if (text !== '') {
-    return true;
+  let result = false;
+  if ((text !== '') || (text !== null)) {
+    result = true;
   }
-  return false;
+  return result;
 }
+
 
 function ValidateRegistration() {
   const NAME = document.getElementById('name').value;
@@ -31,9 +34,9 @@ function ValidateRegistration() {
   const PHONE = document.getElementById('phone').value;
   const PASSWORD = document.getElementById('password').value;
   const BIRTH = document.getElementById('birth').value;
-  const GENRE = document.querySelector('input[name="sex"]:checked').value;
+  const GENRE = document.querySelector('input[name="sex"]:checked');
 
-  if ((IsNotClear(NAME))) {
+  if ((IsNotClear(NAME)) && (IsNotClear(LASTNAME)) && (IsNotClear(PHONE)) && (IsNotClear(PASSWORD)) && (IsNotClear(BIRTH)) && (IsNotClear(GENRE))) {
     let message = '';
     message = `${NAME} - ${LASTNAME} - ${PHONE} - ${PASSWORD} - ${BIRTH} - ${GetGenre(GENRE)}`;
 
