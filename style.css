@@ -27,8 +27,8 @@
 .conteiner-nav {
   align-items: stretch;
   display: flex;
+  flex-flow: row;
   height: 70px;
-  justify-content: space-between;
   margin-right: 130px;
   margin-top: 10px;
   width: 320px;
