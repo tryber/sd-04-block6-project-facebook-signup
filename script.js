@@ -10,7 +10,3 @@ function BtnEntrar() {
 BTNENVIAR.addEventListener('click', function () {
   BtnEntrar();
 });
-
-BTNVALIDAR.addEventListener('click', function () {
-  ValidateRegistration();
-});
