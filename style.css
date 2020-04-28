@@ -24,6 +24,7 @@ a {
 }
 
 .container {
+  background-color: sandybrown;
   margin: 0 auto;
   width: 70%;
 }
