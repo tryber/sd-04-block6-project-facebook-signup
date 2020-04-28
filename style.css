@@ -13,12 +13,6 @@
   min-width: 980px;
 }
 
-.top-bar {
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-}
-
 .top-bar .facebook-logo {
   background-image: url('img/facebook-logo-1.png');
   background-repeat: no-repeat;
