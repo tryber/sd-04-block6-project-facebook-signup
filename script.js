@@ -9,11 +9,11 @@ function BtnEntrar() {
 
 function GetGenre(genre) {
   let result = '';
-  if (genre == '1') {
+  if (genre === '1') {
     result = 'Feminino';
-  } else if (genre == '2') {
+  } else if (genre === '2') {
     result = 'Masculino';
-  } else if (genre == '3') {
+  } else if (genre === '3') {
     result = 'Personalizado';
   }
   return result;
