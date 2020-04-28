@@ -24,7 +24,6 @@ a {
   color: rgb(56 , 88 , 152);
   cursor: pointer;
   font-family: inherit;
-  font-weight: normal;
   text-decoration: none;
 }
 
@@ -42,8 +41,7 @@ img {
 }
 
 .top-bar {
-  background-color: #3b5998; 
-  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  background-color: #3b5998;
   border-bottom: 1px solid #133783;
   height: 82px;
   min-height: 42px;
@@ -79,7 +77,9 @@ img {
   font-size: 0.8em;
 }
 
-.top-bar-content-login-email , .top-bar-content-login-password , .top-bar-content-login-btn {
+.top-bar-content-login-email ,
+.top-bar-content-login-password ,
+.top-bar-content-login-btn {
   display: flex;
   flex-direction: column;
   margin: 8px;
@@ -134,13 +134,12 @@ img {
 }
 
 .below-title {
- font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .title-data {
   color: #90949c;
   font-size: 16px;
-  font-weight: bold;
   margin: 5px 0;
 }
 
@@ -163,7 +162,6 @@ img {
 .register-content-conection label {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
@@ -192,21 +190,19 @@ img {
 
 .btn-cadastrar {
   background-color: #69a74e;
-  background: linear-gradient(#67ae55, #578843);
   border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
   box-shadow: inset 0 1px 1px #a4e388;
-  color: #fff;
+  color: white;
   cursor: pointer;
   font-size: 19px;
-  font-weight: bold;
   letter-spacing: 1px;
   margin: 20px 0 30px;
   min-width: 194px;
   padding: 7px 20px;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0 ,0, .5);
+  text-shadow: 1px 2px rgba(0 , 0 , 0 , .5);
 }
 
 .btn-cadastrar:hover {
@@ -219,7 +215,7 @@ img {
 
 .footer {
   background-color: white;
-} 
+}
 
 .footer-content li {
   list-style: none;
@@ -240,7 +236,7 @@ img {
   padding: 10px 0 5px;
 }
 
-.footer-content-property  li {
+.footer-content-property li {
   margin-right: 20px;
 }
 
