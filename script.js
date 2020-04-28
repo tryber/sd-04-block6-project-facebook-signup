@@ -14,16 +14,16 @@ function GetGenre(genre) {
     return 'Masculino';
   } else if (genre === '3') {
     return 'Personalizado';
-  } 
-    return '';
+  }
+  return '';
 }
 
 function IsNotClear(text) {
   if (text !== '') {
     return true;
   }
-    return false;
-  
+  return false;
+
 }
 
 function ValidateRegistration() {

@@ -1,13 +1,10 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background: linear-gradient(white, #d3d8e8);
+  box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 .font-zero {
@@ -23,7 +20,6 @@ body {
 a {
   color: rgb(56, 88, 152);
   cursor: pointer;
-  font-family: inherit;
   text-decoration: none;
 }
 
@@ -77,8 +73,8 @@ img {
   font-size: 0.8em;
 }
 
-.top-bar-content-login-email , 
-.top-bar-content-login-password , 
+.top-bar-content-login-email, 
+.top-bar-content-login-password, 
 .top-bar-content-login-btn {
   display: flex;
   flex-direction: column;
@@ -105,13 +101,13 @@ img {
 }
 
 .register-content-conection {
-  flex-basis: 55%;
+  flex-basis: 50%;
   margin-top: 35px;
   padding-right: 120px;
 }
 
 .register-content-create {
-  flex-basis: 45%;
+  flex-basis: 40%;
   margin-top: 15px;
 }
 
@@ -125,7 +121,7 @@ img {
 }
 
 .register-content-create-name-item:first-child {
-  margin-right: 10px;
+  margin-right: 35px;
 }
 
 .large-title {
