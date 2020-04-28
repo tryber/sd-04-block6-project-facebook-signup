@@ -21,12 +21,19 @@ function GetGenre(genre) {
 
 function IsNotClear(text) {
   let result = false;
-  if ((text !== '') || (text !== null)) {
+  if (text !== '') {
     result = true;
   }
   return result;
 }
 
+function IsNotNull(text) {
+  let result = false;
+  if (text !== null) {
+    result = IsNotClear(text.value);
+  }
+  return result;
+}
 
 function ValidateRegistration() {
   const NAME = document.getElementById('name').value;
@@ -36,9 +43,11 @@ function ValidateRegistration() {
   const BIRTH = document.getElementById('birth').value;
   const GENRE = document.querySelector('input[name="sex"]:checked');
 
-  if ((IsNotClear(NAME)) && (IsNotClear(LASTNAME)) && (IsNotClear(PHONE)) && (IsNotClear(PASSWORD)) && (IsNotClear(BIRTH)) && (IsNotClear(GENRE))) {
+  if ((IsNotClear(NAME)) && (IsNotClear(LASTNAME)) && (IsNotClear(PHONE)) &&
+    (IsNotClear(PASSWORD)) && (IsNotClear(BIRTH)) && (IsNotNull(GENRE))) {
     let message = '';
-    message = `${NAME} - ${LASTNAME} - ${PHONE} - ${PASSWORD} - ${BIRTH} - ${GetGenre(GENRE)}`;
+    message = `${NAME} - ${LASTNAME} - ${PHONE} - ${PASSWORD} - ${BIRTH} - 
+    ${GetGenre(GENRE.value)}`;
 
     alert(message);
   } else {
