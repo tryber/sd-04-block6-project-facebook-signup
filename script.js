@@ -9,7 +9,7 @@ function BtnEntrar() {
 
 function GetGenre(genre) {
   if (genre === '1') {
-    return 'Femenino';
+    return 'Feminino';
   } else if (genre === '2') {
     return 'Masculino';
   } else if (genre === '3') {
