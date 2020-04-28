@@ -35,26 +35,6 @@ function IsNotNull(text) {
   return result;
 }
 
-function ValidateRegistration() {
-  const NAME = document.getElementById('name').value;
-  const LASTNAME = document.getElementById('lastname').value;
-  const PHONE = document.getElementById('phone').value;
-  const PASSWORD = document.getElementById('password').value;
-  const BIRTH = document.getElementById('birth').value;
-  const GENRE = document.querySelector('input[name="sex"]:checked');
-
-  if ((IsNotClear(NAME)) && (IsNotClear(LASTNAME)) && (IsNotClear(PHONE)) &&
-    (IsNotClear(PASSWORD)) && (IsNotClear(BIRTH)) && (IsNotNull(GENRE))) {
-    let message = '';
-    message = `${NAME} - ${LASTNAME} - ${PHONE} - ${PASSWORD} - ${BIRTH} - 
-    ${GetGenre(GENRE.value)}`;
-
-    alert(message);
-  } else {
-    alert('Dados inválidos');
-  }
-}
-
 BTNENVIAR.addEventListener('click', function () {
   BtnEntrar();
 });
