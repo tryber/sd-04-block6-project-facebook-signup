@@ -11,20 +11,19 @@ function GetGenre(genre) {
   if (genre === '1') {
     return 'Femenino';
   } else if (genre === '2') {
-    return 'Masculino'
+    return 'Masculino';
   } else if (genre === '3') {
-    return 'Personalizado'
-  } else {
-    return ''
-  }
+    return 'Personalizado';
+  } 
+    return '';
 }
 
 function IsNotClear(text) {
   if (text !== '') {
     return true;
-  } else {
-    return false;
   }
+    return false;
+  
 }
 
 function ValidateRegistration() {

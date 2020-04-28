@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(white, #D3D8E8);
+  background: linear-gradient(white, #d3d8e8);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
@@ -17,11 +17,11 @@ body {
 }
 
 .color-gray {
-  color: rgb(115 , 115 , 115);
+  color: rgb(115, 115, 115);
 }
 
 a {
-  color: rgb(56 , 88 , 152);
+  color: rgb(56, 88, 152);
   cursor: pointer;
   font-family: inherit;
   text-decoration: none;
@@ -77,8 +77,8 @@ img {
   font-size: 0.8em;
 }
 
-.top-bar-content-login-email ,
-.top-bar-content-login-password ,
+.top-bar-content-login-email , 
+.top-bar-content-login-password , 
 .top-bar-content-login-btn {
   display: flex;
   flex-direction: column;
@@ -87,8 +87,8 @@ img {
 
 .btn-enviar {
   background-color: #4267b2;
-  border-radius: 2px;
   border: 1px solid #29487d;
+  border-radius: 2px;
   color: white;
   cursor: pointer;
   padding: 3px 6px;
@@ -202,7 +202,7 @@ img {
   min-width: 194px;
   padding: 7px 20px;
   text-align: center;
-  text-shadow: 1px 2px rgba(0 , 0 , 0 , .5);
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .btn-cadastrar:hover {
