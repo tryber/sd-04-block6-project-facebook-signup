@@ -23,8 +23,15 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
 .container {
-  background-color: sandybrown;
   margin: 0 auto;
   width: 70%;
 }

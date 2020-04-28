@@ -24,8 +24,6 @@ function IsNotClear(text) {
   }
   return false;
 
-}
-
 function ValidateRegistration() {
   const NAME = document.getElementById('name').value;
   const LASTNAME = document.getElementById('lastname').value;
