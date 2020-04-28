@@ -23,6 +23,7 @@ function IsNotClear(text) {
     return true;
   }
   return false;
+}
 
 function ValidateRegistration() {
   const NAME = document.getElementById('name').value;
