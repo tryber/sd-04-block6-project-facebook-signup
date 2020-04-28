@@ -230,8 +230,7 @@ body {
 }
 
 .rfloat-ohf {
-  height: 624.941px;
-  width: 400px;
+  max-width: 400px;
 }
 
 .conteudo-direita {
@@ -404,4 +403,85 @@ body {
   padding: 7px 20px;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.criar-pagina {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.link-criar-pagina {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pageFooter {
+  color: #737373;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.localSelector {
+  align-items: center;
+  color: #737373;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 8px 0 0;
+}
+
+li {
+  display: inline-block;
+  padding-right: 0;
+}
+
+.pt {
+  padding-left: 0;
+}
+
+.en , .es , .fr , .it , .ar , .de , .hi , .ch , .jp , .btnIdiomas {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.maisIdiomas {
+  background-color: #f5f6f7;
+  border: 1px solid;
+  border-color: #ccd0d5;
+  border-radius: 2px;
+  box-sizing: content-box;
+  color: #4b4f56;
+  font-size: 12px;
+  height: 18px;
+  padding: 0 8px;
+}
+
+.line {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.sitesFacebook {
+  line-height: 1.6;
+  list-style-type: none;
+  margin: 12px 0 12px -20px;
+  padding: 0;
+}
+
+.sitesFacebook > li {
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.copyright {
+  font-size: 11px;
+  margin: 20px 0;
 }
