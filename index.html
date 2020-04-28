@@ -19,10 +19,9 @@
                 <tbody>
                     <tr id="login-container">
                         <td>
-                            <label for="" class="user-email-phone-label" id="user-email-phone-label">Email ou
-                                telefone</label></td>
+                            <label for="user-email-phone" class="user-email-phone-label">Email ou telefone</label></td>
                         <td>
-                            <label class="user-password-label">Senha</label>
+                            <label for="user-password" class="user-password-label">Senha</label>
                         </td>
                     </tr>
 
@@ -46,16 +45,18 @@
     <section>
         <div class="section-container">
             <div id="networking-container" class="networking-container">
-                <p class="networking-text">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+                <p class="networking-text">
+                    O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+                </p>
                 <img src="networking.png" alt="" width="537" height="195" id="facebook-networking">
             </div>
             <div id="cadastro-container" class="cadastro-container">
                 <form>
-                    <table>
-                        <h1>
-                            Abra uma conta
-                        </h1>
+                    <div>
+                        <h1>Abra uma conta</h1>
                         <p class="sub-title">É rápido e fácil.</p>
+                    </div>
+                    <table>
                         <tr>
                             <td><input type="text" class="name form-input" placeholder="Nome">
                                 <input type="text" class="name form-input" placeholder="Sobrenome">
@@ -63,21 +64,40 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" class="form-input" placeholder="Celular ou email">
+                                <input type="text" class="form-input form-input2" placeholder="Celular ou email">
                             </td>
                         </tr>
                         <tr>
-                            <td><input type="password" class="form-input" placeholder="Nova Senha"></td>
+                            <td><input type="password" class="form-input form-input2" placeholder="Nova Senha"></td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                                <p>Data de nascimento</p><br>
+                                <input type="text" class="form-input form-input2" id="data" placeholder="dd/mm/aaaa">
+                            </td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" class="form-input    " placeholder="dd/mm/aaaa">
+                                <p>Gênero</p>
+                                <label><input type="radio" name="genero">Feminino</label>
+                                <label><input type="radio" name="genero">Masculíno</label>
+                                <label><input type="radio" name="genero">Personalizado</label>
                             </td>
                         </tr>
-                        <tr></tr>
-                        <tr></tr>
-                        <tr></tr>
-                        <tr></tr>
+                        <tr>
+                            <td>
+                                Ao clicar em Cadastre-se, você concorda com nossos <a href="">Termos</a>, <a
+                                    href="">Política de Dados</a> e x<a href="">Política de Cookies</a> . Você pode
+                                receber notificações por SMS e pode cancelar isso quando quiser.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><button type="submit">Cadastre-se</button></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Criar uma Página</a> para uma celebridade, banda ou empresa.</td>
+                        </tr>
                     </table>
                 </form>
             </div>

@@ -10,10 +10,12 @@ body {
 
 h1 {
   font-size: 36px;
+  margin-bottom: 5px;
 }
 
 .sub-title {
   font-size: 19px;
+  margin-top: 0;
 }
 
 input {
@@ -117,6 +119,10 @@ section {
   margin: 0;
   padding: 8px 10px;
   position: relative;
+}
+
+.form-input2{
+  width: 377px;
 }
 
 footer {
