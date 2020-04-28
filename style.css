@@ -34,8 +34,11 @@ a {
   width: 100%;
 }
 
-.facebook-logo {
+.sprite {
   background-image: url('sprite.png');
+}
+
+.facebook-logo {
   background-position: 0 -245px;
   display: inline-block;
   height: 34px;
@@ -198,12 +201,6 @@ a {
   padding: 0 10px 0 3px;
 }
 
-.footer-bottom a {
-  color: #385898;
-  font-size: 12px;
-  padding-right: 21px;
-}
-
 .footer-top a {
   font-size: 12px;
   padding-right: 10px;
@@ -214,6 +211,14 @@ a {
   font-size: 11px;
   margin-top: 15px;
   width: 316px;
+}
+
+.footer-bottom a {
+  color: #385898;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  padding-right: 16px;
 }
 
 .last-p a {
@@ -286,15 +291,9 @@ a {
 }
 
 .footer-bottom {
-
+  background-color: transparent;
 }
 
-.footer-bottom a {
-  display: inline-block;
-  margin: 0;
-  padding-right: 16px;
-}
- 
 .btn-language {
   background-image: url('sprite2.png');
   background-position: -37px -278px;
@@ -304,8 +303,7 @@ a {
   width: 18px;
 }
 
-.btn-info1{
-  background-image: url('sprite.png');
+.btn-info1 {
   background-position: -136px -280px;
   background-repeat: no-repeat;
   background-size: auto;
