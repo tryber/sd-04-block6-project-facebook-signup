@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="main">
+    <header class="top-bar">
+      <div class="facebook-logo">
+          <h1></h1> 
+      </div>
+      <nav class="conteiner-nav">
+        <ul>
+          <li><label for="" id="user-email-phone-label">Email ou telefone</label></li>
+          <li><input type="text" id="user-email-phone"></li>
+        </ul>
+        <ul>
+          <li><label for="senha">Senha</label></li>
+          <li><input type="password" id="senha"></li>
+          <li><a href="">Esqueceu a conta?</a></li>
+        </ul>
+        <ul>
+          <li><button type="button" id="button-login">Entrar</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="secao">
+      <div class="texto">
+        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      </div>
+      <div id="facebook-networking">
+      </div>
+      <span class="texto2">
+        <h1>Abra uma conta</h1>
+        <h2>É rápido e fácil.</h>
+        <div class="conta">
+          <input class="contaNome" type="text" placeholder="Nome">
+          <input class="contaSobreNome" type="text" placeholder="Sobrenome">
+          <input class="contaEmail" type="text" placeholder="Celular ou email">
+          <input class="contaNovaSenha" type="password" placeholder="Nova Senha">
+        </div>
+        <div class="dataNascimento">
+          <label for="datepicker">Data de nascimento</label>
+          <input type="text" id="datepicker" placeholder="dd/mm/aaaa" required>
+        </div>
+        <div class="container-genero">
+          <label class="container-generoTitulo">Gênero</label>
+          <div class="container-genero-radio">
+            <input type="radio" id="mulher" value="Feminino">
+            <label for="mulher">Feminino</label>
+            <input type="radio" id="homem" value="Masculino">
+            <label for="homem">Masculino</label>
+            <input type="radio" id="personalizado" value="Personalizado">
+            <label for="personalizado">Personalizado</label>
+          </div>
+        </div>
+        <div class="container-termos">
+          <p class="_58mv">Ao clicar em Cadastre-se, você concorda com nossos
+           <a href="/legal/terms/update" id="terms-link" target="_blank" rel="nofollow">Termos</a>,
+           <a href="/about/privacy/update" id="privacy-link" target="_blank" rel="nofollow">Política de Dados</a> e
+           <a href="/policies/cookies/" id="cookie-use-link" target="_blank" rel="nofollow">Política de Cookies</a>.
+            Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+          </p>
+        </div>
+        <div class="container-btn">
+          <button type="button" id="cadastro">Cadastre-se</button>
+        </div>
+        <div class="container-criarPaginas">
+          <a href="/pages/create/?ref_type=registration_form" class="_8esh">Criar uma Página</a>
+          para uma celebridade, banda ou empresa.
+        </div>
+      </span>
+    </section>
+    <footer>   
+    </footer>
+</body>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#datepicker" ).datepicker();
+    } );
+  </script>
+</html>

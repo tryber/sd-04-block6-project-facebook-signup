@@ -1,0 +1,303 @@
+.main{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.top-bar{
+  background-color: rgb(59, 89, 152);
+  height: 82px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+  min-width: 980px;
+}
+
+.top-bar .facebook-logo{
+  align-items: center; 
+  display: flex;
+  justify-content: space-around;
+}
+
+.facebook-logo{
+  background-image: url("img/facebook-logo-1.png");
+  background-size: cover;
+  border: 1px solid red;
+  background-repeat: no-repeat;
+  height: 70px;
+  margin-right: 120px;
+  margin-top: 10px;
+  width: 210px;
+}
+
+.conteiner-nav{
+  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin-top: 10px;
+  width: 320px;  
+  /*border: 1px solid red;*/
+}
+
+.conteiner-nav ul li{
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:12px;
+  font-weight: normal;
+  list-style: none;
+  padding-bottom: 4px;
+  /*border: 1px solid red;*/ 
+}
+
+.conteiner-nav input{
+  background: #fff;
+  border: 1px solid #ccd0d5;;
+  border-color: rgb(28, 42, 91);  
+  margin: -15px;
+  width: 142px;
+ /* border: 1px solid red; */ 
+}
+
+.conteiner-nav label{
+  margin: -15px;
+}
+
+.conteiner-nav a{
+  color: #9cb4d8;
+  margin: -14px;
+  text-decoration: none;
+}
+
+.conteiner-nav #button-login{
+  background-color: rgb(66, 103, 178);
+  border: 1px solid;
+  border-color: #29487d;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 17px;
+  margin: -15px;
+  margin-top: 19px;
+  padding: 2px 6px;
+  /*border: 1px solid red;*/
+}
+
+.secao{  
+  background: linear-gradient(to bottom, #fefefe, #e4e7f1, #d3d8e8);
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+  min-width: 980px;
+}
+
+.secao #facebook-networking{
+  background-image: url("/img/networking.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+  height: 195px;
+  margin: -175px 0px 200px 150px; 
+  width: 537px;
+}
+
+.texto{
+  margin-left: 150px;
+  margin-top: -60px;
+  width: 450px;
+}
+
+.texto p{
+  color: rgb(13, 56, 95);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  word-spacing: -1px;
+  border: 1px solid red;
+}
+
+.texto2{
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  height: 600px;
+  width: 535px;
+}
+
+.texto2 h1{
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.texto2 h2{
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 1.34;
+  margin-top: -20px;
+}
+
+.conta{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #ccd0d5;
+  height: 200px;
+}
+
+.contaNome{
+  background-color: rgb(255, 255,255);
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  height: 39px;
+  padding: 1px 4px;
+  width: 194px;
+}
+
+.contaSobreNome{
+  background-color: rgb(255, 255,255);
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  height: 39px;
+  margin-left: 10px;
+  padding: 1px 4px;
+  width: 194px;
+}
+
+.contaEmail{
+  background-color: rgb(255, 255,255);
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  height: 39px;
+  margin-top: -30px;
+  padding: 1px 4px;
+  width: 410px;
+}
+
+.contaNovaSenha{
+  background-color: rgb(255, 255,255);
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  height: 39px;
+  margin-top: -30px;
+  padding: 1px 4px;
+  width: 410px;   
+}
+
+.dataNascimento{
+  display: flex; 
+  flex-direction: column;
+  margin-top: -30px;
+}
+
+.dataNascimento label{
+  color: rgb(144, 148, 156);
+  direction: ltr;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.34;
+}
+
+.dataNascimento #datepicker{
+  background-color: rgb(255, 255,255);
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 39px;
+  margin-top: 5px;
+  width: 150px;
+}
+
+.container-genero{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #ccd0d5;
+  height: 60px;
+}
+
+.container-generoTitulo{
+  color: rgb(144, 148, 156);
+  direction: ltr;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.34;
+  margin-top: 10px;
+}
+
+.container-genero-radio{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding: 0px;
+}
+
+.container-genero > .container-genero-radio:nth-child(2){
+  align-self: flex-end;
+  margin-left: -60px;
+  margin-top: 40px;
+}
+
+.container-termos{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  margin-top: 30px;
+  width: 399px;
+}
+
+.container-btn #cadastro{
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: #fff;
+  cursor: pointer;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  height: 39px;
+  letter-spacing: normal;
+  margin-top: 25px;;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  text-rendering: optimizeLegibility;  
+  width: 200px;  
+}
+
+.container-criarPaginas{
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.container-criarPaginas a{
+  color: #385898;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
