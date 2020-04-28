@@ -29,6 +29,7 @@
   display: flex;
   height: 70px;
   justify-content: space-between;
+  margin-right: 130px;
   margin-top: 10px;
   width: 320px;
 }
@@ -91,13 +92,13 @@
   border: 1px solid red;
   height: 195px;
   margin-bottom: 200px;
-  margin-left: 150px;
+  margin-left: 120px;
   margin-top: -175px;
   width: 537px;
 }
 
 .texto {
-  margin-left: 150px;
+  margin-left: 130px;
   margin-top: -60px;
   width: 450px;
 }
