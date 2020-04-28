@@ -15,18 +15,6 @@ function IsNotClear(text) {
   return result;
 }
 
-function GetGenre(genre) {
-  let result = '';
-  if (genre === '1') {
-    result = 'Feminino';
-  } else if (genre === '2') {
-    result = 'Masculino';
-  } else if (genre === '3') {
-    result = 'Personalizado';
-  }
-  return result;
-}
-
 function ValidateRegistration() {
   const NAME = document.getElementById('name').value;
   const LASTNAME = document.getElementById('lastname').value;
@@ -37,7 +25,7 @@ function ValidateRegistration() {
 
   if (IsNotClear(NAME)) {
     let message = '';
-    message = `${NAME} - ${LASTNAME} - ${PHONE} - ${PASSWORD} - ${BIRTH} - ${GetGenre(GENRE.value)}`;
+    message = `${NAME} - ${LASTNAME} - ${PHONE} - ${PASSWORD} - ${BIRTH} - ${(GENRE.value)}`;
 
     alert(message);
   } else {
