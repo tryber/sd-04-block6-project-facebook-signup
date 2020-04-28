@@ -74,8 +74,8 @@ img {
 }
 
 .top-bar-content-login-email ,
-  .top-bar-content-login-password ,
-  .top-bar-content-login-btn {
+.top-bar-content-login-password ,
+.top-bar-content-login-btn {
   display: flex;
   flex-direction: column;
   margin: 8px;
