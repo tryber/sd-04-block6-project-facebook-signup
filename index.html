@@ -11,41 +11,43 @@
 
 <body>
     <header class="top-bar ">
-        <div>
-            <img id="facebook-logo" class="facebook-logo" src="facebook-logo.png" alt="">
-        </div>
-        <table id="sigin-container" class="sigin-container">
-            <tbody>
-                <tr id="login-container">
-                    <td>
-                        <label for="" class="user-email-phone-label" id="user-email-phone-label">Email ou telefone</label></td>
-                    <td>
-                        <label class="user-password-label">Senha</label>
-                    </td>
-                </tr>
+        <div class="top-container">
+            <div>
+                <img id="facebook-logo" class="facebook-logo" src="facebook-logo.png" alt="">
+            </div>
+            <table id="sigin-container" class="sigin-container">
+                <tbody>
+                    <tr id="login-container">
+                        <td>
+                            <label for="" class="user-email-phone-label" id="user-email-phone-label">Email ou
+                                telefone</label></td>
+                        <td>
+                            <label class="user-password-label">Senha</label>
+                        </td>
+                    </tr>
 
-                <tr id="password-container">
-                    <td><input type="text" class="user-email-phone" id="user-email-phone"></td>
-                    <td>
-                        <input type="password" class="user-password" id="user-password"><br>
-                    </td>
-                    <td><button type="submit" id="button-login" class="button-login">Entrar</button></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <a href="index.html" class="forget-pass">Esqueceu a conta?</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                    <tr id="password-container">
+                        <td><input type="text" class="user-email-phone" id="user-email-phone"></td>
+                        <td>
+                            <input type="password" class="user-password" id="user-password"><br>
+                        </td>
+                        <td><button type="submit" id="button-login" class="button-login">Entrar</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <a href="index.html" class="forget-pass">Esqueceu a conta?</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </header>
     <section>
-        <div>
+        <div class="section-container">
             <div id="networking-container" class="networking-container">
-                <p class="networking-text">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem
-                    parte da sua vida.</p>
-                <img src="networking.png" alt="" id="facebook-networking">
+                <p class="networking-text">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+                <img src="networking.png" alt="" width="537" height="195" id="facebook-networking">
             </div>
             <div id="cadastro-container" class="cadastro-container">
                 <form>
@@ -55,8 +57,9 @@
                         </h1>
                         <p class="sub-title">É rápido e fácil.</p>
                         <tr>
-                            <td><input type="text" class="name form-input" placeholder="Nome"></td>
-                            <td><input type="text" class="name form-input" placeholder="Sobrenome"></td>
+                            <td><input type="text" class="name form-input" placeholder="Nome">
+                                <input type="text" class="name form-input" placeholder="Sobrenome">
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -68,10 +71,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label for="">Data de nascimento</label><br>
-                                <select name="" id=""></select>
-                                <select name="" id=""></select>
-                                <select name="" id=""></select>
+                                <input type="text" class="form-input    " placeholder="dd/mm/aaaa">
                             </td>
                         </tr>
                         <tr></tr>
