@@ -7,6 +7,14 @@ function BtnEntrar() {
   alert(USUARIO.value);
 }
 
+function IsNotClear(text) {
+  let result = false;
+  if (text !== '') {
+    result = true;
+  }
+  return result;
+}
+
 function GetGenre(genre) {
   let result = '';
   if (genre === '1') {
@@ -15,14 +23,6 @@ function GetGenre(genre) {
     result = 'Masculino';
   } else if (genre === '3') {
     result = 'Personalizado';
-  }
-  return result;
-}
-
-function IsNotClear(text) {
-  let result = false;
-  if (text !== '') {
-    result = true;
   }
   return result;
 }
