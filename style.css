@@ -10,7 +10,7 @@ header {
   width: 100%;
 }
 
-.container-email label, .container-password label {
+.container-email label , .container-password label {
   color: white;
 }
 
