@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>Facebook</title>
 </head>
@@ -12,11 +13,11 @@
     <form class="container-2">
       <div class="container-email">
         <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
-        <input id="user-email-phone" type="text" size="15">
+        <input id="user-email-phone" type="text" size="15" class="firstInput">
       </div>
       <div class="container-password">
         <label for="user-password">Senha</label>
-        <input id="user-password" type="password" size="15">
+        <input id="user-password" type="password" size="15" class="firstInput">
       </div>
       <div>
         <button id="button-login" class="btn-enviar">Entrar</button>
@@ -41,6 +42,17 @@
           <input type="text" placeholder="Sobrenome">
           <input type="text" placeholder="Celular ou email">
           <input type="password" placeholder="Nova senha">
+          <p>Data de nascimento</p>
+          <input type="date" placeholder="dd/mm/aaaa">
+          <p>Gênero</p>
+          <input type="radio" id="Feminino" value="1" name="sex"><label for="Feminino">Feminino</label>
+          <input type="radio" id="Masculino" value="2" name="sex"><label for="Masculino">Masculino</label>
+          <input type="radio" id="Personalizado" value="3" name="sex"><label
+          for="Personalizado">Personalizado</label>
+          <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies.
+            Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+
+          <button type="submit" class="btn-cadastrar" id="facebook-register">Cadastre-se</button>
         </form>
       </div>
     </div>

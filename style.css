@@ -10,7 +10,7 @@ header {
   width: 100%;
 }
 
-label {
+.container-email label, .container-password label {
   color: white;
 }
 
@@ -30,7 +30,7 @@ label {
   margin: 7px;
 }
 
-input {
+.firstInput {
   border: 0.5px solid black;
   height: 20px;
   margin-top: 4px;
