@@ -36,25 +36,24 @@
     <section>
       <h2>Abra uma conta</h2>
       <p>É rápido e fácil.</p>
-      <form action="#">
+      <form action="#" id="new-user-form">
         <input type="text" id="name" placeholder="Nome">
         <input type="text" id="sobrenome" placeholder="Sobrenome">
         <input type="text" id="email" placeholder="Celular ou email">
         <input type="password" id="nova-senha" placeholder="Nova senha">
         <label for="data-nascimento">
           Data de nascimento
-          <input type="date" placeholder="dd/mm/aaaa">
+          <input type="date" id="data-nascimento" placeholder="dd/mm/aaaa">
         </label>
-        <label for="genero">
-          Gênero
-          <select id="genero">
-            <option value="Feminino">Feminino</option>
-            <option value="Masculino">Masculino</option>
-            <option value="Personalizado">Personalizado</option>
-          </select>
-        </label>
+        <label for="male">Feminino</label>
+        <input type="radio" id="Feminino" name="gender" value="Feminino">
+        <label for="female">Masculino</label>
+        <input type="radio" id="Masculino" name="gender" value="Masculino">
+        <label for="other">Personalizado</label>
+        <input type="radio" id="Personalizado" name="gender" value="Personalizado">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, doloribus eveniet ab tempore natus porro? In consequuntur facere, dolores voluptatum consectetur minima excepturi provident voluptatem error culpa. Veritatis, doloribus velit!</p>
+        <button id="facebook-register">Cadastrar-se</button>
       </form>
-      <button id="facebook-register">Cadastrar-se</button>
     </section>
   </section>
   <script src="script.js"></script>
