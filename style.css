@@ -30,6 +30,12 @@ body {
   width: 400px;
 }
 
+.box-birthday {
+  color: #0e385f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .box-termos {
   align-items: flex-start;
   display: flex;
