@@ -62,10 +62,16 @@ h1 {
   margin-top: 2%;
 }
 
-.convite p {
+.convite p{
   color: rgb(4, 4, 95);
   font-size: 1.3em;
   margin-top: 2%;
+}
+
+.data-text p {
+  color: rgb(4, 4, 95);
+  font-size: 1.1em;
+  margin: 0;
 }
 
 .mapa-frase {
