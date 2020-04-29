@@ -1,0 +1,65 @@
+body {
+  background-color: #e9ebee;
+  margin: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #3b5998;
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.facebook img {
+  width: 200px;
+}
+
+.login-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  color: white;
+}
+
+.remenber {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.form-usuarios {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-usuario {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-email-senha {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-data-nascimento {
+  display: flex;
+  flex-direction: column;
+}
+
+.lado-esquerdo {
+  display: flex;
+  flex-direction: column;
+}
