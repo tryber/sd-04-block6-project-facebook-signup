@@ -9,31 +9,35 @@
             <img src="libs/facebook-logo.png" alt="facebook-logo" class="facebook-logo">
 
             <form>
-                <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
-                <input type="text" id="user-email-phone"/><br>
+                <div class="login-container">
+                    <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+                    <input type="text" id="user-email-phone"/><br>
 
-                <label for="user-password">Senha</label>
-                <input type="password" id="user-password"/>
+                    <label for="user-password">Senha</label>
+                    <input type="password" id="user-password"/>
 
-                <button id="button-login">Entrar</button>
+                    <button id="button-login">Entrar</button>
+                </div>
             </form>
         </header>
 
         <section class="content-container">
-            <section>
+            <section class="left-side">
                 <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
                 <img src="libs/networking.png" alt="networking" id="facebook-networking">
             </section>
 
-            <section>
+            <section class="right-side">
                 <h2>Abra uma conta</h2>
                 <h3>É rápido e fácil.</h3>
                 <form>
-                    <input type="text" id="name" placeholder="Nome">
-                    <input type="text" id="last-name" placeholder="Sobrenome">
+                    <div class="full-name">
+                        <input type="text" id="name" placeholder="Nome">
+                        <input type="text" id="last-name" placeholder="Sobrenome">
+                    </div>
                     <input type="text" id="phone-email" placeholder="Celular ou email">
                     <input type="password" id="new-password" placeholder="Nova senha">
-                    <p>Data de nacimento</p>
+                    <h4>Data de nacimento</h4>
                     <input type="date" placeholder="dd/mm/aaaa" id="birthday">
                     <p>Gênero</p>
                     <input type="radio" id="female" name="gender" value="Feminino">
