@@ -9,6 +9,14 @@ let newPassword;
 let birthday;
 let gender;
 
+function genderCheck() {
+  for (let i = 0; i < gender.length; i += 1) {
+    if (gender[i].checked) {
+      alert(gender[i].value);
+    }
+  }
+}
+
 window.onload = function () {
   btnLogin = document.getElementById('button-login');
   btnRegister = document.getElementById('facebook-register');
@@ -31,6 +39,6 @@ window.onload = function () {
     alert(phoneEmail.value);
     alert(newPassword.value);
     alert(birthday.value);
-    alert(gender[0].value);
+    genderCheck();
   });
 };
