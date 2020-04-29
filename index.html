@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="top-bar">
+    <div class="login">
+      <div class="facebook-logo"></div>
+      <div class="login-container">
+        <form action="#" id="login-form" class="login-form">
+          <label id="user-email-phone-label">Email ou telefone</label>
+          <input type="text" id="user-email-phone" name="user-email-phone">
+          <label id="user-password">
+            Senha
+            <input type="password" id="user-password" name="user-password">
+          </label>
+          <button id="button-login" aria-label="Entrar">Entrar</button>
+        </form>
+        <div class="password-recovery">Esqueceu a senha?</div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <section>
+      <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="./imgs/networking.png" id="facebook-networking" alt="World friends conections">
+    </section>
+    <section>
+      <h2>Abra uma conta</h2>
+      <p>É rápido e fácil.</p>
+      <form action="#" id="new-user-form">
+        <input type="text" id="name" placeholder="Nome">
+        <input type="text" id="sobrenome" placeholder="Sobrenome">
+        <input type="text" id="email" placeholder="Celular ou email">
+        <input type="password" id="nova-senha" placeholder="Nova senha">
+        <label for="data-nascimento">
+          Data de nascimento
+          <input type="date" id="data-nascimento" placeholder="dd/mm/aaaa">
+        </label>
+        <span>Gênero</span>
+        <label for="male">Feminino</label>
+        <input type="radio" id="Feminino" name="gender" value="Feminino">
+        <label for="female">Masculino</label>
+        <input type="radio" id="Masculino" name="gender" value="Masculino">
+        <label for="other">Personalizado</label>
+        <input type="radio" id="Personalizado" name="gender" value="Personalizado">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, doloribus eveniet ab tempore natus porro? In consequuntur facere, dolores voluptatum consectetur minima excepturi provident voluptatem error culpa. Veritatis, doloribus velit!</p>
+        <button id="facebook-register">Cadastrar-se</button>
+      </form>
+    </section>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
