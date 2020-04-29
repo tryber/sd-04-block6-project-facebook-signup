@@ -1,0 +1,136 @@
+/* * {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+} */
+
+body {
+  background-image: linear-gradient(rgb(250, 250, 250), rgb(197, 206, 233));
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.body-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.body-left {
+  display: flex;
+  flex-direction: column;
+  height: 326px;
+  justify-content: flex-end;
+  width: 580px;
+}
+
+.body-right {
+  height: 629.828px;
+  max-width: 400px;
+  width: 400px;
+}
+
+.box-birthday {
+  color: #0e385f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.box-termos {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  height: 300px;
+  justify-content: center;
+}
+
+.button-login {
+  background-color: #4b69ac;
+  border-color: #1e6eb9;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+}
+
+.frase {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 600;
+  width: 450px;
+}
+
+.formulario {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.global-menu {
+  color: white;
+  display: flex;
+  font-size: 13px;
+  height: 78px;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.facebook-logo {
+  width: 200px;
+}
+
+.inputs {
+  border-radius: 4px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.input-2 {
+  border-radius: 4px;
+  height: 30px;
+  margin-bottom: 10px;
+  max-width: 400px;
+  padding-left: 10px;
+  padding-right: 8px;
+  width: 379px;
+}
+
+.open {
+  display: flex;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.open-account {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  justify-content: center;
+  width: 400px;
+}
+
+.top-bar {
+  background-color: #3b5998;
+  display: flex;
+  height: 82px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100vw;
+}
