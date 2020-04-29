@@ -3,6 +3,7 @@
 } */
 
 body {
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
@@ -12,8 +13,9 @@ body {
   border-bottom: 1px solid #133783;
   color: white;
   display: flex;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-size: 12px;
+  height: 83px;
   justify-content: space-between;
 }
 
@@ -26,4 +28,14 @@ body {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
   justify-content: space-between;
+}
+
+.left-side {
+  color: #0e385f;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  word-spacing: -1px;
 }
