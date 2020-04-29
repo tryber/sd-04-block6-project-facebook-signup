@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header class="top-bar">
+      <div class="top-bar container">
+        <div class="facebook-logo">
+          <a href="#">
+            <div class="imglogo"></div>
+          </a>
+        </div>
+        <div class="login">
+          <form name="nameform">
+            <table>
+              <tr>
+                <td>
+                  <label id="user-email-phone-label" for="user-email-phone"
+                    >Email ou telefone</label
+                  >
+                </td>
+                <td><label id="user-password-label" for="user-password">Senha</label></td>
+              </tr>
+              <tr>
+                <td><input id="user-email-phone" type="text" /></td>
+                <td><input id="user-password" type="password" /></td>
+                <td>
+                  <button
+                    class="button-login"
+                    name="button-login"
+                    form="nameform"
+                    id="button-login"
+                    type="button"
+                  >Entrar</button>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="#">Esqueceu a conta?</a>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="main-container">
+      <div class="content">
+        <div class="esquerda">
+          <div class="interno">
+            <div>
+              <div class="paragrafo">
+                O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
+                sua vida.
+              </div>
+              <br />
+              <img class="img" id="facebook-networking" src="imgs/networking.png" />
+            </div>
+          </div>
+        </div>
+        <div class="direita">
+          <div class="interno2">
+            <div class="bloco1">
+              <div class="paragrafo2">
+                Abra uma conta
+              </div>
+              <div class="sub">
+                É rápido e fácil.
+              </div>
+            </div>
+            <div class="containterRegistro">
+              <form class="registro">
+                <div class="fullName">
+                  <input id="nome" type="text" placeholder="Nome" />
+                  <input id="sobrenome" type="text" placeholder="Sobrenome" />
+                </div>
+                <input id="celular-ou-email" type="text" placeholder="Celular ou email" />
+                <input id="senha" type="password" placeholder="Nova senha" />
+                <div class="sub">Data de nascimento</div>
+                <input
+                  class="datep"
+                  type="date"
+                  name="datanasc"
+                  id="datanasc"
+                  placeholder="dd/mm/aaaa"
+                />
+                <div class="sub">Gênero</div>
+                <div class="radios">
+                  <input type="radio" name="gender" id="Feminino" value="Feminino" />
+                  <label for="Feminino">Feminino</label>
+                  <input type="radio" name="gender" id="Masculino" value="Masculino" />
+                  <label for="Masculino">Masculino</label>
+                  <input type="radio" name="gender" id="Personalizado" value="Personalizado" />
+                  <label for="Personalizado">Personalizado</label>
+                </div>
+                <button
+                  class="facebook-register"
+                  name="button-register"
+                  form="nameform"
+                  id="facebook-register"
+                  type="button"
+                >
+                  Cadastre-se
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
