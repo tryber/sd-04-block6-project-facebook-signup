@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
     <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
     <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-    
+    <script>
+      $(function () {
+      $("#date").datepicker();
+    });
+     </script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,7 +22,6 @@
         src="facebook-logo-1.png"
         alt="Facebook logo"
       />
-
       <table>
         <tbody>
           <tr>
@@ -46,7 +49,6 @@
       </table>
     </div>
   </div>
-
   <div class="body-bottom">
     <div class="body-left">
       <div class="frase">
@@ -82,7 +84,6 @@
       </div>
       <div class="box-birthday">Data de nascimento</div>
       <input style="width: 55%;" placeholder="dd/mm/aaaa" autocomplete="off" type="text" class="field-birthday" id="date" placeholder="Nova senha" required>
-      
       <!-- span>Data de nascimento</span>
       <div class="box-birthday" class="box-birthday">
         <select name="day" aria-placeholder="dia" id="dia">
@@ -110,7 +111,5 @@
       </div>
     </div>
   </div>
-
-  <script src="script.js"></script>
   </body>
 </html>
