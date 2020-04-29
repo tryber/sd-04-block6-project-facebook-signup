@@ -80,6 +80,7 @@ h1 {
 .form-geral {
   border: 2px solid red;
   justify-content: flex-start;
+  margin-right: 3%;
   width: 50%;
 }
 
