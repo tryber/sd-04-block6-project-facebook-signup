@@ -7,6 +7,7 @@
     <title>Facebook- entre ou cadastre-se</title>
     <link href="/style.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="top-bar">
         <div class="container">
@@ -37,27 +38,27 @@
                 <form action="" method="GET" class="register">
                     <div class="text-new-register">
                         <div class="row">
-                            <h1>Abra uma conta.</h1>
+                            <h1>Abra uma conta.</h1><br>
                         </div>
                         <span> É rápido e fácil.</span>
                     </div>
                     <div class="full-name">
                         <div class="name">
-                            <label for="new-name"></label>
-                            <input type="text" id="new-name" name="new-name" placeholder="Nome" />
+                            <label for="name"></label>
+                            <input type="text" id="name" name="new-name" placeholder="  Nome" />
                         </div>
                         <div class=last-name>
-                            <label for="new-lastName"></label>
-                            <input type="text" id="new-lastName" name="new-name" placeholder="Sobrenome" />
+                            <label for="lastName"></label>
+                            <input type="text" id="lastName" name="new-name" placeholder="  Sobrenome" />
                         </div>
                     </div>
                     <div class="email-phone">
                         <label for=""></label>
-                        <input class="phone" type="text" name="new-email-phone" placeholder="Celular ou email" /><br>
+                        <input id="phone" type="text" name="new-email-phone" placeholder="  Celular ou email" /><br>
                     </div>
                     <div class="password">
                         <label for=""></label>
-                        <input type="password" name="new-password" placeholder="Nova senha" /><br>
+                        <input  id="password" type="password" name="new-password" placeholder="  Nova senha" /><br>
                     </div>
                     <div class="row-birth">
                         <div class="birth-container">
@@ -66,7 +67,7 @@
                             </div>
                             <div class="datapicker">
                                 <label for=""></label>
-                                <input type="date" name="birth-date" placeholder="dd/mm/aaa" />
+                                <input  id="birth" type="date" name="birth-date" placeholder="  dd/mm/aaa" />
                             </div>
                         </div>
 
@@ -97,8 +98,13 @@
                     <button id="facebook-register">Cadastre-se</button>
                 </div>
             </div>
+            <div class="create-page">
+                <p><strong><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa.</strong>
+                </p>
+            </div>
         </div>
-        </div>
+       
     </section>
 </body>
+<script src="/script.js"></script>
 </html>
