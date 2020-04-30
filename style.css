@@ -152,7 +152,7 @@ body {
   flex-direction: column;
 }
 
-.form input {
+.form-1 input {
   border: 1px solid #bdc7d8;
   border-radius: 5px;
   color: #838383;
@@ -169,6 +169,7 @@ body {
   border-radius: 5px;
   box-shadow: inset 0 1px 1px rgb(164, 227, 136);
   color: white;
+  cursor: pointer;
   font-size: 19px;
   padding: 7px 20px;
   width: 50%;
@@ -185,8 +186,26 @@ body {
   width: 43%;
 }
 
-.gender {
+.create-date {
   color: #838383;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-date input {
+  border: 1px solid #838383;
+  width: 40%;
+}
+
+.gender {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.gender p {
+  color: #838383;
+  width: 100%;
 }
 
 .gender input {

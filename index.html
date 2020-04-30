@@ -60,18 +60,21 @@
 
           <form action="" method="GET">
 
-            <div class="create-name">
-              <input type="text" required="required" name="nome" placeholder="Nome">
-              <input type="text" required="required" name="sobrenome" placeholder="Sobrenome">
+            <div class="form-1">
+              <div class="create-name">
+                <input type="text" required="required" id="name" name="nome" placeholder="Nome">
+                <input type="text" required="required" id="lastname" name="sobrenome" placeholder="Sobrenome">
+              </div>
+
+              <div class="create-email">
+                <input type="text" required="required" id="email" name="email" placeholder="Celular ou email">
+              </div>
+
+              <div class="create-password">
+                <input type="password" required="required" id="password" name="senha" placeholder="Nova senha">
+              </div>
             </div>
 
-            <div class="create-email">
-              <input type="text" required="required" name="email" placeholder="Celular ou email">
-            </div>
-
-            <div class="create-password">
-              <input type="password" required="required" name="senha" placeholder="Nova senha">
-            </div>
 
             <div class="create-date">
               <label for="data">Data de nascimento</label>
@@ -80,9 +83,12 @@
 
             <div class="gender">
               <p>Gênero</p>
-              <label for="sexo1"><input name="sexo" id="feminino" value="Feminino" type="radio">Feminino</label>
-              <label for="sexo2"><input name="sexo" id="masculino" value="Masculino" type="radio">Masculino</label>
-              <label for="sexo3"><input name="sexo" id="personalizado" value="Personalizado" type="radio">Personalizado</label>
+              <div class="gender-options">
+                <label for="sexo1"><input name="sexo" id="feminino" value="Feminino" type="radio">Feminino</label>
+                <label for="sexo2"><input name="sexo" id="masculino" value="Masculino" type="radio">Masculino</label>
+                <label for="sexo3"><input name="sexo" id="personalizado" value="Personalizado" type="radio">Personalizado</label>
+              </div>
+
             </div>
 
             <div class="signup-btn">
@@ -101,6 +107,8 @@
 
 
   </section>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
