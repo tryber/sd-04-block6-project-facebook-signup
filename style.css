@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.top-bar {
+  background-color: rgb(59, 89, 152);
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  width: 100%;
+}
+
+.facebook-logo {
+  height: 34px;
+  margin: 17px;
+  width: 170px;
+}
+
+.login-senha {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-between;
+}
