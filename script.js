@@ -6,32 +6,32 @@ const birth = document.getElementById('birth');
 const gender = document.querySelectorAll('#sex');
 const button = document.getElementById('facebook-register');
 button.addEventListener('click', function () {
-if (nome.value === '') {
+  if (nome.value === '') {
   alert('Campo Nome incorreto!');
   nome.focus();
 }
-if (lastName.value === '') {
+  if (lastName.value === '') {
   alert('Campo Sobrenome incorreto!');
   lastName.focus();
 }
-if (phone.value === '') {
+  if (phone.value === '') {
   alert('Campo Celular incorreto!');
   phone.focus();
 }
-if (password.value === '') {
+  if (password.value === '') {
   alert('Campo Senha incorreto!');
   password.focus();
 }
-if (birth.value === '') {
+  if (birth.value === '') {
   alert('Campo Data de Nascimento incorreto!');
   birth.focus();
 }
-for (let i = 0; i < gender.length; i += 1) {
-  let choice = this;
+  for (let i = 0; i < gender.length; i += 1) {
+  const choice = this;
   choice.addEventListener('click', function() {
-if (choice === '') {
-  alert('Campo Gênero incorreto!');
-  gender.focus();
+    if (choice === '') {
+    alert('Campo Gênero incorreto!');
+    gender.focus();
 }        
 });
 }
