@@ -110,13 +110,13 @@ body {
   width: 142px;
 }
 
-.botao-entrar {
+.entrar {
   height: 24px;
   padding-left: 14px;
   width: 50px;
 }
 
-.background-botao {
+.background-button {
   background-color: #4267b2;
   border: 1px solid #29487d;
   border-color: #29487d;
@@ -155,7 +155,7 @@ body {
   width: 392px;
 }
 
-.vazia {
+.empty {
   height: 16px;
   padding-left: 14px;
   padding-top: 4px;
