@@ -1,0 +1,273 @@
+html , body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(white, rgb(211, 216, 232));
+}
+
+.top-bar {
+  background: linear-gradient(rgb(78, 105, 170), rgb(59, 89, 152));
+  background-color: rgb(59, 89, 152);
+  border-bottom: 0.5px solid black;
+  display: flex;
+  height: 8.7%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.fb-logo {
+  width: 50%;
+}
+
+.facebook-logo {
+  margin-left: 46.5%;
+  margin-top: 10px;
+}
+
+header input {
+  background-color: rgb(232, 240, 254);
+  border: 0.5px solid black;
+  margin-right: 9px;
+  padding: 3px;
+  width: 140px;
+}
+
+label {
+  color: white;
+  font-size: 12px;
+}
+
+.user-info {
+  display: flex;
+  margin-top: 13px;
+  width: 50%;
+}
+
+.login-senha {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.button-login {
+  background-color: rgb(66, 103, 178);
+  border: 0.2px solid rgb(41, 72, 125);
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.button-login:hover {
+  background-color: rgb(59, 89, 152);
+  border: 0.2px solid rgb(41, 72, 125);
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.forget {
+  color: rgb(143, 165, 191);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+td {
+  line-height: 0.5rem;
+}
+
+.body-container {
+  display: flex;
+
+}
+
+.body-content-left {
+  color: rgb(14, 56, 95);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.7rem;
+  margin-top: 5%;
+  width: 47%;
+}
+
+.body-content-right {
+  justify-content: flex-end;
+  margin-left: 7%;
+  margin-top: 3%;
+  width: 22%;
+}
+
+.main-p {
+  margin-left: 50%;
+}
+
+.facebook-networking {
+  margin-left: 50%;
+  width: 60%;
+}
+
+.right-title {
+  color: rgb(50, 54, 69);
+  font-size: 36px;
+  margin-left: 7px;
+  margin-top: 50px;
+}
+
+.right-subtitle {
+  color: rgb(50, 54, 69);
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-left: 7px;
+}
+
+.signf {
+  border: 0.5px solid rgb(189, 199, 216);
+  border-radius: 7px;
+  font-size: 18px;
+  height: 25px;
+  margin: 5px;
+  padding: 6px;
+  width: 92%;
+}
+
+.sign {
+  border: 0.5px solid rgb(189, 199, 216);
+  border-radius: 7px;
+  font-size: 18px;
+  height: 25px;
+  margin: 5px;
+  padding: 6px;
+  width: 43%;
+}
+
+.nasc {
+  color: rgb(144, 152, 167);
+  font-weight: 900;
+  margin-bottom: 5px;
+  margin-left: 7px;
+  margin-top: 20px;
+}
+
+.gen {
+  color: rgb(144, 152, 167);
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  margin-top: 20px;
+}
+
+.signup {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gender {
+  margin-left: 25px;
+}
+
+.facebook-register {
+  background-color: rgb(62, 149, 74);
+  border: 1px solid rgb(66, 104, 53);
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 15px 7px;
+  padding: 10px 40px;
+}
+
+.recado {
+  color: rgb(139, 139, 142);
+  font-size: 11px;
+  line-height: 1.2;
+  margin-top: 20px;
+  max-width: 80%;
+}
+
+.create {
+  color: rgb(102, 104, 106);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.create > a {
+  color: rgb(56, 93, 159);
+  text-decoration: none;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  justify-content: flex-start;
+  margin-top: 22px;
+  width: 100%;
+}
+
+.lenguagues {
+  border-bottom: 1px solid rgb(221, 223, 226);
+  display: flex;
+  font-size: 12px;
+  height: 30px;
+  justify-content: flex-start;
+  margin: 15px auto;
+  width: 52%;
+}
+
+.lenguage {
+  color: rgb(56, 93, 159);
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.br {
+  color: rgb(115, 115, 115);
+  text-decoration: none;
+}
+
+.tabela {
+  flex-wrap: wrap;
+  margin: 1px auto;
+  width: 52%;
+}
+
+.lenguage1 {
+  color: rgb(56, 93, 159);
+  font-size: 12px;
+  line-height: 1.2rem;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.plus {
+  background-color: rgb(245, 246, 247);
+  border: 0.2px solid rgb(197, 197, 197);
+  cursor: pointer;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  width: 30px;
+}
+
+.plus:hover {
+  background-color: rgb(216, 217, 218);
+}
