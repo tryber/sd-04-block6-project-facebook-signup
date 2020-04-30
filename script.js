@@ -32,7 +32,7 @@ button.addEventListener('click', function () {
       if (choice === '') {
         alert('Campo Gênero incorreto!');
         gender.focus();
-    }
+      }
     });
   }
   const dados = `Nome: ${nome.value}, Sobrenome: ${lastName.value}, Celular/Email: ${phone.value}, Data de Nascimento: ${birth.value}, Gênero: ${gender.value}`;
