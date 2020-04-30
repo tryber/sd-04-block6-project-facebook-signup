@@ -12,7 +12,8 @@ body {
 
 .no-head {
   background-image: linear-gradient(white, rgb(211, 216, 232));
- /*border: 2px solid rgb(0, 255, 21);*/
+
+  /* border: 2px solid rgb(0, 255, 21); */
   display: flex;
   justify-content: space-between;
 }
@@ -75,7 +76,8 @@ h1 {
 }
 
 .mapa-frase {
-  /*border: 2px solid red;*/
+
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   margin-left: 3%;
@@ -84,10 +86,11 @@ h1 {
 }
 
 .form-geral {
-  /*border: 2px solid red;*/
+  
+  /* border: 2px solid red; */
   justify-content: center;
-  margin-right: 3%;
   margin-left: 10%;
+  margin-right: 3%;
   width: 50%;
 }
 
