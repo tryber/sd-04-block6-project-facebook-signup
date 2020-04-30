@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.top-bar {
+  background: linear-gradient(rgb(78, 105, 170), rgb(59, 89, 152));
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+  min-width: 980px;
+  padding: 0 calc(50% - 490px);
+}
+
+.image-container {
+  display: flex;
+}
+
+.login-container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+td > label {
+  color: white;
+  font-size: 12px;
+}
+
+.facebook-logo {
+  display: flex;
+  margin: 27px 0 0;
+}
+
+td > a {
+  color: #9cb4d8;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.button-login {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 2px 6px;
+}
+
+.input-spacing {
+  border: 1px solid #ccd0d5;
+  font-size: 12px;
+  height: 14px;
+  margin: 0 15px 0 0;
+  padding: 3px;
+  width: 142px;
+}
+
+.gradient {
+  background: linear-gradient(white, #d3d8e8);
+}
+
+.container {
+  display: flex;
+  height: 630px;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-width: 980px;
+  width: 72%;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  width: 58%;
+}
+
+.boas-vindas {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+}
+
+.text1-right {
+  color: #333;
+  display: flex;
+  font-size: 36px;
+  font-weight: 600;
+  height: 48px;
+  padding-top: 20px;
+
+}
+
+.text2-right {
+  color: #333;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  border: 1px solid #ccd0d5;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  color: #1c1e21;
+  font-size: 18px;
+  height: 21px;
+  margin-bottom: 10px;
+  padding: 8px 13px;
+  width: 377px;
+}
+
+.genero0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.genero0 > p {
+  margin: 10px 0 5px;
+}
+
+.genero {
+  display: flex;
+}
+
+.radio-label {
+  display: flex;
+  padding: 5px 4px;
+}
+
+.warning {
+  box-shadow: 0 0 2px 1px rgba(216, 8, 8, 0.897);
+}
+
+.data {
+  align-items: center;
+  display: flex;
+}
+
+.only-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-label > label {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.only-data > label , .genero0 > label {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.only-data label:first-of-type {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.info-icon {
+  background: url('https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/DQDvQ2X3Nby.png');
+  background-position: 0 -236px;
+  cursor: pointer;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 25px;
+  width: 20px;
+}
+
+.terms {
+  color: #777;
+  font-size: 11px;
+  height: 42px;
+  line-height: 14px;
+  margin: 11px 0;
+  width: 325px;
+}
+
+.terms > a {
+  color: rgb(66, 66, 156);
+  text-decoration: none;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border: 1px solid #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  height: 39px;
+  line-height: 126%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  width: 152px;
+}
