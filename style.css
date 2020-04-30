@@ -1,0 +1,111 @@
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.top-bar {
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  color: white;
+  display: flex;
+  font-family: inherit;
+  font-size: 12px;
+  height: 83px;
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  margin-top: 17px;
+  width: 170px;
+}
+
+.button-login {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 2px 6px;
+}
+
+.button-login:hover {
+  background-color: #365899;
+}
+
+.content-container {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  color: #0e385f;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  word-spacing: -1px;
+}
+
+.full-name {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.rs-text1 {
+  color: #333;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.34;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.rs-text2 {
+  color: #1d2129;
+  font-family: inherit;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.34;
+}
+
+.rs-text3 {
+  color: #90949c;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border: 1px solid black;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 126%;
+  margin: 10px 0;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
