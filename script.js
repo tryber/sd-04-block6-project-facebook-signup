@@ -11,27 +11,27 @@ button.addEventListener('click', function () {
   nome.focus();
 }
   if (lastName.value === '') {
-  alert('Campo Sobrenome incorreto!');
-  lastName.focus();
+    alert('Campo Sobrenome incorreto!');
+    lastName.focus();
 }
   if (phone.value === '') {
-  alert('Campo Celular incorreto!');
-  phone.focus();
+    alert('Campo Celular incorreto!');
+    phone.focus();
 }
   if (password.value === '') {
-  alert('Campo Senha incorreto!');
-  password.focus();
+    alert('Campo Senha incorreto!');
+    password.focus();
 }
   if (birth.value === '') {
-  alert('Campo Data de Nascimento incorreto!');
-  birth.focus();
+    alert('Campo Data de Nascimento incorreto!');
+    birth.focus();
 }
   for (let i = 0; i < gender.length; i += 1) {
   const choice = this;
   choice.addEventListener('click', function() {
     if (choice === '') {
-    alert('Campo Gênero incorreto!');
-    gender.focus();
+      alert('Campo Gênero incorreto!');
+      gender.focus();
 }        
 });
 }

@@ -21,7 +21,7 @@ body {
   justify-content: space-between;
   margin: 0 142.5px;
   padding: 13px 0 0;
-  width: 980px; 
+  width: 980px;
 }
 
 .facebook-logo {
@@ -131,7 +131,7 @@ body {
 }
 
 .text-new-register {
-   display: flex;
+  display: flex;
   flex-direction: column;
   margin-left: 9px;
   padding: 20px 0;
@@ -144,9 +144,8 @@ body {
 .row {
   align-items: center;
   display: flex;
-  display: flex;
   font-size: 36px;
-  height: 55px;  
+  height: 55px;
 }
 
 .text-new-register span {
@@ -276,4 +275,3 @@ body {
   color: #385898;
   text-decoration: none;
 } 
-
