@@ -25,7 +25,6 @@ header {
     margin-top: 30px;
     margin-left: 5px;
 }
-
 .form {
     font-family: inherit;
     display: flex;
@@ -47,6 +46,10 @@ header {
     text-decoration: none;    
 }
 
+.password #forget {
+    margin-top: 12px;
+}
+
 .form #button-login {
     color: white;
     width: 49.34px;
@@ -64,4 +67,51 @@ header {
     text-shadow: none;
     vertical-align: top;
     white-space: nowrap;
+}
+
+main {
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.center {
+    display: flex;
+    width: 990px;
+    height: 629.89px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    width: 600px;
+    height: 629.89px;
+}
+
+.conteudo .img {
+    margin-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.criar-conta {
+    width: 40%;
+    margin-top: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.criar-conta input[type=submit]{
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    color: white;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    min-width: 200px;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: inset 0 1px 1px #a4e388;
 }
