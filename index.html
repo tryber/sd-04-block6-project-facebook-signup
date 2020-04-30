@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" href="libs/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" type='text/css' href="style.css"/>
+    <script src="libs/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header class='top-bar'>
+      <div class='superior-esquerdo'>
+        <img class='facebook-logo' src='facebook-logo.png' alt='Facebook Logotipo'>
+      </div>
+      <div class='superior-direito'>
+        <form action='' method='post' enctype="multipart/form-data" class='form-row user'>
+          <div class='form-group col-auto mb-0'>
+            <label for='user-email-phone' id='user-email-phone-label' class='form-label mb-0 top-label text-white'>Email ou telefone</label>
+            <input type='text' id='user-email-phone' class='form-control form-control-sm top-input' required>
+          </div>
+          <div class='form-group col-auto mb-0'>
+            <label for='password' id='password-label' class='form-label mb-0 top-label text-white'>Senha</label>
+            <input type='password' id='user-password' class='form-control form-control-sm top-input' required>
+            <small class="form-text" style='color: #9cb4d8;'>Esqueceu a conta?</small>
+          </div>
+          <div class='form-group top-button col-auto mb-0'>
+            <button type='submit' id='button-login' class='btn button-login btn-sm' value='Entrar'>Entrar</button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <section class='central'>
+      <div class='meio-esquerdo'>
+        <p class='facebook-text'><b>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</b></p>
+        <img id='facebook-networking' class='facebook-networking' src='networking.png' alt='Imagem mostrando a conexão entre as pessoas'>
+      </div>
+      <div class='meio-direito'>
+        <div class='texto-direito'>
+          <h1 class='text-1'>Abra uma conta</h1>
+          <h4 class='text-4'>É rápido e fácil.</h4>
+        </div>
+        <form action='' method='post' enctype="multipart/form-data" class='form-row new-user'>
+          <div class='form row nome'>
+            <div class='form-group'>
+              <input type='text' class='form-control' placeholder='Nome' required>
+            </div>
+            <div class='form-group'>
+              <input type='text' class='form-control' placeholder='Sobrenome' required>
+            </div>
+          </div>
+          <div class='form-group email-phone'>
+            <input type='text' class='user-email-phone input-big form-control' placeholder='Celular ou email' required>
+          </div>
+          <div class='form-group password'>
+            <input type='password' class ='password input-big form-control' placeholder='Nova senha' required>
+          </div>
+          <div class="form-group data-text">
+            <label class='escrito'><b>Data de nascimento</b></label>
+          </div>
+          <div class='form-group date'>
+            <input type='date' placeholder="dd/mm/aaaa" class="form-control date" required>
+          </div>
+          <div class='genero form-group'>
+            <h4 class='escrito'><b>Gênero</b></h4>
+          </div>
+            <div class='genero-radio form-check form-check-inline'>
+              <label class='form-check-label'><input type='radio' name='genero' class='radio form-check-input' value='Feminino'>Feminino</label>
+              <label class='form-check-label'><input type='radio' name='genero' class='radio form-check-input' value='Masculino'>Masculino</label>
+              <label class='form-check-label'><input type='radio' name='genero' class='radio form-check-input' value='Personalizado'>Personalizado</label>
+            </div>
+          <div>
+            <small class="form-text small-text">Ao clicar em Cadastre-se, você concorda com nossos <a>Termos, Política de Dados</a> e <a>Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</small>
+          </div>
+          <div class='form-group'>
+            <button type='submit' id='facebook-register' class='btn btn-cadastro'>Cadastre-se</button>
+        </form>
+      </div>
+      <p class='small-text'><b><a>Criar uma Página</a> para uma celebridade, banda ou empresa.</b></p>
+      </div>
+    </section>
+    <footer>
+      <img src='facebook-footer.png' class='footer-img'>
+    </footer>
+  </body>
+</html>
