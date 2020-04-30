@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook - Conexão ou inscrição</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,7 +36,7 @@
               <td><input id="user-password" class="input-spacing" type="password">
               </td>
               <td>
-                <label for="button-login"></label><button id="button-login">Entrar</button></label>
+                <label for="button-login"></label><button id="button-login" class="button-login">Entrar</button></label>
               </td>
             </tr>
             <tr>
@@ -53,47 +54,83 @@
     </div>
   </header>
 
-  <div class="container">
-    <div class="left-div">
-      <div class="boas-vindas">
-        O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-      </div>
-      <div>
-        <img id="facebook-networking" src="networking.png" alt="">
-      </div>
-    </div>
-    <div class="right-div">
-      <div class="text1-right">
-        <span>Abra uma conta</span>
-      </div>
-      <div class="text2-right">
-        <span>É rápido e fácil.</span>
-      </div>
-      <form action="" class="form">
-        <div class="nome">
-          <input type="text" style="width: 172px;" class="form-input" placeholder="Nome">
-          <input type="text" style="width: 172px;" class="form-input" placeholder="Sobrenome">
+  <div class="gradient">
+    <div class="container">
+      <div class="left-div">
+        <div class="boas-vindas">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
         </div>
-        <input type="text" class="form-input" placeholder="Celular ou email">
-        <input type="password" class="form-input" placeholder="Nova senha">
-        <div class="data">
-          <label>Data de nascimento <br><input type="text" class="form-input" style="width:10em;" placeholder="dd/mm/aaaa"></label>
-        </div>
-
         <div>
-          <p>Gênero</p>
+          <img id="facebook-networking" src="networking.png" alt="">
         </div>
+      </div>
+      <div class="right-div">
+        <div class="text1-right">
+          <span>Abra uma conta</span>
+        </div>
+        <div class="text2-right">
+          <span>É rápido e fácil.</span>
+        </div>
+        <form action="" class="form">
+          <div class="nome">
+            <input type="text" style="width: 172px;" class="form-input" id="fname" placeholder="Nome">
+            <input type="text" style="width: 172px;" class="form-input" id="lname" placeholder="Sobrenome">
+          </div>
+          <input type="text" class="form-input" id="emailInput" placeholder="Celular ou email">
+          <input type="password" class="form-input" id="passInput" placeholder="Nova senha">
+          <div class="data">
+            <div class="only-data">
+              <label for="data-input">Data de nascimento </label>
+              <input type="text" class="form-input" id="datepicker" style="width:10em;" placeholder="dd/mm/aaaa">
+            </div>
+            <div class="info-icon">
+            </div>
+          </div>
 
-        <div class="genero">
-          <input type="radio" name="gen" id="fem"><label for="fem">Feminino</label>
-          <input type="radio" name="gen" id="masc"><label for="masc">Masculino</label>
-          <input type="radio" name="gen" id="pers"><label for="pers">Personalizado</label>
-          </label>
-        </div>
-      </form>
+          <div class="genero0">
+            <label>Gênero</label>
+
+            <div class="genero">
+              <span class="radio-label">
+                <input type="radio" name="gen" id="fem" title="Feminino" value="Feminino" required><label
+                  for="fem">Feminino</label>
+              </span>
+
+              <span class="radio-label">
+                <input type="radio" name="gen" id="masc" title="Masculino" value="Masculino" required><label
+                  for="masc">Masculino</label>
+              </span>
+
+              <span class="radio-label">
+                <input type="radio" name="gen" id="pers" title="Personalizado" value="Personalizado" required><label
+                  for="pers">Personalizado</label>
+              </span>
+            </div>
+
+            <div class="info-icon" style="margin-top: 0;">
+            </div>
+
+            <p class="terms">
+              Ao clicar em Cadastre-se, você concorda com nossos
+              <a href="#" target="_blank">Termos</a>
+              ,
+              <a href="#" target="_blank">Política de Dados</a>
+              e
+              <a href="#" target="_blank">Política de Cookies</a>
+              . Você pode receber notificações por SMS e pode cancelar isso quando quiser."
+            </p>
+          </div>
+          <button type="submit" id="facebook-register" class="facebook-register">Cadastre-se</button>
+        </form>
+      </div>
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="pikaday.js"></script>
+  <script>
+    var picker = new Pikaday({ field: document.getElementById('datepicker') });
+  </script>
   <script src="script.js"></script>
 </body>
 
