@@ -8,8 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
         type="text/css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.slim.min.js"></script>
-
+    <link rel="stylesheet" href="./libs/DatePickerX.min.css">
 </head>
 
 <body>
@@ -23,11 +22,12 @@
             <div class="header-right-content">
                 <div class="header-right">
                     <div class="fb-login">
-                        <label id="user-email-phone-label" class="label-login">Email ou telefone</label>
+                        <label for="user-email-phone" id="user-email-phone-label" class="label-login">Email ou
+                            telefone</label>
                         <input type="text" id="user-email-phone" class="fb-input-login">
                     </div>
                     <div class="fb-login">
-                        <label id="user-password-label" class="label-login">Senha</label>
+                        <label for="user-password" id="user-password-label" class="label-login">Senha</label>
                         <input type="password" id="user-password" class="fb-input-login">
                     </div>
                     <div>
@@ -64,7 +64,7 @@
                     </div>
                 </fieldset>
                 <fieldset class="birthday">
-                    <label>Data de nascimento</label><br>
+                    <label for="data">Data de nascimento</label><br>
                     <input id="data" type="text" placeholder="dd/mm/aaaa" onfocus="(this.type='date')"
                         required="required"><br><br>
                 </fieldset>
@@ -93,5 +93,6 @@
         </section>
     </div>
     <script src="script.js"></script>
+    <script src="./libs/DatePickerX.min.js"></script>
 </body>
 </html>
