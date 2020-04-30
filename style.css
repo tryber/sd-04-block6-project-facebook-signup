@@ -1,0 +1,245 @@
+.top-bar {
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: solid 1px;
+  border-color: #133783;
+  display: flex;
+  height: 83px;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  line-height: 1.34;
+  margin: 0;
+  min-width: 980px;
+  padding: 0;
+}
+
+.header {
+  align-items: center;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: solid 1px;
+  border-color: #133783;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
+}
+
+.header .login {
+  font-size: 12px;
+  justify-content: flex-end;
+}
+
+.facebook-logo {
+  background-position: 0 -245px;
+  height: 34px;
+  width: 170px;
+}
+
+.texto-email {
+  color: white;
+  margin-bottom: 40px;
+  padding-bottom: 4px;
+}
+
+.texto-senha {
+  color: white;
+  padding-bottom: 4px;
+}
+
+.input {
+  background-color: white;
+  width: 142px;
+}
+
+.text {
+  border: 1px solid #1d2a5b;
+  border-radius: 0;
+  height: 14.8px;
+  padding: 3px;
+}
+
+td {
+  padding: 0 0 1px 14px;
+}
+
+.login-lost-password {
+  margin-top: 2px;
+}
+
+.login-lost-password a {
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+.login-button {
+  background: none;
+  background-color: #4267b2;
+  border: solid 1px;
+  border-color: #29487d;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 2px 6px;
+}
+
+.login-label {
+  background-color: #4267b2;
+  border-radius: 2px;
+}
+
+.login-lost-password a:hover {
+  text-decoration: underline;
+}
+
+.login-button:hover {
+  background-color: #3b5998;
+}
+
+form {
+  margin-bottom: 4px;
+}
+
+.fix-corpo {
+  background: linear-gradient(white, #ddd8e8);
+  border-bottom: black 1px solid;
+  display: flex;
+  justify-content: center;
+  min-height: 800px;
+  min-width: 980px;
+  width: 100%;
+}
+
+.corpo {
+  align-items: center;
+  width: 980px;
+}
+
+.lista-idiomas {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: -50px;
+}
+
+.language {
+  color: #385898;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.lista-idiomas li {
+  align-items: center;
+  color: #737373;
+  display: flex;
+  font-size: 12px;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+.footer {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 980px;
+}
+
+.lang-button {
+  align-items: center;
+  background-color: #f5f6f7;
+  border: 1px solid;
+  border-color: #ccd0d5;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  height: 18px;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+.more-button {
+  align-items: center;
+  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/DmtZWLqoTvz.png');
+  background-position: -39px -279px;
+  height: 12px;
+  justify-content: center;
+  width: 12px;
+}
+
+.borda {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.fix-links {
+  display: flex;
+  width: 100%;
+}
+
+.links-inside {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -10px;
+  width: 980px;
+}
+
+.lista-links {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  height: 19px;
+  list-style-type: none;
+  margin-left: -50px;
+  margin-top: 0;
+}
+
+.lista-links ul {
+  display: flex;
+  height: 19px;
+  justify-content: flex-start;
+}
+
+.links {
+  color: #385898;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.img {
+  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png');
+}
+
+.img-option {
+  background-position: -136px -280px;
+  background-size: auto;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
