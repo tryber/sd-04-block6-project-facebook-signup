@@ -3,7 +3,7 @@ body {
 }
 
 footer {
-  margin-top: 30px
+  margin-top: 30px;
 }
 
 .btn-cadastro {
@@ -191,8 +191,8 @@ footer {
 
 .top-button button {
   background-color: #4267b2;
-  border-radius: 2px;
   border: 1px solid #29487d;
+  border-radius: 2px;
   color: white;
   font-family: inherit;
   font-size: 12px;
@@ -201,10 +201,10 @@ footer {
 }
 
 .top-input {
-  border-radius: 0.01px;
   border: 1px solid black;
+  border-radius: 0.01px;
   height: 23px;
-  padding: 3px 3px 4px 3px;
+  padding: 3px 3px 4px;
   width: 150px;
 }
 
