@@ -20,3 +20,13 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-between;
+}
