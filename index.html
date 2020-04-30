@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Facebook</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Facebook</title>
 </head>
 <body>
-    <header class="top-bar">
-        <img src="./img/facebook-logo.png" alt="facebook logo" class="facebook-logo"></img>
-        <div>
-            <label id="user-email-phone-label" class="user-email-phone-label">Email ou telefone</label><br>
-            <input type="text" id="user-email-phone" class="user-email-phone">
-        </div>
-    </header>
+  <header class="top-bar">
+    <img src="./img/facebook-logo.png" alt="facebook logo" class="facebook-logo"></img>
+    <div class="login-senha">
+      <div class="login">
+        <label id="user-email-phone-label" class="user-email-phone-label">Email ou telefone</label><br>
+        <input type="text" id="user-email-phone" class="user-email-phone">
+      </div>
+      <div class="senha">
+        <label>Senha</label><br>
+        <input type="password">
+      </div>
+      <div>
+        <button type="button" id="button-login" class="button-login">Entrar</button>
+      </div>
+    </div>
+  </header>
 </body>
 </html>
