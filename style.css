@@ -1,293 +1,299 @@
 body {
-    background: linear-gradient(white, #d3d8e8);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background: linear-gradient(white, #d3d8e8);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+	Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .top-bar {
-    background: linear-gradient(to top, #49659e, #3b5997, #49659e);
-    color: #fff;
-    display: flex;
-    font-size: 12px;
-    height: 82px;
-    margin-left: -8px;
-    margin-top: -8px;
-    width: 1265px;
+	background: linear-gradient(to top, #49659e, #3b5997, #49659e);
+	color: #fff;
+	display: flex;
+	font-size: 12px;
+	height: 82px;
+	margin-left: -8px;
+	margin-top: -8px;
+	width: 1265px;
 }
 
 .container {
-    display: flex;
-    height: 78px;
-    justify-content: space-between;
-    margin: 0 142.5px;
-    padding: 13px 0 0px;
-    width: 980px;
+	display: flex;
+	height: 78px;
+	justify-content: space-between;
+	margin: 0 142.5px;
+	padding: 13px 0 0px;
+	width: 980px;
 }
 
 .facebook-logo {
-    align-content: center;
-    display: flex;
-    height: 39px;
-    padding: 13px 0 0px;
-    width: 172px;
+	align-content: center;
+	display: flex;
+	height: 39px;
+	padding: 13px 0 0px;
+	width: 172px;
 }
 
 .container form {
-    align-items: center;
-    display: flex;
-    margin-right: 33px;
-    margin-top: -16px;
+	align-items: center;
+	display: flex;
+	margin-right: 33px;
+	margin-top: -16px;
 }
 
 .login-container {
-    align-content: center;
-    display: flex;
-    margin-bottom: 7px;
-    padding: 3px 3px 4px;
-    width: 350px;
+	align-content: center;
+	display: flex;
+	margin-bottom: 7px;
+	padding: 3px 3px 4px;
+	width: 350px;
 }
 
 .col-login .username-box {
-    border: 1px solid black;
-    height: 20px;
-    width: 146px;
+	border: 1px solid black;
+	height: 20px;
+	width: 146px;
 }
 
 .col-login .password-box {
-    border: 1px solid black;
-    height: 20px;
-    width: 146px;
+	border: 1px solid black;
+	height: 20px;
+	width: 146px;
 }
 
 .col-login {
-    display: flex;
-    flex-direction: column;
-    margin: 8px;
+	display: flex;
+	flex-direction: column;
+	margin: 8px;
 }
 
 .col-login label {
-    align-self: flex-start;
-    margin-bottom: 5px;
+	align-self: flex-start;
+	margin-bottom: 5px;
 }
 
 .col-login a {
-    color: #9cb4d8;
-    display: flex;
-    margin-bottom: -6px;
-    margin-top: 2px;
-    text-decoration: none;
+	color: #9cb4d8;
+	display: flex;
+	margin-bottom: -6px;
+	margin-top: 2px;
+	text-decoration: none;
 }
 
 .button-login {
-    align-self: center;
-    background-color: #4c70b5;
-    border-color: #274071;
-    color: white;
-    display: flex;
-    height: 23px;
-    margin-top: 9px;
-    margin-left: 6px;
+	align-self: center;
+	background-color: #4c70b5;
+	border-color: #274071;
+	color: white;
+	display: flex;
+	height: 23px;
+	margin-top: 9px;
+	margin-left: 6px;
 }
 
 .page {
-    display: flex;
-    height: 641.84px;
-    justify-content: space-between;
-    margin: 0 42px 0 128px;
-    padding: 17px 0 0;
-    width: 1045px;
+	display: flex;
+	height: 641.84px;
+	justify-content: space-between;
+	margin: 0 42px 0 128px;
+	padding: 17px 0 0;
+	width: 1045px;
 }
 
 .left-side {
-    display: flex;
-    flex-direction: column;
-    width: 54%;
-    padding: 3px;
+	display: flex;
+	flex-direction: column;
+	width: 54%;
+	padding: 3px;
 }
 
 .left-side p {
-    color: #0e385f;
-    display: flex;
-    font-size: 20px;
-    font-weight: 700;
-    height: 66px;
-    line-height: 29px;
-    text-align: start;
-    width: 460px;
-    word-spacing: -1px;
+	color: #0e385f;
+	display: flex;
+	font-size: 20px;
+	font-weight: 700;
+	height: 66px;
+	line-height: 29px;
+	text-align: start;
+	width: 460px;
+	word-spacing: -1px;
 }
 
 .right-side {
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    margin-left: 22px;
-    width: 50%;
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	margin-left: 22px;
+	width: 50%;
 }
 
 .col {
-    margin-left: 21px;
-    margin-top: -18px;
+	margin-left: 21px;
+	margin-top: -18px;
 }
 
 .text-new-register {
-    display: flex;
-    flex-direction: column;
-    margin-left: 9px;
-    padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	margin-left: 9px;
+	padding: 20px 0;
 }
 
 .name ,
 .last-name {
-    width: 47%;
+	width: 47%;
 }
 
 .row {
-    display: flex;
-    height: 55px;
+	display: flex;
+	height: 55px;
 }
 
 .row h1 {
-    align-items: center;
-    display: flex;
-    font-size: 36px;
+	align-items: center;
+	display: flex;
+	font-size: 36px;
 }
 
 .text-new-register span {
-    font-size: 19px;
-  }
-  
+	font-size: 19px;
+}
+
 .register {
-    display: flex;
-    flex-direction: column;
-    width: 415px;
+	display: flex;
+	flex-direction: column;
+	width: 415px;
 }
 
 .full-name {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .register input {
-    border-color: #c6cedc;
-    border-radius: 4px;
-    border-width: 0.5px;
-    border-style: solid;
-    color: #999;
-    font-size: 16px;
-    height: 37px;
-    width: 100%;
+	border-color: #c6cedc;
+	border-radius: 4px;
+	border-width: 0.5px;
+	border-style: solid;
+	color: #999;
+	font-size: 16px;
+	height: 37px;
+	width: 100%;
 }
 
 .datapicker input {
-    margin-left: 8px;
-    width: 180px;
+	margin-left: 8px;
+	width: 180px;
 }
 
 .birth-date input {
-    width: 130px;
+	width: 130px;
 }
 
 .gender-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .gender-text {
-    display: flex;
-    height: 34px;
+	display: flex;
+	height: 34px;
 }
 
 .gender-type {
-    display: flex;
-    flex-direction: row;
-    margin-left: 5px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 5px;
 }
 
 .gender-type label {
-    align-items: center;
-    display: flex;
-    width: 33.33%;
+	align-items: center;
+	display: flex;
+	width: 33.33%;
 }
 
 .gender-type input {
-    width: 15px;
+	width: 15px;
 }
 
-.full-name , 
-.email-phone , 
-.password , 
-.birth-date , 
+.full-name, 
+.email-phone, 
+.password, 
+.birth-date, 
 .gender-container {
-    padding: 2px 9px 6px 0;
+	padding: 2px 9px 6px 0;
 }
 
 .birth-date {
-    height: 38px;
+	height: 38px;
 }
 
 
-h3 {
-    color: #90949c;
-    font-size: 16px;
-    margin-left: 5px;
+.birth-date h3 {
+	color: #90949c;
+	font-size: 16px;
+	margin-left: 5px;
+}
 
+.gender-text h3 {
+color: #90949c;
+font-size: 16px;
+margin-left: 5px;
 }
 
 .birth-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: -5px;
+display: flex;
+flex-direction: column;
+margin-left: -5px;
 }
 
 .politician {
-    color: #7f7782;
-    display: flex;
-    font-size: 11px;
-    margin-left: 20px;
-    width: 325px;
+	color: #7f7782;
+	display: flex;
+	font-size: 11px;
+	margin-left: 20px;
+	width: 325px;
 }
 
 .politician a {
-    color: #385897;
-    text-decoration: none;
+	color: #385897;
+	text-decoration: none;
 }
 
 .btn-register {
-    height: 59px;
-    width: 400px;
+	height: 59px;
+	width: 400px;
 }
 
 .btn-text {
-    margin-left: 20px;
+	margin-left: 20px;
 }
 
 .btn-text button {
-    background: linear-gradient(#67ae55, #578843);
-    border-color: #3b6e22 #3b6e22 #2c5115;
-    border-radius: 5px;
-    box-shadow: inset 0 1px 1px #a4e388;
-    color: white;
-    font-size: 19px;
-    height: 39px;
-    margin: 10px 0;
-    width: 194px;
+	background: linear-gradient(#67ae55, #578843);
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 1px #a4e388;
+	color: white;
+	font-size: 19px;
+	height: 39px;
+	margin: 10px 0;
+	width: 194px;
 }
 
 .create-page {
-      color: #666;
-      font-size: 13px;
-      margin: 10px 0 0 ;
-      padding: 15px 0 0 16px;
+	color: #666;
+	font-size: 13px;
+	margin: 10px 0 0 ;
+	padding: 15px 0 0 16px;
 }
-
 .create-page a {
-    color: #385898;
-    text-decoration: none;
-}
+	color: #385898;
+	text-decoration: none;
+} 
 
 .language-footer {
-    display: flex;
-    width: 500px;
+	display: flex;
+	width: 500px;
 }
+
+
