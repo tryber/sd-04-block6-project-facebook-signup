@@ -6,10 +6,8 @@
   <title>Facebook - entre ou cadastre-se</title>
   <link rel="stylesheet" href="./style.css">
 
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+
 </head>
 <body>
   <nav class="top-bar">
@@ -78,7 +76,7 @@
             <input type="password" placeholder="Nova senha" class="password">
 
             <p class="birth-date">Data de nascimento</p>
-            <input type="text" id="datepicker" placeholder="dd/mm/aaaa">
+            <input type="text" id="datepicker" class="datepicker" placeholder="dd/mm/aaaa" autocomplete="off">
 
             <p class="gender">Gênero</p>
             <span gender-wrapper>
@@ -157,11 +155,11 @@
     </div>
   </footer>
 
+  <script src="moment.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="./script.js"></script>
   <script>
-    // Datepicker
-    $( function() {
-      $( "#datepicker" ).datepicker();
-    } );
+    const picker = new Pikaday({ field: document.getElementById('datepicker'), format: 'DD/MM/YYYY' });
   </script>
 </body>
 </html>

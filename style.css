@@ -157,7 +157,17 @@ body {
 }
 
 .gender-radio {
+  cursor: pointer;
   margin: 3px 3px 0 5px;
+}
+
+.invalid-gender:before {
+  border: 1px solid red;
+  border-radius: 50px;
+  content: '';
+  height: 11px;
+  position: absolute;
+  width: 11px;
 }
 
 .gender label {
@@ -185,6 +195,7 @@ body {
   border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
   font-size: 19px;
   margin: 10px 0;
   padding: 7px 20px;
