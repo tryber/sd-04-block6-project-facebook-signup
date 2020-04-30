@@ -1,8 +1,47 @@
-.central {
+body {
   background: linear-gradient(white, rgb(221, 226, 243));
+}
+
+footer {
+  margin-top: 30px
+}
+
+.btn-cadastro {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid #2c5115;
+  font-size: 19px;
+  font-weight: 700;
+  height: 39px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 7px 20px;
+  text-align: center;
+  width: 194px;
+}
+
+.central {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 193px;
+  margin-right: 193px;
+  height: 629px;
+  width: 1366px;
+}
+
+.date {
+  margin-bottom: 0.01px
+  width: 199px;
+}
+
+.data-text {
+  margin-bottom: 0.01px;
+}
+
+.escrito {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .facebook-logo {
@@ -14,73 +53,134 @@
 }
 
 .facebook-networking {
-  width: 90%;
+  height: 195px;
+  width: 537px;
 }
 
 .facebook-text {
-  color: rgb(59, 89, 152);
+  color: #0e385f;
   display: flex;
+  font-size: 20px;
+  font-weight: 700;
   justify-content: center;
-  margin: 40px;
-  width: 80%;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+}
+
+.genero {
+  margin-bottom: 0.01px;
+  margin-top: 10px;
 }
 
 .genero-radio {
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
   justify-content: space-around;
+  padding-left: 3px;
+  padding-right: 10px; 
 }
 
 .input-big {
   border: 1px solid #bdc7d8;
+  border-radius: 5px;
   height: 39px;
   padding: 8px 10px;
   width: 399px;
 }
 
 .meio-direito {
-  width: 50%;
+  height: 629px;
+  width: 400px;
 }
 
 .meio-esquerdo {
-  width: 50%;
+  width: 565px;
 }
 
 .new-user {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 450px;
 }
 
 .nome {
   display: flex;
   justify-content: space-between;
+  margin-left: 0.01px;
+  width: 399px;
 }
 
 .nome input {
   border: 1px solid #bdc7d8;
+  border-radius: 5px;
   height: 39px;
   padding: 8px 10px;
   width: 194px;
 }
 
+.small-text {
+  color: #777;
+  font-size: 11px;
+  margin-bottom: 11px;
+  margin-top: 11px;
+  text-align: left;
+  width: 316px;
+}
+
+.small-text a {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 30px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  text-align: left;
+  width: 316px;
+}
+
 .superior-direito {
   align-items: center;
   display: flex;
-  width: 40%;
+  margin-left: 60px;
+  margin-right: 193px;
+  width: 400px;
 }
 
 .superior-esquerdo {
   align-items: center;
   display: flex;
+  margin-left: 193px;
+}
+
+.text-1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 5px;
+}
+
+.text-4 {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.texto-direito {
+  padding: 20px 0.01px;
 }
 
 .top-bar {
   align-items: center;
-  background-image: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
   display: flex;
-  height: 90px;
-  justify-content: space-around;
+  height: 82px;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -90,18 +190,22 @@
 }
 
 .top-button button {
-  border: 1px solid black;
-  border-radius: 0.01px;
+  background-color: #4267b2;
+  border-radius: 2px;
+  border: 1px solid #29487d;
+  color: white;
   font-family: inherit;
   font-size: 12px;
   font-weight: 700;
-  margin-bottom: 10px;
   padding: 2px 6px;
 }
 
 .top-input {
   border: 1px solid black;
   border-radius: 0.01px;
+  width: 150px;
+  height: 23px;
+  padding: 3px 3px 4px 3px;
 }
 
 .top-label {
