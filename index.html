@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook- entre ou cadastre-se</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <img class="facebook-logo" src="/imagens/facebook-logo.png" width="180px" alt="facebok logo">
+            <form action="" method="GET">
+                <div class="login-container">
+                    <div class="col-login">
+                        <label id="user-email-phone-label">Email ou telefone</label>
+                        <input type="text" id="user-email-phone" name="user-email-phone" class="username-box" />
+                    </div>
+                    <div class="col-login">
+                        <label id="user-password-label">Senha</label>
+                        <input type="password" id="user-password" name="senha" class="password-box" />
+                        <a href="#">Esqueceu a conta?</a>
+                    </div>
+                    <button id="button-login" class="button-login"><strong>Entrar</strong></button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <section class="page">
+        <div class="left-side">
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img id="facebook-networking" src="/imagens/networking.png" alt="facebook networking image">
+        </div>
+        <div class="right-side">
+            <div class="col">
+                <form action="" method="GET" class="register">
+                    <div class="text-new-register">
+                        <div class="row">
+                            <h1>Abra uma conta.</h1><br>
+                        </div>
+                        <span> É rápido e fácil.</span>
+                        <div class="full-name">
+                            <div class="name">
+                                <input type="text" id="name" name="new-name" placeholder="  Nome" />
+                            </div>
+                            <div class=last-name>
+                                <input type="text" id="lastName" name="new-name" placeholder="  Sobrenome" />
+                            </div>
+                        </div>
+                        <div class="email-phone">
+                            <input id="phone" type="text" name="new-email-phone" placeholder="  Celular ou email" /><br>
+                        </div>
+                        <div class="password">
+                            <input id="password" type="password" name="new-password" placeholder="  Nova senha" /><br>
+                        </div>
+                        <div class="row-birth">
+                            <div class="birth-container">
+                                <div class="birth-date">
+                                    <h3>Data de nascimento</h3>
+                                </div>
+                                <div class="datapicker">
+                                    <input id="birth" type="date" name="birth-date" placeholder="  dd/mm/aaa" />
+                                </div>
+                            </div>
+                            <div class="gender-container">
+                                <div class="gender-text">
+                                    <h3>Gênero</h3>
+                                </div>
+                                <div class="gender-type">
+                                    <input type="radio" name="sex" id="sex" value="Feminino" />
+                                    <label for="sex">Feminino</label>
+                                    <input type="radio" name="sex" id="sex" value="Masculino" />
+                                    <label for="sex">Masculino</label>
+                                    <input type="radio" name="sex" id="sex" value="Personalizado" />
+                                    <label for="sex">Personalizado</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="politician">
+                <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de
+                        Dados</a> e
+                    <a href="#">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso
+                    quando quiser.</p>
+            </div>
+            </form>
+            <div class="btn-register">
+                <div class="btn-text">
+                    <button id="facebook-register">Cadastre-se</button>
+                </div>
+            </div>
+            <div class="create-page">
+                <p><strong><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/script.js"></script>
+</html>
