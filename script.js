@@ -29,11 +29,11 @@ button.addEventListener('click', function () {
   for (let i = 0; i < gender.length; i += 1) {
     const choice = this;
     choice.addEventListener('click', function () {
-    if (choice === '') {
-      alert('Campo Gênero incorreto!');
-      gender.focus();
+      if (choice === '') {
+        alert('Campo Gênero incorreto!');
+        gender.focus();
     }
-});
+    });
   }
   const dados = `Nome: ${nome.value}, Sobrenome: ${lastName.value}, Celular/Email: ${phone.value}, Data de Nascimento: ${birth.value}, Gênero: ${gender.value}`;
   alert(dados);
