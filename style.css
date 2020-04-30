@@ -81,10 +81,6 @@ body {
   height: 24px;
 }
 
-.button button:hover {
-  background-color: darkblue;
-}
-
 .password a , .password a:visited {
   align-self: flex-start;
   color: white;
@@ -195,4 +191,8 @@ body {
 
 .gender input {
   margin-left: 20px;
+}
+
+.button button:hover {
+  background-color: darkblue;
 }
