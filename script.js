@@ -10,6 +10,7 @@ const fem = document.querySelector('#fem');
 const masc = document.querySelector('#masc');
 const pers = document.querySelector('#pers');
 
+
 function validaInput(input) {
   if (input.value === '') {
     input.focus();
