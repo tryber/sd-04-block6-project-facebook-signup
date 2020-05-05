@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="form-group">
-        <input type="text" class="form-control col-10" placeholder="Celular ou email" required>
+        <input type="text" class="form-control col-10" pattern="^([0-9]{9})|([A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})$" placeholder="Celular ou email" required>
         <div class="invalid-feedback alert-danger col-10">
           Email/Celuluar invalido. Celular com 9 digits
         </div>
