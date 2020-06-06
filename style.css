@@ -13,8 +13,8 @@ header {
 
 .container {
   display: flex;
-  height: 80px;
   font-family: Helvetica;
+  height: 80px;
   justify-content: space-between;
   margin: 0 auto;
   width: 990px;
@@ -38,19 +38,13 @@ header {
   margin-left: 14px;
 }
 
-#forget {
-  font-family: Helvetica;
+a {
   color: #9cb4d8;
   cursor: pointer;
-  font-size: 12px;
   text-decoration: none;
 }
 
-.password #forget {
-  margin-top: 12px;
-}
-
-#button-login {
+.btn-login {
   background-color: #4267b2;
   border-color: #29487d;
   border-radius: 2px;
