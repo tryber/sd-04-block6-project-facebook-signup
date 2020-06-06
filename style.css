@@ -45,7 +45,7 @@ header {
   text-decoration: none; 
 }
 
-.password #forget {
+.password [ id=forget] {
   margin-top: 12px;
 }
 
@@ -127,7 +127,7 @@ main {
   width: 980px;
 }
 
-.idioma #Português {
+.idioma [ id=Português] {
   color:#737373;
   text-decoration: none;
 }
