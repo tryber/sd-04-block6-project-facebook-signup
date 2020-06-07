@@ -9,28 +9,25 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="facebook-logo">
-                <img id="facebook-networking" src="/facebook-logo.png" alt="Logo do Facebook">
+            <div class="lado-esquerdo">
+                <img class="facebook-logo" src="/facebook-logo.png" alt="Logo do Facebook">
             </div>
-
-            <div class="form" id="user-email-phone">
-                <div class="user">
-                    <label id="user-email-phone-label" for="user">E-mail ou celular</label>
-                    <br>
-                    <input type="text">
-                </div>
-
-                <div class="password">
-                    <label for="password">E-mail ou celular</label>
-                    <br>
-                    <input type="password">
-                    <br>
-                    <a id="forget" href="https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar">Esqueceu
-                        a senha?</a>
-                </div>
-                <button class="button-login" type="submit">Entrar</button>
+            <div class="lado-direito">
+                <form class="formulario" action="">
+                    <div class="inputemail">
+                        <label for="user-email-phone" id="user-email-phone-label" class="labelinput">Email ou
+                            telefone</label>
+                        <input type="text" id="user-email-phone" class="fb-input-login">
+                    </div>
+                    <div class="inputpassword">
+                        <label for="user-password" id="user-password-label" class="labelinput">Senha</label>
+                        <input type="password" id="user-password" class="fb-input-login">
+                        <a class="linkpassword" href="#">Esqueceu a conta?</a>
+                    </div>
+                    <input class="inputbtn" id="button-login" type="submit" value="Entrar">
+                </form>
             </div>
         </div>
     </header>
@@ -42,131 +39,73 @@
                     <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
                     </p>
 
-                    <img src="/networking.png" alt="Pessoas conectadas">
+                    <img id="facebook-networking" src="/networking.png" alt="Pessoas conectadas">
                 </div>
             </div>
 
             <div class="criar-conta">
-                <div class="titulo">
-                    <h1>Abra uma conta</h1>
-                    <h4>É rápido e fácil.</h4>
+                <div class="new-acc">
+                    <p class="abra">Abra uma conta</p>
+                    <p class="fast">É rápido e fácil.</p>
                 </div>
                 <div class="w50">
                     <div>
                         <input placeholder="Nome" type="text">
                     </div>
-                    <!--w50-->
+
                     <div>
                         <input placeholder="Sobrenome" type="text">
                     </div>
-                    <!--w50-->
+
                 </div>
                 <div class="w100">
                     <div class="w100">
                         <input placeholder="Celular ou email" type="email">
                     </div>
-                    <!--w100-->
+
                     <div>
                         <input placeholder="Nova senha" type="password">
                     </div>
-                    <!--w100-->
+
                 </div>
 
-                <div class="w100">
+                <div class="birthday">
                     <p>Data de nascimento</p>
-                    <select name="nascimento-dia" class="nascimento">
-                        <option value="0">1</option>
-                        <option value="1">2</option>
-                        <option value="2">3</option>
-                        <option value="3">4</option>
-                    </select>
-                    <select name="nascimento-mes" class="nascimento">
-                        <option value="0">Janeiro</option>
-                        <option value="1">Fevereiro</option>
-                        <option value="2">Março</option>
-                        <option value="3">Abril</option>
-                    </select>
-                    <select name="nascimento-ano" class="nascimento">
-                        <option value="0">1990</option>
-                        <option value="1">1991</option>
-                        <option value="2">1992</option>
-                        <option value="2">1993</option>
-                    </select>
-                    <div class="clear"></div>
+                    <input id="data" type="text" placeholder="dd/mm/aaaa" onfocus="(this.type='date')"
+                        required="required">
                 </div>
-                <!--w100-->
+
+                <div class="gender">
+                    <p>Gênero</p>
+                    <div>
+                        <label for="fem">
+                            <input name="Gênero" id="fem" value="Feminino" type="radio">Feminino
+                        </label>
+                        <label for="masc">
+                            <input name="Gênero" id="masc" value="Masculino" type="radio">Masculino
+                        </label>
+                        <label for="pers">
+                            <input name="Gênero" id="pers" value="Personalizado" type="radio">Personalizado
+                        </label>
+                    </div>
+                </div>
+
+                <p class="termos">Ao clicar em Cadastre-se, você concorda com nossos <a href="/legal/terms/update"
+                        id="terms-link" target="_blank" rel="nofollow">Termos</a>, <a href="/about/privacy/update"
+                        id="privacy-link" target="_blank" rel="nofollow">Política de Dados</a> e <a
+                        href="/policies/cookies/" id="cookie-use-link" target="_blank" rel="nofollow">Política de
+                        Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+
 
                 <div class="w100">
                     <input class="btn-cadastro" id="facebook-register" type="submit" name="acao" value="Cadastre-se">
                 </div>
-                <!--w100-->
-                <div class="clear"></div>
+
+
 
             </div>
         </div>
     </main>
-
-    <footer class="page-footer">
-        <div class="idioma">
-            <a id="Português">Português (Brasil)</a>
-            <a id="English" href="https://www.facebook.com/">English (US)</a>
-            <a id="Español" href="https://es-la.facebook.com/">Español</a>
-            <a id="Français" href="https://fr-fr.facebook.com/">Français</a>
-            <a id="Italiano" href="https://it-it.facebook.com/">Italiano</a>
-            <a id="العربية" href="https://ar-ar.facebook.com/">العربية</a>
-            <a id="Deutsch" href="https://de-de.facebook.com/">Deutsch</a>
-            <a id="हिन्दी " href="https://hi-in.facebook.com/">हिन्दी</a>
-            <a id="中文(简体)" href="https://zh-cn.facebook.com/">中文(简体)</a>
-            <a id="日本語" href="https://ja-jp.facebook.com/">日本語</a>
-        </div>
-        <div class="contentCurve"></div>
-            <ul class="lista">
-                <a href="/r.php" title="Cadastre-se no Facebook">Cadastre-se</a>
-                <a href="/login/" title="Entrar no Facebook">Entrar</a>
-                <a href="https://messenger.com/" title="Confira o Messenger.">Messenger</a>
-                <a href="/lite/" title="Facebook Lite para Android.">Facebook Lite</a>
-                <a href="https://www.facebook.com/watch/" title="Navegue pelos nossos vídeos do Watch."> Watch </a>
-                <a href="/directory/people/" title="Navegue no nosso diretório de pessoas.">Pessoas</a>
-                <a href="/directory/pages/" title="Pesquisar nosso diretório de páginas.">Páginas</a>
-                <a href="/pages/category/">Categorias de Página</a>
-                <a href="/places/" title="Confira locais populares no Facebook.">Locais</a>
-                <a href="/games/" title="Confira os jogos do Facebook.">Jogos</a>
-                <a href="/directory/places/" title="Navegue pelo nosso diretório de locais.">Locais</a>
-                <a href="/marketplace/" title="Compre e venda no Facebook Marketplace.">Marketplace</a>
-                <a href="/directory/groups/" title="Navegue pelo nosso diretório de grupos.">Grupos</a>
-                <a href="https://instagram.com/" title="Confira o Instagram" target="_blank" rel="noopener nofollow"
-                    data-lynx-mode="asynclazy"
-                    data-lynx-uri="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2F&amp;h=AT14s-0QFph6WYZ_zVtZvpMmtfJmxGZtO4pGYTQ7hOi0suNdf5-x9M7XOyjoZlgERh_zZHkQLvr1PgrWa9wDziFkjEUl7e2jUlh-7xCmVSGZ59K8mPTeTEUwZHrjml_RabfeI_oOXENCDJ142RU_Xg">Instagram</a>
-                <a href="/local/lists/245019872666104/" title="Navegar pelo nosso diretório de listas locais.">Local</a>
-                <a href="/fundraisers/" title="Doe para causas importantes.">Campanhas de arrecadação de fundos</a>
-                <a href="/biz/directory/" title="Navegue pelo nosso diretório de serviços do Facebook.">Serviços</a>
-                <a href="/facebook" accesskey="8"
-                    title="Leia nosso blog, descubra a central de recursos e encontre oportunidades de trabalho.">Sobre</a>
-
-                <a href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;extra_1=auto"
-                    title="Anuncie no Facebook.">Criar anúncio</a>
-                <a href="/pages/create/?ref_type=site_footer" title="Criar uma Página">Criar Página</a>
-                <a href="https://developers.facebook.com/?ref=pf"
-                    title="Desenvolver em nossa plataforma.">Desenvolvedores</a>
-                <a href="/careers/?ref=pf"
-                    title="Dê um passo adiante na sua carreira em nossa incrível empresa.">Carreiras</a>
-                <a data-nocookies="1" href="/privacy/explanation"
-                    title="Saiba mais sobre sua privacidade e o Facebook.">Privacidade</a>
-                <a href="/policies/cookies/" title="Saiba mais sobre cookies e o Facebook" data-nocookies="1">Cookies</a>
-                <a class="_41ug" data-nocookies="1" href="https://www.facebook.com/help/568137493302217"
-                    title="Saiba mais sobre as Opções de anúncio.">Opções de anúncio<i
-                        class="img sp_0eOQhLgQG2U sx_7cd432"></i></a>
-                <i class="img"></i>
-                <a data-nocookies="1" href="/policies?ref=pf" accesskey="9"
-                    title="Leia os nossos termos e políticas.">Termos</a>
-                <a href="/help/?ref=pf" accesskey="0" title="Acesse nossa Central de Ajuda.">Ajuda</a>
-                <a accesskey="6" class="accessible_elem" href="/settings"
-                    title="Visualize e edite suas configurações do Facebook.">Configurações</a>
-                <a accesskey="7" class="accessible_elem" href="/allactivity?privacy_source=activity_log_top_menu"
-                    title="Ver seu Registro de Atividades">Registro de Atividades</a>
-            </ul>
-    </footer>
-
 </body>
 
 </html>
