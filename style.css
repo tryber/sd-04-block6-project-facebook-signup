@@ -21,7 +21,7 @@ header {
   width: 990px;
 }
 
-.logo img {
+.facebook-logo img {
   height: 33px;
   margin-left: 5px;
   margin-top: 30px;
@@ -45,7 +45,7 @@ a {
   text-decoration: none;
 }
 
-.btn-login {
+.button-login {
   background-color: #4267b2;
   border-color: #29487d;
   border-radius: 2px;
