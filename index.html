@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="/style.css" rel="stylesheet">
+    <title>Facebook - entre ou cadastre-se</title>
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <div class="lado-esquerdo">
+                <img class="facebook-logo" src="/facebook-logo.png" alt="Logo do Facebook">
+            </div>
+            <div class="lado-direito">
+                <form class="formulario" action="">
+                    <div class="inputemail">
+                        <label for="user-email-phone" id="user-email-phone-label" class="labelinput">Email ou telefone</label>
+                        <input type="text" id="user-email-phone" class="fb-input-login">
+                    </div>
+                    <div class="inputpassword">
+                        <label for="user-password" id="user-password-label" class="labelinput">Senha</label>
+                        <input type="password" id="user-password" class="fb-input-login">
+                        <a class="linkpassword" href="#">Esqueceu a conta?</a>
+                    </div>
+                    <button class="button-login" type="button" id="button-login">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="center">
+            <div class="conteudo">
+                <div class="img">
+                    <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+                    </p>
+
+                    <img id="facebook-networking" src="/networking.png" alt="Pessoas conectadas">
+                </div>
+            </div>
+
+            <div class="criar-conta">
+                <div class="new-acc">
+                    <p class="abra">Abra uma conta</p>
+                    <p class="fast">É rápido e fácil.</p>
+                </div>
+                <div class="w50">
+                    <div>
+                        <input placeholder="Nome" type="text">
+                    </div>
+
+                    <div>
+                        <input placeholder="Sobrenome" type="text">
+                    </div>
+
+                </div>
+                <div class="w100">
+                    <div class="w100">
+                        <input placeholder="Celular ou email" type="email">
+                    </div>
+
+                    <div>
+                        <input placeholder="Nova senha" type="password">
+                    </div>
+
+                </div>
+
+                <div class="birthday">
+                    <p>Data de nascimento</p>
+                    <input id="data" type="text" placeholder="dd/mm/aaaa" onfocus="(this.type='date')"
+                        required="required">
+                </div>
+
+                <div class="gender">
+                    <p>Gênero</p>
+                    <div>
+                        <label for="fem">
+                            <input name="Gênero" id="fem" value="Feminino" type="radio">Feminino
+                        </label>
+                        <label for="masc">
+                            <input name="Gênero" id="masc" value="Masculino" type="radio">Masculino
+                        </label>
+                        <label for="pers">
+                            <input name="Gênero" id="pers" value="Personalizado" type="radio">Personalizado
+                        </label>
+                    </div>
+                </div>
+
+                <p class="termos">Ao clicar em Cadastre-se, você concorda com nossos <a href="/legal/terms/update"
+                        id="terms-link" target="_blank" rel="nofollow">Termos</a>, <a href="/about/privacy/update"
+                        id="privacy-link" target="_blank" rel="nofollow">Política de Dados</a> e <a
+                        href="/policies/cookies/" id="cookie-use-link" target="_blank" rel="nofollow">Política de
+                        Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+
+
+                <div class="w100">
+                    <button type="button" class="facebook-register" id="facebook-register">Cadastre-se</button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
