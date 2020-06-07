@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-.header {
+.top-bar {
   background-color: #3b5998;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
   border-bottom: 1px solid #133783;
@@ -60,7 +60,7 @@ body {
   width: 150px;
 }
 
-.inputbtn {
+.button-login {
   align-self: center;
   background-color: #4267b2;
   border-color: #29487d;
